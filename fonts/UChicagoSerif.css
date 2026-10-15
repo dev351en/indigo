@@ -1,0 +1,57 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("https://uchicago-brand-fonts.s3.us-east-2.amazonaws.com/UChicagoSerif.css");
+
+@font-face {
+      font-family: "UChicagoSerif";
+    src: url('fonts/uchicago-serif/UChicagoSerif-Regular.woff2') format('woff2'),
+        url('fonts/uchicago-serif/UChicagoSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+      font-family: "UChicagoSerif";
+    src: url('fonts/uchicago-serif/UChicagoSerif-RegularItalic.woff2') format('woff2'),
+        url('fonts/uchicago-serif/UChicagoSerif-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+      font-family: "UChicagoSerif";
+    src: url('fonts/uchicago-serif/UChicagoSerif-SemiBold.woff2') format('woff2'),
+        url('fonts/uchicago-serif/UChicagoSerif-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+      font-family: "UChicagoSerif";
+    src: url('fonts/uchicago-serif/UChicagoSerif-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/uchicago-serif/UChicagoSerif-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+      font-family: "UChicagoSerif";
+    src: url('fonts/uchicago-serif/UChicagoSerif-Bold.woff2') format('woff2'),
+        url('fonts/uchicago-serif/UChicagoSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+      font-family: "UChicagoSerif";
+    src: url('fonts/uchicago-serif/UChicagoSerif-BoldItalic.woff2') format('woff2'),
+        url('fonts/uchicago-serif/UChicagoSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

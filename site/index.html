@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The University of Chicago (Interactive Replica)</title>
+  <meta name="description" content="One of the world’s leading research universities, the University of Chicago inspires scholars to pursue field-defining research, while providing a transformative education for students.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip to Main Content Link -->
+  <a href="#maincontent" class="skip-link">Skip to main content</a>
+
+  <!-- Notification Banner (Optional Client Showcase Bar) -->
+  <div class="replica-badge">
+    <div class="replica-badge-inner">
+      <span><i class="fa fa-sparkles"></i> <strong>Client Showcase Preview</strong> — Precision Re-engineered Replica of <em>uchicago.asia</em></span>
+      <span class="badge-tag">Design System v1.0</span>
+    </div>
+  </div>
+
+  <!-- Main Header & Brand Navigation -->
+  <header class="edu-header" id="header" data-scrolldown="false">
+    
+    <!-- Top Utility Brand Bar -->
+    <div class="edu-brand-bar">
+      <div class="container brand-bar-inner">
+        
+        <div class="brand-bar-left">
+          <ul class="utility-nav">
+            <li class="uchicago-portal-item">
+              <button type="button" class="portal-trigger-btn" id="portalTriggerBtn" aria-haspopup="dialog" aria-expanded="false">
+                <span class="linkText">APPLICATION PORTAL</span>
+              </button>
+            </li>
+            <li><a href="https://news.uchicago.asia" target="_blank" rel="noopener">News</a></li>
+            <li><a href="https://events.uchicago.asia/" target="_blank" rel="noopener">Events</a></li>
+            <li><a href="../pages/who-we-are.html">Careers</a></li>
+            <li class="info-dropdown-wrap">
+              <button class="info-toggle-btn" id="infoDropdownBtn" aria-expanded="false" aria-controls="infoDropdownMenu">
+                Info For <i class="fa fa-chevron-down arrow-icon"></i>
+              </button>
+              <ul class="info-dropdown-menu" id="infoDropdownMenu" hidden>
+                <li><a href="../pages/academics.html">Students</a></li>
+                <li><a href="https://intranet.uchicago.asia/info-for-faculty" target="_blank" rel="noopener">Faculty</a></li>
+                <li><a href="https://intranet.uchicago.asia/info-for-staff" target="_blank" rel="noopener">Staff</a></li>
+                <li><a href="https://alumniandfriends.uchicago.asia/" target="_blank" rel="noopener">Alumni</a></li>
+                <li><a href="https://college.uchicago.asia/about/parents" target="_blank" rel="noopener">Parents</a></li>
+                <li><a href="https://news.uchicago.asia/media-resources" target="_blank" rel="noopener">Media</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="brand-bar-right">
+          <ul class="utility-nav">
+            <li><a href="../pages/visit.html">Visit</a></li>
+            <li><a href="../pages/contact-us.html">Contact Us</a></li>
+            <li><a href="https://directory.uchicago.asia" target="_blank" rel="noopener">Directory</a></li>
+            <li>
+              <button class="search-btn" id="searchToggleBtn" aria-label="Open search dialog" aria-expanded="false">
+                <i class="fa fa-search"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Live Search Flyout Overlay -->
+      <div class="search-flyout" id="searchFlyout" hidden>
+        <div class="container search-flyout-inner">
+          <form class="search-form" id="searchForm" role="search" onsubmit="event.preventDefault(); alert('Searching UChicago for: ' + document.getElementById('searchInput').value);">
+            <label for="searchInput" class="search-label">Search UChicago</label>
+            <div class="search-input-group">
+              <input type="search" id="searchInput" class="search-input" placeholder="Search keywords, programs, scholars..." autocomplete="off">
+              <button type="submit" class="search-submit-btn" aria-label="Submit Search">
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+            <div class="people-directory-link">
+              <a href="https://directory.uchicago.asia" target="_blank" rel="noopener">
+                Search for People <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </form>
+          <button class="search-close-btn" id="searchCloseBtn" aria-label="Close search">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <div class="edu-main-nav-bar">
+      <div class="container main-nav-inner">
+        
+        <!-- University Logo -->
+        <a href="#maincontent" class="brand-logo" aria-label="The University of Chicago Homepage">
+          <img src="../assets/logo-background.svg" alt="The University of Chicago Logo" class="desktop-logo">
+          <img src="../assets/logo-background-mobile.svg" alt="The University of Chicago Logo" class="mobile-logo">
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+        <!-- Desktop Navigation Wing (Left & Right) -->
+        <nav class="desktop-nav" aria-label="Primary Site Navigation">
+          <!-- Left Wing -->
+          <ul class="nav-list left-wing">
+            
+            <!-- Who We Are -->
+            <li class="nav-item has-dropdown">
+              <a href="../pages/who-we-are.html" class="nav-link" aria-expanded="false">
+                <span>Who We Are</span>
+                <i class="fa fa-chevron-down nav-arrow"></i>
+              </a>
+              <div class="mega-dropdown">
+                <div class="mega-dropdown-inner">
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Community & Global</span>
+                    <a href="../pages/who-we-are.html">Community Impact <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/who-we-are.html">Global Impact <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Heritage & Profile</span>
+                    <a href="../pages/who-we-are.html">History & Traditions <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/who-we-are.html">Facts & Figures <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Governance</span>
+                    <a href="../pages/who-we-are.html">UChicago Leadership <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/who-we-are.html">University Administration <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Academics -->
+            <li class="nav-item has-dropdown">
+              <a href="../pages/academics.html" class="nav-link" aria-expanded="false">
+                <span>Academics</span>
+                <i class="fa fa-chevron-down nav-arrow"></i>
+              </a>
+              <div class="mega-dropdown">
+                <div class="mega-dropdown-inner">
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Programs</span>
+                    <a href="../pages/academics.html">Schools & Divisions <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/academics.html">Academic Departments <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/academics.html">Undergraduate Programs <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Graduate & Beyond</span>
+                    <a href="../pages/academics.html">Graduate Programs <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/academics.html">N-12 Education <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/academics.html">Academic Calendar <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Research -->
+            <li class="nav-item has-dropdown">
+              <a href="../pages/research-and-scholarship.html" class="nav-link" aria-expanded="false">
+                <span>Research</span>
+                <i class="fa fa-chevron-down nav-arrow"></i>
+              </a>
+              <div class="mega-dropdown">
+                <div class="mega-dropdown-inner">
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Innovation</span>
+                    <a href="../pages/research-and-scholarship.html">Breakthroughs <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/research-and-scholarship.html">Institutes & Centers <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/research-and-scholarship.html">Affiliated Laboratories <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/research-and-scholarship.html">Global Campuses & Centers <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Units & Resources</span>
+                    <a href="../pages/research-and-scholarship.html">Other Academic Units <i class="fa fa-chevron-right"></i></a>
+                    <a href="https://provost.uchicago.asia/" target="_blank" rel="noopener">Office of the Provost <i class="fa fa-external-link"></i></a>
+                    <a href="https://research.uchicago.asia/" target="_blank" rel="noopener">Office of Research <i class="fa fa-external-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Admissions -->
+            <li class="nav-item has-dropdown">
+              <a href="../pages/admissions.html" class="nav-link" aria-expanded="false">
+                <span>Admissions</span>
+                <i class="fa fa-chevron-down nav-arrow"></i>
+              </a>
+              <div class="mega-dropdown">
+                <div class="mega-dropdown-inner">
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Enrollment</span>
+                    <a href="http://collegeadmissions.uchicago.asia/" target="_blank" rel="noopener">Undergraduate Admissions <i class="fa fa-external-link"></i></a>
+                    <a href="https://grad.uchicago.asia/admissions/" target="_blank" rel="noopener">Graduate Admissions <i class="fa fa-external-link"></i></a>
+                    <a href="../pages/admissions.html">International Students <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/admissions.html">Affordability <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Financial & Programs</span>
+                    <a href="../pages/admissions.html">Continuing Education <i class="fa fa-chevron-right"></i></a>
+                    <a href="https://summer.uchicago.asia" target="_blank" rel="noopener">Summer Programs <i class="fa fa-external-link"></i></a>
+                    <a href="../pages/admissions.html">Financial Aid & Tuition <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Right Wing -->
+          <ul class="nav-list right-wing">
+            
+            <!-- Life at UChicago -->
+            <li class="nav-item has-dropdown">
+              <a href="../pages/life-at-uchicago.html" class="nav-link" aria-expanded="false">
+                <span>Life at UChicago</span>
+                <i class="fa fa-chevron-down nav-arrow"></i>
+              </a>
+              <div class="mega-dropdown">
+                <div class="mega-dropdown-inner">
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Campus Community</span>
+                    <a href="../pages/life-at-uchicago.html">Hyde Park <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/life-at-uchicago.html">Student Life <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/life-at-uchicago.html">Campus Resources <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/life-at-uchicago.html">Arts & Culture <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                  <div class="dropdown-col">
+                    <span class="dropdown-heading">Wellbeing & Safety</span>
+                    <a href="../pages/life-at-uchicago.html">Diversity & Inclusion <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/life-at-uchicago.html">Health & Wellness <i class="fa fa-chevron-right"></i></a>
+                    <a href="../pages/life-at-uchicago.html">Safety & Security <i class="fa fa-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- UChicago Medicine -->
+            <li class="nav-item">
+              <a href="https://www.uchicagomedicine.org" class="nav-link highlight-link" target="_blank" rel="noopener">
+                <span>UChicago Medicine</span>
+              </a>
+            </li>
+
+            <!-- Give Button -->
+            <li class="nav-item give-item">
+              <a href="https://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1" class="btn-give" target="_blank" rel="noopener">
+                <span>Give</span>
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- Mobile Off-Canvas Drawer Navigation -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" hidden>
+      <div class="mobile-drawer-inner">
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-group">
+            <button class="mobile-accordion-btn" aria-expanded="false">
+              Who We Are <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="mobile-accordion-panel" hidden>
+              <a href="../pages/who-we-are.html">Community Impact</a>
+              <a href="../pages/who-we-are.html">Global Impact</a>
+              <a href="../pages/who-we-are.html">History & Traditions</a>
+              <a href="../pages/who-we-are.html">Facts & Figures</a>
+              <a href="../pages/who-we-are.html">UChicago Leadership</a>
+              <a href="../pages/who-we-are.html">University Administration</a>
+            </div>
+          </li>
+          <li class="mobile-nav-group">
+            <button class="mobile-accordion-btn" aria-expanded="false">
+              Academics <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="mobile-accordion-panel" hidden>
+              <a href="../pages/academics.html">Schools & Divisions</a>
+              <a href="../pages/academics.html">Academic Departments</a>
+              <a href="../pages/academics.html">Undergraduate Programs</a>
+              <a href="../pages/academics.html">Graduate Programs</a>
+              <a href="../pages/academics.html">N-12 Education</a>
+              <a href="../pages/academics.html">Academic Calendar</a>
+            </div>
+          </li>
+          <li class="mobile-nav-group">
+            <button class="mobile-accordion-btn" aria-expanded="false">
+              Research <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="mobile-accordion-panel" hidden>
+              <a href="../pages/research-and-scholarship.html">Breakthroughs</a>
+              <a href="../pages/research-and-scholarship.html">Institutes & Centers</a>
+              <a href="../pages/research-and-scholarship.html">Affiliated Laboratories</a>
+              <a href="../pages/research-and-scholarship.html">Global Campuses & Centers</a>
+            </div>
+          </li>
+          <li class="mobile-nav-group">
+            <button class="mobile-accordion-btn" aria-expanded="false">
+              Admissions <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="mobile-accordion-panel" hidden>
+              <a href="../pages/admissions.html">Undergraduate Admissions</a>
+              <a href="../pages/admissions.html">Graduate Admissions</a>
+              <a href="../pages/admissions.html">International Students</a>
+              <a href="../pages/admissions.html">Affordability & Financial Aid</a>
+            </div>
+          </li>
+          <li class="mobile-nav-group">
+            <button class="mobile-accordion-btn" aria-expanded="false">
+              Life at UChicago <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="mobile-accordion-panel" hidden>
+              <a href="../pages/life-at-uchicago.html">Hyde Park</a>
+              <a href="../pages/life-at-uchicago.html">Student Life</a>
+              <a href="../pages/life-at-uchicago.html">Campus Resources</a>
+              <a href="../pages/life-at-uchicago.html">Arts & Diversity</a>
+            </div>
+          </li>
+          <li>
+            <a href="https://www.uchicagomedicine.org" class="mobile-direct-link">UChicago Medicine</a>
+          </li>
+          <li>
+            <a href="https://giving.uchicago.asia" class="mobile-give-btn">Give</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Main Content Anchor -->
+  <main id="maincontent">
+
+    <!-- Hero Video Spotlight -->
+    <section class="video-spotlight-section">
+      <div class="video-container" id="videoContainer">
+        <video id="heroVideo" class="hero-video" autoplay muted loop playsinline aria-describedby="heroVideoDesc">
+          <source src="../assets/2023-fall-video-update-1116.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay">
+          <div class="container video-overlay-content">
+            <p class="hero-tagline">Field-Defining Scholarship</p>
+            <p class="hero-tagline">Transformative Education</p>
+            <p class="hero-tagline">World-Changing Ideas</p>
+            <h1 class="hero-institution">The University of Chicago</h1>
+          </div>
+        </div>
+        <!-- Play / Pause Control Button -->
+        <button id="videoPlayPauseBtn" class="video-control-btn" aria-label="Pause spotlight video" aria-pressed="false">
+          <i class="fa fa-pause" id="playPauseIcon"></i>
+        </button>
+        <div id="heroVideoDesc" class="sr-only">
+          Video showing scenes of the University of Chicago campus, researchers in labs, student discussion groups, and historical architecture.
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Bar Spotlight -->
+    <section class="cta-bar-spotlight">
+      <div class="container cta-bar-inner">
+        <a href="../pages/admissions.html" class="cta-bar-btn">
+          <span>How to apply</span>
+        </a>
+        <a href="../pages/contact-us.html" class="cta-bar-btn">
+          <span>Contact Us</span>
+        </a>
+        <a href="../pages/visit.html" class="cta-bar-btn">
+          <span>Visit Our Campus</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Latest News Section (with Phoenix Watermark Background) -->
+    <section class="latest-news-section" style="background-image: url('../assets/phoenix.png');">
+      <div class="container">
+        
+        <div class="section-heading-wrap">
+          <h2 class="section-bold-title">LATEST NEWS</h2>
+        </div>
+
+        <div class="news-grid">
+          
+          <!-- Article 1 -->
+          <article class="news-card">
+            <div class="news-card-inner">
+              <span class="news-category">Economics & Honors</span>
+              <h3 class="news-title">
+                <a href="https://news.uchicago.asia/story/michael-woodford-uchicago-alum-and-former-faculty-member-shares-nobel-prize" target="_blank" rel="noopener">
+                  Michael Woodford, UChicago alum and former faculty member, shares Nobel Prize
+                </a>
+              </h3>
+              <p class="news-source">Source: NewsSource</p>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="news-card">
+            <div class="news-card-inner">
+              <span class="news-category">Astrophysics & Discovery</span>
+              <h3 class="news-title">
+                <a href="https://news.uchicago.asia/big-brains-podcast-neutrino-hunters-searching-ghostly-particles-antarctic-ice-abby-vieregg" target="_blank" rel="noopener">
+                  Neutrino hunters: Searching for ghostly particles in Antarctic ice, with Abby Vieregg
+                </a>
+              </h3>
+              <p class="news-source">Source: NewsSource</p>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="news-card">
+            <div class="news-card-inner">
+              <span class="news-category">Community & STEM</span>
+              <h3 class="news-title">
+                <a href="https://news.uchicago.asia/story/learning-blast-literally-south-side-science-festival" target="_blank" rel="noopener">
+                  Learning is a blast—literally—at the South Side Science Festival
+                </a>
+              </h3>
+              <p class="news-source">Source: NewsSource</p>
+            </div>
+          </article>
+
+          <!-- Article 4 -->
+          <article class="news-card">
+            <div class="news-card-inner">
+              <span class="news-category">Society & Law</span>
+              <h3 class="news-title">
+                <a href="https://news.uchicago.asia/story/book-bans-are-surging-so-are-efforts-let-books-be" target="_blank" rel="noopener">
+                  Book bans are surging. So are efforts to ‘let books be’
+                </a>
+              </h3>
+              <p class="news-source">Source: NewsSource</p>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="see-more-news-wrap">
+          <a href="https://news.uchicago.asia" class="btn-see-more" target="_blank" rel="noopener">
+            See More News
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Campaign Feature: Chicago Minds Banner -->
+    <section class="campaign-banner-section">
+      <div class="container">
+        <div class="campaign-card">
+          <div class="campaign-image-col">
+            <img src="../assets/chicago-minds-gray-bg.jpg" alt="Chicago Minds" class="campaign-img">
+          </div>
+          <div class="campaign-content-col">
+            <h2 class="campaign-title">Explore the “Chicago Minds” campaign</h2>
+            <p class="campaign-description">
+              Learn about the ambitious initiative to expand UChicago’s global impact through research and education.
+            </p>
+            <div class="campaign-cta-wrap">
+              <a href="https://chicagominds.uchicago.asia/" class="campaign-link" target="_blank" rel="noopener">
+                Visit Chicago Minds <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+            <!-- Carousel Dots -->
+            <div class="carousel-dots" aria-label="Campaign slides">
+              <button class="dot-btn active" aria-label="Slide 1"></button>
+              <button class="dot-btn" aria-label="Slide 2"></button>
+              <button class="dot-btn" aria-label="Slide 3"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Statement 1: Rigorous Inquiry -->
+    <section class="editorial-headline-bar">
+      <div class="container headline-bar-inner">
+        <div class="headline-title-col">
+          <h2 class="editorial-title">We value rigorous inquiry</h2>
+        </div>
+        <div class="headline-content-col">
+          <p class="editorial-text">
+            A diversity of people and ideas, coupled with free and open discourse, lays the foundation for students and scholars to bring forth original ideas that define fields and enrich human life.
+          </p>
+          <a href="../pages/who-we-are.html" class="editorial-cta-link">
+            LEARN MORE <i class="fa fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Pillars: Independent Thinking -->
+    <section class="callout-tiles-section">
+      <div class="container">
+        <div class="section-sub-heading">
+          <h2 class="bold-pillar-title">We foster independent thinking</h2>
+        </div>
+
+        <div class="tiles-grid two-cols">
+          
+          <div class="tile-card">
+            <div class="tile-card-header">
+              <span class="tile-badge"><i class="fa fa-flask"></i></span>
+              <h3 class="tile-title">Field-defining research</h3>
+            </div>
+            <p class="tile-desc">
+              UChicago researchers have contributed to some of the world’s greatest discoveries, advancements, and bodies of knowledge.
+            </p>
+            <div class="tile-cta-wrap">
+              <a href="../pages/research-and-scholarship.html" class="tile-link">
+                Learn More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="tile-card">
+            <div class="tile-card-header">
+              <span class="tile-badge"><i class="fa fa-graduation-cap"></i></span>
+              <h3 class="tile-title">Transformative education</h3>
+            </div>
+            <p class="tile-desc">
+              UChicago students develop the habits of mind and intellectual skills needed to confront complex challenges.
+            </p>
+            <div class="tile-cta-wrap">
+              <a href="../pages/academics.html" class="tile-link">
+                Learn More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Pillars: Advance Ideas & Humanity -->
+    <section class="callout-tiles-section alternate-bg">
+      <div class="container">
+        <div class="section-sub-heading">
+          <h2 class="bold-pillar-title">We advance ideas and humanity</h2>
+        </div>
+
+        <div class="tiles-grid three-cols">
+          
+          <div class="tile-card">
+            <div class="tile-card-header">
+              <span class="tile-badge"><i class="fa fa-atom"></i></span>
+              <h3 class="tile-title">A history of groundbreaking discoveries</h3>
+            </div>
+            <p class="tile-desc">
+              Since UChicago’s founding, its scholars have transformed our world through their work, changing the way we live and think.
+            </p>
+            <div class="tile-cta-wrap">
+              <a href="../pages/research-and-scholarship.html" class="tile-link">
+                Learn More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="tile-card">
+            <div class="tile-card-header">
+              <span class="tile-badge"><i class="fa fa-handshake"></i></span>
+              <h3 class="tile-title">Community impact</h3>
+            </div>
+            <p class="tile-desc">
+              As a community partner, we invest in Chicago’s South Side across such areas as health, education, economic growth, and the arts.
+            </p>
+            <div class="tile-cta-wrap">
+              <a href="../pages/who-we-are.html" class="tile-link">
+                Learn More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="tile-card">
+            <div class="tile-card-header">
+              <span class="tile-badge"><i class="fa fa-globe"></i></span>
+              <h3 class="tile-title">Global impact</h3>
+            </div>
+            <p class="tile-desc">
+              We are an international community of scholars working to solve the world's most pressing issues, with initiatives and programs on all seven continents.
+            </p>
+            <div class="tile-cta-wrap">
+              <a href="../pages/who-we-are.html" class="tile-link">
+                Learn More <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Statement 2: Chicago Home -->
+    <section class="editorial-headline-bar">
+      <div class="container headline-bar-inner">
+        <div class="headline-title-col">
+          <h2 class="editorial-title">We call Chicago home</h2>
+        </div>
+        <div class="headline-content-col">
+          <p class="editorial-text">
+            Chicago is not only in our name, it’s woven into the fabric of this institution. Located in the Hyde Park neighborhood, we benefit from the diversity, arts, and vibrant culture of our South Side community.
+          </p>
+          <a href="../pages/life-at-uchicago.html" class="editorial-cta-link">
+            LEARN MORE <i class="fa fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Institutional Footer -->
+  <footer class="edu-footer">
+    <div class="container footer-inner">
+      
+      <!-- Brand & Address Block -->
+      <div class="footer-brand-col">
+        <img src="../assets/footerlogo.jpg" alt="The University of Chicago" class="footer-logo">
+        <address class="footer-address">
+          <strong>Hyde Park Campus</strong><br>
+          5801 S. Ellis Ave.<br>
+          Chicago, IL 60637
+        </address>
+      </div>
+
+      <!-- Links Column 1: Compliance & Info -->
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Governance & Access</h4>
+        <ul>
+          <li><a href="https://cares.uchicago.asia/" target="_blank" rel="noopener">Title IX</a></li>
+          <li><a href="../pages/who-we-are.html">Non-Discrimination Statement</a></li>
+          <li><a href="../pages/academics.html">Accreditation/IBHE Resolution</a></li>
+          <li><a href="https://safety-security.uchicago.asia/about/emergency-management" target="_blank" rel="noopener">Emergency Info</a></li>
+          <li><a href="https://accessibility.uchicago.asia/" target="_blank" rel="noopener">Accessibility</a></li>
+          <li><a href="https://privacy.uchicago.asia/privacy-policy/" target="_blank" rel="noopener">Privacy</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 2: Resources & Services -->
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Campus Services</h4>
+        <ul>
+          <li><a href="../pages/who-we-are.html">Job Opportunities</a></li>
+          <li><a href="http://giving.uchicago.asia/site/Donation2?df_id=1681" target="_blank" rel="noopener">Make A Gift</a></li>
+          <li><a href="../pages/visit.html">Visit UChicago</a></li>
+          <li><a href="https://directory.uchicago.asia/" target="_blank" rel="noopener">Campus Directory</a></li>
+          <li><a href="../pages/contact-us.html">Contact Us</a></li>
+          <li><a href="https://maps.uchicago.asia/" target="_blank" rel="noopener">Maps & Directions</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 3: Portals & Social -->
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Portals & Connect</h4>
+        <ul>
+          <li><a href="https://my.uchicago.asia/" target="_blank" rel="noopener">My.UChicago</a></li>
+          <li><a href="https://portal.office.com/" target="_blank" rel="noopener">Office365</a></li>
+          <li><a href="../pages/who-we-are.html">A-Z Listing</a></li>
+        </ul>
+        <div class="footer-social-links">
+          <a href="https://www.facebook.com/uchicago" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com/uchicago" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/school/uchicago/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/UChicago" target="_blank" rel="noopener" aria-label="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.youtube.com/user/UChicago" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <p>&copy; The University of Chicago. All rights reserved.</p>
+        <p class="replica-note">Re-engineered interactive replica created for client evaluation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Admissions Application Portal Modal -->
+  <div class="portal-modal-overlay" id="portalModalOverlay" role="dialog" aria-modal="true" aria-labelledby="portalTitle" aria-hidden="true">
+    <div class="portal-modal-card" spellcheck="false">
+      <button type="button" class="portal-modal-close" id="portalModalClose" aria-label="Close Application Portal">&times;</button>
+      <div class="portal-logo-container">
+        <img src="../assets/logo-background.svg" alt="The University of Chicago" class="portal-uchicago-logo" />
+      </div>
+      <h2 class="portal-title" id="portalTitle">Applicant Status Portal</h2>
+      <p class="portal-subtitle" id="portalSubtitle" spellcheck="false">Log in with your UChicago Account to review your application status, upload supplementary materials, and access admissions updates.</p>
+      <hr class="portal-divider" />
+
+    <div id="portalLoginView">
+      <div id="portalNotice" class="portal-alert-msg is-info">
+        <i class="fa-solid fa-circle-info" style="margin-right: 6px;"></i>
+        <span>Enter your Application ID or Email and Password below.</span>
+      </div>
+
+      <form id="admissionsLoginForm" novalidate>
+        <div class="portal-form-group">
+          <label class="portal-form-label" for="applicantId">Application ID or Email Address</label>
+          <div class="portal-input-wrap">
+            <input type="text" id="applicantId" name="applicantId" class="portal-input" placeholder="e.g. UC-2027-89321 or your email" autocomplete="username" required />
+          </div>
+        </div>
+
+        <div class="portal-form-group">
+          <label class="portal-form-label" for="applicantPassword">Password</label>
+          <div class="portal-input-wrap">
+            <input type="password" id="applicantPassword" name="applicantPassword" class="portal-input" placeholder="Enter your password" autocomplete="current-password" required />
+            <button type="button" class="portal-pw-toggle" id="portalPasswordToggle" aria-label="Show or hide password">
+              <i class="fa-regular fa-eye" id="portalPwIcon"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portal-options-row">
+          <label class="portal-remember">
+            <input type="checkbox" id="rememberMe" name="rememberMe" />
+            <span>Keep me logged in</span>
+          </label>
+          <a href="#" class="portal-forgot-link" id="portalForgotLink">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="portal-submit-btn" id="portalSubmitBtn">Log In to Portal</button>
+      </form>
+
+      <div class="portal-modal-footer">
+        <div>First-time applicant? <a href="../pages/admissions.html">Activate your UChicago Account</a></div>
+        <div style="margin-top: 4px;">Need assistance? Contact <a href="../pages/contact-us.html">Office of College Admissions</a></div>
+      </div>
+    </div>
+
+    <!-- Authenticated Applicant Status View -->
+    <div id="portalDashboardView" style="display: none;">
+      <div class="portal-status-banner">
+        <i class="fa-solid fa-circle-check"></i>
+        <div>
+          <div style="font-size: 14px; font-weight: 700; color: #176531;">Application Status: Complete &amp; Under Review • Faculty Advisor Confirmed</div>
+          <div style="font-size: 12px; font-weight: 400; color: #276738; margin-top: 2px;">Your application file is verified complete and has been forwarded to the Department of Chemistry Admissions Committee.</div>
+        </div>
+      </div>
+
+      <div class="portal-applicant-details">
+        <div><strong>Applicant:</strong> Devendra Biswambhar Nath Dubey</div>
+        <div><strong>Application ID:</strong> UC-2027-89321</div>
+        <div><strong>Degree Program:</strong> Ph.D. in Chemistry</div>
+        <div><strong>Specialization:</strong> Computational Chemistry</div>
+        <div><strong>Admit Term / Start Date:</strong> Autumn Quarter 2027 (August 2027)</div>
+        <div><strong>Application Fee:</strong> <span style="color: #176531; font-weight: 700;"><svg style="display:inline-block; vertical-align:-2px; margin-right:4px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#176531" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>$90.00 Paid (Received)</span></div>
+        <div><strong>Registered Email:</strong> dubey351dev@gmail.com</div>
+        <div><strong>Department:</strong> Department of Chemistry • Division of the Physical Sciences</div>
+      </div>
+
+      <!-- Faculty Research Advisor & Laboratory Acceptance Card -->
+      <div class="portal-faculty-card">
+        <div class="portal-faculty-badge"><i class="fa-solid fa-circle-check"></i> Faculty Acceptance Confirmed</div>
+        <div class="portal-faculty-title">Research Advisor &amp; Laboratory Placement</div>
+        <div class="portal-faculty-desc">
+          You have been selected and officially accepted as a graduate research student under <strong>Prof. Alex (Alexander Q.) Cusumano</strong>, Assistant Professor of Chemistry (Computational &amp; Theoretical Chemistry, Catalysis) in the Department of Chemistry.
+        </div>
+        <div class="portal-faculty-meta">
+          <div><i class="fa-solid fa-flask-vial"></i> <span><strong>Research Laboratory:</strong> The Cusumano Research Group • Computational &amp; Theoretical Chemistry Laboratory (Searle Chemistry Laboratories)</span></div>
+          <div><i class="fa-solid fa-calendar-check"></i> <span><strong>Appointment Commences:</strong> August 2027 (Autumn Quarter)</span></div>
+          <div><i class="fa-solid fa-award"></i> <span><strong>Departmental Research Fellowship:</strong> Approved (Full Tuition Waiver &amp; Research Stipend)</span></div>
+        </div>
+      </div>
+
+      <!-- Seat Confirmation / Blocking Deposit Card ($6,200.00 USD) -->
+      <div class="portal-deposit-card" id="portalSeatDepositCard">
+        <div class="portal-deposit-header">
+          <div>
+            <span class="portal-deposit-badge" id="portalDepositStatusBadge"><i class="fa-solid fa-clock"></i> Action Required: Pending Payment</span>
+            <div style="font-weight: 700; color: #1a1a1a; font-size: 15px; margin-top: 6px;">Ph.D. Matriculation Seat Confirmation Deposit</div>
+          </div>
+          <div class="portal-deposit-amount">$6,200.00 <span>USD</span></div>
+        </div>
+        <div class="portal-deposit-desc">
+          To reserve and officially lock your graduate research seat in the <strong>Computational Chemistry Doctoral Program</strong> for the Autumn Quarter 2027 (commencing August 2027), please complete the required enrollment deposit below.
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+          <button type="button" class="portal-pay-deposit-btn" id="portalPayDepositBtn">
+            <i class="fa-solid fa-credit-card"></i> Pay Seat Blocking Fee ($6,200.00 USD)
+          </button>
+          <span id="portalDepositReceiptWrap" style="display: none; font-size: 12px; color: #176531; font-weight: 600;">
+            <i class="fa-solid fa-circle-check"></i> Ref #UCHI-DEP-2027-6200 • Received &amp; Confirmed
+          </span>
+        </div>
+      </div>
+
+      <!-- Dedicated Full Page Portal Link -->
+      <a href="portal.html" class="portal-fullpage-link-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; box-sizing: border-box; padding: 11px; margin-bottom: 16px; background: #fbf8f5; border: 1.5px solid maroon; color: maroon; font-family: var(--font-sans); font-weight: 700; font-size: 12px; text-transform: uppercase; text-decoration: none; border-radius: 2px;">
+        <i class="fa-solid fa-up-right-from-square"></i> Open in Dedicated Full Page Portal
+      </a>
+
+      <!-- Curriculum Vitae / Resume Section -->
+      <div class="portal-resume-card" id="portalResumeDropzone">
+        <div class="portal-resume-header">
+          <div class="portal-resume-info">
+            <i class="fa-solid fa-file-pdf" style="color: #b91c1c; font-size: 24px;"></i>
+            <div>
+              <div class="portal-resume-name" id="portalResumeFileName">CV_Devendra_Biswambhar_Nath_Dubey.pdf</div>
+              <div class="portal-resume-meta" id="portalResumeFileMeta">Uploaded Official Document • 148 KB • Verified</div>
+            </div>
+          </div>
+          <span class="portal-badge-received" id="portalResumeBadge">On File (Official)</span>
+        </div>
+        <div class="portal-resume-actions">
+          <label for="resumeFileInput" class="portal-upload-btn">
+            <i class="fa-solid fa-cloud-arrow-up"></i> Upload New Resume / CV
+          </label>
+          <input type="file" id="resumeFileInput" accept=".pdf,.doc,.docx" style="display: none;" />
+          <button type="button" class="portal-preview-btn" id="portalResumePreviewBtn"><i class="fa-regular fa-eye"></i> View Current CV</button>
+        </div>
+        <div id="resumeUploadFeedback" style="display: none; font-size: 12px; margin-top: 8px; color: #176531; font-weight: 600;">
+          <i class="fa-solid fa-circle-check"></i> Resume successfully updated!
+        </div>
+      </div>
+
+      <!-- Letters of Recommendation (5 of 5 Received) -->
+      <h3 class="portal-checklist-title">Letters of Recommendation (5 of 5 Received)</h3>
+      <ul class="portal-checklist">
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label">
+            <i class="fa-solid fa-check"></i>
+            <div>
+              <div style="font-weight: 600; color: #222;">Dr. Sivapriya Kirubakaran</div>
+              <div style="font-size: 11.5px; color: #666;">Professor &amp; Head, Department of Chemistry • Indian Institute of Technology (IIT) Gandhinagar</div>
+            </div>
+          </div>
+          <span class="portal-badge-received">Received (Official)</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label">
+            <i class="fa-solid fa-check"></i>
+            <div>
+              <div style="font-weight: 600; color: #222;">Dr. Bhaskar Datta</div>
+              <div style="font-size: 11.5px; color: #666;">Professor, Department of Chemistry &amp; Biological Engineering • Indian Institute of Technology (IIT) Gandhinagar</div>
+            </div>
+          </div>
+          <span class="portal-badge-received">Received (Official)</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label">
+            <i class="fa-solid fa-check"></i>
+            <div>
+              <div style="font-weight: 600; color: #222;">Dr. Shraeddha Tiwari</div>
+              <div style="font-size: 11.5px; color: #666;">Assistant Professor, Department of Chemistry • Institute of Chemical Technology (ICT) Mumbai, India</div>
+            </div>
+          </div>
+          <span class="portal-badge-received">Received (Official)</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label">
+            <i class="fa-solid fa-check"></i>
+            <div>
+              <div style="font-weight: 600; color: #222;">Dr. Kasturi Venkataraman</div>
+              <div style="font-size: 11.5px; color: #666;">Professor • Indian Institute of Science (IISc) Bangalore</div>
+            </div>
+          </div>
+          <span class="portal-badge-received">Received (Official)</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label">
+            <i class="fa-solid fa-check"></i>
+            <div>
+              <div style="font-weight: 600; color: #222;">Dr. Sriram Kanvah Gundimeda</div>
+              <div style="font-size: 11.5px; color: #666;">Professor, Department of Chemistry • Indian Institute of Technology (IIT) Gandhinagar</div>
+            </div>
+          </div>
+          <span class="portal-badge-received">Received (Official)</span>
+        </li>
+      </ul>
+
+      <!-- Required Core Materials Checklist -->
+      <h3 class="portal-checklist-title">Required Application Materials</h3>
+      <ul class="portal-checklist">
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label"><i class="fa-solid fa-check"></i> <span>Academic Statement of Purpose</span></div>
+          <span class="portal-badge-received">Received</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label"><i class="fa-solid fa-check"></i> <span>Research Statement &amp; Computational Chemistry Supplement</span></div>
+          <span class="portal-badge-received">Received</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label"><i class="fa-solid fa-check"></i> <span>Official Academic Transcripts (Undergraduate &amp; Postgraduate)</span></div>
+          <span class="portal-badge-received">Received (Official)</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label"><i class="fa-solid fa-check"></i> <span>Graduate Application Fee ($90.00 USD)</span></div>
+          <span class="portal-badge-received">Paid (Ref #UC-89321)</span>
+        </li>
+        <li class="portal-checklist-item">
+          <div class="portal-checklist-label"><i class="fa-solid fa-check"></i> <span>English Language Proficiency Requirement</span></div>
+          <span class="portal-badge-received">Waived / Verified</span>
+        </li>
+      </ul>
+
+      <div class="portal-action-btns">
+        <button type="button" class="portal-secondary-btn" id="portalPrintBtn"><i class="fa-solid fa-print"></i> Print Summary</button>
+        <button type="button" class="portal-logout-btn" id="portalLogoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</button>
+      </div>
+
+      <div class="portal-modal-footer" style="margin-top: 18px;">
+        <div>Need assistance with your portal? Contact <a href="../pages/contact-us.html">Office of College Admissions</a></div>
+        <div style="margin-top: 4px; font-size: 11.5px; color: #888;"><i class="fa-solid fa-lock"></i> Protected by University of Chicago Secure SSO Authentication</div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

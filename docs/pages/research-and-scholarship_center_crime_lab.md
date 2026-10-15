@@ -1,0 +1,52 @@
+# Crime Lab
+
+- **Slug**: `research-and-scholarship_center_crime_lab`
+- **Source Route**: `/research-and-scholarship/center/crime/lab`
+- **Page Title**: Crime Lab | University of Chicago
+- **Meta Description**: UChicago Crime Lab seeks to reduce crime and violence by helping government agencies and non-profit organizations rigorously evaluate new pilot programs.
+
+---
+
+## 1. Content & Section Hierarchy
+
+### Primary Heading (H1)
+# Crime Lab
+
+### Sub-Headings & Sections
+- **H1**: Crime Lab
+- **H3**: Affiliated Schools and Divisions:
+
+### Editorial & Body Copy
+
+> We are continuing to build and improve our list of Institutes and Centers. If you have a suggested addition or correction, please let us know.
+
+> The Crime Lab designs, tests, and scales data-driven innovations to improve the public sector&rsquo;s response to the dual crises of gun violence and America&rsquo;s broken criminal justice system.
+
+
+## 2. Page Navigation Links
+
+- [Who We Are](https://www.uchicago.edu/who-we-are)
+- [Community Impact](https://www.uchicago.edu/who-we-are/community-impact)
+- [Global Impact](https://www.uchicago.edu/who-we-are/global-impact)
+- [History &amp; Traditions](https://www.uchicago.edu/who-we-are/history-and-traditions)
+- [Facts &amp; Figures](https://www.uchicago.edu/who-we-are/facts-and-figures)
+- [UChicago Leadership](https://www.uchicago.edu/who-we-are/leadership)
+- [University Administration](https://www.uchicago.edu/who-we-are/university-administration)
+- [Academics](https://www.uchicago.edu/academics)
+- [Schools &amp; Divisions](https://www.uchicago.edu/academics/schools-and-divisions)
+- [Academic Departments](https://www.uchicago.edu/academics/academic-departments)
+- [Undergraduate Programs](https://www.uchicago.edu/academics/undergraduate-programs)
+- [Graduate Programs](https://www.uchicago.edu/academics/graduate-programs)
+- [N-12 Education](https://www.uchicago.edu/academics/n-12-education)
+- [Academic Calendar](https://www.uchicago.edu/academics/academic-calendar)
+- [Research](https://www.uchicago.edu/research-and-scholarship)
+- [Breakthroughs](https://www.uchicago.edu/research-and-scholarship/breakthroughs)
+- [Institutes &amp; Centers](https://www.uchicago.edu/research-and-scholarship/center)
+- [Affiliated Laboratories](https://www.uchicago.edu/research-and-scholarship/affiliated-laboratories)
+- [Global Campuses &amp; Centers](https://www.uchicago.edu/research-and-scholarship/global-campuses-and-centers)
+- [Other Academic Units &amp; Resources](https://www.uchicago.edu/research-and-scholarship/other-academic-units-and-resources)
+- [Admissions](https://www.uchicago.edu/admissions)
+
+## 3. Related External & Unit Links
+
+- [Office365](https://portal.office.com/)

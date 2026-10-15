@@ -1,0 +1,1113 @@
+[
+  {
+    "index": 1,
+    "tag": "section",
+    "class": "single-col-wide",
+    "elements": []
+  },
+  {
+    "index": 2,
+    "tag": "section",
+    "class": "single-col-wide",
+    "elements": []
+  },
+  {
+    "index": 4,
+    "tag": "div",
+    "class": "VideoSpotlight_videoSpotlight__EC6TG VideoSpotlight_heightAdjusted__2gI8b isPlaying",
+    "elements": []
+  },
+  {
+    "index": 5,
+    "tag": "button",
+    "class": "VideoSpotlight_btnPlayPause__1m-El",
+    "elements": []
+  },
+  {
+    "index": 6,
+    "tag": "video",
+    "class": "VideoSpotlight_backgroundVideo__1Gp0g",
+    "elements": [
+      {
+        "tag": "video",
+        "attrs": {
+          "class": "VideoSpotlight_backgroundVideo__1Gp0g",
+          "height": "600",
+          "autoplay": "",
+          "muted": "",
+          "playsinline": "",
+          "aria-hidden": "true",
+          "aria-describedby": "video-spotlight-desc",
+          "loop": ""
+        },
+        "text": ""
+      },
+      {
+        "tag": "source",
+        "attrs": {
+          "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/videos/2023-fall-video-update-1116.mp4",
+          "type": "video/mp4"
+        },
+        "text": ""
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "tag": "div",
+    "class": "VideoSpotlight_srOnly__1nyTD",
+    "elements": []
+  },
+  {
+    "index": 8,
+    "tag": "section",
+    "class": "single-col-wide",
+    "elements": []
+  },
+  {
+    "index": 9,
+    "tag": "section",
+    "class": "CTABarSpotlight_container__1iVum CTABarSpotlight_button-border-removal ",
+    "elements": []
+  },
+  {
+    "index": 10,
+    "tag": "div",
+    "class": "CTABarSpotlight_ctaContainer__2vVsc single-col-inner",
+    "elements": []
+  },
+  {
+    "index": 11,
+    "tag": "div",
+    "class": "CTABarSpotlight_buttonContainer__235aw",
+    "elements": []
+  },
+  {
+    "index": 12,
+    "tag": "a",
+    "class": "CTABarSpotlight_button__2OBfh",
+    "elements": []
+  },
+  {
+    "index": 13,
+    "tag": "span",
+    "class": "spanButton CTABarSpotlight_button__2OBfh",
+    "elements": []
+  },
+  {
+    "index": 14,
+    "tag": "div",
+    "class": "CTABarSpotlight_buttonContainer__235aw",
+    "elements": []
+  },
+  {
+    "index": 15,
+    "tag": "a",
+    "class": "CTABarSpotlight_button__2OBfh",
+    "elements": []
+  },
+  {
+    "index": 16,
+    "tag": "span",
+    "class": "spanButton CTABarSpotlight_button__2OBfh",
+    "elements": []
+  },
+  {
+    "index": 17,
+    "tag": "div",
+    "class": "CTABarSpotlight_buttonContainer__235aw",
+    "elements": []
+  },
+  {
+    "index": 18,
+    "tag": "a",
+    "class": "CTABarSpotlight_button__2OBfh",
+    "elements": []
+  },
+  {
+    "index": 19,
+    "tag": "span",
+    "class": "spanButton CTABarSpotlight_button__2OBfh",
+    "elements": []
+  },
+  {
+    "index": 20,
+    "tag": "section",
+    "class": "HeadlineTextBold_container__1OGJ8 single-col-inner  ",
+    "elements": []
+  },
+  {
+    "index": 21,
+    "tag": "h2",
+    "class": "HeadlineTextBold_title__J6Fj_",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "HeadlineTextBold_title__J6Fj_"
+        },
+        "text": "LATEST NEWS"
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "tag": "section",
+    "class": "NewsFeatured_container__3kxie",
+    "elements": []
+  },
+  {
+    "index": 23,
+    "tag": "ul",
+    "class": "NewsFeatured_newsList__19dBn",
+    "elements": []
+  },
+  {
+    "index": 24,
+    "tag": "li",
+    "class": "NewsFeatured_newsListItem__2Ygiz",
+    "elements": []
+  },
+  {
+    "index": 25,
+    "tag": "div",
+    "class": "NewsItem_container__2d2hu NewsItem_hasImage__OXZ57 undefined theme-undefined",
+    "elements": []
+  },
+  {
+    "index": 26,
+    "tag": "span",
+    "class": "NewsItem_image__3ztUc",
+    "elements": []
+  },
+  {
+    "index": 27,
+    "tag": "div",
+    "class": "NewsItem_textContainer__1cFxG",
+    "elements": []
+  },
+  {
+    "index": 28,
+    "tag": "small",
+    "class": "NewsItem_date__UwDLb typography-small-letter",
+    "elements": []
+  },
+  {
+    "index": 29,
+    "tag": "a",
+    "class": "NewsItem_titleLink__3b6Dh",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "href": "https://news.uchicago.edu/story/michael-woodford-uchicago-alum-and-former-faculty-member-shares-nobel-prize?utm_source=UC_Intranet&utm_medium=referral&utm_campaign=Intranet_featured_news",
+          "class": "NewsItem_titleLink__3b6Dh",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "text": "Michael Woodford, UChicago alum and former faculty member, shares Nobel Prize"
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "tag": "small",
+    "class": "NewsItem_source__2xPm- typography-small",
+    "elements": []
+  },
+  {
+    "index": 31,
+    "tag": "li",
+    "class": "NewsFeatured_newsListItem__2Ygiz",
+    "elements": []
+  },
+  {
+    "index": 32,
+    "tag": "div",
+    "class": "NewsItem_container__2d2hu NewsItem_hasImage__OXZ57 undefined theme-undefined",
+    "elements": []
+  },
+  {
+    "index": 33,
+    "tag": "span",
+    "class": "NewsItem_image__3ztUc",
+    "elements": []
+  },
+  {
+    "index": 34,
+    "tag": "div",
+    "class": "NewsItem_textContainer__1cFxG",
+    "elements": []
+  },
+  {
+    "index": 35,
+    "tag": "small",
+    "class": "NewsItem_date__UwDLb typography-small-letter",
+    "elements": []
+  },
+  {
+    "index": 36,
+    "tag": "a",
+    "class": "NewsItem_titleLink__3b6Dh",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "href": "https://news.uchicago.edu/big-brains-podcast-neutrino-hunters-searching-ghostly-particles-antarctic-ice-abby-vieregg?utm_source=UC_Intranet&utm_medium=referral&utm_campaign=Intranet_featured_news",
+          "class": "NewsItem_titleLink__3b6Dh",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "text": "Neutrino hunters: Searching for ghostly particles in Antarctic ice, with Abby Vieregg"
+      }
+    ]
+  },
+  {
+    "index": 37,
+    "tag": "small",
+    "class": "NewsItem_source__2xPm- typography-small",
+    "elements": []
+  },
+  {
+    "index": 38,
+    "tag": "li",
+    "class": "NewsFeatured_newsListItem__2Ygiz",
+    "elements": []
+  },
+  {
+    "index": 39,
+    "tag": "div",
+    "class": "NewsItem_container__2d2hu NewsItem_hasImage__OXZ57 undefined theme-undefined",
+    "elements": []
+  },
+  {
+    "index": 40,
+    "tag": "span",
+    "class": "NewsItem_image__3ztUc",
+    "elements": []
+  },
+  {
+    "index": 41,
+    "tag": "div",
+    "class": "NewsItem_textContainer__1cFxG",
+    "elements": []
+  },
+  {
+    "index": 42,
+    "tag": "small",
+    "class": "NewsItem_date__UwDLb typography-small-letter",
+    "elements": []
+  },
+  {
+    "index": 43,
+    "tag": "a",
+    "class": "NewsItem_titleLink__3b6Dh",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "href": "https://news.uchicago.edu/story/learning-blast-literally-south-side-science-festival?utm_source=WWW&utm_medium=NewsModule",
+          "class": "NewsItem_titleLink__3b6Dh",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "text": "Learning is a blast\u2014literally\u2014at the South Side Science Festival"
+      }
+    ]
+  },
+  {
+    "index": 44,
+    "tag": "small",
+    "class": "NewsItem_source__2xPm- typography-small",
+    "elements": []
+  },
+  {
+    "index": 45,
+    "tag": "li",
+    "class": "NewsFeatured_newsListItem__2Ygiz",
+    "elements": []
+  },
+  {
+    "index": 46,
+    "tag": "div",
+    "class": "NewsItem_container__2d2hu NewsItem_hasImage__OXZ57 undefined theme-undefined",
+    "elements": []
+  },
+  {
+    "index": 47,
+    "tag": "span",
+    "class": "NewsItem_image__3ztUc",
+    "elements": []
+  },
+  {
+    "index": 48,
+    "tag": "div",
+    "class": "NewsItem_textContainer__1cFxG",
+    "elements": []
+  },
+  {
+    "index": 49,
+    "tag": "small",
+    "class": "NewsItem_date__UwDLb typography-small-letter",
+    "elements": []
+  },
+  {
+    "index": 50,
+    "tag": "a",
+    "class": "NewsItem_titleLink__3b6Dh",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "href": "https://news.uchicago.edu/story/book-bans-are-surging-so-are-efforts-let-books-be?utm_source=WWW&utm_medium=NewsModule",
+          "class": "NewsItem_titleLink__3b6Dh",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "text": "Book bans are surging. So are efforts to \u2018let books be\u2019"
+      }
+    ]
+  },
+  {
+    "index": 51,
+    "tag": "small",
+    "class": "NewsItem_source__2xPm- typography-small",
+    "elements": []
+  },
+  {
+    "index": 52,
+    "tag": "a",
+    "class": "NewsFeatured_seeAllNews__3JgaK",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "href": "https://news.uchicago.edu/?utm_source=WWW&utm_medium=NewsModule",
+          "class": "NewsFeatured_seeAllNews__3JgaK",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        "text": "See More News"
+      }
+    ]
+  },
+  {
+    "index": 54,
+    "tag": "section",
+    "class": "list-feed-container",
+    "elements": []
+  },
+  {
+    "index": 55,
+    "tag": "div",
+    "class": "sliderTray___-vHFQ CalloutBannerList_animating__1UygT carousel__slider-tray carousel__slider-tray--horizontal",
+    "elements": []
+  },
+  {
+    "index": 56,
+    "tag": "div",
+    "class": "slide___3-Nqo slideHorizontal___1NzNV carousel__slide carousel__slide--visible CalloutBannerList_carouselBannerContainer__1O-F8",
+    "elements": []
+  },
+  {
+    "index": 57,
+    "tag": "section",
+    "class": "CalloutBannerList_container__28NGw CalloutBannerList_hasImage__17b-o single-col-inner",
+    "elements": []
+  },
+  {
+    "index": 58,
+    "tag": "div",
+    "class": "CalloutBannerList_imageContainer__2eEqU",
+    "elements": []
+  },
+  {
+    "index": 59,
+    "tag": "img",
+    "class": "CalloutBannerList_image__gysfb",
+    "elements": [
+      {
+        "tag": "img",
+        "attrs": {
+          "alt": "Chicago Minds",
+          "width": "415",
+          "height": "320",
+          "class": "CalloutBannerList_image__gysfb",
+          "src": "https://www.uchicago.edu/-/media/inside-the-lab-chuan-he/chicago-minds-gray-bg.jpg?h=320&iar=0&w=415&extension=webp&hash=9F31382DE69953E984B230CC0DD40B0B"
+        },
+        "text": ""
+      }
+    ]
+  },
+  {
+    "index": 60,
+    "tag": "div",
+    "class": "CalloutBannerList_accentContainer__1vy4k",
+    "elements": []
+  },
+  {
+    "index": 61,
+    "tag": "h1",
+    "class": "CalloutBannerList_title__1o1iT serif-head-1",
+    "elements": [
+      {
+        "tag": "h1",
+        "attrs": {
+          "class": "CalloutBannerList_title__1o1iT serif-head-1"
+        },
+        "text": "Explore the \u2018Chicago Minds\u2019 campaign"
+      }
+    ]
+  },
+  {
+    "index": 62,
+    "tag": "div",
+    "class": "CalloutBannerList_ctaContainer__3vvUl",
+    "elements": []
+  },
+  {
+    "index": 63,
+    "tag": "a",
+    "class": "CalloutBannerList_link__MpE6m",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "href": "https://chicagominds.uchicago.edu/",
+          "class": "CalloutBannerList_link__MpE6m",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "aria-label": "Learn about the ambitious initiative to expand UChicago\u2019s global impact through research and education.",
+          "data-chevron": "true"
+        },
+        "text": "Learn about the ambitious initiative to expand UChicago\u2019s global impact through research and education."
+      }
+    ]
+  },
+  {
+    "index": 64,
+    "tag": "div",
+    "class": "CalloutBannerList_buttonGroup__n5CGT",
+    "elements": []
+  },
+  {
+    "index": 65,
+    "tag": "button",
+    "class": "dot___3c3SI carousel__dot carousel__dot--0 carousel__dot--selected CalloutBannerList_buttonDot__25f__",
+    "elements": []
+  },
+  {
+    "index": 66,
+    "tag": "section",
+    "class": "PhotoTabs_container__pDqWQ single-col-inner",
+    "elements": []
+  },
+  {
+    "index": 67,
+    "tag": "section",
+    "class": "HeadlineBar_container__3V-KO",
+    "elements": []
+  },
+  {
+    "index": 68,
+    "tag": "div",
+    "class": "HeadlineBar_heading__3xJfb",
+    "elements": []
+  },
+  {
+    "index": 69,
+    "tag": "h2",
+    "class": "HeadlineBar_title__2LJw5",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "HeadlineBar_title__2LJw5"
+        },
+        "text": "We value rigorous inquiry"
+      }
+    ]
+  },
+  {
+    "index": 70,
+    "tag": "div",
+    "class": "HeadlineBar_content__1lt38",
+    "elements": []
+  },
+  {
+    "index": 71,
+    "tag": "p",
+    "class": "HeadlineBar_description__wqxBb",
+    "elements": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "HeadlineBar_description__wqxBb"
+        },
+        "text": "A diversity of people and ideas, coupled with free and open discourse, lays the foundation for students and scholars to bring forth original ideas that define fields and enrich human life."
+      }
+    ]
+  },
+  {
+    "index": 72,
+    "tag": "a",
+    "class": "HeadlineBar_link__1HnRj",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "aria-label": "Learn more about who we are",
+          "target": "_self",
+          "data-chevron": "true",
+          "class": "HeadlineBar_link__1HnRj",
+          "href": "/who-we-are"
+        },
+        "text": "LEARN MORE"
+      }
+    ]
+  },
+  {
+    "index": 73,
+    "tag": "section",
+    "class": "ImageTileGrid_container__3qHJn single-col-inner",
+    "elements": []
+  },
+  {
+    "index": 74,
+    "tag": "section",
+    "class": "HeadlineTextBold_container__1OGJ8 single-col-inner  ",
+    "elements": []
+  },
+  {
+    "index": 75,
+    "tag": "h2",
+    "class": "HeadlineTextBold_title__J6Fj_",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "HeadlineTextBold_title__J6Fj_"
+        },
+        "text": "We foster independent thinking"
+      }
+    ]
+  },
+  {
+    "index": 76,
+    "tag": "section",
+    "class": "CalloutTiles_container__2AH3J single-col-inner",
+    "elements": []
+  },
+  {
+    "index": 77,
+    "tag": "div",
+    "class": "CalloutTiles_tile__3DQir",
+    "elements": []
+  },
+  {
+    "index": 78,
+    "tag": "span",
+    "class": "CalloutTiles_image__9f4H5",
+    "elements": []
+  },
+  {
+    "index": 79,
+    "tag": "div",
+    "class": "CalloutTiles_textContainer__iLI0R",
+    "elements": []
+  },
+  {
+    "index": 80,
+    "tag": "div",
+    "class": "CalloutTiles_titleContainer__1PDN4",
+    "elements": []
+  },
+  {
+    "index": 81,
+    "tag": "h2",
+    "class": "CalloutTiles_title__11Ltk",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "CalloutTiles_title__11Ltk"
+        },
+        "text": "Field-defining research"
+      }
+    ]
+  },
+  {
+    "index": 82,
+    "tag": "div",
+    "class": "CalloutTiles_calendarLinkContainer__3Ictp",
+    "elements": []
+  },
+  {
+    "index": 83,
+    "tag": "p",
+    "class": "CalloutTiles_description__3qbDt",
+    "elements": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "CalloutTiles_description__3qbDt"
+        },
+        "text": "UChicago researchers have contributed to some of the world\u2019s greatest discoveries, advancements, and bodies of knowledge."
+      }
+    ]
+  },
+  {
+    "index": 84,
+    "tag": "div",
+    "class": "CalloutTiles_ctaContainer__3hOWO",
+    "elements": []
+  },
+  {
+    "index": 85,
+    "tag": "a",
+    "class": "CalloutTiles_cta__1Iiwv",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "aria-label": "Learn more about Scholarship at UChicago",
+          "target": "_self",
+          "class": "CalloutTiles_cta__1Iiwv",
+          "data-chevron": "true",
+          "href": "/research-and-scholarship"
+        },
+        "text": "Learn More"
+      }
+    ]
+  },
+  {
+    "index": 86,
+    "tag": "div",
+    "class": "CalloutTiles_tile__3DQir",
+    "elements": []
+  },
+  {
+    "index": 87,
+    "tag": "span",
+    "class": "CalloutTiles_image__9f4H5",
+    "elements": []
+  },
+  {
+    "index": 88,
+    "tag": "div",
+    "class": "CalloutTiles_textContainer__iLI0R",
+    "elements": []
+  },
+  {
+    "index": 89,
+    "tag": "div",
+    "class": "CalloutTiles_titleContainer__1PDN4",
+    "elements": []
+  },
+  {
+    "index": 90,
+    "tag": "h2",
+    "class": "CalloutTiles_title__11Ltk",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "CalloutTiles_title__11Ltk"
+        },
+        "text": "Transformative education"
+      }
+    ]
+  },
+  {
+    "index": 91,
+    "tag": "div",
+    "class": "CalloutTiles_calendarLinkContainer__3Ictp",
+    "elements": []
+  },
+  {
+    "index": 92,
+    "tag": "p",
+    "class": "CalloutTiles_description__3qbDt",
+    "elements": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "CalloutTiles_description__3qbDt"
+        },
+        "text": "UChicago students develop the habits of mind and intellectual skills needed to confront complex challenges."
+      }
+    ]
+  },
+  {
+    "index": 93,
+    "tag": "div",
+    "class": "CalloutTiles_ctaContainer__3hOWO",
+    "elements": []
+  },
+  {
+    "index": 94,
+    "tag": "a",
+    "class": "CalloutTiles_cta__1Iiwv",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "aria-label": "Learn more about Admissions",
+          "target": "_self",
+          "class": "CalloutTiles_cta__1Iiwv",
+          "data-chevron": "true",
+          "href": "/academics"
+        },
+        "text": "Learn More"
+      }
+    ]
+  },
+  {
+    "index": 95,
+    "tag": "section",
+    "class": "HeadlineTextBold_container__1OGJ8 single-col-inner  ",
+    "elements": []
+  },
+  {
+    "index": 96,
+    "tag": "h2",
+    "class": "HeadlineTextBold_title__J6Fj_",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "HeadlineTextBold_title__J6Fj_"
+        },
+        "text": "We advance ideas and humanity"
+      }
+    ]
+  },
+  {
+    "index": 97,
+    "tag": "section",
+    "class": "CalloutTiles_container__2AH3J single-col-inner",
+    "elements": []
+  },
+  {
+    "index": 98,
+    "tag": "div",
+    "class": "CalloutTiles_tile__3DQir",
+    "elements": []
+  },
+  {
+    "index": 99,
+    "tag": "span",
+    "class": "CalloutTiles_image__9f4H5",
+    "elements": []
+  },
+  {
+    "index": 100,
+    "tag": "div",
+    "class": "CalloutTiles_textContainer__iLI0R",
+    "elements": []
+  },
+  {
+    "index": 101,
+    "tag": "div",
+    "class": "CalloutTiles_titleContainer__1PDN4",
+    "elements": []
+  },
+  {
+    "index": 102,
+    "tag": "h2",
+    "class": "CalloutTiles_title__11Ltk",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "CalloutTiles_title__11Ltk"
+        },
+        "text": "A history of groundbreaking discoveries"
+      }
+    ]
+  },
+  {
+    "index": 103,
+    "tag": "div",
+    "class": "CalloutTiles_calendarLinkContainer__3Ictp",
+    "elements": []
+  },
+  {
+    "index": 104,
+    "tag": "p",
+    "class": "CalloutTiles_description__3qbDt",
+    "elements": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "CalloutTiles_description__3qbDt"
+        },
+        "text": "Since UChicago\u2019s founding, its scholars have transformed our world through their work, changing the way we live and think."
+      }
+    ]
+  },
+  {
+    "index": 105,
+    "tag": "div",
+    "class": "CalloutTiles_ctaContainer__3hOWO",
+    "elements": []
+  },
+  {
+    "index": 106,
+    "tag": "a",
+    "class": "CalloutTiles_cta__1Iiwv",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "aria-label": "Learn more about our education and research",
+          "target": "_self",
+          "class": "CalloutTiles_cta__1Iiwv",
+          "data-chevron": "true",
+          "href": "/research-and-scholarship/breakthroughs"
+        },
+        "text": "Learn More"
+      }
+    ]
+  },
+  {
+    "index": 107,
+    "tag": "div",
+    "class": "CalloutTiles_tile__3DQir",
+    "elements": []
+  },
+  {
+    "index": 108,
+    "tag": "span",
+    "class": "CalloutTiles_image__9f4H5",
+    "elements": []
+  },
+  {
+    "index": 109,
+    "tag": "div",
+    "class": "CalloutTiles_textContainer__iLI0R",
+    "elements": []
+  },
+  {
+    "index": 110,
+    "tag": "div",
+    "class": "CalloutTiles_titleContainer__1PDN4",
+    "elements": []
+  },
+  {
+    "index": 111,
+    "tag": "h2",
+    "class": "CalloutTiles_title__11Ltk",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "CalloutTiles_title__11Ltk"
+        },
+        "text": "Community impact"
+      }
+    ]
+  },
+  {
+    "index": 112,
+    "tag": "div",
+    "class": "CalloutTiles_calendarLinkContainer__3Ictp",
+    "elements": []
+  },
+  {
+    "index": 113,
+    "tag": "p",
+    "class": "CalloutTiles_description__3qbDt",
+    "elements": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "CalloutTiles_description__3qbDt"
+        },
+        "text": "As a community partner, we invest in Chicago\u2019s South Side across such areas as health, education,  economic growth, and the arts."
+      }
+    ]
+  },
+  {
+    "index": 114,
+    "tag": "div",
+    "class": "CalloutTiles_ctaContainer__3hOWO",
+    "elements": []
+  },
+  {
+    "index": 115,
+    "tag": "a",
+    "class": "CalloutTiles_cta__1Iiwv",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "aria-label": "Learn more about our community impact",
+          "target": "_self",
+          "class": "CalloutTiles_cta__1Iiwv",
+          "data-chevron": "true",
+          "href": "/who-we-are/community-impact"
+        },
+        "text": "Learn More"
+      }
+    ]
+  },
+  {
+    "index": 116,
+    "tag": "div",
+    "class": "CalloutTiles_tile__3DQir",
+    "elements": []
+  },
+  {
+    "index": 117,
+    "tag": "span",
+    "class": "CalloutTiles_image__9f4H5",
+    "elements": []
+  },
+  {
+    "index": 118,
+    "tag": "div",
+    "class": "CalloutTiles_textContainer__iLI0R",
+    "elements": []
+  },
+  {
+    "index": 119,
+    "tag": "div",
+    "class": "CalloutTiles_titleContainer__1PDN4",
+    "elements": []
+  },
+  {
+    "index": 120,
+    "tag": "h2",
+    "class": "CalloutTiles_title__11Ltk",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "CalloutTiles_title__11Ltk"
+        },
+        "text": "Global impact"
+      }
+    ]
+  },
+  {
+    "index": 121,
+    "tag": "div",
+    "class": "CalloutTiles_calendarLinkContainer__3Ictp",
+    "elements": []
+  },
+  {
+    "index": 122,
+    "tag": "p",
+    "class": "CalloutTiles_description__3qbDt",
+    "elements": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "CalloutTiles_description__3qbDt"
+        },
+        "text": "We are an international community of scholars working to solve the world's most pressing issues, with initiatives and programs on all seven continents."
+      }
+    ]
+  },
+  {
+    "index": 123,
+    "tag": "div",
+    "class": "CalloutTiles_ctaContainer__3hOWO",
+    "elements": []
+  },
+  {
+    "index": 124,
+    "tag": "a",
+    "class": "CalloutTiles_cta__1Iiwv",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "aria-label": "Learn more about our global impact",
+          "target": "_self",
+          "class": "CalloutTiles_cta__1Iiwv",
+          "data-chevron": "true",
+          "href": "/who-we-are/global-impact"
+        },
+        "text": "Learn More"
+      }
+    ]
+  },
+  {
+    "index": 125,
+    "tag": "section",
+    "class": "PhotoTabs_container__pDqWQ single-col-inner",
+    "elements": []
+  },
+  {
+    "index": 126,
+    "tag": "section",
+    "class": "HeadlineBar_container__3V-KO",
+    "elements": []
+  },
+  {
+    "index": 127,
+    "tag": "div",
+    "class": "HeadlineBar_heading__3xJfb",
+    "elements": []
+  },
+  {
+    "index": 128,
+    "tag": "h2",
+    "class": "HeadlineBar_title__2LJw5",
+    "elements": [
+      {
+        "tag": "h2",
+        "attrs": {
+          "class": "HeadlineBar_title__2LJw5"
+        },
+        "text": "We call Chicago home"
+      }
+    ]
+  },
+  {
+    "index": 129,
+    "tag": "div",
+    "class": "HeadlineBar_content__1lt38",
+    "elements": []
+  },
+  {
+    "index": 130,
+    "tag": "p",
+    "class": "HeadlineBar_description__wqxBb",
+    "elements": [
+      {
+        "tag": "p",
+        "attrs": {
+          "class": "HeadlineBar_description__wqxBb"
+        },
+        "text": "Chicago is not only in our name, it\u2019s woven into the fabric of this institution. Located in the Hyde Park neighborhood, we benefit from the diversity, arts, and vibrant culture of our South Side community."
+      }
+    ]
+  },
+  {
+    "index": 131,
+    "tag": "a",
+    "class": "HeadlineBar_link__1HnRj",
+    "elements": [
+      {
+        "tag": "a",
+        "attrs": {
+          "aria-label": "Learn more about Hyde Park",
+          "target": "_self",
+          "data-chevron": "true",
+          "class": "HeadlineBar_link__1HnRj",
+          "href": "/life-at-uchicago/hyde-park"
+        },
+        "text": "LEARN MORE"
+      }
+    ]
+  },
+  {
+    "index": 132,
+    "tag": "section",
+    "class": "ImageTileGrid_container__3qHJn single-col-inner",
+    "elements": []
+  }
+]

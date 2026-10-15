@@ -1,0 +1,1205 @@
+/* ==========================================================================
+   UChicago 1:1 Production Replica — Enhancement & Hover Styles
+   ========================================================================== */
+
+/* Enable hover on desktop mega-dropdowns */
+@media (min-width: 901px) {
+  .EduNavigation_navListItem__2Qihw.EduNavigation_hasDropdown__3aDrm:hover > .EduNavigation_linkDropdown__picLh {
+    opacity: 1 !important;
+    pointer-events: all !important;
+    display: flex !important;
+  }
+}
+
+/* Ensure smooth pointer transitions */
+.EduNavigation_linkDropdown__picLh {
+  transition: opacity 0.3s ease, transform 0.3s ease !important;
+}
+
+/* Search Flyout Transition */
+.EduBrandBar_searchFlyout__26JOE {
+  transition: all 0.25s ease !important;
+}
+
+/* Ensure FontAwesome icons render with high sharpness */
+.fa, .fas, .fab, .far {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "FontAwesome" !important;
+}
+
+/* Brand watermark Phoenix positioning */
+.SectionWrap_container__3qlA- {
+  background-position: right bottom !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Smooth Play/Pause Button */
+.VideoSpotlight_btnPlayPause__1m-El {
+  cursor: pointer;
+  z-index: 20;
+}
+
+/* Cursor pointer on interactive items */
+button, a, input[type="submit"] {
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Application Portal (Admissions Login) — Authentic UChicago Styles
+   ========================================================================== */
+
+/* Brand bar link matching native items exactly */
+.uchicago-portal-item {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.portal-trigger-btn {
+  background: transparent !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: normal !important;
+  padding: 7px 19px !important;
+  height: 100% !important;
+  cursor: pointer !important;
+  transition: none !important;
+  line-height: inherit !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.portal-trigger-btn:hover {
+  background: transparent !important;
+  color: #ffffff !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.portal-trigger-btn:hover .linkText,
+.portal-trigger-btn:hover span {
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.portal-trigger-btn-mobile {
+  display: block !important;
+  width: 100% !important;
+  text-align: left !important;
+  padding: 12px 14px !important;
+  color: #4d4d4d !important;
+  font-size: 14px !important;
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+.portal-trigger-btn-mobile:hover {
+  color: maroon !important;
+}
+
+/* Modal Overlay: NEVER displayed on load */
+.portal-modal-overlay {
+  display: none !important;
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0, 0, 0, 0.65) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+  z-index: 99999 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 20px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.portal-modal-overlay.is-active {
+  display: flex !important;
+  opacity: 1 !important;
+  pointer-events: all !important;
+}
+
+/* Modal Card: Institutional collegiate design */
+.portal-modal-card {
+  background: #ffffff !important;
+  border-radius: 2px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: 5px solid maroon !important;
+  max-width: 620px !important;
+  width: calc(100% - 32px) !important;
+  max-height: 92vh !important;
+  overflow-y: auto !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3) !important;
+  position: relative !important;
+  padding: 32px 36px 36px !important;
+  background-image: url(../assets/phoenix.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: right -25px bottom -25px !important;
+  background-size: 170px !important;
+  box-sizing: border-box !important;
+}
+
+.portal-modal-card::-webkit-scrollbar {
+  width: 6px;
+}
+.portal-modal-card::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.portal-modal-card::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 3px;
+}
+.portal-modal-card::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* Close Button */
+.portal-modal-close {
+  position: absolute !important;
+  top: 14px !important;
+  right: 16px !important;
+  background: none !important;
+  border: none !important;
+  color: #666666 !important;
+  font-size: 24px !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  padding: 4px 8px !important;
+  transition: color 0.15s ease !important;
+}
+
+.portal-modal-close:hover {
+  color: maroon !important;
+}
+
+/* Logo & Crest in Portal Shape */
+.portal-logo-container {
+  text-align: center !important;
+  margin-top: 6px !important;
+  margin-bottom: 12px !important;
+}
+
+.portal-uchicago-logo {
+  width: 240px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  filter: none !important;
+}
+
+/* Portal Headings */
+.portal-title {
+  font-family: "UChicagoSerif", Georgia, serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+  text-align: center !important;
+  margin: 14px 0 6px 0 !important;
+  letter-spacing: -0.2px !important;
+}
+
+.portal-subtitle {
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  font-size: 13.5px !important;
+  color: #555555 !important;
+  text-align: center !important;
+  line-height: 1.45 !important;
+  margin: 0 0 18px 0 !important;
+}
+
+.portal-divider {
+  height: 1px !important;
+  background: #e5e5e5 !important;
+  margin-bottom: 22px !important;
+  border: none !important;
+}
+
+/* Form Styling */
+.portal-form-group {
+  margin-bottom: 18px !important;
+  text-align: left !important;
+}
+
+.portal-form-label {
+  display: block !important;
+  font-family: "UChicagoSansSerif-SemiBold", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+  color: #333333 !important;
+  margin-bottom: 6px !important;
+}
+
+.portal-input-wrap {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.portal-input {
+  width: 100% !important;
+  padding: 11px 13px !important;
+  border: 1px solid #767676 !important;
+  border-radius: 0 !important;
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  font-size: 14px !important;
+  color: #1a1a1a !important;
+  background: #ffffff !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.2s ease !important;
+}
+
+.portal-input:focus {
+  outline: 1px solid maroon !important;
+  border-color: maroon !important;
+}
+
+.portal-pw-toggle {
+  position: absolute !important;
+  right: 10px !important;
+  background: none !important;
+  border: none !important;
+  color: #666666 !important;
+  cursor: pointer !important;
+  padding: 6px !important;
+  font-size: 14px !important;
+}
+
+.portal-pw-toggle:hover {
+  color: maroon !important;
+}
+
+.portal-options-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 22px !important;
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  font-size: 13px !important;
+}
+
+.portal-remember {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  color: #4d4d4d !important;
+  cursor: pointer !important;
+}
+
+.portal-forgot-link {
+  color: maroon !important;
+  font-weight: 500 !important;
+  text-decoration: underline !important;
+}
+
+.portal-forgot-link:hover {
+  color: #670a0a !important;
+}
+
+/* Submit Button: Official UChicago Solid Red Button */
+.portal-submit-btn {
+  width: 100% !important;
+  padding: 13px 24px !important;
+  background: maroon !important;
+  color: #ffffff !important;
+  border: 1px solid maroon !important;
+  border-radius: 0 !important;
+  font-family: "UChicagoSansSerif-Bold", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease !important;
+  display: block !important;
+  text-align: center !important;
+}
+
+.portal-submit-btn:hover {
+  background: #670a0a !important;
+  border-color: #670a0a !important;
+  color: #ffffff !important;
+}
+
+/* Status / Alert Message */
+.portal-alert-msg {
+  display: none;
+  padding: 10px 12px !important;
+  margin-bottom: 16px !important;
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  border-radius: 0 !important;
+}
+
+.portal-alert-msg.is-info {
+  display: block !important;
+  background: #fdf6e9 !important;
+  border: 1px solid #e0c896 !important;
+  color: #7a500b !important;
+}
+
+.portal-alert-msg.is-error {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: #fdf2f2 !important;
+  border: 1px solid #e5a4a4 !important;
+  color: #991b1b !important;
+}
+
+.portal-input.is-invalid {
+  border-color: #991b1b !important;
+  outline: 1px solid #991b1b !important;
+  background-color: #fffafa !important;
+}
+
+/* Authenticated Dashboard Styles */
+.portal-status-banner {
+  background: #fbf8f8 !important;
+  border: 1px solid #e0d0d0 !important;
+  padding: 12px 14px !important;
+  margin-bottom: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #800000 !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  text-align: left !important;
+}
+
+.portal-status-banner i {
+  font-size: 18px !important;
+  color: #800000 !important;
+}
+
+.portal-applicant-details {
+  background: #fcfcfc !important;
+  border: 1px solid #e0e0e0 !important;
+  padding: 14px 16px !important;
+  margin-bottom: 18px !important;
+  font-size: 13px !important;
+  color: #333333 !important;
+  line-height: 1.6 !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 8px 16px !important;
+  text-align: left !important;
+}
+
+@media (max-width: 500px) {
+  .portal-applicant-details {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.portal-applicant-details strong {
+  color: #111111 !important;
+}
+
+.portal-checklist-title {
+  font-family: "UChicagoSerif", Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+  text-align: left !important;
+  margin: 18px 0 10px 0 !important;
+  padding-bottom: 6px !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.portal-checklist,
+.portal-checklist li {
+  list-style: none !important;
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin: 0 0 18px 0 !important;
+  text-align: left !important;
+  font-size: 13px !important;
+}
+
+.portal-checklist li::before,
+.portal-checklist-item::before,
+.portal-checklist li::after,
+.portal-checklist-item::after {
+  content: none !important;
+  display: none !important;
+}
+
+.portal-checklist-item {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 8px 0 !important;
+  border-bottom: 1px dashed #e8e8e8 !important;
+}
+
+.portal-checklist-item:last-child {
+  border-bottom: none !important;
+}
+
+.portal-checklist-label {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  color: #333333 !important;
+}
+
+.portal-checklist-label i {
+  color: #800000 !important;
+  font-size: 13px !important;
+}
+
+.portal-badge-received {
+  background: #f4f4f5 !important;
+  color: #800000 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 3px 8px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.portal-badge-pending {
+  background: #fff8eb !important;
+  color: #b45309 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 3px 8px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.portal-action-btns {
+  display: flex !important;
+  gap: 10px !important;
+  margin-top: 16px !important;
+}
+
+.portal-secondary-btn {
+  flex: 1 !important;
+  padding: 10px 14px !important;
+  background: #ffffff !important;
+  border: 1px solid #767676 !important;
+  color: #333333 !important;
+  font-family: "UChicagoSansSerif-Bold", sans-serif !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.portal-secondary-btn:hover {
+  background: #f4f4f4 !important;
+  border-color: #333333 !important;
+}
+
+.portal-logout-btn {
+  flex: 1 !important;
+  padding: 10px 14px !important;
+  background: #670a0a !important;
+  border: 1px solid #670a0a !important;
+  color: #ffffff !important;
+  font-family: "UChicagoSansSerif-Bold", sans-serif !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.portal-logout-btn:hover {
+  background: maroon !important;
+  border-color: maroon !important;
+}
+
+/* Modal Footer */
+.portal-modal-footer {
+  margin-top: 22px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid #e5e5e5 !important;
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  font-size: 12.5px !important;
+  color: #666666 !important;
+  text-align: center !important;
+  line-height: 1.5 !important;
+}
+
+.portal-modal-footer a {
+  color: maroon !important;
+  text-decoration: underline !important;
+}
+
+.portal-modal-footer a:hover {
+  color: #670a0a !important;
+}
+
+/* Faculty Acceptance Card */
+.portal-faculty-card {
+  background: #fdfbfb !important;
+  border: 1px solid #e5dada !important;
+  border-left: 4px solid #800000 !important;
+  padding: 14px 16px !important;
+  margin-bottom: 18px !important;
+  text-align: left !important;
+}
+
+.portal-faculty-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: #800000 !important;
+  color: #ffffff !important;
+  font-family: "UChicagoSansSerif-Bold", sans-serif !important;
+  font-size: 10.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  padding: 2px 8px !important;
+  border-radius: 2px !important;
+  margin-bottom: 8px !important;
+}
+
+.portal-faculty-title {
+  font-family: "UChicagoSerif", Georgia, serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #800000 !important;
+  margin-bottom: 6px !important;
+}
+
+.portal-faculty-desc {
+  font-size: 12.5px !important;
+  color: #444444 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 10px !important;
+}
+
+.portal-faculty-meta {
+  font-size: 12px !important;
+  color: #333333 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+  border-top: 1px dashed #e5dada !important;
+  padding-top: 8px !important;
+}
+
+.portal-faculty-meta div {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.portal-faculty-meta i {
+  color: #800000 !important;
+  width: 14px !important;
+}
+
+/* Resume & CV Upload Section */
+.portal-resume-card {
+  background: #fafafa !important;
+  border: 1px solid #e2e2e2 !important;
+  border-radius: 2px !important;
+  padding: 14px 16px !important;
+  margin-bottom: 18px !important;
+  text-align: left !important;
+}
+
+.portal-resume-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 12px !important;
+  gap: 12px !important;
+}
+
+.portal-resume-info {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.portal-resume-name {
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  color: #222222 !important;
+  word-break: break-all !important;
+}
+
+.portal-resume-meta {
+  font-size: 11.5px !important;
+  color: #666666 !important;
+  margin-top: 2px !important;
+}
+
+.portal-resume-actions {
+  display: flex !important;
+  gap: 10px !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.portal-upload-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 7px 14px !important;
+  background: maroon !important;
+  color: #ffffff !important;
+  font-family: "UChicagoSansSerif-Bold", sans-serif !important;
+  font-size: 11.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  border-radius: 2px !important;
+  transition: background 0.15s ease !important;
+}
+
+.portal-upload-btn:hover {
+  background: #670a0a !important;
+}
+
+.portal-preview-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 6px 12px !important;
+  background: #ffffff !important;
+  border: 1px solid #999999 !important;
+  color: #333333 !important;
+  font-family: "UChicagoSansSerif-Bold", sans-serif !important;
+  font-size: 11.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  border-radius: 2px !important;
+  transition: all 0.15s ease !important;
+}
+
+.portal-preview-btn:hover {
+  background: #efefef !important;
+  border-color: #444444 !important;
+}
+
+/* ==========================================================================
+   Full Page Application Portal & Seat Deposit Styles
+   ========================================================================== */
+.portal-page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 24px 60px;
+  box-sizing: border-box;
+  font-family: "UChicagoSansSerif-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #222222;
+}
+
+.portal-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.portal-breadcrumb a {
+  color: maroon;
+  text-decoration: none;
+}
+.portal-breadcrumb a:hover {
+  text-decoration: underline;
+}
+.portal-breadcrumb span.sep {
+  color: #999999;
+}
+
+.portal-hero-banner {
+  background: #fbf8f5;
+  border: 1px solid #e7ded5;
+  border-top: 5px solid maroon;
+  padding: 28px 32px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.portal-hero-title-group h1 {
+  font-family: "UChicagoSerif", Georgia, serif;
+  font-size: 28px;
+  color: #1a1a1a;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.3px;
+}
+.portal-hero-title-group p {
+  font-size: 14.5px;
+  color: #555555;
+  margin: 0;
+}
+
+.portal-hero-badge-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.portal-app-badge {
+  background: maroon;
+  color: #ffffff;
+  padding: 6px 14px;
+  font-family: "UChicagoSansSerif-Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.portal-page-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 28px;
+}
+
+@media (max-width: 900px) {
+  .portal-page-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.portal-card-block {
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.portal-card-block-title {
+  font-family: "UChicagoSerif", Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Seat Confirmation & Deposit Card */
+.portal-deposit-card {
+  background: #fdfaf6 !important;
+  border: 1.5px solid #d4a373 !important;
+  border-left: 5px solid #b45309 !important;
+  padding: 20px 22px !important;
+  margin-bottom: 24px !important;
+}
+
+.portal-deposit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.portal-deposit-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #b45309;
+  color: #ffffff;
+  font-family: "UChicagoSansSerif-Bold", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+
+.portal-deposit-badge.is-paid {
+  background: #800000 !important;
+}
+
+.portal-deposit-amount {
+  font-family: "UChicagoSerif", Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.portal-deposit-amount span {
+  font-size: 13px;
+  color: #666666;
+  font-family: "UChicagoSansSerif-Regular", sans-serif;
+  font-weight: 400;
+}
+
+.portal-deposit-desc {
+  font-size: 13.5px;
+  color: #444444;
+  line-height: 1.55;
+  margin-bottom: 16px;
+}
+
+.portal-pay-deposit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 22px;
+  background: maroon;
+  color: #ffffff;
+  border: none;
+  font-family: "UChicagoSansSerif-Bold", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.portal-pay-deposit-btn:hover {
+  background: #670a0a;
+}
+
+.portal-pay-deposit-btn:disabled {
+  background: #800000;
+  cursor: default;
+}
+
+/* Payment Modal Dialog */
+.portal-pay-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  backdrop-filter: blur(3px);
+}
+
+.portal-pay-modal-card {
+  background: #ffffff;
+  border-top: 5px solid maroon;
+  border-radius: 2px;
+  max-width: 520px;
+  width: calc(100% - 32px);
+  padding: 28px 32px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.portal-pay-modal-title {
+  font-family: "UChicagoSerif", Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 8px 0;
+}
+
+.portal-pay-summary-box {
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  padding: 12px 16px;
+  margin: 16px 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.portal-pay-methods {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.portal-pay-method-opt {
+  flex: 1;
+  padding: 10px;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #ffffff;
+  transition: all 0.15s ease;
+}
+.portal-pay-method-opt.is-selected {
+  border-color: maroon;
+  background: #fdf5f5;
+  color: maroon;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Official Academic Transcript Modal & Viewer Styles
+   ========================================================================== */
+
+.portal-transcript-modal-overlay {
+  display: none !important;
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0, 0, 0, 0.78) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  z-index: 100000 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 16px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: opacity 0.25s ease !important;
+}
+
+.portal-transcript-modal-overlay.is-active,
+.portal-transcript-modal-overlay.is-open {
+  display: flex !important;
+  opacity: 1 !important;
+  pointer-events: all !important;
+}
+
+.portal-transcript-modal-card {
+  background: #ffffff !important;
+  border-radius: 4px !important;
+  border-top: 5px solid maroon !important;
+  max-width: 920px !important;
+  width: calc(100% - 24px) !important;
+  max-height: 94vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.portal-transcript-modal-header {
+  padding: 16px 24px !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background: #fafafa !important;
+  flex-shrink: 0 !important;
+}
+
+.portal-transcript-modal-body {
+  padding: 20px 24px !important;
+  overflow-y: auto !important;
+  flex: 1 !important;
+  background: #eef0f2 !important;
+}
+
+.portal-transcript-page-wrap {
+  background: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15) !important;
+  margin: 0 auto 24px !important;
+  max-width: 780px !important;
+  border: 1px solid #d5d5d5 !important;
+  border-radius: 3px !important;
+  overflow: hidden !important;
+}
+
+.portal-transcript-page-wrap img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+.portal-transcript-page-label {
+  padding: 8px 16px !important;
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.portal-upload-locked-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 4px 10px !important;
+  background: #f1f3f4 !important;
+  color: #5f6368 !important;
+  border: 1px solid #dadce0 !important;
+  border-radius: 3px !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+}
+
+/* ==========================================================================
+   Institutional Payment Gateway, Discover Card UI & Mandate Styles
+   ========================================================================== */
+
+.card-ui-container {
+  border-radius: 1rem !important;
+  border: 2px solid #334155 !important;
+  background: linear-gradient(90deg, #0f172a 0%, #1e293b 50%, #0f172a 100%) !important;
+  color: #ffffff !important;
+  padding: 1.25rem !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  box-sizing: border-box !important;
+}
+
+.card-ui-top {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.card-ui-brand {
+  color: #fcd34d !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  letter-spacing: 0.15em !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  text-transform: uppercase !important;
+}
+
+.card-ui-badge {
+  background: rgba(34, 197, 94, 0.2) !important;
+  color: #86efac !important;
+  border: 1px solid rgba(74, 222, 128, 0.4) !important;
+  font-size: 11px !important;
+  padding: 3px 10px !important;
+  border-radius: 9999px !important;
+  font-weight: 600 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+}
+
+.card-ui-number {
+  font-size: 1.35rem !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.18em !important;
+  color: #f1f5f9 !important;
+  margin: 10px 0 14px !important;
+}
+
+.card-ui-meta-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 12px !important;
+  border-top: 1px solid rgba(51, 65, 85, 0.8) !important;
+  padding-top: 0.75rem !important;
+  font-size: 0.75rem !important;
+}
+
+.card-ui-meta-label {
+  font-size: 9.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  color: #94a3b8 !important;
+  margin-bottom: 2px !important;
+  font-weight: 600 !important;
+}
+
+.card-ui-meta-val {
+  font-weight: 600 !important;
+  color: #e2e8f0 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.card-ui-meta-val.highlight {
+  color: #fef08a !important;
+}
+
+.payment-gateway-modal {
+  max-width: 660px !important;
+}
+
+.payment-method-selector {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  margin: 16px 0 !important;
+}
+
+.payment-method-opt {
+  border: 1.5px solid #d0d7de !important;
+  border-radius: 8px !important;
+  padding: 14px 16px !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  background: #ffffff !important;
+}
+
+.payment-method-opt.is-selected {
+  border-color: maroon !important;
+  background: #fdfafa !important;
+  box-shadow: 0 0 0 1px maroon !important;
+}
+
+.otp-box-wrap {
+  display: flex !important;
+  gap: 8px !important;
+  justify-content: center !important;
+  margin: 16px 0 !important;
+}
+
+.otp-digit-input {
+  width: 48px !important;
+  height: 54px !important;
+  text-align: center !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  font-family: monospace !important;
+  border: 2px solid #ccc !important;
+  border-radius: 6px !important;
+  outline: none !important;
+  background: #f9f9f9 !important;
+  transition: border-color 0.15s ease !important;
+}
+
+.otp-digit-input:focus {
+  border-color: maroon !important;
+  background: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.15) !important;
+}
+
+.demo-otp-banner {
+  background: #fff8e1 !important;
+  border: 1px solid #ffe082 !important;
+  color: #856404 !important;
+  padding: 10px 14px !important;
+  border-radius: 4px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  margin: 12px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}

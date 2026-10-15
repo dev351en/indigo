@@ -1,0 +1,44 @@
+{
+  "/who-we-are": {
+    "title": "Who We Are | University of Chicago",
+    "description": "The University of Chicago is an urban research university that has driven transformative leadership in education since 1890. Our commitment to free and open inquiry draws inspired scholars to our global campuses, where ideas are born that challenge and change the world.",
+    "h1": "Who we are",
+    "size_bytes": 143877
+  },
+  "/academics": {
+    "title": "Academics | University of Chicago",
+    "description": "At UChicago, academic inquiry is at the heart of everything we do. Our rigorous curriculum, innovative research opportunities, and vibrant intellectual community empower students and scholars to challenge conventional thought and explore groundbreaking ideas.",
+    "h1": "Academics",
+    "size_bytes": 132463
+  },
+  "/research-and-scholarship": {
+    "title": "Research and Scholarship | University of Chicago",
+    "description": "From the Chicago School of Economics to pioneering social service scholarship in the U.S., the University of Chicago is known for putting forth ideas that reshape the world.",
+    "h1": "Research and Scholarship",
+    "size_bytes": 267589
+  },
+  "/admissions": {
+    "title": "Admissions | University of Chicago",
+    "description": "The University of Chicago welcomes students from all backgrounds across the globe. Apply to our undergraduate and graduate programs and learn more about financial aid.",
+    "h1": "Admissions &amp; Financial Aid",
+    "size_bytes": 148432
+  },
+  "/life-at-uchicago": {
+    "title": "Life At UChicago | University of Chicago",
+    "description": "University of Chicago students and faculty are surrounded by unique architecture, Lake Michigan, museums, and a variety of arts and cultural opportunities.",
+    "h1": "Life at UChicago",
+    "size_bytes": 135699
+  },
+  "/visit": {
+    "title": "Visit | University of Chicago",
+    "description": "Explore the University\u2019s botanic gardens, modern Gothic architecture, public art, and cultural institutions.",
+    "h1": "Visit UChicago",
+    "size_bytes": 217231
+  },
+  "/contact-us": {
+    "title": "Contact Us | University of Chicago",
+    "description": "Contact information for the University of Chicago.",
+    "h1": "Contact us",
+    "size_bytes": 125231
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "tag": "img",
+    "src": "assets/logo-background.svg",
+    "alt": "The University of Chicago Logo ",
+    "attrs": {
+      "alt": "The University of Chicago Logo ",
+      "class": "EduHeader_desktopLogo__2qFkS",
+      "src": "assets/logo-background.svg"
+    }
+  },
+  {
+    "tag": "img",
+    "src": "assets/logo-background-mobile.svg",
+    "alt": "The University of Chicago Logo",
+    "attrs": {
+      "alt": "The University of Chicago Logo",
+      "class": "EduHeader_mobileLogo__2-wip",
+      "src": "assets/logo-background-mobile.svg"
+    }
+  },
+  {
+    "tag": "source",
+    "src": "assets/2023-fall-video-update-1116.mp4",
+    "alt": "",
+    "attrs": {
+      "src": "assets/2023-fall-video-update-1116.mp4",
+      "type": "video/mp4"
+    }
+  },
+  {
+    "tag": "img",
+    "src": "assets/chicago-minds-gray-bg.jpg",
+    "alt": "Chicago Minds",
+    "attrs": {
+      "alt": "Chicago Minds",
+      "width": "415",
+      "height": "320",
+      "class": "CalloutBannerList_image__gysfb",
+      "src": "assets/chicago-minds-gray-bg.jpg"
+    }
+  },
+  {
+    "tag": "img",
+    "src": "assets/footerlogo.jpg",
+    "alt": "The University of Chicago",
+    "attrs": {
+      "alt": "The University of Chicago",
+      "width": "403",
+      "height": "92",
+      "title": "The University of Chicago",
+      "class": "Footer_logo__1Xaa8",
+      "src": "assets/footerlogo.jpg"
+    }
+  },
+  {
+    "tag": "img",
+    "src": "assets/logo-background.svg",
+    "alt": "The University of Chicago",
+    "attrs": {
+      "src": "assets/logo-background.svg",
+      "alt": "The University of Chicago",
+      "class": "portal-uchicago-logo"
+    }
+  }
+]

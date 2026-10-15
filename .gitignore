@@ -1,0 +1,19 @@
+# Secrets & Tokens
+scratch/github_token.txt
+*.token
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tempmediaStorage/
+
+# OS metadata
+.DS_Store
+Thumbs.db

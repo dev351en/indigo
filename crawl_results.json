@@ -1,0 +1,2075 @@
+{
+  "/": {
+    "slug": "home",
+    "file": "home.html",
+    "title": "The University of Chicago",
+    "description": "One of the world\u2019s leading research universities, the University of Chicago inspires scholars to pursue field-defining research, while providing a transformative education for students.",
+    "h1": "Explore the \u2018Chicago Minds\u2019 campaign",
+    "bytes": 165307,
+    "status": "success"
+  },
+  "/who-we-are": {
+    "slug": "who-we-are",
+    "file": "who-we-are.html",
+    "title": "Who We Are | University of Chicago",
+    "description": "The University of Chicago is an urban research university that has driven transformative leadership in education since 1890. Our commitment to free and open inquiry draws inspired scholars to our global campuses, where ideas are born that challenge and change the world.",
+    "h1": "Who we are",
+    "bytes": 143877,
+    "status": "success"
+  },
+  "/who-we-are/community-impact": {
+    "slug": "who-we-are_community-impact",
+    "file": "who-we-are_community-impact.html",
+    "title": "Community Impact | University of Chicago",
+    "description": "The University of Chicago community stretches beyond our campus borders in Hyde Park. We are deeply embedded in the city of Chicago, especially with our neighbors across the South Side.",
+    "h1": "Community impact",
+    "bytes": 136027,
+    "status": "success"
+  },
+  "/who-we-are/global-impact": {
+    "slug": "who-we-are_global-impact",
+    "file": "who-we-are_global-impact.html",
+    "title": "Global Impact | University of Chicago",
+    "description": "The University began on the South Side of Chicago but has become a global research institute at home in every corner of the globe.",
+    "h1": "Global impact",
+    "bytes": 141551,
+    "status": "success"
+  },
+  "/who-we-are/history-and-traditions": {
+    "slug": "who-we-are_history-and-traditions",
+    "file": "who-we-are_history-and-traditions.html",
+    "title": "History and Traditions | University of Chicago",
+    "description": "Since our inception, the University of Chicago has broken with tradition and followed a distinctively different path to build an enduring legacy.",
+    "h1": "History and traditions",
+    "bytes": 153172,
+    "status": "success"
+  },
+  "/who-we-are/facts-and-figures": {
+    "slug": "who-we-are_facts-and-figures",
+    "file": "who-we-are_facts-and-figures.html",
+    "title": "Facts and figures | University of Chicago",
+    "description": "Learn more about the University of Chicago\u2019s demographics, higher education statistics, and university ranking through these quick facts and figures.",
+    "h1": "Facts and figures",
+    "bytes": 117566,
+    "status": "success"
+  },
+  "/who-we-are/leadership": {
+    "slug": "who-we-are_leadership",
+    "file": "who-we-are_leadership.html",
+    "title": "UChicago Leadership | University of Chicago",
+    "description": "",
+    "h1": "UChicago Leadership",
+    "bytes": 160787,
+    "status": "success"
+  },
+  "/who-we-are/university-administration": {
+    "slug": "who-we-are_university-administration",
+    "file": "who-we-are_university-administration.html",
+    "title": "University Administration | University of Chicago",
+    "description": "",
+    "h1": "University Administration",
+    "bytes": 153075,
+    "status": "success"
+  },
+  "/who-we-are/a2z": {
+    "slug": "who-we-are_a2z",
+    "file": "who-we-are_a2z.html",
+    "title": "A-Z Listing | University of Chicago",
+    "description": "",
+    "h1": "A-Z Listing",
+    "bytes": 618425,
+    "status": "success"
+  },
+  "/academics": {
+    "slug": "academics",
+    "file": "academics.html",
+    "title": "Academics | University of Chicago",
+    "description": "At UChicago, academic inquiry is at the heart of everything we do. Our rigorous curriculum, innovative research opportunities, and vibrant intellectual community empower students and scholars to challenge conventional thought and explore groundbreaking ideas.",
+    "h1": "Academics",
+    "bytes": 132463,
+    "status": "success"
+  },
+  "/academics/schools-and-divisions": {
+    "slug": "academics_schools-and-divisions",
+    "file": "academics_schools-and-divisions.html",
+    "title": "Schools and Division | University of Chicago",
+    "description": "Explore UChicago\u2019s degree and academic programs across the undergraduate College, four graduate divisions, seven professional schools, and the Graham School of Continuing Liberal and Professional Studies.",
+    "h1": "Schools and Divisions",
+    "bytes": 154964,
+    "status": "success"
+  },
+  "/academics/academic-departments": {
+    "slug": "academics_academic-departments",
+    "file": "academics_academic-departments.html",
+    "title": "Academic Departments | University of Chicago",
+    "description": "View a complete list of the University of Chicago\u2019s academic departments and learn more about which department might be right for you.",
+    "h1": "Academic Departments",
+    "bytes": 259812,
+    "status": "success"
+  },
+  "/academics/undergraduate-programs": {
+    "slug": "academics_undergraduate-programs",
+    "file": "academics_undergraduate-programs.html",
+    "title": "Undergraduate Programs | University of Chicago",
+    "description": "",
+    "h1": "Undergraduate Programs",
+    "bytes": 316462,
+    "status": "success"
+  },
+  "/academics/graduate-programs": {
+    "slug": "academics_graduate-programs",
+    "file": "academics_graduate-programs.html",
+    "title": "Graduate Programs | University of Chicago",
+    "description": "",
+    "h1": "Graduate Programs",
+    "bytes": 137500,
+    "status": "success"
+  },
+  "/academics/n-12-education": {
+    "slug": "academics_n-12-education",
+    "file": "academics_n-12-education.html",
+    "title": "N\u201312 education | University of Chicago",
+    "description": "The University of Chicago values rigorous inquiry and recognizes the importance of developing students before college, which is why we operate several K-12 schools on Chicago\u2019s South Side.",
+    "h1": "N-12 Education",
+    "bytes": 123122,
+    "status": "success"
+  },
+  "/academics/academic-calendar": {
+    "slug": "academics_academic-calendar",
+    "file": "academics_academic-calendar.html",
+    "title": "Academic Calendar | University of Chicago",
+    "description": "",
+    "h1": "Academic Calendar",
+    "bytes": 131711,
+    "status": "success"
+  },
+  "/research-and-scholarship": {
+    "slug": "research-and-scholarship",
+    "file": "research-and-scholarship.html",
+    "title": "Research and Scholarship | University of Chicago",
+    "description": "From the Chicago School of Economics to pioneering social service scholarship in the U.S., the University of Chicago is known for putting forth ideas that reshape the world.",
+    "h1": "Research and Scholarship",
+    "bytes": 267589,
+    "status": "success"
+  },
+  "/research-and-scholarship/breakthroughs": {
+    "slug": "research-and-scholarship_breakthroughs",
+    "file": "research-and-scholarship_breakthroughs.html",
+    "title": "Breakthroughs | University of Chicago",
+    "description": "",
+    "h1": "Breakthroughs",
+    "bytes": 399729,
+    "status": "success"
+  },
+  "/research-and-scholarship/center": {
+    "slug": "research-and-scholarship_center",
+    "file": "research-and-scholarship_center.html",
+    "title": "Institutes and centers | University of Chicago",
+    "description": "Faculty and researchers come together to solve major problems and answer big questions through the University of Chicago\u2019s more than 140 research centers.",
+    "h1": "Institutes &amp; Centers",
+    "bytes": 429790,
+    "status": "success"
+  },
+  "/research-and-scholarship/affiliated-laboratories": {
+    "slug": "research-and-scholarship_affiliated-laboratories",
+    "file": "research-and-scholarship_affiliated-laboratories.html",
+    "title": "Affiliated Laboratories | University of Chicago",
+    "description": "The University of Chicago helps lead the country in scientific and technological innovation in part through its management of two U.S. Department of Energy laboratories, Argonne and Fermilab, and Marine Biological Laboratory (MBL).",
+    "h1": "Affiliated laboratories",
+    "bytes": 120853,
+    "status": "success"
+  },
+  "/research-and-scholarship/global-campuses-and-centers": {
+    "slug": "research-and-scholarship_global-campuses-and-centers",
+    "file": "research-and-scholarship_global-campuses-and-centers.html",
+    "title": "Global Campuses and Centers | University of Chicago",
+    "description": "The University of Chicago helps lead the country in scientific and technological innovation in part through its management of two U.S. Department of Energy laboratories, Argonne and Fermilab, and Marine Biological Laboratory (MBL).",
+    "h1": "Global campuses and centers",
+    "bytes": 130190,
+    "status": "success"
+  },
+  "/research-and-scholarship/other-academic-units-and-resources": {
+    "slug": "research-and-scholarship_other-academic-units-and-resources",
+    "file": "research-and-scholarship_other-academic-units-and-resources.html",
+    "title": "Other academic units &amp; resources | University of Chicago",
+    "description": "",
+    "h1": "Other academic units and resources",
+    "bytes": 126762,
+    "status": "success"
+  },
+  "/admissions": {
+    "slug": "admissions",
+    "file": "admissions.html",
+    "title": "Admissions | University of Chicago",
+    "description": "The University of Chicago welcomes students from all backgrounds across the globe. Apply to our undergraduate and graduate programs and learn more about financial aid.",
+    "h1": "Admissions &amp; Financial Aid",
+    "bytes": 148432,
+    "status": "success"
+  },
+  "/admissions/international-students": {
+    "slug": "admissions_international-students",
+    "file": "admissions_international-students.html",
+    "title": "International students | University of Chicago",
+    "description": "The University of Chicago is defined by a culture of intellectual freedom and international students help create the foundation through which this takes place.",
+    "h1": "International students",
+    "bytes": 134936,
+    "status": "success"
+  },
+  "/admissions/affordability": {
+    "slug": "admissions_affordability",
+    "file": "admissions_affordability.html",
+    "title": "Affordability  | University of Chicago",
+    "description": "",
+    "h1": "Affordability &amp; Outcomes",
+    "bytes": 196353,
+    "status": "success"
+  },
+  "/admissions/continuing-education": {
+    "slug": "admissions_continuing-education",
+    "file": "admissions_continuing-education.html",
+    "title": "Continuing Education | University of Chicago",
+    "description": "",
+    "h1": "Continuing education",
+    "bytes": 123304,
+    "status": "success"
+  },
+  "/admissions/financial-aid-and-tuition": {
+    "slug": "admissions_financial-aid-and-tuition",
+    "file": "admissions_financial-aid-and-tuition.html",
+    "title": "Financial Aid and Tuition | University of Chicago",
+    "description": "",
+    "h1": "Financial aid and tuition",
+    "bytes": 118668,
+    "status": "success"
+  },
+  "/life-at-uchicago": {
+    "slug": "life-at-uchicago",
+    "file": "life-at-uchicago.html",
+    "title": "Life At UChicago | University of Chicago",
+    "description": "University of Chicago students and faculty are surrounded by unique architecture, Lake Michigan, museums, and a variety of arts and cultural opportunities.",
+    "h1": "Life at UChicago",
+    "bytes": 135699,
+    "status": "success"
+  },
+  "/life-at-uchicago/hyde-park": {
+    "slug": "life-at-uchicago_hyde-park",
+    "file": "life-at-uchicago_hyde-park.html",
+    "title": "Hyde Park | University of Chicago",
+    "description": "Hyde Park is known for its social activism and strong sense of community, Hyde Park is bookended by the University and the Museum of Science and Industry along Lake Michigan to the east.",
+    "h1": "Hyde Park",
+    "bytes": 132468,
+    "status": "success"
+  },
+  "/life-at-uchicago/student-life": {
+    "slug": "life-at-uchicago_student-life",
+    "file": "life-at-uchicago_student-life.html",
+    "title": "Student Life | University of Chicago",
+    "description": "The University of Chicago is home to some of the brightest students in the world that come to engage with people, programs, and opportunities that help stretch their capabilities and surpass their expectations.",
+    "h1": "Student life",
+    "bytes": 141932,
+    "status": "success"
+  },
+  "/life-at-uchicago/campus-resources": {
+    "slug": "life-at-uchicago_campus-resources",
+    "file": "life-at-uchicago_campus-resources.html",
+    "title": "Campus resources | University of Chicago",
+    "description": "Whether you are a longtime member of the University of Chicago or new to the community, we encourage you to find the support you need through this list of campus resources.",
+    "h1": "Campus resources",
+    "bytes": 162526,
+    "status": "success"
+  },
+  "/life-at-uchicago/arts": {
+    "slug": "life-at-uchicago_arts",
+    "file": "life-at-uchicago_arts.html",
+    "title": "Arts Institutions &amp; Programs  | University of Chicago",
+    "description": "The University of Chicago is committed to educating, inspiring and supporting the artistic endeavors of our students, faculty and those in our wider community.",
+    "h1": "Arts institutions &amp; programs",
+    "bytes": 160084,
+    "status": "success"
+  },
+  "/life-at-uchicago/diversity": {
+    "slug": "life-at-uchicago_diversity",
+    "file": "life-at-uchicago_diversity.html",
+    "title": "Diversity and Inclusion | University of Chicago",
+    "description": "",
+    "h1": "Diversity and inclusion",
+    "bytes": 126743,
+    "status": "success"
+  },
+  "/life-at-uchicago/health-and-wellness": {
+    "slug": "life-at-uchicago_health-and-wellness",
+    "file": "life-at-uchicago_health-and-wellness.html",
+    "title": "Health and Wellness | University of Chicago",
+    "description": "The University of Chicago is committed to supporting and providing resources for our students that foster health, well-being, inclusion, and success.",
+    "h1": "Health and wellness",
+    "bytes": 122884,
+    "status": "success"
+  },
+  "/life-at-uchicago/safety-and-security": {
+    "slug": "life-at-uchicago_safety-and-security",
+    "file": "life-at-uchicago_safety-and-security.html",
+    "title": "Safety and Security | University of Chicago",
+    "description": "",
+    "h1": "Safety and security",
+    "bytes": 145455,
+    "status": "success"
+  },
+  "/students": {
+    "slug": "students",
+    "file": "students.html",
+    "title": "Students | University of Chicago",
+    "description": "",
+    "h1": "Info for students",
+    "bytes": 195152,
+    "status": "success"
+  },
+  "/careers": {
+    "slug": "careers",
+    "file": "careers.html",
+    "title": "Career Opportunities | University of Chicago",
+    "description": "",
+    "h1": "Career Opportunities",
+    "bytes": 186116,
+    "status": "success"
+  },
+  "/visit": {
+    "slug": "visit",
+    "file": "visit.html",
+    "title": "Visit | University of Chicago",
+    "description": "Explore the University\u2019s botanic gardens, modern Gothic architecture, public art, and cultural institutions.",
+    "h1": "Visit UChicago",
+    "bytes": 217231,
+    "status": "success"
+  },
+  "/contact-us": {
+    "slug": "contact-us",
+    "file": "contact-us.html",
+    "title": "Contact Us | University of Chicago",
+    "description": "Contact information for the University of Chicago.",
+    "h1": "Contact us",
+    "bytes": 125231,
+    "status": "success"
+  },
+  "/non-discrimination": {
+    "slug": "non-discrimination",
+    "file": "non-discrimination.html",
+    "title": "Non-discrimination statement | University of Chicago",
+    "description": "In keeping with its long-standing traditions and policies, the University of Chicago considers students, employees, applicants for admission or employment, and those seeking access to University programs on the basis of individual merit.",
+    "h1": "Non-discrimination statement",
+    "bytes": 183381,
+    "status": "success"
+  },
+  "/accreditation": {
+    "slug": "accreditation",
+    "file": "accreditation.html",
+    "title": "Accreditation | University of Chicago",
+    "description": "",
+    "h1": "Accreditation",
+    "bytes": 289433,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades": {
+    "slug": "who-we-are_global-impact_accolades",
+    "file": "who-we-are_global-impact_accolades.html",
+    "title": "Accolades | University of Chicago",
+    "description": "",
+    "h1": "Accolades",
+    "bytes": 139897,
+    "status": "success"
+  },
+  "/who-we-are/history-and-traditions/the-nora-and-edward-ryerson-lecture": {
+    "slug": "who-we-are_history-and-traditions_the-nora-and-edward-ryerson-lecture",
+    "file": "who-we-are_history-and-traditions_the-nora-and-edward-ryerson-lecture.html",
+    "title": "The Nora and Edward Ryerson Lecture | University of Chicago",
+    "description": "",
+    "h1": "The Nora and Edward Ryerson Lecture",
+    "bytes": 205614,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils": {
+    "slug": "who-we-are_boards-committees-and-councils",
+    "file": "who-we-are_boards-committees-and-councils.html",
+    "title": "Boards, Committees, and Councils | University of Chicago",
+    "description": "",
+    "h1": "Boards, Committees, and Councils",
+    "bytes": 145768,
+    "status": "success"
+  },
+  "/academics/graduate-programs/masters-programs": {
+    "slug": "academics_graduate-programs_masters-programs",
+    "file": "academics_graduate-programs_masters-programs.html",
+    "title": "Master&#x27;s Programs | University of Chicago",
+    "description": "",
+    "h1": "Master&#x27;s Programs",
+    "bytes": 194756,
+    "status": "success"
+  },
+  "/academics/graduate-programs/phd-programs": {
+    "slug": "academics_graduate-programs_phd-programs",
+    "file": "academics_graduate-programs_phd-programs.html",
+    "title": "Doctoral Programs | University of Chicago",
+    "description": "",
+    "h1": "Doctoral Programs",
+    "bytes": 219472,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago-center-for-contemporary-theory": {
+    "slug": "research-and-scholarship_center_chicago-center-for-contemporary-theory",
+    "file": "research-and-scholarship_center_chicago-center-for-contemporary-theory.html",
+    "title": "Chicago Center for Contemporary Theory | University of Chicago",
+    "description": "The Chicago Center for Contemporary Theory is a space for discussion and reimagination of social, political, and cultural processes in the world today.",
+    "h1": "3CT (Chicago Center for Contemporary Theory)",
+    "bytes": 124728,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/adoption_center": {
+    "slug": "research-and-scholarship_center_adoption_center",
+    "file": "research-and-scholarship_center_adoption_center.html",
+    "title": "Adoption Center | University of Chicago",
+    "description": "The University of Chicago Adoption Center provides medical care, advocacy and research to meet the needs of orphaned children and their adopting families.",
+    "h1": "Adoption Center",
+    "bytes": 120857,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/advanced_photon_source": {
+    "slug": "research-and-scholarship_center_advanced_photon_source",
+    "file": "research-and-scholarship_center_advanced_photon_source.html",
+    "title": "Advanced Photon Source | University of Chicago",
+    "description": "The Advanced Photon Source at the U.S. Department of Energy\u2019s National Laboratory provides the US&#x27;s brightest storage ring-generated x-ray beams for research.",
+    "h1": "Advanced Photon Source",
+    "bytes": 124948,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/asthma_center": {
+    "slug": "research-and-scholarship_center_asthma_center",
+    "file": "research-and-scholarship_center_asthma_center.html",
+    "title": "Asthma Center | University of Chicago",
+    "description": "The University of Chicago Asthma &amp; Chronic Obstructive Pulmonary Disease Center is dedicated to the care of asthma &amp; COPD, including research and education.",
+    "h1": "Asthma Center",
+    "bytes": 121972,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/becker_friedman_institute_for_research_in_economics": {
+    "slug": "research-and-scholarship_center_becker_friedman_institute_for_research_in_economics",
+    "file": "research-and-scholarship_center_becker_friedman_institute_for_research_in_economics.html",
+    "title": "Becker Friedman Institute for Research in Economics | University of Chicago",
+    "description": "The Gary Becker Milton Friedman Institute for Research in Economics joins the strengths of the Friedman Institute and the Becker Center on Chicago Price Theory.",
+    "h1": "Becker Friedman Institute for Research in Economics",
+    "bytes": 124037,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/biostatistics_laboratory": {
+    "slug": "research-and-scholarship_center_biostatistics_laboratory",
+    "file": "research-and-scholarship_center_biostatistics_laboratory.html",
+    "title": "Biostatistics Laboratory | University of Chicago",
+    "description": "The Biostatistics Laboratory consists of a group of PhD and MS statisticians whose primary focus is on applied and collaborative work.",
+    "h1": "Biostatistics Laboratory",
+    "bytes": 122523,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/bucksbaum_institute_for_clinical_excellence": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/bucksbaum_institute_for_clinical_excellence",
+    "file": "research-and-scholarship_center_bucksbaum_institute_for_clinical_excellence.html",
+    "status": "success",
+    "bytes": 123957
+  },
+  "/research-and-scholarship/center/center_for_advanced_radiation_sources": {
+    "slug": "research-and-scholarship_center_center_for_advanced_radiation_sources",
+    "file": "research-and-scholarship_center_center_for_advanced_radiation_sources.html",
+    "title": "Center for Advanced Radiation Sources | University of Chicago",
+    "description": "The Center for Advanced Radiation Sources (CARS) is a department-level center of the University of Chicago.",
+    "h1": "Center for Advanced Radiation Sources",
+    "bytes": 122521,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_advancing_research_and_communications_in_stem": {
+    "slug": "research-and-scholarship_center_center_for_advancing_research_and_communications_in_stem",
+    "file": "research-and-scholarship_center_center_for_advancing_research_and_communications_in_stem.html",
+    "title": "Center for Advancing Research and Communications in STEM | University of Chicago",
+    "description": "The Center for Advancing Research and Communications in STEM advances use of evidence on innovations to improve STEM education policy, instruction, and learning.",
+    "h1": "Center for Advancing Research and Communications in STEM",
+    "bytes": 124651,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_chronic_disease_research_and_policy": {
+    "slug": "research-and-scholarship_center_center_for_chronic_disease_research_and_policy",
+    "file": "research-and-scholarship_center_center_for_chronic_disease_research_and_policy.html",
+    "title": "Center for Chronic Disease Research and Policy | University of Chicago",
+    "description": "The Center for Chronic Disease Research and Policy was founded with the mission of improving the health of individuals suffering with chronic diseases.",
+    "h1": "Center for Chronic Disease Research and Policy",
+    "bytes": 125559,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_comparative_constitutionalism": {
+    "slug": "research-and-scholarship_center_center_for_comparative_constitutionalism",
+    "file": "research-and-scholarship_center_center_for_comparative_constitutionalism.html",
+    "title": "Center for Comparative Constitutionalism | University of Chicago",
+    "description": "The Center for Comparative Constitutionalism studies the definition and implementation of constitutional rights, focusing both on legal and judicial interpretation.",
+    "h1": "Center for Comparative Constitutionalism",
+    "bytes": 121876,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_comprehensive_care_and_research_on_memory_disorders": {
+    "slug": "research-and-scholarship_center_center_for_comprehensive_care_and_research_on_memory_disorders",
+    "file": "research-and-scholarship_center_center_for_comprehensive_care_and_research_on_memory_disorders.html",
+    "title": "Center for Comprehensive Care and Research on Memory Disorders | University of Chicago",
+    "description": "The Memory Center at the UChicago is a team of neurologists, geriatricians, psychiatrists, neuropsychologists, social workers, and specialized nurses.",
+    "h1": "Center for Comprehensive Care and Research on Memory Disorders",
+    "bytes": 121709,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_disciplinary_innovation": {
+    "slug": "research-and-scholarship_center_center_for_disciplinary_innovation",
+    "file": "research-and-scholarship_center_center_for_disciplinary_innovation.html",
+    "title": "Center for Disciplinary Innovation | University of Chicago",
+    "description": "The Center for Disciplinary Innovation is a place for pedagogical collaboration and innovation at the graduate level.",
+    "h1": "Center for Disciplinary Innovation",
+    "bytes": 121491,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_early_childhood_research": {
+    "slug": "research-and-scholarship_center_center_for_early_childhood_research",
+    "file": "research-and-scholarship_center_center_for_early_childhood_research.html",
+    "title": "Center for Early Childhood Research | University of Chicago",
+    "description": "The Center for Early Childhood conducts cutting edge research exploring the development of cognition, action, and perception in the first few years of life.",
+    "h1": "Center for Early Childhood Research",
+    "bytes": 121874,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_east_asian_studies": {
+    "slug": "research-and-scholarship_center_center_for_east_asian_studies",
+    "file": "research-and-scholarship_center_center_for_east_asian_studies.html",
+    "title": "Center for East Asian Studies | University of Chicago",
+    "description": "The Center for East Asian Studies works to enhance opportunities and to foster communication throughout the wider East Asian Studies community.",
+    "h1": "Center for East Asian Studies",
+    "bytes": 124687,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_east_european_and_russianeurasian_studies": {
+    "slug": "research-and-scholarship_center_center_for_east_european_and_russianeurasian_studies",
+    "file": "research-and-scholarship_center_center_for_east_european_and_russianeurasian_studies.html",
+    "title": "Center for East European Russian/Eurasian Studies | University of Chicago",
+    "description": "The Center for Eastern European and Russian/Eurasian Studies coordinates instruction and facilitates research about Russia/Eurasia and Eastern/Central Europe.",
+    "h1": "Center for East European and Russian/Eurasian Studies",
+    "bytes": 124439,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_economic_policy": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/center_for_economic_policy",
+    "file": "research-and-scholarship_center_center_for_economic_policy.html",
+    "status": "success",
+    "bytes": 124943
+  },
+  "/research-and-scholarship/center/center_for_epr_imaging_in_vivo_physiology": {
+    "slug": "research-and-scholarship_center_center_for_epr_imaging_in_vivo_physiology",
+    "file": "research-and-scholarship_center_center_for_epr_imaging_in_vivo_physiology.html",
+    "title": "Center for EPR Imaging in Vivo Physiology | University of Chicago",
+    "description": "The Center for Electron Paramagnetic Resonance Imaging in Vivo Physiology is a NIBIB supported Technology Development Resource.",
+    "h1": "Center for EPR Imaging in Vivo Physiology",
+    "bytes": 124335,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_gesture_sign_and_language": {
+    "slug": "research-and-scholarship_center_center_for_gesture_sign_and_language",
+    "file": "research-and-scholarship_center_center_for_gesture_sign_and_language.html",
+    "title": "Center for Gesture Sign and Language | University of Chicago",
+    "description": "The goal of this Center is to explore the interplay among gesture, sign, and language and address questions about human language and development.",
+    "h1": "Center for Gesture Sign and Language",
+    "bytes": 120098,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_global_health": {
+    "slug": "research-and-scholarship_center_center_for_global_health",
+    "file": "research-and-scholarship_center_center_for_global_health.html",
+    "title": "Center for Global Health | University of Chicago",
+    "description": "The Center for Global Health is an interdisciplinary program dedicated to improving health through education, research and training.",
+    "h1": "Center for Global Health",
+    "bytes": 124670,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_health_administration_studies": {
+    "slug": "research-and-scholarship_center_center_for_health_administration_studies",
+    "file": "research-and-scholarship_center_center_for_health_administration_studies.html",
+    "title": "Center for Health Administration Studies | University of Chicago",
+    "description": "CHAS is a university-based center that promotes connections and research collaborations with health-related researchers with national &amp; international partners.",
+    "h1": "Center for Health Administration Studies",
+    "bytes": 125178,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_health_and_the_social_sciences": {
+    "slug": "research-and-scholarship_center_center_for_health_and_the_social_sciences",
+    "file": "research-and-scholarship_center_center_for_health_and_the_social_sciences.html",
+    "title": "Center for Health and the Social Sciences | University of Chicago",
+    "description": "The University of Chicago has been a leader in fostering interdisciplinary research and training at the interface of health and the social sciences.",
+    "h1": "Center for Health and the Social Sciences",
+    "bytes": 127460,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_health_policy": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/center_for_health_policy",
+    "file": "research-and-scholarship_center_center_for_health_policy.html",
+    "status": "success",
+    "bytes": 123323
+  },
+  "/research-and-scholarship/center/center_for_health_statistics": {
+    "slug": "research-and-scholarship_center_center_for_health_statistics",
+    "file": "research-and-scholarship_center_center_for_health_statistics.html",
+    "title": "Center for Health Statistics | University of Chicago",
+    "description": "The Center for Health Statistics provides foundational statistical research that will further scientific applications.",
+    "h1": "Center for Health Statistics",
+    "bytes": 121015,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_human_potential_and_public_policy": {
+    "slug": "research-and-scholarship_center_center_for_human_potential_and_public_policy",
+    "file": "research-and-scholarship_center_center_for_human_potential_and_public_policy.html",
+    "title": "Center for Human Potential and Public Policy | University of Chicago",
+    "description": "Center for Human Potential and Public Policy, CHPPP, Child Development, Cultural Policy, Education, Human Capital, Human Condition, Human Potential, Human Well-Being, Inequality, Living Standards, Technology and Society, Urban Policy",
+    "h1": "Center for Human Potential and Public Policy",
+    "bytes": 124766,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_interdisciplinary_inquiry_and_innovation_in_sexual_and_reproduct": {
+    "slug": "research-and-scholarship_center_center_for_interdisciplinary_inquiry_and_innovation_in_sexual_and_reproduct",
+    "file": "research-and-scholarship_center_center_for_interdisciplinary_inquiry_and_innovation_in_sexual_and_reproduct.html",
+    "title": "Center for Interdisciplinary Inquiry and Innovation in Sexual and Reproductive Health | University of Chicago",
+    "description": "The Center for Interdisciplinary Inquiry and Innovation in Sexual and Reproductive Health advances sexual and reproductive health, rights and justice.",
+    "h1": "Center for Interdisciplinary Inquiry and Innovation in Sexual and Reproductive Health",
+    "bytes": 128764,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_international_social_science_research": {
+    "slug": "research-and-scholarship_center_center_for_international_social_science_research",
+    "file": "research-and-scholarship_center_center_for_international_social_science_research.html",
+    "title": "Center for International Social Science Research | University of Chicago",
+    "description": "The Center for International Social Science Research sponsors and coordinates a wide variety of activities related to global and international topics.",
+    "h1": "Center for International Social Science Research",
+    "bytes": 122980,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_italian_opera_studies": {
+    "slug": "research-and-scholarship_center_center_for_italian_opera_studies",
+    "file": "research-and-scholarship_center_center_for_italian_opera_studies.html",
+    "title": "Center for Italian Opera Studies | University of Chicago",
+    "description": "The Center for Italian Opera Studies with offices at UChicago, is the home of editorial work on the critical edition of Gioachino Rossini\u2019s music.",
+    "h1": "Center for Italian Opera Studies",
+    "bytes": 122125,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_jewish_studies": {
+    "slug": "research-and-scholarship_center_center_for_jewish_studies",
+    "file": "research-and-scholarship_center_center_for_jewish_studies.html",
+    "title": "Center for Jewish Studies | University of Chicago",
+    "description": "The Chicago Center for Jewish Studies&#x27; aim is to nurture dialogue among the many disciplines, scholars, and students engaged in Jewish Studies at the University.",
+    "h1": "Center for Jewish Studies",
+    "bytes": 125371,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_latin_american_studies": {
+    "slug": "research-and-scholarship_center_center_for_latin_american_studies",
+    "file": "research-and-scholarship_center_center_for_latin_american_studies.html",
+    "title": "Center for Latin American and Caribbean Studies | University of Chicago",
+    "description": "The University of Chicago Center for Latin American and Caribbean Studies advances knowledge and public understanding of Latin America.",
+    "h1": "Center for Latin American and Caribbean Studies",
+    "bytes": 126120,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_law_philosophy_and_human_values": {
+    "slug": "research-and-scholarship_center_center_for_law_philosophy_and_human_values",
+    "file": "research-and-scholarship_center_center_for_law_philosophy_and_human_values.html",
+    "title": "Center for Law, Philosophy, and Human Values | University of Chicago",
+    "description": "The Center sponsors speakers and conferences to study human values, with an emphasis on the foundations of the normative systems in which human being live.",
+    "h1": "Center for Law, Philosophy, and Human Values",
+    "bytes": 125603,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_mechanical_excitability_cme": {
+    "slug": "research-and-scholarship_center_center_for_mechanical_excitability_cme",
+    "file": "research-and-scholarship_center_center_for_mechanical_excitability_cme.html",
+    "title": "Center for Mechanical Excitability (CME) | University of Chicago",
+    "description": "",
+    "h1": "Center for Mechanical Excitability (CME)",
+    "bytes": 121676,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_middle_eastern_studies": {
+    "slug": "research-and-scholarship_center_center_for_middle_eastern_studies",
+    "file": "research-and-scholarship_center_center_for_middle_eastern_studies.html",
+    "title": "Center for Middle Eastern Studies | University of Chicago",
+    "description": "The Center for Middle Eastern Studies focuses on the region extending from Morocco to Kazakhstan since the rise of Islam.",
+    "h1": "Center for Middle Eastern Studies",
+    "bytes": 125259,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_municipal_finance": {
+    "slug": "research-and-scholarship_center_center_for_municipal_finance",
+    "file": "research-and-scholarship_center_center_for_municipal_finance.html",
+    "title": "Center for Municipal Finance | University of Chicago",
+    "description": "The Center for Municipal Finance enables students and faculty to engage the financial issues facing state and local governments in the U.S. and globally.",
+    "h1": "Center for Municipal Finance",
+    "bytes": 121813,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_nanoscale_materials": {
+    "slug": "research-and-scholarship_center_center_for_nanoscale_materials",
+    "file": "research-and-scholarship_center_center_for_nanoscale_materials.html",
+    "title": "Center for Nanoscale Materials | University of Chicago",
+    "description": "The Center for Nanoscale Materials provides expertise, instruments, and infrastructure for interdisciplinary nanoscience and nanotechnology research.",
+    "h1": "Center for Nanoscale Materials",
+    "bytes": 120583,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_peripheral_neuropathy": {
+    "slug": "research-and-scholarship_center_center_for_peripheral_neuropathy",
+    "file": "research-and-scholarship_center_center_for_peripheral_neuropathy.html",
+    "title": "Center for Peripheral Neuropathy | University of Chicago",
+    "description": "The Center for Peripheral Neuropathy was established in May 2001 as a part of The University of Chicago\u2019s Division of Biological Sciences.",
+    "h1": "Center for Peripheral Neuropathy",
+    "bytes": 122459,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_personalized_therapeutics": {
+    "slug": "research-and-scholarship_center_center_for_personalized_therapeutics",
+    "file": "research-and-scholarship_center_center_for_personalized_therapeutics.html",
+    "title": "Center for Personalized Therapeutics | University of Chicago",
+    "description": "By making pharmacogenomic information accessible, The Center for Personalized Therapeutics translates genomic discovery to improved care for patients.",
+    "h1": "Center for Personalized Therapeutics",
+    "bytes": 120474,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/the_center_for_practical_wisdom": {
+    "slug": "research-and-scholarship_center_the_center_for_practical_wisdom",
+    "file": "research-and-scholarship_center_the_center_for_practical_wisdom.html",
+    "title": "Center for Practical Wisdom | University of Chicago",
+    "description": "The Center for Practical Wisdom&#x27;s aim is to deepen the scientific understanding of wisdom and its role in the decisions and choices that affect everyday life.",
+    "h1": "Center for Practical Wisdom",
+    "bytes": 121816,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_research_informatics": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/center_for_research_informatics",
+    "file": "research-and-scholarship_center_center_for_research_informatics.html",
+    "status": "success",
+    "bytes": 121042
+  },
+  "/research-and-scholarship/center/center_for_spatial_data_science": {
+    "slug": "research-and-scholarship_center_center_for_spatial_data_science",
+    "file": "research-and-scholarship_center_center_for_spatial_data_science.html",
+    "title": "Center for Spatial Data Science | University of Chicago",
+    "description": "The The Center for Spatial Data Science develops methods and disseminates them through support to a growing community of over 200,000 spatial analysts.",
+    "h1": "Center for Spatial Data Science",
+    "bytes": 119987,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_the_art_of_east_asia": {
+    "slug": "research-and-scholarship_center_center_for_the_art_of_east_asia",
+    "file": "research-and-scholarship_center_center_for_the_art_of_east_asia.html",
+    "title": "Center for the Art of East Asia | University of Chicago",
+    "description": "The Center for the Art of East Asia facilitates and supports teaching and research in the rapidly growing field of East Asian Art at the University of Chicago.",
+    "h1": "Center for the Art of East Asia",
+    "bytes": 123214,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_the_economics_of_human_development": {
+    "slug": "research-and-scholarship_center_center_for_the_economics_of_human_development",
+    "file": "research-and-scholarship_center_center_for_the_economics_of_human_development.html",
+    "title": "Center for the Economics of Human Development | University of Chicago",
+    "description": "The Center for the Economics of Human Development encompasses conducts rigorous research to determine effective human capital policies and program design.",
+    "h1": "Center for the Economics of Human Development",
+    "bytes": 121118,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center-for-the-science-of-early-trajectories-set": {
+    "slug": "research-and-scholarship_center_center-for-the-science-of-early-trajectories-set",
+    "file": "research-and-scholarship_center_center-for-the-science-of-early-trajectories-set.html",
+    "title": "Center for the Study of Early Trajectories (SET) | University of Chicago",
+    "description": "",
+    "h1": "Center for the Science of Early Trajectories (SET)",
+    "bytes": 120046,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_gender_studies": {
+    "slug": "research-and-scholarship_center_center_for_gender_studies",
+    "file": "research-and-scholarship_center_center_for_gender_studies.html",
+    "title": "Center for the Study of Gender and Sexuality | University of Chicago",
+    "description": "The Center for the Study of Gender and Sexuality at the University of Chicago is a center for research and graduate training in gender and sexuality studies.",
+    "h1": "Center for the Study of Gender and Sexuality",
+    "bytes": 125609,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_the_study_of_politics_and_society": {
+    "slug": "research-and-scholarship_center_center_for_the_study_of_politics_and_society",
+    "file": "research-and-scholarship_center_center_for_the_study_of_politics_and_society.html",
+    "title": "Center for the Study of Politics and Society | University of Chicago",
+    "description": "The Center for the Study of Politics and Society (CSPS) focuses on the investigation of societal change.",
+    "h1": "Center for the Study of Politics and Society",
+    "bytes": 123172,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_the_study_of_race_politics_and_culture": {
+    "slug": "research-and-scholarship_center_center_for_the_study_of_race_politics_and_culture",
+    "file": "research-and-scholarship_center_center_for_the_study_of_race_politics_and_culture.html",
+    "title": "Center for the Study of Race, Politics and Culture | University of Chicago",
+    "description": "The Center for the Study of Race, Politics and Culture is a program dedicated to promoting engaged scholarship and debate around the topics of race and ethnicity.",
+    "h1": "Center for the Study of Race, Politics and Culture",
+    "bytes": 124689,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_in_beijing": {
+    "slug": "research-and-scholarship_center_center_in_beijing",
+    "file": "research-and-scholarship_center_center_in_beijing.html",
+    "title": "Center in Beijing | University of Chicago",
+    "description": "The UChicago Center in Beijing provides a physical presence to enhance and strengthen the University\u2019s traditionally strong ties to Chinese thought and culture.",
+    "h1": "Center in Beijing",
+    "bytes": 126629,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_in_delhi": {
+    "slug": "research-and-scholarship_center_center_in_delhi",
+    "file": "research-and-scholarship_center_center_in_delhi.html",
+    "title": "Center in Delhi | University of Chicago",
+    "description": "The Center in Delhi supports and expands opportunities for collaboration among scholars and students from India and Chicago, across academic disciplines.",
+    "h1": "Center in Delhi",
+    "bytes": 121516,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_in_paris": {
+    "slug": "research-and-scholarship_center_center_in_paris",
+    "file": "research-and-scholarship_center_center_in_paris.html",
+    "title": "Center in Paris | University of Chicago",
+    "description": "The Center in Paris is UChicago&#x27;s research and teaching arm in Europe, an intellectual community representing our strong ties to European thought and culture.",
+    "h1": "Center in Paris",
+    "bytes": 123151,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_on_demography_and_economics_of_aging": {
+    "slug": "research-and-scholarship_center_center_on_demography_and_economics_of_aging",
+    "file": "research-and-scholarship_center_center_on_demography_and_economics_of_aging.html",
+    "title": "Center on Demography and Economics of Aging | University of Chicago",
+    "description": "The Center on the Demography and Economics of Aging investigates aspects of health, the impact of population aging, and the circumstances of the elderly.",
+    "h1": "Center on Demography and Economics of Aging",
+    "bytes": 123317,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center-on-law-and-finance": {
+    "slug": "research-and-scholarship_center_center-on-law-and-finance",
+    "file": "research-and-scholarship_center_center-on-law-and-finance.html",
+    "title": "Center on Law and Finance | University of Chicago",
+    "description": "",
+    "h1": "Center on Law and Finance",
+    "bytes": 121904,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago_biomedical_consortium": {
+    "slug": "research-and-scholarship_center_chicago_biomedical_consortium",
+    "file": "research-and-scholarship_center_chicago_biomedical_consortium.html",
+    "title": "Chicago Biomedical Consortium | University of Chicago",
+    "description": "The mission of the Chicago Biomedical Consortium is to stimulate collaboration among scientists that will transform research at the frontiers of biomedicine.",
+    "h1": "Chicago Biomedical Consortium",
+    "bytes": 121414,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago_center_for_cosmochemistry": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/chicago_center_for_cosmochemistry",
+    "file": "research-and-scholarship_center_chicago_center_for_cosmochemistry.html",
+    "status": "success",
+    "bytes": 122906
+  },
+  "/research-and-scholarship/center/chicago_center_for_teaching_and_learning": {
+    "slug": "research-and-scholarship_center_chicago_center_for_teaching_and_learning",
+    "file": "research-and-scholarship_center_chicago_center_for_teaching_and_learning.html",
+    "title": "Chicago Center for Teaching and Learning | University of Chicago",
+    "description": "The Chicago Center for Teaching and Learning supports the University\u2019s diverse community of instructors in developing their teaching practices to enhance learning across campus.",
+    "h1": "Chicago Center for Teaching and Learning",
+    "bytes": 120102,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago-center-for-the-origins-of-life": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/chicago-center-for-the-origins-of-life",
+    "file": "research-and-scholarship_center_chicago-center-for-the-origins-of-life.html",
+    "status": "success",
+    "bytes": 126685
+  },
+  "/research-and-scholarship/center/chicago_center_for_the_theory_of_computing_and_allied_areas": {
+    "slug": "research-and-scholarship_center_chicago_center_for_the_theory_of_computing_and_allied_areas",
+    "file": "research-and-scholarship_center_chicago_center_for_the_theory_of_computing_and_allied_areas.html",
+    "title": "Chicago Center for the Theory of Computing and Allied Areas | University of Chicago",
+    "description": "The Theory of Computing revolutionized computational thinking across science, engineering, education, economics, business, and public policy.",
+    "h1": "Chicago Center for the Theory of Computing and Allied Areas",
+    "bytes": 122480,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago_center_for_theoretical_chemistry": {
+    "slug": "research-and-scholarship_center_chicago_center_for_theoretical_chemistry",
+    "file": "research-and-scholarship_center_chicago_center_for_theoretical_chemistry.html",
+    "title": "Chicago Center for Theoretical Chemistry | University of Chicago",
+    "description": "The Chicago Center for Theoretical Chemistry highlights the breadth of theoretical chemistry, including its ongoing research activities and long history.",
+    "h1": "Chicago Center for Theoretical Chemistry",
+    "bytes": 122629,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago_center_on_democracy": {
+    "slug": "research-and-scholarship_center_chicago_center_on_democracy",
+    "file": "research-and-scholarship_center_chicago_center_on_democracy.html",
+    "title": "Chicago Center on Democracy | University of Chicago",
+    "description": "The Chicago Center on Democracy provides a space for normative and empirical researchers to share, discuss, and refine their work on issues related to democracy.",
+    "h1": "Chicago Center on Democracy",
+    "bytes": 123466,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago-diabetes-research-and-training-center": {
+    "slug": "research-and-scholarship_center_chicago-diabetes-research-and-training-center",
+    "file": "research-and-scholarship_center_chicago-diabetes-research-and-training-center.html",
+    "title": "Chicago Diabetes Research and Training Center | University of Chicago",
+    "description": "",
+    "h1": "Chicago Diabetes Research and Training Center",
+    "bytes": 122434,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago_immunoengineering_innovation_center": {
+    "slug": "research-and-scholarship_center_chicago_immunoengineering_innovation_center",
+    "file": "research-and-scholarship_center_chicago_immunoengineering_innovation_center.html",
+    "title": "Chicago Immunoengineering Innovation Center | University of Chicago",
+    "description": "Researchers of the CIIC develop and implement technologies to address many conditions ranging from cancer and infections to allergies and auto-immune diseases.",
+    "h1": "Chicago Immunoengineering Innovation Center",
+    "bytes": 128954,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/chicago_quantum_exchange": {
+    "slug": "research-and-scholarship_center_chicago_quantum_exchange",
+    "file": "research-and-scholarship_center_chicago_quantum_exchange.html",
+    "title": "Chicago Quantum Exchange | University of Chicago",
+    "description": "The Chicago Quantum Exchange is advancing academic and industrial efforts in the science and engineering of quantum information and technology.",
+    "h1": "Chicago Quantum Exchange",
+    "bytes": 127458,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/accounting_research_center": {
+    "slug": "research-and-scholarship_center_accounting_research_center",
+    "file": "research-and-scholarship_center_accounting_research_center.html",
+    "title": "Accounting Research Center | University of Chicago",
+    "description": "The Accounting Research Center (ARC) has promoted accounting research by Chicago Booth faculty and PhD students since the 1960s.",
+    "h1": "Chookaszian Accounting Research Center",
+    "bytes": 121216,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/coase-sandor_institute": {
+    "slug": "research-and-scholarship_center_coase-sandor_institute",
+    "file": "research-and-scholarship_center_coase-sandor_institute.html",
+    "title": "Coase-Sandor Institute for Law and Economics | University of Chicago",
+    "description": "Building on a long tradition of excellence as the birthplace of law in economics, the UChicago Law School launched the Institute for Law and Economics.",
+    "h1": "Coase-Sandor Institute for Law and Economics",
+    "bytes": 123005,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/southern_asia_at_chicago": {
+    "slug": "research-and-scholarship_center_southern_asia_at_chicago",
+    "file": "research-and-scholarship_center_southern_asia_at_chicago.html",
+    "title": "Committee on Southern Asian Studies | University of Chicago",
+    "description": "The Committee on Southern Asia Studies facilitates research, teaching, and events related to Southern Asia.",
+    "h1": "Committee on Southern Asian Studies",
+    "bytes": 129461,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/comprehensive_cancer_center": {
+    "slug": "research-and-scholarship_center_comprehensive_cancer_center",
+    "file": "research-and-scholarship_center_comprehensive_cancer_center.html",
+    "title": "Comprehensive Cancer Center | University of Chicago",
+    "description": "For more than 50 years, The University of Chicago has been a leader in cancer research.",
+    "h1": "Comprehensive Cancer Center",
+    "bytes": 124194,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/computation_institute": {
+    "slug": "research-and-scholarship_center_computation_institute",
+    "file": "research-and-scholarship_center_computation_institute.html",
+    "title": "Computation Institute | University of Chicago",
+    "description": "The Computation Institute is a joint initiative between UChicago and Argonne National Laboratory to advance science through innovative computational approaches.",
+    "h1": "Computation Institute",
+    "bytes": 125077,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/constitutional-law-institute": {
+    "slug": "research-and-scholarship_center_constitutional-law-institute",
+    "file": "research-and-scholarship_center_constitutional-law-institute.html",
+    "title": "Constitutional Law Institute | University of Chicago",
+    "description": "",
+    "h1": "Constitutional Law Institute",
+    "bytes": 122219,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/creel_center_for_chinese_paleography": {
+    "slug": "research-and-scholarship_center_creel_center_for_chinese_paleography",
+    "file": "research-and-scholarship_center_creel_center_for_chinese_paleography.html",
+    "title": "Creel Center for Chinese Paleography | University of Chicago",
+    "description": "Established in 2006, the Creel Center supports the study of early Chinese textual materials, including especially materials that have been unearthed in China.",
+    "h1": "Creel Center for Chinese Paleography",
+    "bytes": 124540,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/crime_lab": {
+    "slug": "research-and-scholarship_center_crime_lab",
+    "file": "research-and-scholarship_center_crime_lab.html",
+    "title": "Crime Lab | University of Chicago",
+    "description": "UChicago Crime Lab seeks to reduce crime and violence by helping government agencies and non-profit organizations rigorously evaluate new pilot programs.",
+    "h1": "Crime Lab",
+    "bytes": 121789,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/dark_energy_survey": {
+    "slug": "research-and-scholarship_center_dark_energy_survey",
+    "file": "research-and-scholarship_center_dark_energy_survey.html",
+    "title": "Dark Energy Survey | University of Chicago",
+    "description": "The Dark Energy Survey probes the origin of the universe and help uncover the nature of dark energy by measuring the 14-billion-year history of cosmic expansion",
+    "h1": "Dark Energy Survey",
+    "bytes": 122964,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/data_science_institute_dsi": {
+    "slug": "research-and-scholarship_center_data_science_institute_dsi",
+    "file": "research-and-scholarship_center_data_science_institute_dsi.html",
+    "title": "Data Science Institute (DSI) | University of Chicago",
+    "description": "The Data Science Institute (DSI) is an intellectual hub and incubator for data science and artificial intelligence research at the University of Chicago.",
+    "h1": "Data Science Institute (DSI)",
+    "bytes": 123198,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/digestive_diseases_research_core_center": {
+    "slug": "research-and-scholarship_center_digestive_diseases_research_core_center",
+    "file": "research-and-scholarship_center_digestive_diseases_research_core_center.html",
+    "title": "Digestive Diseases Research Core Center | University of Chicago",
+    "description": "Since its founding in 1990, the Digestive Disease Research Core Center at the University of Chicago has stood at the forefront of medical research.",
+    "h1": "Digestive Diseases Research Core Center",
+    "bytes": 124880,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/duchossois_family_institute": {
+    "slug": "research-and-scholarship_center_duchossois_family_institute",
+    "file": "research-and-scholarship_center_duchossois_family_institute.html",
+    "title": "Duchossois Family Institute | University of Chicago",
+    "description": "Harnessing the Microbiome and Immunity for Human Health was established with a  gift from Janet and Craig Duchossois and The Duchossois Family Foundation.",
+    "h1": "Duchossois Family Institute",
+    "bytes": 125027,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/energy_policy_institute_at_chicago": {
+    "slug": "research-and-scholarship_center_energy_policy_institute_at_chicago",
+    "file": "research-and-scholarship_center_energy_policy_institute_at_chicago.html",
+    "title": "Energy Policy Institute at Chicago | University of Chicago",
+    "description": "The Energy Policy Institute at Chicago, or EPIC, is a research and training institute focused on the economic and social consequences of energy policies.",
+    "h1": "Energy Policy Institute at Chicago",
+    "bytes": 125739,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/enrico_fermi_institute": {
+    "slug": "research-and-scholarship_center_enrico_fermi_institute",
+    "file": "research-and-scholarship_center_enrico_fermi_institute.html",
+    "title": "Enrico Fermi Institute | University of Chicago",
+    "description": "The Enrico Fermi Institute (EFI), named in honor of one of its founders, is a Physical Sciences unit of the University devoted to interdisciplinary research.",
+    "h1": "Enrico Fermi Institute",
+    "bytes": 124625,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/fama_miller_center_for_research_in_finance": {
+    "slug": "research-and-scholarship_center_fama_miller_center_for_research_in_finance",
+    "file": "research-and-scholarship_center_fama_miller_center_for_research_in_finance.html",
+    "title": "Fama-Miller Center for Research in Finance | University of Chicago",
+    "description": "The Fama-Miller Center was founded to promote and enhance academic research in finance at the University of Chicago Booth School of Business.",
+    "h1": "Fama-Miller Center for Research in Finance",
+    "bytes": 120135,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/film-studies-center": {
+    "slug": "research-and-scholarship_center_film-studies-center",
+    "file": "research-and-scholarship_center_film-studies-center.html",
+    "title": "Film Studies Center | University of Chicago",
+    "description": "",
+    "h1": "Film Studies Center",
+    "bytes": 118554,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/france_chicago_center": {
+    "slug": "research-and-scholarship_center_france_chicago_center",
+    "file": "research-and-scholarship_center_france_chicago_center.html",
+    "title": "France Chicago Center | University of Chicago",
+    "description": "The France Chicago Center promotes exchange between the University of Chicago and France to increase appreciation of French culture, art, and thought.",
+    "h1": "France Chicago Center",
+    "bytes": 125653,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/franke_institute_for_the_humanities": {
+    "slug": "research-and-scholarship_center_franke_institute_for_the_humanities",
+    "file": "research-and-scholarship_center_franke_institute_for_the_humanities.html",
+    "title": "Franke Institute for the Humanities | University of Chicago",
+    "description": "The mission of the Franke Institute for the Humanities is to foster the development of advanced research across the various disciplines of the humanities.",
+    "h1": "Franke Institute for the Humanities",
+    "bytes": 123354,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/gwen_knapp_center_for_lupus_immunology_research": {
+    "slug": "research-and-scholarship_center_gwen_knapp_center_for_lupus_immunology_research",
+    "file": "research-and-scholarship_center_gwen_knapp_center_for_lupus_immunology_research.html",
+    "title": "Gwen Knapp Center for Lupus &amp; Immunology Research | University of Chicago",
+    "description": "The Gwen Knapp Center for Lupus and Immunology Research studies autoimmunity and successfully coordinates basic science with translational and clinical research.",
+    "h1": "Gwen Knapp Center for Lupus and Immunology Research",
+    "bytes": 122877,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/harry_l_davis_center_for_leadership": {
+    "slug": "research-and-scholarship_center_harry_l_davis_center_for_leadership",
+    "file": "research-and-scholarship_center_harry_l_davis_center_for_leadership.html",
+    "title": "Harry L. Davis Center for Leadership | University of Chicago",
+    "description": "The Harry L. Davis Center for Leadership generates insights about leadership that impact education, practice, and discovery for future generations of students.",
+    "h1": "Harry L. Davis Center for Leadership",
+    "bytes": 123209,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/healthy-aging-alzheimers-research-care-haarc-center": {
+    "slug": "research-and-scholarship_center_healthy-aging-alzheimers-research-care-haarc-center",
+    "file": "research-and-scholarship_center_healthy-aging-alzheimers-research-care-haarc-center.html",
+    "title": "Healthy Aging &amp; Alzheimer&#x27;s Research Care (HAARC) Center | University of Chicago",
+    "description": "",
+    "h1": "Healthy Aging &amp; Alzheimer&#x27;s Research Care (HAARC) Center",
+    "bytes": 117229,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/high_energy_physics_projects_atlas_detector": {
+    "slug": "research-and-scholarship_center_high_energy_physics_projects_atlas_detector",
+    "file": "research-and-scholarship_center_high_energy_physics_projects_atlas_detector.html",
+    "title": "High Energy Physics Projects: Atlas Detector | University of Chicago",
+    "description": "The ATLAS detector has being built to study proton-proton collisions at a center of mass energy of 14 TeV, seven times higher than previous facilities.",
+    "h1": "High Energy Physics Projects: Atlas Detector",
+    "bytes": 122751,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/high_energy_physics_projects_cdf_detector": {
+    "slug": "research-and-scholarship_center_high_energy_physics_projects_cdf_detector",
+    "file": "research-and-scholarship_center_high_energy_physics_projects_cdf_detector.html",
+    "title": "High Energy Physics Projects: CDF Detector | University of Chicago",
+    "description": "The Collider Detector at Fermilab experimental collaboration studies high energy particle collisions at the world\u2019s highest energy proton-antiproton collider.",
+    "h1": "High Energy Physics Projects: CDF Detector",
+    "bytes": 120154,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/high_energy_physics_projects_pierre_auger_observatory": {
+    "slug": "research-and-scholarship_center_high_energy_physics_projects_pierre_auger_observatory",
+    "file": "research-and-scholarship_center_high_energy_physics_projects_pierre_auger_observatory.html",
+    "title": "High Energy Physics Projects: Pierre Auger Observatory | University of Chicago",
+    "description": "The Pierre Auger Cosmic Ray Observatory is studying the universe\u2019s highest energy particles, which shower down on Earth in the form of cosmic rays.",
+    "h1": "High Energy Physics Projects: Pierre Auger Observatory",
+    "bytes": 122950,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/howard_taylor_ricketts_laboratory": {
+    "slug": "research-and-scholarship_center_howard_taylor_ricketts_laboratory",
+    "file": "research-and-scholarship_center_howard_taylor_ricketts_laboratory.html",
+    "title": "Howard Taylor Ricketts Laboratory | University of Chicago",
+    "description": "The Howard T. Ricketts Laboratory is one of 13 Regional Biocontainment facilities located throughout the United States constructed by partnerships.",
+    "h1": "Howard Taylor Ricketts Laboratory",
+    "bytes": 121095,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/initiative_on_global_markets": {
+    "slug": "research-and-scholarship_center_initiative_on_global_markets",
+    "file": "research-and-scholarship_center_initiative_on_global_markets.html",
+    "title": "Initiative on Global Markets | University of Chicago",
+    "description": "The Initiative on Global Markets supports original research on international business, financial markets and public policies.",
+    "h1": "Initiative on Global Markets",
+    "bytes": 121728,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute_for_biophysical_dynamics": {
+    "slug": "research-and-scholarship_center_institute_for_biophysical_dynamics",
+    "file": "research-and-scholarship_center_institute_for_biophysical_dynamics.html",
+    "title": "Institute for Biophysical Dynamics | University of Chicago",
+    "description": "The IBD was established to meet the challenges of achieving a molecular-level understanding of the structure, diversity and function of biological entities.",
+    "h1": "Institute for Biophysical Dynamics",
+    "bytes": 122013,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute_for_climate_and_sustainable_growth": {
+    "slug": "research-and-scholarship_center_institute_for_climate_and_sustainable_growth",
+    "file": "research-and-scholarship_center_institute_for_climate_and_sustainable_growth.html",
+    "title": "Institute for Climate and Sustainable Growth | University of Chicago",
+    "description": "",
+    "h1": "Institute for Climate and Sustainable Growth",
+    "bytes": 118258,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute_for_genomics_and_systems_biology": {
+    "slug": "research-and-scholarship_center_institute_for_genomics_and_systems_biology",
+    "file": "research-and-scholarship_center_institute_for_genomics_and_systems_biology.html",
+    "title": "Institute for Genomics and Systems Biology | University of Chicago",
+    "description": "IGSB is an engine for discovery that utilizes the latest approaches in genome analysis, high throughput screening, and biological computation.",
+    "h1": "Institute for Genomics and Systems Biology",
+    "bytes": 123599,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute_for_integrative_physiology": {
+    "slug": "research-and-scholarship_center_institute_for_integrative_physiology",
+    "file": "research-and-scholarship_center_institute_for_integrative_physiology.html",
+    "title": "Institute for Integrative Physiology | University of Chicago",
+    "description": "The Institute for Integrative Physiology is a home for faculty members interested in various areas of Physiology to foster interactive research programs.",
+    "h1": "Institute for Integrative Physiology",
+    "bytes": 122739,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute-for-mathematical-and-statistical-innovation": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/institute-for-mathematical-and-statistical-innovation",
+    "file": "research-and-scholarship_center_institute-for-mathematical-and-statistical-innovation.html",
+    "status": "success",
+    "bytes": 120991
+  },
+  "/research-and-scholarship/center/institute_for_mind_and_biology": {
+    "slug": "research-and-scholarship_center_institute_for_mind_and_biology",
+    "file": "research-and-scholarship_center_institute_for_mind_and_biology.html",
+    "title": "Institute for Mind and Biology | University of Chicago",
+    "description": "The Institute for Mind and Biology at UChicago supports scientific research about the mind and its dynamic interactions with the biological systems of the body.",
+    "h1": "Institute for Mind and Biology",
+    "bytes": 124395,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute_for_population_and_precision_health": {
+    "slug": "research-and-scholarship_center_institute_for_population_and_precision_health",
+    "file": "research-and-scholarship_center_institute_for_population_and_precision_health.html",
+    "title": "Institute for Population and Precision Health | University of Chicago",
+    "description": "The IPPH provides researchers with population-based resources to tackle the most challenging biological, behavioral, and economic problems in medicine.",
+    "h1": "Institute for Population and Precision Health",
+    "bytes": 120843,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute-for-the-study-of-ancient-cultures": {
+    "slug": "research-and-scholarship_center_institute-for-the-study-of-ancient-cultures",
+    "file": "research-and-scholarship_center_institute-for-the-study-of-ancient-cultures.html",
+    "title": "Institute for the Study of Ancient Cultures, West Asia &amp; North Africa (ISAC) | University of Chicago",
+    "description": "The Institute for the Study of Ancient Cultures is a research center whose goal is to integrate data to understand civilizations of the Near East from the earliest Holocene through the Medieval period.",
+    "h1": "Institute for the Study of Ancient Cultures, West Asia &amp; North Africa (ISAC)",
+    "bytes": 125483,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute_of_politics": {
+    "slug": "research-and-scholarship_center_institute_of_politics",
+    "file": "research-and-scholarship_center_institute_of_politics.html",
+    "title": "Institute of Politics | University of Chicago",
+    "description": "The IOP encourages and assists UChicago students to explore careers in public and social service and provides opportunities in politics and policymaking.",
+    "h1": "Institute of Politics",
+    "bytes": 121902,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/institute_for_translational_medicine": {
+    "slug": "research-and-scholarship_center_institute_for_translational_medicine",
+    "file": "research-and-scholarship_center_institute_for_translational_medicine.html",
+    "title": "Institute for Translational Medicine | University of Chicago",
+    "description": "ITM connects researchers and community organizations with funding, education, and resources to find ways to prevent and treat disease in real-world settings.",
+    "h1": "Institute for Translational Medicine",
+    "bytes": 125895,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/interdisciplinary_programs": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/interdisciplinary_programs",
+    "file": "research-and-scholarship_center_interdisciplinary_programs.html",
+    "status": "success",
+    "bytes": 123430
+  },
+  "/research-and-scholarship/center/international_research_center_for_fundamental_discovery": {
+    "slug": "research-and-scholarship_center_international_research_center_for_fundamental_discovery",
+    "file": "research-and-scholarship_center_international_research_center_for_fundamental_discovery.html",
+    "title": "International Research Center for Fundamental Discovery (IRC Discovery) | University of Chicago",
+    "description": "",
+    "h1": "International Research Center for Fundamental Discovery (IRC Discovery)",
+    "bytes": 119829,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/james_franck_institute": {
+    "slug": "research-and-scholarship_center_james_franck_institute",
+    "file": "research-and-scholarship_center_james_franck_institute.html",
+    "title": "James Franck Institute | University of Chicago",
+    "description": "The James Franck Institute is the premier institute in the U.S. for interdisciplinary research at the intersection of physics, chemistry and materials science.",
+    "h1": "James Franck Institute",
+    "bytes": 122993,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/joint_institute_for_nuclear_astrophysics_jina": {
+    "slug": "research-and-scholarship_center_joint_institute_for_nuclear_astrophysics_jina",
+    "file": "research-and-scholarship_center_joint_institute_for_nuclear_astrophysics_jina.html",
+    "title": "Joint Institute for Nuclear Astrophysics (JINA) | University of Chicago",
+    "description": "The origin and fate of matter in our universe are the fundamental questions in nuclear astrophysics.",
+    "h1": "Joint Institute for Nuclear Astrophysics (JINA)",
+    "bytes": 126627,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/kennedy_center": {
+    "slug": "research-and-scholarship_center_kennedy_center",
+    "file": "research-and-scholarship_center_kennedy_center.html",
+    "title": "Joseph P. Kennedy Mental Retardation and Developmental Disabilities Research Center | University of Chicago",
+    "description": "Kennedy Center was established to promote collaborative research in the causes, prevention and treatment of mental retardation and developmental disabilities.",
+    "h1": "Joseph P. Kennedy Mental Retardation and Developmental Disabilities Research Center",
+    "bytes": 124213,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/kadanoff-center-for-theoretical-physics": {
+    "slug": "research-and-scholarship_center_kadanoff-center-for-theoretical-physics",
+    "file": "research-and-scholarship_center_kadanoff-center-for-theoretical-physics.html",
+    "title": "Kadanoff Center for Theoretical Physics | University of Chicago",
+    "description": "",
+    "h1": "Kadanoff Center for Theoretical Physics",
+    "bytes": 119649,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/karla_scherer_center_for_the_study_of_american_culture": {
+    "slug": "research-and-scholarship_center_karla_scherer_center_for_the_study_of_american_culture",
+    "file": "research-and-scholarship_center_karla_scherer_center_for_the_study_of_american_culture.html",
+    "title": "Karla Scherer Center for the Study of American Culture | University of Chicago",
+    "description": "The Scherer Center serves as a hub for the study of America at the University of Chicago and makes that study visible on a national and international level.",
+    "h1": "Karla Scherer Center for the Study of American Culture",
+    "bytes": 122908,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/katz_center_for_mexican_studies": {
+    "slug": "research-and-scholarship_center_katz_center_for_mexican_studies",
+    "file": "research-and-scholarship_center_katz_center_for_mexican_studies.html",
+    "title": "Katz Center for Mexican Studies | University of Chicago",
+    "description": "The Katz Center for Mexican Studies was founded in 2004 and named in honor of Professor Friedrich Katz, one of the world\u2019s leading scholars of Mexican history.",
+    "h1": "Katz Center for Mexican Studies",
+    "bytes": 123057,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/kavli_institute_for_cosmological_physics": {
+    "slug": "research-and-scholarship_center_kavli_institute_for_cosmological_physics",
+    "file": "research-and-scholarship_center_kavli_institute_for_cosmological_physics.html",
+    "title": "Kavli Institute for Cosmological Physics | University of Chicago",
+    "description": "KICP exploits the connections made by the idea that physics at the smallest scale is intimately connected with the largest scale.",
+    "h1": "Kavli Institute for Cosmological Physics",
+    "bytes": 121799,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/kilts_center_for_marketing": {
+    "slug": "research-and-scholarship_center_kilts_center_for_marketing",
+    "file": "research-and-scholarship_center_kilts_center_for_marketing.html",
+    "title": "Kilts Center for Marketing | University of Chicago",
+    "description": "The Kilts Center enhances the research environment and facilitates thought leadership among Booth\u2019s marketing faculty and attracts and graduates MBA talent.",
+    "h1": "Kilts Center for Marketing",
+    "bytes": 122721,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/knowledge_lab": {
+    "slug": "research-and-scholarship_center_knowledge_lab",
+    "file": "research-and-scholarship_center_knowledge_lab.html",
+    "title": "Knowledge Lab | University of Chicago",
+    "description": "The explosion of digital information offers an unprecedented opportunity to study the dynamics that shape human understanding, investigation and certainty.",
+    "h1": "Knowledge Lab",
+    "bytes": 121326,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/kovler_diabetes_center": {
+    "slug": "research-and-scholarship_center_kovler_diabetes_center",
+    "file": "research-and-scholarship_center_kovler_diabetes_center.html",
+    "title": "Kovler Diabetes Center | University of Chicago",
+    "description": "The UChicago Kovler Diabetes Center offers a patient-centered, science-based approach for managing insulin-dependent type-1 and complex type-2 diabetes.",
+    "h1": "Kovler Diabetes Center",
+    "bytes": 133359,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/maclean_center_for_clinical_medical_ethics": {
+    "slug": "research-and-scholarship_center_maclean_center_for_clinical_medical_ethics",
+    "file": "research-and-scholarship_center_maclean_center_for_clinical_medical_ethics.html",
+    "title": "MacLean Center for Clinical Medical Ethics | University of Chicago",
+    "description": "The University of Chicago established the MacLean Center for Clinical Medical Ethics through the generous support of Dorothy J. MacLean and the MacLean family.",
+    "h1": "MacLean Center for Clinical Medical Ethics",
+    "bytes": 124248,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/malyi-center": {
+    "slug": "research-and-scholarship_center_malyi-center",
+    "file": "research-and-scholarship_center_malyi-center.html",
+    "title": "Malyi Center for the Study of Institutional and Legal Integrity | University of Chicago",
+    "description": "",
+    "h1": "Malyi Center for the Study of Institutional and Legal Integrity",
+    "bytes": 120814,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/mansueto-institute": {
+    "slug": "research-and-scholarship_center_mansueto-institute",
+    "file": "research-and-scholarship_center_mansueto-institute.html",
+    "title": "Mansueto Institute for Urban Innovation | University of Chicago",
+    "description": "",
+    "h1": "Mansueto Institute for Urban Innovation",
+    "bytes": 116921,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/martin_marty_center_for_the_advanced_study_of_religion": {
+    "slug": "research-and-scholarship_center_martin_marty_center_for_the_advanced_study_of_religion",
+    "file": "research-and-scholarship_center_martin_marty_center_for_the_advanced_study_of_religion.html",
+    "title": "Martin Marty Center for the Public Understanding of Religion | University of Chicago",
+    "description": "The Martin Marty Center for the Public Understanding of Religion is the institute for research in all fields of the study of religion at the UChicago Divinity School.",
+    "h1": "The Martin Marty Center for the Public Understanding of Religion",
+    "bytes": 123527,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/materials_research_science_and_engineering_center": {
+    "slug": "research-and-scholarship_center_materials_research_science_and_engineering_center",
+    "file": "research-and-scholarship_center_materials_research_science_and_engineering_center.html",
+    "title": "Materials Research Science and Engineering Center | University of Chicago",
+    "description": "The Materials Research Science and Engineering Center incubates innovative research to produce the design principles for the next generation of materials.",
+    "h1": "Materials Research Science and Engineering Center",
+    "bytes": 123195,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/morris_fishbein_center_for_the_history_of_science_and_medicine": {
+    "slug": "research-and-scholarship_center_morris_fishbein_center_for_the_history_of_science_and_medicine",
+    "file": "research-and-scholarship_center_morris_fishbein_center_for_the_history_of_science_and_medicine.html",
+    "title": "Morris Fishbein Center for the History of Science and Medicine | University of Chicago",
+    "description": "The Fishbein Center was inaugurated in 1970 to encourage the study of the history of science and medicine at the University of Chicago.",
+    "h1": "Morris Fishbein Center for the History of Science and Medicine",
+    "bytes": 124333,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/mri_research_center": {
+    "slug": "research-and-scholarship_center_mri_research_center",
+    "file": "research-and-scholarship_center_mri_research_center.html",
+    "title": "MRI Research Center | University of Chicago",
+    "description": "The University of Chicago MRI Research Center houses a research-dedicated high field Magnetic Resonance System (3T-MRI).",
+    "h1": "MRI Research Center",
+    "bytes": 120344,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/neubauer_collegium_for_culture_and_society": {
+    "slug": "research-and-scholarship_center_neubauer_collegium_for_culture_and_society",
+    "file": "research-and-scholarship_center_neubauer_collegium_for_culture_and_society.html",
+    "title": "Neubauer Collegium for Culture and Society | University of Chicago",
+    "description": "The Neubauer Collegium for Culture and Society creates new communities of inquiry.",
+    "h1": "Neubauer Collegium for Culture and Society",
+    "bytes": 120837,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/nicholson_center_for_british_studies": {
+    "slug": "research-and-scholarship_center_nicholson_center_for_british_studies",
+    "file": "research-and-scholarship_center_nicholson_center_for_british_studies.html",
+    "title": "Nicholson Center for British Studies | University of Chicago",
+    "description": "The University of Chicago is a center of remarkable strength in British Studies broadly conceived.",
+    "h1": "Nicholson Center for British Studies",
+    "bytes": 122285,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/ogburn_stouffer_center_for_the_study_of_social_organization": {
+    "slug": "research-and-scholarship_center_ogburn_stouffer_center_for_the_study_of_social_organization",
+    "file": "research-and-scholarship_center_ogburn_stouffer_center_for_the_study_of_social_organization.html",
+    "title": "Ogburn-Stouffer Center for the Study of Social Organization | University of Chicago",
+    "description": "The Ogburn-Stouffer Center promotes research on population, political attitudes and decision making, community, health, social inequality, and social structure.",
+    "h1": "Ogburn-Stouffer Center for the Study of Social Organization",
+    "bytes": 124614,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/paulson_institute": {
+    "slug": "research-and-scholarship_center_paulson_institute",
+    "file": "research-and-scholarship_center_paulson_institute.html",
+    "title": "Paulson Institute | University of Chicago",
+    "description": "The Paulson Institute is a non-partisan institution that promotes sustainable economic growth and a cleaner environment around the world.",
+    "h1": "Paulson Institute",
+    "bytes": 123845,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/polsky_center_for_entrepreneurship": {
+    "slug": "research-and-scholarship_center_polsky_center_for_entrepreneurship",
+    "file": "research-and-scholarship_center_polsky_center_for_entrepreneurship.html",
+    "title": "Polsky Center for Entrepreneurship and Innovation | University of Chicago",
+    "description": "The Polsky Center for Entrepreneurship and Innovation drives venture creation and technology commercialization within UChicago and the surrounding community.",
+    "h1": "Polsky Center for Entrepreneurship and Innovation",
+    "bytes": 125150,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/population_research_center": {
+    "slug": "research-and-scholarship_center_population_research_center",
+    "file": "research-and-scholarship_center_population_research_center.html",
+    "title": "Population Research Center | University of Chicago",
+    "description": "The Population Research Center is an interdisciplinary research center designed to facilitate high-quality population research conducted by its researchers.",
+    "h1": "Population Research Center",
+    "bytes": 128819,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/center_for_human_rights": {
+    "slug": "research-and-scholarship_center_center_for_human_rights",
+    "file": "research-and-scholarship_center_center_for_human_rights.html",
+    "title": "Pozen Family Center for Human Rights | University of Chicago",
+    "description": "Research in human rights explores human dignity with examination of the institutions designed to promote and protect human rights in the contemporary world.",
+    "h1": "Pozen Family Center for Human Rights",
+    "bytes": 126349,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/program_on_the_global_environment": {
+    "slug": "research-and-scholarship_center_program_on_the_global_environment",
+    "file": "research-and-scholarship_center_program_on_the_global_environment.html",
+    "title": "Program on the Global Environment | University of Chicago",
+    "description": "Deforestation, climate change, pollution, water resources, habitat loss, and a growing population are among the environmental issues facing the world.",
+    "h1": "Program on the Global Environment",
+    "bytes": 122442,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/research_computing_center": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/research_computing_center",
+    "file": "research-and-scholarship_center_research_computing_center.html",
+    "status": "success",
+    "bytes": 126076
+  },
+  "/research-and-scholarship/center/roman_family_center_for_decision_research": {
+    "slug": "research-and-scholarship_center_roman_family_center_for_decision_research",
+    "file": "research-and-scholarship_center_roman_family_center_for_decision_research.html",
+    "title": "Roman Family Center for Decision Research | University of Chicago",
+    "description": "The Roman Family Center for Decision Research is devoted to the study of how individuals form judgments and make decisions.",
+    "h1": "Roman Family Center for Decision Research",
+    "bytes": 122645,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/rustandy_center_for_social_sector_innovation": {
+    "slug": "research-and-scholarship_center_rustandy_center_for_social_sector_innovation",
+    "file": "research-and-scholarship_center_rustandy_center_for_social_sector_innovation.html",
+    "title": "Rustandy Center for Social Sector Innovation | University of Chicago",
+    "description": "The Rustandy Center for Social Sector Innovation is the destination for people committed to helping solve complex social and environmental problems.",
+    "h1": "Rustandy Center for Social Sector Innovation",
+    "bytes": 121507,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/stevanovich_center": {
+    "url": "https://www.uchicago.edu/research-and-scholarship/center/stevanovich_center",
+    "file": "research-and-scholarship_center_stevanovich_center.html",
+    "status": "success",
+    "bytes": 125330
+  },
+  "/research-and-scholarship/center/stigler_center_for_the_study_of_the_economy_and_the_state": {
+    "slug": "research-and-scholarship_center_stigler_center_for_the_study_of_the_economy_and_the_state",
+    "file": "research-and-scholarship_center_stigler_center_for_the_study_of_the_economy_and_the_state.html",
+    "title": "Stigler Center for the Study of the Economy and the State | University of Chicago",
+    "description": "Understanding the relationship between the private sector economy and government\u2019s role in a free market society is important.",
+    "h1": "Stigler Center for the Study of the Economy and the State",
+    "bytes": 123406,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/stone-center-for-research-on-wealth-inequality-and-mobility": {
+    "slug": "research-and-scholarship_center_stone-center-for-research-on-wealth-inequality-and-mobility",
+    "file": "research-and-scholarship_center_stone-center-for-research-on-wealth-inequality-and-mobility.html",
+    "title": "Stone Center for Research on Wealth Inequality and Mobility | University of Chicago",
+    "description": "",
+    "h1": "Stone Center for Research on Wealth Inequality and Mobility",
+    "bytes": 120193,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/survey_lab": {
+    "slug": "research-and-scholarship_center_survey_lab",
+    "file": "research-and-scholarship_center_survey_lab.html",
+    "title": "Survey Lab | University of Chicago",
+    "description": "The Survey Lab&#x27;s mission is to provide high-quality data collection and consulting services to our clients, including academic researchers.",
+    "h1": "Survey Lab",
+    "bytes": 119816,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/tang_center_for_herbal_medicine_research": {
+    "slug": "research-and-scholarship_center_tang_center_for_herbal_medicine_research",
+    "file": "research-and-scholarship_center_tang_center_for_herbal_medicine_research.html",
+    "title": "Tang Center for Herbal Medicine Research | University of Chicago",
+    "description": "The Tang Center for Herbal Medicine Research verifies the effects of herbs, including those have been used in the Far East and are becoming popular in the US.",
+    "h1": "Tang Center for Herbal Medicine Research",
+    "bytes": 122703,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/the_chicago_project_on_security_and_threats": {
+    "slug": "research-and-scholarship_center_the_chicago_project_on_security_and_threats",
+    "file": "research-and-scholarship_center_the_chicago_project_on_security_and_threats.html",
+    "title": "The Chicago Project on Security and Threats | University of Chicago",
+    "description": "The Chicago Project on Security &amp; Threats (CPOST) is an international security affairs research institute based at the University of Chicago.",
+    "h1": "The Chicago Project on Security &amp; Threats",
+    "bytes": 122072,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/the-initiative-on-enabling-choice-and-competition-in-healthcare": {
+    "slug": "research-and-scholarship_center_the-initiative-on-enabling-choice-and-competition-in-healthcare",
+    "file": "research-and-scholarship_center_the-initiative-on-enabling-choice-and-competition-in-healthcare.html",
+    "title": "The Initiative on Enabling Choice and Competition in Healthcare | University of Chicago",
+    "description": "The University of Chicago Adoption Center provides medical care, advocacy and research to meet the needs of orphaned children and their adopting families.",
+    "h1": "The Initiative on Enabling Choice and Competition in Healthcare",
+    "bytes": 123491,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/the-susan-and-richard-kiphart-center-for-global-health-and-social-development": {
+    "slug": "research-and-scholarship_center_the-susan-and-richard-kiphart-center-for-global-health-and-social-development",
+    "file": "research-and-scholarship_center_the-susan-and-richard-kiphart-center-for-global-health-and-social-development.html",
+    "title": "The Susan and Richard Kiphart Center for Global Health and Social Development | University of Chicago",
+    "description": "",
+    "h1": "The Susan and Richard Kiphart Center for Global Health and Social Development",
+    "bytes": 121454,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/tmw_center_for_early_learning_public_health": {
+    "slug": "research-and-scholarship_center_tmw_center_for_early_learning_public_health",
+    "file": "research-and-scholarship_center_tmw_center_for_early_learning_public_health.html",
+    "title": "TMW Center for Early Learning + Public Health | University of Chicago",
+    "description": "The TMW Center for Early Learning + Public Health is a joint venture between the University\u2019s Biological Sciences and Social Sciences Divisions.",
+    "h1": "TMW Center for Early Learning + Public Health",
+    "bytes": 124236,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/tolan-center-for-healthcare-at-chicago-booth": {
+    "slug": "research-and-scholarship_center_tolan-center-for-healthcare-at-chicago-booth",
+    "file": "research-and-scholarship_center_tolan-center-for-healthcare-at-chicago-booth.html",
+    "title": "Tolan Center for Healthcare at Chicago Booth | University of Chicago",
+    "description": "",
+    "h1": "Tolan Center for Healthcare at Chicago Booth",
+    "bytes": 119564,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/uchicago_research_bangladesh": {
+    "slug": "research-and-scholarship_center_uchicago_research_bangladesh",
+    "file": "research-and-scholarship_center_uchicago_research_bangladesh.html",
+    "title": "UChicago Research Bangladesh | University of Chicago",
+    "description": "UChicago Research Bangladesh (URB) is an international non-profit research organization affiliated with the University of Chicago, USA.",
+    "h1": "UChicago Research Bangladesh",
+    "bytes": 119860,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/uchicago_stem_education": {
+    "slug": "research-and-scholarship_center_uchicago_stem_education",
+    "file": "research-and-scholarship_center_uchicago_stem_education.html",
+    "title": "UChicago STEM Education | University of Chicago",
+    "description": "UChicago STEM Education is a center devoted to research and development that resides within the Physical Sciences Division (PSD) of the University of Chicago.",
+    "h1": "UChicago STEM Education",
+    "bytes": 121294,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/university_of_chicago_celiac_disease_center": {
+    "slug": "research-and-scholarship_center_university_of_chicago_celiac_disease_center",
+    "file": "research-and-scholarship_center_university_of_chicago_celiac_disease_center.html",
+    "title": "University of Chicago Celiac Disease Center | University of Chicago",
+    "description": "The UChicago Celiac Disease Center raises diagnosis rates for celiac disease and meets the needs of people with the condition through education and research.",
+    "h1": "University of Chicago Celiac Disease Center",
+    "bytes": 123570,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/university_of_chicago_language_center": {
+    "slug": "research-and-scholarship_center_university_of_chicago_language_center",
+    "file": "research-and-scholarship_center_university_of_chicago_language_center.html",
+    "title": "University of Chicago Language Center | University of Chicago",
+    "description": "The CLC is where instructors create and enhance course materials through access to state-of-the-art computers, software, and audiovisual recording equipment.",
+    "h1": "University of Chicago Language Center",
+    "bytes": 121865,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/university_of_chicago_neuroscience_institute": {
+    "slug": "research-and-scholarship_center_university_of_chicago_neuroscience_institute",
+    "file": "research-and-scholarship_center_university_of_chicago_neuroscience_institute.html",
+    "title": "University of Chicago Neuroscience Institute | University of Chicago",
+    "description": "UChicago Neuroscience Institute is the home for a diverse group of scholars and scientists working together to advance our understanding of the brain.",
+    "h1": "University of Chicago Neuroscience Institute",
+    "bytes": 121883,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/urban_center_for_computation_and_data": {
+    "slug": "research-and-scholarship_center_urban_center_for_computation_and_data",
+    "file": "research-and-scholarship_center_urban_center_for_computation_and_data.html",
+    "title": "Urban Center for Computation and Data | University of Chicago",
+    "description": "UrbanCCD will apply the most advanced computational and data-driven techniques to the challenge of intelligent urban planning and design.",
+    "h1": "Urban Center for Computation and Data",
+    "bytes": 128120,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/urban_education_institute": {
+    "slug": "research-and-scholarship_center_urban_education_institute",
+    "file": "research-and-scholarship_center_urban_education_institute.html",
+    "title": "Urban Education Institute | University of Chicago",
+    "description": "The mission of the University of Chicago Urban Education Institute (UEI) is to create knowledge to produce reliably excellent urban schooling.",
+    "h1": "Urban Education Institute",
+    "bytes": 118876,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/urban_health_initiative": {
+    "slug": "research-and-scholarship_center_urban_health_initiative",
+    "file": "research-and-scholarship_center_urban_health_initiative.html",
+    "title": "Urban Health Initiative | University of Chicago",
+    "description": "UHI is the UChicago&#x27;s commitment to improving health and access to quality care for the South Side of Chicago through patient care, research and education.",
+    "h1": "Urban Health Initiative",
+    "bytes": 122326,
+    "status": "success"
+  },
+  "/research-and-scholarship/center/veritas_gamma_ray_observatory": {
+    "slug": "research-and-scholarship_center_veritas_gamma_ray_observatory",
+    "file": "research-and-scholarship_center_veritas_gamma_ray_observatory.html",
+    "title": "VERITAS Gamma Ray Observatory | University of Chicago",
+    "description": "VERITAS is a ground-based gamma-ray observatory with an array of four 12 m optical reflectors for gamma-ray astronomy in the energy range of 50 GeV - 50 TeV.",
+    "h1": "VERITAS Gamma Ray Observatory",
+    "bytes": 121529,
+    "status": "success"
+  },
+  "/life-at-uchicago/safety-and-security/emergency-contacts": {
+    "slug": "life-at-uchicago_safety-and-security_emergency-contacts",
+    "file": "life-at-uchicago_safety-and-security_emergency-contacts.html",
+    "title": "Emergency Contacts | University of Chicago",
+    "description": "",
+    "h1": "Emergency Contacts",
+    "bytes": 123891,
+    "status": "success"
+  },
+  "/life-at-uchicago/safety-and-security/staying-safe-in-the-city": {
+    "slug": "life-at-uchicago_safety-and-security_staying-safe-in-the-city",
+    "file": "life-at-uchicago_safety-and-security_staying-safe-in-the-city.html",
+    "title": "Safety Tips - Staying Safe in the City | University of Chicago",
+    "description": "",
+    "h1": "Staying safe in the city",
+    "bytes": 160256,
+    "status": "success"
+  },
+  "/life-at-uchicago/safety-and-security/staying-safe-around-campus": {
+    "slug": "life-at-uchicago_safety-and-security_staying-safe-around-campus",
+    "file": "life-at-uchicago_safety-and-security_staying-safe-around-campus.html",
+    "title": "Safety Tips - Staying Safe Around Campus | University of Chicago",
+    "description": "",
+    "h1": "Staying safe around campus",
+    "bytes": 159483,
+    "status": "success"
+  },
+  "/life-at-uchicago/safety-and-security/staying-safe-where-you-live-and-work": {
+    "url": "https://www.uchicago.edu/life-at-uchicago/safety-and-security/staying-safe-where-you-live-and-work",
+    "file": "life-at-uchicago_safety-and-security_staying-safe-where-you-live-and-work.html",
+    "status": "success",
+    "bytes": 147016
+  },
+  "/life-at-uchicago/safety-and-security/safe-transportation": {
+    "slug": "life-at-uchicago_safety-and-security_safe-transportation",
+    "file": "life-at-uchicago_safety-and-security_safe-transportation.html",
+    "title": "Safety Tips - Safe Transportation | University of Chicago",
+    "description": "",
+    "h1": "Safe transportation",
+    "bytes": 163138,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/american-academy-of-arts-and-sciences": {
+    "slug": "who-we-are_global-impact_accolades_american-academy-of-arts-and-sciences",
+    "file": "who-we-are_global-impact_accolades_american-academy-of-arts-and-sciences.html",
+    "title": "American Academy of Arts &amp; Sciences | University of Chicago",
+    "description": "",
+    "h1": "American Academy of Arts &amp; Sciences",
+    "bytes": 438129,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/american-philosophical-society": {
+    "slug": "who-we-are_global-impact_accolades_american-philosophical-society",
+    "file": "who-we-are_global-impact_accolades_american-philosophical-society.html",
+    "title": "American Philosophical Society | University of Chicago",
+    "description": "",
+    "h1": "American Philosophical Society",
+    "bytes": 159281,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/fields-medal": {
+    "slug": "who-we-are_global-impact_accolades_fields-medal",
+    "file": "who-we-are_global-impact_accolades_fields-medal.html",
+    "title": "Fields Medal | University of Chicago",
+    "description": "",
+    "h1": "Fields Medal",
+    "bytes": 140130,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/guggenheim-fellowships": {
+    "slug": "who-we-are_global-impact_accolades_guggenheim-fellowships",
+    "file": "who-we-are_global-impact_accolades_guggenheim-fellowships.html",
+    "title": "Guggenheim Fellowships | University of Chicago",
+    "description": "",
+    "h1": "Guggenheim Fellowships",
+    "bytes": 368813,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/john-bates-clark-medal": {
+    "slug": "who-we-are_global-impact_accolades_john-bates-clark-medal",
+    "file": "who-we-are_global-impact_accolades_john-bates-clark-medal.html",
+    "title": "John Bates Clark Medal | University of Chicago",
+    "description": "",
+    "h1": "John Bates Clark Medal",
+    "bytes": 149711,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/macarthur-fellows": {
+    "slug": "who-we-are_global-impact_accolades_macarthur-fellows",
+    "file": "who-we-are_global-impact_accolades_macarthur-fellows.html",
+    "title": "MacArthur Fellowships | University of Chicago",
+    "description": "",
+    "h1": "MacArthur Fellowships",
+    "bytes": 168802,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/nobel-laureates": {
+    "slug": "who-we-are_global-impact_accolades_nobel-laureates",
+    "file": "who-we-are_global-impact_accolades_nobel-laureates.html",
+    "title": "Nobel Prizes | University of Chicago",
+    "description": "",
+    "h1": "Nobel Laureates",
+    "bytes": 250634,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/pulitzer-prize": {
+    "slug": "who-we-are_global-impact_accolades_pulitzer-prize",
+    "file": "who-we-are_global-impact_accolades_pulitzer-prize.html",
+    "title": "Pulitzer Prizes | University of Chicago",
+    "description": "",
+    "h1": "Pulitzer Prizes",
+    "bytes": 156931,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/wolf-prize": {
+    "slug": "who-we-are_global-impact_accolades_wolf-prize",
+    "file": "who-we-are_global-impact_accolades_wolf-prize.html",
+    "title": "Wolf Prize | University of Chicago",
+    "description": "",
+    "h1": "Wolf Prize",
+    "bytes": 146853,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/national-academy-of-engineering": {
+    "slug": "who-we-are_global-impact_accolades_national-academy-of-engineering",
+    "file": "who-we-are_global-impact_accolades_national-academy-of-engineering.html",
+    "title": "National Academy of Engineering | University of Chicago",
+    "description": "",
+    "h1": "National Academy of Engineering",
+    "bytes": 138473,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/national-academy-of-medicine": {
+    "slug": "who-we-are_global-impact_accolades_national-academy-of-medicine",
+    "file": "who-we-are_global-impact_accolades_national-academy-of-medicine.html",
+    "title": "National Academy of Medicine | University of Chicago",
+    "description": "",
+    "h1": "National Academy of Medicine",
+    "bytes": 161071,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/national-academy-of-sciences": {
+    "slug": "who-we-are_global-impact_accolades_national-academy-of-sciences",
+    "file": "who-we-are_global-impact_accolades_national-academy-of-sciences.html",
+    "title": "National Academy of Sciences | University of Chicago",
+    "description": "",
+    "h1": "National Academy of Sciences",
+    "bytes": 179770,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/national-humanities-medal": {
+    "slug": "who-we-are_global-impact_accolades_national-humanities-medal",
+    "file": "who-we-are_global-impact_accolades_national-humanities-medal.html",
+    "title": "National Humanities Medal | University of Chicago",
+    "description": "",
+    "h1": "National Humanities Medal",
+    "bytes": 151388,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/national-medal-of-arts": {
+    "slug": "who-we-are_global-impact_accolades_national-medal-of-arts",
+    "file": "who-we-are_global-impact_accolades_national-medal-of-arts.html",
+    "title": "National Medal of Arts | University of Chicago",
+    "description": "",
+    "h1": "National Medal of Arts",
+    "bytes": 130318,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/national-medal-of-science": {
+    "slug": "who-we-are_global-impact_accolades_national-medal-of-science",
+    "file": "who-we-are_global-impact_accolades_national-medal-of-science.html",
+    "title": "National Medal of Science | University of Chicago",
+    "description": "",
+    "h1": "National Medal of Science",
+    "bytes": 143657,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/presidential-medal-of-freedom": {
+    "slug": "who-we-are_global-impact_accolades_presidential-medal-of-freedom",
+    "file": "who-we-are_global-impact_accolades_presidential-medal-of-freedom.html",
+    "title": "Presidential Medal of Freedom | University of Chicago",
+    "description": "",
+    "h1": "Presidential Medal of Freedom",
+    "bytes": 143687,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/marshall-scholars": {
+    "slug": "who-we-are_global-impact_accolades_marshall-scholars",
+    "file": "who-we-are_global-impact_accolades_marshall-scholars.html",
+    "title": "Marshall Scholarships | University of Chicago",
+    "description": "",
+    "h1": "Marshall Scholarships",
+    "bytes": 156035,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/rhodes-scholars": {
+    "url": "https://www.uchicago.edu/who-we-are/global-impact/accolades/rhodes-scholars",
+    "file": "who-we-are_global-impact_accolades_rhodes-scholars.html",
+    "status": "success",
+    "bytes": 195847
+  },
+  "/who-we-are/global-impact/accolades/truman-scholars": {
+    "slug": "who-we-are_global-impact_accolades_truman-scholars",
+    "file": "who-we-are_global-impact_accolades_truman-scholars.html",
+    "title": "Truman Scholarships | University of Chicago",
+    "description": "",
+    "h1": "Truman Scholarships",
+    "bytes": 162349,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/glenn-and-claire-swogger-award-for-exemplary-classroom-teaching": {
+    "slug": "who-we-are_global-impact_accolades_glenn-and-claire-swogger-award-for-exemplary-classroom-teaching",
+    "file": "who-we-are_global-impact_accolades_glenn-and-claire-swogger-award-for-exemplary-classroom-teaching.html",
+    "title": "Glenn and Claire Swogger Award for Exemplary Classroom Teaching | University of Chicago",
+    "description": "",
+    "h1": "Glenn and Claire Swogger Award for Exemplary Classroom Teaching",
+    "bytes": 154155,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/llewellyn-john-and-harriet-manchester-quantrell-awards-for-excellence-in-undergraduate-teaching": {
+    "slug": "who-we-are_global-impact_accolades_llewellyn-john-and-harriet-manchester-quantrell-awards-for-excellence-in-undergraduate-teaching",
+    "file": "who-we-are_global-impact_accolades_llewellyn-john-and-harriet-manchester-quantrell-awards-for-excellence-in-undergraduate-teaching.html",
+    "title": "Llewellyn John and Harriet Manchester Quantrell Awards for Excellence in Undergraduate Teaching | University of Chicago",
+    "description": "",
+    "h1": "Llewellyn John and Harriet Manchester Quantrell Awards for Excellence in Undergraduate Teaching",
+    "bytes": 431221,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/faculty-awards-for-excellence-in-phd-teaching-and-mentoring": {
+    "slug": "who-we-are_global-impact_accolades_faculty-awards-for-excellence-in-phd-teaching-and-mentoring",
+    "file": "who-we-are_global-impact_accolades_faculty-awards-for-excellence-in-phd-teaching-and-mentoring.html",
+    "title": "Faculty Awards for Excellence in PhD Teaching and Mentoring | University of Chicago",
+    "description": "",
+    "h1": "Faculty Awards for Excellence in PhD Teaching and Mentoring",
+    "bytes": 273991,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/wayne-c-booth-graduate-student-prizes-for-excellence-in-teaching": {
+    "slug": "who-we-are_global-impact_accolades_wayne-c-booth-graduate-student-prizes-for-excellence-in-teaching",
+    "file": "who-we-are_global-impact_accolades_wayne-c-booth-graduate-student-prizes-for-excellence-in-teaching.html",
+    "title": "Wayne C. Booth Graduate Student Prizes for Excellence in Teaching | University of Chicago",
+    "description": "",
+    "h1": "Wayne C. Booth Graduate Student Prizes for Excellence in Teaching",
+    "bytes": 280504,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/gordon-j-laing-award": {
+    "slug": "who-we-are_global-impact_accolades_gordon-j-laing-award",
+    "file": "who-we-are_global-impact_accolades_gordon-j-laing-award.html",
+    "title": "Gordon J. Laing Award (Presented by UChicago Press) | University of Chicago",
+    "description": "",
+    "h1": "Gordon J. Laing Award (Presented by UChicago Press)",
+    "bytes": 231776,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/pubs": {
+    "slug": "who-we-are_boards-committees-and-councils_pubs",
+    "file": "who-we-are_boards-committees-and-councils_pubs.html",
+    "title": "Board of University Publications | University of Chicago",
+    "description": "",
+    "h1": "Board of University Publications",
+    "bytes": 131615,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/benefits": {
+    "slug": "who-we-are_boards-committees-and-councils_benefits",
+    "file": "who-we-are_boards-committees-and-councils_benefits.html",
+    "title": "Benefits Committee | University of Chicago",
+    "description": "",
+    "h1": "Benefits Committee",
+    "bytes": 125649,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/disciplinary_committee_on_disruptive_conduct": {
+    "slug": "who-we-are_boards-committees-and-councils_disciplinary_committee_on_disruptive_conduct",
+    "file": "who-we-are_boards-committees-and-councils_disciplinary_committee_on_disruptive_conduct.html",
+    "title": "Disciplinary Committee on Disruptive Conduct | University of Chicago",
+    "description": "",
+    "h1": "Disciplinary Committee on Disruptive Conduct",
+    "bytes": 146019,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/retirement": {
+    "slug": "who-we-are_boards-committees-and-councils_retirement",
+    "file": "who-we-are_boards-committees-and-councils_retirement.html",
+    "title": "Faculty Retirement and Oversight Committee | University of Chicago",
+    "description": "",
+    "h1": "Faculty Retirement and Oversight Committee",
+    "bytes": 127233,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/individual_conflict_of_interest_committee": {
+    "slug": "who-we-are_boards-committees-and-councils_individual_conflict_of_interest_committee",
+    "file": "who-we-are_boards-committees-and-councils_individual_conflict_of_interest_committee.html",
+    "title": "Individual Conflict of Interest Committee | University of Chicago",
+    "description": "",
+    "h1": "Individual Conflict of Interest Committee",
+    "bytes": 126190,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/property": {
+    "slug": "who-we-are_boards-committees-and-councils_property",
+    "file": "who-we-are_boards-committees-and-councils_property.html",
+    "title": "The Committee on Intellectual Property | University of Chicago",
+    "description": "",
+    "h1": "The Committee on Intellectual Property",
+    "bytes": 128016,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/radiation": {
+    "slug": "who-we-are_boards-committees-and-councils_radiation",
+    "file": "who-we-are_boards-committees-and-councils_radiation.html",
+    "title": "Radiation Safety Committee | University of Chicago",
+    "description": "",
+    "h1": "Radiation Safety Committee",
+    "bytes": 124505,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/academic": {
+    "slug": "who-we-are_boards-committees-and-councils_academic",
+    "file": "who-we-are_boards-committees-and-councils_academic.html",
+    "title": "Committee on Research Misconduct | University of Chicago",
+    "description": "",
+    "h1": "Committee on Research Misconduct",
+    "bytes": 126594,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/university_wide_disciplinary_committee": {
+    "slug": "who-we-are_boards-committees-and-councils_university_wide_disciplinary_committee",
+    "file": "who-we-are_boards-committees-and-councils_university_wide_disciplinary_committee.html",
+    "title": "University-Wide Student Disciplinary Committee | University of Chicago",
+    "description": "",
+    "h1": "University-Wide Disciplinary Committee",
+    "bytes": 138168,
+    "status": "success"
+  },
+  "/who-we-are/boards-committees-and-councils/university-nondiscrimination-policy-advisory-committee": {
+    "slug": "who-we-are_boards-committees-and-councils_university-nondiscrimination-policy-advisory-committee",
+    "file": "who-we-are_boards-committees-and-councils_university-nondiscrimination-policy-advisory-committee.html",
+    "title": "Board of University Publications | University of Chicago",
+    "description": "",
+    "h1": "University Nondiscrimination Policy and Procedure Advisory Committee",
+    "bytes": 127100,
+    "status": "success"
+  },
+  "/who-we-are/global-impact/accolades/suggestions": {
+    "url": "https://www.uchicago.edu/who-we-are/global-impact/accolades/suggestions",
+    "file": "who-we-are_global-impact_accolades_suggestions.html",
+    "status": "success",
+    "bytes": 111337
+  },
+  "/medicine": {
+    "url": "https://www.uchicago.edu/medicine",
+    "file": "medicine.html",
+    "status": "success",
+    "bytes": 129218
+  },
+  "/faculty": {
+    "url": "https://www.uchicago.edu/faculty",
+    "file": "faculty.html",
+    "status": "success",
+    "bytes": 152024
+  },
+  "/students/bookstores": {
+    "url": "https://www.uchicago.edu/students/bookstores",
+    "file": "students_bookstores.html",
+    "status": "success",
+    "bytes": 119620
+  },
+  "/university-reports": {
+    "url": "https://www.uchicago.edu/university-reports",
+    "file": "university-reports.html",
+    "status": "success",
+    "bytes": 158069
+  }
+}

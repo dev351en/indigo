@@ -1,0 +1,79 @@
+[
+  {
+    "id": "video-spotlight",
+    "name": "Hero Video Spotlight",
+    "video_src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/videos/2023-fall-video-update-1116.mp4",
+    "description": "video showing various scenes around UChicago campus with overlay text: Field-Defining Scholarship, Transformative Education, World-Changing Ideas, The University of Chicago",
+    "height": "600px",
+    "autoplay": true,
+    "controls": [
+      "play/pause toggle button",
+      "screen reader transcript overlay"
+    ]
+  },
+  {
+    "id": "cta-bar-spotlight",
+    "name": "CTA Bar Spotlight",
+    "buttons": [
+      {
+        "text": "How to apply",
+        "href": "/admissions"
+      },
+      {
+        "text": "Contact Us",
+        "href": "/contact-us"
+      },
+      {
+        "text": "Visit Our Campus",
+        "href": "/visit"
+      },
+      {
+        "text": "See More News",
+        "href": "https://news.uchicago.edu/story/michael-woodford-uchicago-alum-and-former-faculty-member-shares-nobel-prize?utm_source=UC_Intranet&amp;utm_medium=referral&amp;utm_campaign=Intranet_featured_news"
+      }
+    ]
+  },
+  {
+    "id": "latest-news",
+    "name": "Featured News",
+    "title": "LATEST NEWS",
+    "background_image": "https://www.uchicago.edu/-/media/project/uchicago-tenant/shared/phoenix.png",
+    "items": [
+      {
+        "title": "Michael Woodford, UChicago alum and former faculty member, shares Nobel Prize",
+        "url": "https://news.uchicago.edu/story/michael-woodford-uchicago-alum-and-former-faculty-member-shares-nobel-prize?utm_source=UC_Intranet&amp;utm_medium=referral&amp;utm_campaign=Intranet_featured_news",
+        "source": "Source: NewsSource"
+      },
+      {
+        "title": "Neutrino hunters: Searching for ghostly particles in Antarctic ice, with Abby Vieregg",
+        "url": "https://news.uchicago.edu/big-brains-podcast-neutrino-hunters-searching-ghostly-particles-antarctic-ice-abby-vieregg?utm_source=UC_Intranet&amp;utm_medium=referral&amp;utm_campaign=Intranet_featured_news",
+        "source": "Source: NewsSource"
+      },
+      {
+        "title": "Learning is a blast\u2014literally\u2014at the South Side Science Festival",
+        "url": "https://news.uchicago.edu/story/learning-blast-literally-south-side-science-festival?utm_source=WWW&amp;utm_medium=NewsModule",
+        "source": "Source: NewsSource"
+      },
+      {
+        "title": "Book bans are surging. So are efforts to \u2018let books be\u2019",
+        "url": "https://news.uchicago.edu/story/book-bans-are-surging-so-are-efforts-let-books-be?utm_source=WWW&amp;utm_medium=NewsModule",
+        "source": "Source: NewsSource"
+      }
+    ],
+    "see_more": {
+      "text": "See More News",
+      "url": "https://news.uchicago.edu/?utm_source=WWW&utm_medium=NewsModule"
+    }
+  },
+  {
+    "id": "campaign-banner",
+    "name": "Callout Banner - Chicago Minds Campaign",
+    "title": "Explore the \u2018Chicago Minds\u2019 campaign",
+    "description": "",
+    "image": "https://www.uchicago.edu/-/media/inside-the-lab-chuan-he/chicago-minds-gray-bg.jpg?h=320&amp;iar=0&amp;w=415&amp;extension=webp&amp;hash=9F31382DE69953E984B230CC0DD40B0B",
+    "cta": {
+      "text": "Learn about the ambitious initiative to expand UChicago\u2019s global impact through research and education.",
+      "href": "https://chicagominds.uchicago.edu/"
+    }
+  }
+]

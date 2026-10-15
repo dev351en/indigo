@@ -1,0 +1,2077 @@
+/* ==========================================================================
+   THE UNIVERSITY OF CHICAGO — DESIGN SYSTEM & REPLICA STYLESHEET
+   Extracted & Reverse-Engineered from uchicago.asia Production Assets
+   ========================================================================== */
+
+/* --- CSS Variables & Design Tokens --- */
+:root {
+  --color-maroon: #800000;
+  --color-maroon-dark: #670a0a;
+  --color-maroon-light: #9d1c1c;
+  --color-black: #111111;
+  --color-charcoal: #222222;
+  --color-body-text: #4d4d4d;
+  --color-subtle-text: #666666;
+  --color-white: #ffffff;
+  --color-surface-gray: #f3f3f3;
+  --color-surface-warm: #fcfcfc;
+  --color-border-light: #d9d9d9;
+  --color-border-subtle: #e5e5e5;
+  --color-blue-accent: #002a3a;
+  --color-teal-accent: #007396;
+  
+  --font-serif: "Georgia", "Times New Roman", Garamond, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+  --container-max-width: 1240px;
+  --container-wide-width: 1400px;
+  --header-height: 120px;
+  --transition-smooth: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --- Base Resets & Global Styles --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-body-text);
+  background-color: var(--color-white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+ul {
+  list-style: none;
+}
+
+img, video {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --- Skip Link --- */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 20px;
+  background: var(--color-maroon);
+  color: var(--color-white);
+  padding: 12px 20px;
+  z-index: 10000;
+  font-weight: 700;
+  border-radius: 0 0 4px 4px;
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* --- Showcase Preview Badge --- */
+.replica-badge {
+  background: #1e2229;
+  color: #e2e8f0;
+  font-size: 13px;
+  padding: 8px 16px;
+  border-bottom: 1px solid #334155;
+}
+.replica-badge-inner {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.badge-tag {
+  background: var(--color-maroon);
+  color: var(--color-white);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   HEADER & NAVIGATION
+   ========================================================================== */
+.edu-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--color-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: var(--transition-smooth);
+}
+
+/* --- Top Utility Brand Bar --- */
+.edu-brand-bar {
+  background-color: #0b0c0e;
+  color: #cfd4dc;
+  font-size: 13px;
+  border-bottom: 1px solid #23272f;
+  position: relative;
+}
+.brand-bar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+}
+.utility-nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.utility-nav li a {
+  color: #cfd4dc;
+  font-weight: 500;
+}
+.utility-nav li a:hover {
+  color: var(--color-white);
+}
+
+/* "Info For" Dropdown */
+.info-dropdown-wrap {
+  position: relative;
+}
+.info-toggle-btn {
+  color: #cfd4dc;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  padding: 4px 0;
+}
+.info-toggle-btn:hover {
+  color: var(--color-white);
+}
+.arrow-icon {
+  font-size: 10px;
+  transition: transform 0.2s ease;
+}
+.info-dropdown-wrap.open .arrow-icon {
+  transform: rotate(180deg);
+}
+.info-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  color: var(--color-black);
+  min-width: 170px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border-top: 3px solid var(--color-maroon);
+  padding: 8px 0;
+  z-index: 1100;
+}
+.info-dropdown-menu li a {
+  display: block;
+  padding: 8px 18px;
+  color: var(--color-body-text);
+  font-size: 13px;
+}
+.info-dropdown-menu li a:hover {
+  background-color: var(--color-surface-gray);
+  color: var(--color-maroon);
+}
+
+/* Search Button */
+.search-btn {
+  color: #cfd4dc;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  transition: color 0.2s ease;
+}
+.search-btn:hover {
+  color: var(--color-white);
+}
+
+/* Search Flyout Overlay */
+.search-flyout {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-bottom: 2px solid var(--color-maroon);
+  padding: 24px 0;
+  z-index: 1200;
+  animation: slideDown 0.25s ease forwards;
+}
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.search-flyout-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-form {
+  width: 100%;
+  max-width: 680px;
+}
+.search-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-maroon);
+  margin-bottom: 8px;
+}
+.search-input-group {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--color-black);
+  padding-bottom: 4px;
+}
+.search-input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  color: var(--color-black);
+  font-family: var(--font-sans);
+  padding: 6px 0;
+}
+.search-submit-btn {
+  background: var(--color-maroon);
+  color: var(--color-white);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-left: 10px;
+  transition: background-color 0.2s ease;
+}
+.search-submit-btn:hover {
+  background: var(--color-maroon-dark);
+}
+.people-directory-link {
+  margin-top: 12px;
+}
+.people-directory-link a {
+  color: var(--color-maroon);
+  font-size: 14px;
+  font-weight: 600;
+}
+.people-directory-link a:hover {
+  text-decoration: underline;
+}
+.search-close-btn {
+  position: absolute;
+  right: 24px;
+  top: 0;
+  font-size: 22px;
+  color: var(--color-body-text);
+  padding: 8px;
+}
+.search-close-btn:hover {
+  color: var(--color-maroon);
+}
+
+/* --- Main Navigation Bar --- */
+.edu-main-nav-bar {
+  background-color: var(--color-white);
+  padding: 12px 0;
+}
+.main-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Brand Logo */
+.brand-logo {
+  display: inline-block;
+  flex-shrink: 0;
+}
+.desktop-logo {
+  height: 54px;
+  width: auto;
+}
+.mobile-logo {
+  display: none;
+  height: 44px;
+  width: auto;
+}
+
+/* Desktop Navigation */
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.left-wing {
+  margin-left: 20px;
+}
+.right-wing {
+  margin-left: auto;
+}
+.nav-item {
+  position: relative;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-black);
+  padding: 10px 0;
+  position: relative;
+}
+.nav-arrow {
+  font-size: 10px;
+  color: #888888;
+  transition: transform 0.2s ease;
+}
+.nav-link:hover {
+  color: var(--color-maroon);
+}
+.nav-link:hover .nav-arrow {
+  color: var(--color-maroon);
+}
+.highlight-link {
+  color: var(--color-maroon);
+}
+
+/* "Give" Button */
+.btn-give {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-maroon);
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 22px;
+  border-radius: 3px;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+.btn-give:hover {
+  background-color: var(--color-maroon-dark);
+  transform: translateY(-1px);
+}
+
+/* Mega Dropdown Menus */
+.mega-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--color-white);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+  border-top: 3px solid var(--color-maroon);
+  min-width: 520px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: all 0.25s ease;
+  z-index: 1050;
+  pointer-events: none;
+}
+.nav-item:hover .mega-dropdown,
+.nav-item.open .mega-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.right-wing .nav-item .mega-dropdown {
+  left: auto;
+  right: 0;
+}
+.mega-dropdown-inner {
+  display: flex;
+  padding: 24px;
+  gap: 32px;
+}
+.dropdown-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.dropdown-heading {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-maroon);
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--color-border-light);
+  padding-bottom: 6px;
+}
+.dropdown-col a {
+  font-size: 14px;
+  color: var(--color-body-text);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.dropdown-col a i {
+  font-size: 10px;
+  color: #aaaaaa;
+}
+.dropdown-col a:hover {
+  color: var(--color-maroon);
+  transform: translateX(3px);
+}
+.dropdown-col a:hover i {
+  color: var(--color-maroon);
+}
+
+/* Mobile Hamburger Toggle */
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+.hamburger-bar {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-black);
+  border-radius: 2px;
+  transition: var(--transition-smooth);
+}
+.mobile-menu-toggle[aria-expanded="true"] .hamburger-bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.mobile-menu-toggle[aria-expanded="true"] .hamburger-bar:nth-child(2) {
+  opacity: 0;
+}
+.mobile-menu-toggle[aria-expanded="true"] .hamburger-bar:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+/* Mobile Off-Canvas Drawer */
+.mobile-nav-drawer {
+  background-color: #ffffff;
+  border-top: 1px solid var(--color-border-light);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+}
+.mobile-drawer-inner {
+  padding: 16px 24px 32px;
+}
+.mobile-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mobile-accordion-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-black);
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+.mobile-accordion-btn i {
+  font-size: 12px;
+  transition: transform 0.2s ease;
+}
+.mobile-accordion-btn[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+.mobile-accordion-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 0 12px 16px;
+  background: var(--color-surface-gray);
+  border-radius: 4px;
+}
+.mobile-accordion-panel a {
+  font-size: 15px;
+  color: var(--color-body-text);
+}
+.mobile-direct-link {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-maroon);
+  padding: 12px 0;
+}
+.mobile-give-btn {
+  display: block;
+  text-align: center;
+  background: var(--color-maroon);
+  color: var(--color-white);
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+
+/* ==========================================================================
+   HERO VIDEO SPOTLIGHT
+   ========================================================================== */
+.video-spotlight-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 560px;
+}
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.88;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.65) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+.video-overlay-content {
+  color: var(--color-white);
+}
+.hero-tagline {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+.hero-institution {
+  font-family: var(--font-serif);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-top: 8px;
+  color: var(--color-white);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+.video-control-btn {
+  position: absolute;
+  bottom: 24px;
+  right: 28px;
+  width: 44px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+.video-control-btn:hover {
+  background: var(--color-maroon);
+  border-color: var(--color-maroon);
+}
+
+/* ==========================================================================
+   CTA BAR SPOTLIGHT
+   ========================================================================== */
+.cta-bar-spotlight {
+  background: linear-gradient(90deg, #670a0a 0%, #800000 100%);
+  padding: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.cta-bar-inner {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cta-bar-btn {
+  flex: 1;
+  max-width: 320px;
+  background: var(--color-white);
+  color: var(--color-black);
+  text-align: center;
+  padding: 14px 24px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: var(--transition-smooth);
+}
+.cta-bar-btn:hover {
+  background: var(--color-maroon-dark);
+  color: var(--color-white);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* ==========================================================================
+   LATEST NEWS SECTION (WITH PHOENIX WATERMARK)
+   ========================================================================== */
+.latest-news-section {
+  padding: 80px 0 70px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 320px auto;
+  background-color: #fafafa;
+  border-bottom: 1px solid var(--color-border-light);
+}
+.section-heading-wrap {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.section-bold-title {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-black);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 14px;
+}
+.section-bold-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: var(--color-maroon);
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.news-card {
+  background: var(--color-white);
+  border-radius: 4px;
+  border: 1px solid var(--color-border-subtle);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+}
+.news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+  border-color: var(--color-border-light);
+}
+.news-card-inner {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.news-category {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-maroon);
+  margin-bottom: 10px;
+}
+.news-title {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--color-black);
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+.news-title a:hover {
+  color: var(--color-maroon);
+}
+.news-source {
+  font-size: 12px;
+  color: var(--color-subtle-text);
+}
+.see-more-news-wrap {
+  text-align: center;
+}
+.btn-see-more {
+  display: inline-block;
+  background: var(--color-maroon);
+  color: var(--color-white);
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: var(--transition-smooth);
+}
+.btn-see-more:hover {
+  background: var(--color-maroon-dark);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   CAMPAIGN BANNER: CHICAGO MINDS
+   ========================================================================== */
+.campaign-banner-section {
+  padding: 60px 0;
+  background: var(--color-white);
+}
+.campaign-card {
+  display: flex;
+  background: #15171c;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+.campaign-image-col {
+  flex: 0 0 45%;
+}
+.campaign-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.campaign-content-col {
+  flex: 1;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 5px solid var(--color-maroon);
+}
+.campaign-title {
+  font-family: var(--font-serif);
+  font-size: 32px;
+  color: var(--color-white);
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+.campaign-description {
+  font-size: 16px;
+  color: #c5cbd3;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.campaign-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-white);
+  background: var(--color-maroon);
+  padding: 10px 22px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  align-self: flex-start;
+  transition: var(--transition-smooth);
+}
+.campaign-link:hover {
+  background: var(--color-maroon-dark);
+  transform: translateX(3px);
+}
+.carousel-dots {
+  display: flex;
+  gap: 8px;
+  margin-top: 32px;
+}
+.dot-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #4a5568;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.dot-btn.active {
+  background: var(--color-white);
+}
+
+/* ==========================================================================
+   EDITORIAL HEADLINE BAR
+   ========================================================================== */
+.editorial-headline-bar {
+  padding: 60px 0;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border-light);
+}
+.headline-bar-inner {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+.headline-title-col {
+  flex: 0 0 35%;
+}
+.editorial-title {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  color: var(--color-black);
+  line-height: 1.25;
+}
+.headline-content-col {
+  flex: 1;
+}
+.editorial-text {
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--color-body-text);
+  margin-bottom: 20px;
+}
+.editorial-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-maroon);
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.editorial-cta-link:hover {
+  text-decoration: underline;
+  transform: translateX(4px);
+}
+
+/* ==========================================================================
+   CALLOUT TILES SECTION (PILLARS)
+   ========================================================================== */
+.callout-tiles-section {
+  padding: 70px 0;
+  background-color: var(--color-surface-gray);
+}
+.callout-tiles-section.alternate-bg {
+  background-color: #ededed;
+}
+.section-sub-heading {
+  margin-bottom: 36px;
+}
+.bold-pillar-title {
+  font-family: var(--font-sans);
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+.tiles-grid {
+  display: grid;
+  gap: 28px;
+}
+.tiles-grid.two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.tiles-grid.three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.tile-card {
+  background: var(--color-white);
+  padding: 36px;
+  border-radius: 4px;
+  border-top: 4px solid var(--color-maroon);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition-smooth);
+}
+.tile-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+.tile-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.tile-badge {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #fdf2f2;
+  color: var(--color-maroon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.tile-title {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  color: var(--color-black);
+  font-weight: 700;
+}
+.tile-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-body-text);
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+.tile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-maroon);
+  font-weight: 700;
+  font-size: 14px;
+}
+.tile-link:hover {
+  text-decoration: underline;
+  transform: translateX(3px);
+}
+
+/* ==========================================================================
+   INSTITUTIONAL FOOTER
+   ========================================================================== */
+.edu-footer {
+  background-color: #0e0f12;
+  color: #adb5bd;
+  padding: 70px 0 0;
+  border-top: 4px solid var(--color-maroon);
+}
+.footer-inner {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1.1fr;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+.footer-logo {
+  height: 52px;
+  width: auto;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1);
+}
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ced4da;
+}
+.footer-col-title {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-white);
+  margin-bottom: 18px;
+}
+.footer-links-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-links-col ul li a {
+  font-size: 14px;
+  color: #adb5bd;
+}
+.footer-links-col ul li a:hover {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+.footer-social-links {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+}
+.footer-social-links a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #212529;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+.footer-social-links a:hover {
+  background: var(--color-maroon);
+  transform: translateY(-2px);
+}
+.footer-bottom-bar {
+  background-color: #060708;
+  padding: 20px 0;
+  border-top: 1px solid #1c1f24;
+}
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #6c757d;
+}
+.replica-note {
+  color: #8c959f;
+  font-style: italic;
+}
+
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+@media (max-width: 1100px) {
+  .nav-list {
+    gap: 14px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .mega-dropdown {
+    min-width: 440px;
+  }
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-menu-toggle {
+    display: flex;
+  }
+  .mobile-logo {
+    display: block;
+  }
+  .desktop-logo {
+    display: none;
+  }
+  .headline-bar-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .campaign-card {
+    flex-direction: column;
+  }
+  .campaign-image-col {
+    flex: auto;
+    height: 240px;
+  }
+  .campaign-content-col {
+    padding: 32px 24px;
+  }
+  .tiles-grid.two-cols,
+  .tiles-grid.three-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .brand-bar-inner {
+    font-size: 12px;
+  }
+  .utility-nav {
+    gap: 12px;
+  }
+  .hero-video {
+    height: 440px;
+  }
+  .video-container {
+    height: 440px;
+  }
+  .hero-institution {
+    font-size: 32px;
+  }
+  .hero-tagline {
+    font-size: 16px;
+  }
+  .cta-bar-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cta-bar-btn {
+    max-width: 100%;
+  }
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+  .footer-bottom-inner {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+   Application Portal (Admissions Login) — Authentic UChicago Styles
+   ========================================================================== */
+
+/* Brand bar link matching native items exactly */
+.uchicago-portal-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+.portal-trigger-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  padding: 7px 16px;
+  height: 100%;
+  cursor: pointer;
+  transition: none;
+  line-height: inherit;
+  border-bottom: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.portal-trigger-btn:hover {
+  background: transparent;
+  color: #ffffff;
+  transform: none;
+  box-shadow: none;
+}
+
+.portal-trigger-btn:hover .linkText,
+.portal-trigger-btn:hover span {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* Modal Overlay: NEVER displayed on load */
+.portal-modal-overlay {
+  display: none !important;
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0, 0, 0, 0.65) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+  z-index: 99999 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 20px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.portal-modal-overlay.is-active {
+  display: flex !important;
+  opacity: 1 !important;
+  pointer-events: all !important;
+}
+
+/* Modal Card: Institutional collegiate design */
+.portal-modal-card {
+  background: #ffffff !important;
+  border-radius: 2px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: 5px solid var(--color-maroon, maroon) !important;
+  max-width: 620px !important;
+  width: calc(100% - 32px) !important;
+  max-height: 92vh !important;
+  overflow-y: auto !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3) !important;
+  position: relative !important;
+  padding: 32px 36px 36px !important;
+  background-image: url(../assets/phoenix.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: right -25px bottom -25px !important;
+  background-size: 170px !important;
+  box-sizing: border-box !important;
+}
+
+.portal-modal-card::-webkit-scrollbar {
+  width: 6px;
+}
+.portal-modal-card::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.portal-modal-card::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 3px;
+}
+.portal-modal-card::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* Close Button */
+.portal-modal-close {
+  position: absolute !important;
+  top: 14px !important;
+  right: 16px !important;
+  background: none !important;
+  border: none !important;
+  color: #666666 !important;
+  font-size: 24px !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  padding: 4px 8px !important;
+  transition: color 0.15s ease !important;
+}
+
+.portal-modal-close:hover {
+  color: var(--color-maroon, maroon) !important;
+}
+
+/* Logo & Crest in Portal Shape */
+.portal-logo-container {
+  text-align: center !important;
+  margin-top: 6px !important;
+  margin-bottom: 12px !important;
+}
+
+.portal-uchicago-logo {
+  width: 240px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  filter: none !important;
+}
+
+/* Portal Headings */
+.portal-title {
+  font-family: var(--font-serif);
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+  text-align: center !important;
+  margin: 14px 0 6px 0 !important;
+  letter-spacing: -0.2px !important;
+}
+
+.portal-subtitle {
+  font-family: var(--font-sans);
+  font-size: 13.5px !important;
+  color: #555555 !important;
+  text-align: center !important;
+  line-height: 1.45 !important;
+  margin: 0 0 18px 0 !important;
+}
+
+.portal-divider {
+  height: 1px !important;
+  background: #e5e5e5 !important;
+  margin-bottom: 22px !important;
+  border: none !important;
+}
+
+/* Form Styling */
+.portal-form-group {
+  margin-bottom: 18px !important;
+  text-align: left !important;
+}
+
+.portal-form-label {
+  display: block !important;
+  font-family: var(--font-sans);
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+  color: #333333 !important;
+  margin-bottom: 6px !important;
+}
+
+.portal-input-wrap {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.portal-input {
+  width: 100% !important;
+  padding: 11px 13px !important;
+  border: 1px solid #767676 !important;
+  border-radius: 0 !important;
+  font-family: var(--font-sans);
+  font-size: 14px !important;
+  color: #1a1a1a !important;
+  background: #ffffff !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.2s ease !important;
+}
+
+.portal-input:focus {
+  outline: 1px solid var(--color-maroon, maroon) !important;
+  border-color: var(--color-maroon, maroon) !important;
+}
+
+.portal-pw-toggle {
+  position: absolute !important;
+  right: 10px !important;
+  background: none !important;
+  border: none !important;
+  color: #666666 !important;
+  cursor: pointer !important;
+  padding: 6px !important;
+  font-size: 14px !important;
+}
+
+.portal-pw-toggle:hover {
+  color: var(--color-maroon, maroon) !important;
+}
+
+.portal-options-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 22px !important;
+  font-family: var(--font-sans);
+  font-size: 13px !important;
+}
+
+.portal-remember {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  color: #4d4d4d !important;
+  cursor: pointer !important;
+}
+
+.portal-forgot-link {
+  color: var(--color-maroon, maroon) !important;
+  font-weight: 500 !important;
+  text-decoration: underline !important;
+}
+
+.portal-forgot-link:hover {
+  color: var(--color-dark-maroon, #670a0a) !important;
+}
+
+/* Submit Button: Official UChicago Solid Red Button */
+.portal-submit-btn {
+  width: 100% !important;
+  padding: 13px 24px !important;
+  background: var(--color-maroon, maroon) !important;
+  color: #ffffff !important;
+  border: 1px solid var(--color-maroon, maroon) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-sans);
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease !important;
+  display: block !important;
+  text-align: center !important;
+}
+
+.portal-submit-btn:hover {
+  background: var(--color-dark-maroon, #670a0a) !important;
+  border-color: var(--color-dark-maroon, #670a0a) !important;
+  color: #ffffff !important;
+}
+
+/* Status / Alert Message */
+.portal-alert-msg {
+  display: none;
+  padding: 10px 12px !important;
+  margin-bottom: 16px !important;
+  font-family: var(--font-sans);
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+  border-radius: 0 !important;
+}
+
+.portal-alert-msg.is-info {
+  display: block !important;
+  background: #fdf6e9 !important;
+  border: 1px solid #e0c896 !important;
+  color: #7a500b !important;
+}
+
+.portal-alert-msg.is-error {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: #fdf2f2 !important;
+  border: 1px solid #e5a4a4 !important;
+  color: #991b1b !important;
+}
+
+.portal-input.is-invalid {
+  border-color: #991b1b !important;
+  outline: 1px solid #991b1b !important;
+  background-color: #fffafa !important;
+}
+
+/* Authenticated Dashboard Styles */
+.portal-status-banner {
+  background: #f0f7f2 !important;
+  border: 1px solid #a3d2b2 !important;
+  padding: 12px 14px !important;
+  margin-bottom: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #176531 !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  text-align: left !important;
+}
+
+.portal-status-banner i {
+  font-size: 18px !important;
+  color: #1b873f !important;
+}
+
+.portal-applicant-details {
+  background: #fcfcfc !important;
+  border: 1px solid #e0e0e0 !important;
+  padding: 14px 16px !important;
+  margin-bottom: 18px !important;
+  font-size: 13px !important;
+  color: #333333 !important;
+  line-height: 1.6 !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 8px 16px !important;
+  text-align: left !important;
+}
+
+@media (max-width: 500px) {
+  .portal-applicant-details {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.portal-applicant-details strong {
+  color: #111111 !important;
+}
+
+.portal-checklist-title {
+  font-family: var(--font-serif, "UChicagoSerif", Georgia, serif) !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+  text-align: left !important;
+  margin: 18px 0 10px 0 !important;
+  padding-bottom: 6px !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.portal-checklist,
+.portal-checklist li {
+  list-style: none !important;
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin: 0 0 18px 0 !important;
+  text-align: left !important;
+  font-size: 13px !important;
+}
+
+.portal-checklist li::before,
+.portal-checklist-item::before,
+.portal-checklist li::after,
+.portal-checklist-item::after {
+  content: none !important;
+  display: none !important;
+}
+
+.portal-checklist-item {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 8px 0 !important;
+  border-bottom: 1px dashed #e8e8e8 !important;
+}
+
+.portal-checklist-item:last-child {
+  border-bottom: none !important;
+}
+
+.portal-checklist-label {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  color: #333333 !important;
+}
+
+.portal-checklist-label i {
+  color: #1b873f !important;
+  font-size: 13px !important;
+}
+
+.portal-badge-received {
+  background: #eaf5ed !important;
+  color: #176531 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 3px 8px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.portal-badge-pending {
+  background: #fff8eb !important;
+  color: #b45309 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 3px 8px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.portal-action-btns {
+  display: flex !important;
+  gap: 10px !important;
+  margin-top: 16px !important;
+}
+
+.portal-secondary-btn {
+  flex: 1 !important;
+  padding: 10px 14px !important;
+  background: #ffffff !important;
+  border: 1px solid #767676 !important;
+  color: #333333 !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.portal-secondary-btn:hover {
+  background: #f4f4f4 !important;
+  border-color: #333333 !important;
+}
+
+.portal-logout-btn {
+  flex: 1 !important;
+  padding: 10px 14px !important;
+  background: #670a0a !important;
+  border: 1px solid #670a0a !important;
+  color: #ffffff !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.portal-logout-btn:hover {
+  background: maroon !important;
+  border-color: maroon !important;
+}
+
+/* Modal Footer */
+.portal-modal-footer {
+  margin-top: 22px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid #e5e5e5 !important;
+  font-family: var(--font-sans);
+  font-size: 12.5px !important;
+  color: #666666 !important;
+  text-align: center !important;
+  line-height: 1.5 !important;
+}
+
+.portal-modal-footer a {
+  color: var(--color-maroon, maroon) !important;
+  text-decoration: underline !important;
+}
+
+.portal-modal-footer a:hover {
+  color: var(--color-dark-maroon, #670a0a) !important;
+}
+
+/* Faculty Acceptance Card */
+.portal-faculty-card {
+  background: #f4f8f5 !important;
+  border: 1px solid #cce5d4 !important;
+  border-left: 4px solid #1b873f !important;
+  padding: 14px 16px !important;
+  margin-bottom: 18px !important;
+  text-align: left !important;
+}
+
+.portal-faculty-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: #176531 !important;
+  color: #ffffff !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 10.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  padding: 2px 8px !important;
+  border-radius: 2px !important;
+  margin-bottom: 8px !important;
+}
+
+.portal-faculty-title {
+  font-family: var(--font-serif) !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #176531 !important;
+  margin-bottom: 6px !important;
+}
+
+.portal-faculty-desc {
+  font-size: 12.5px !important;
+  color: #274730 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 10px !important;
+}
+
+.portal-faculty-meta {
+  font-size: 12px !important;
+  color: #333333 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+  border-top: 1px dashed #cce5d4 !important;
+  padding-top: 8px !important;
+}
+
+.portal-faculty-meta div {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.portal-faculty-meta i {
+  color: #176531 !important;
+  width: 14px !important;
+}
+
+/* Resume & CV Upload Section */
+.portal-resume-card {
+  background: #fafafa !important;
+  border: 1px solid #e2e2e2 !important;
+  border-radius: 2px !important;
+  padding: 14px 16px !important;
+  margin-bottom: 18px !important;
+  text-align: left !important;
+}
+
+.portal-resume-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 12px !important;
+  gap: 12px !important;
+}
+
+.portal-resume-info {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.portal-resume-name {
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  color: #222222 !important;
+  word-break: break-all !important;
+}
+
+.portal-resume-meta {
+  font-size: 11.5px !important;
+  color: #666666 !important;
+  margin-top: 2px !important;
+}
+
+.portal-resume-actions {
+  display: flex !important;
+  gap: 10px !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.portal-upload-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 7px 14px !important;
+  background: maroon !important;
+  color: #ffffff !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 11.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  border-radius: 2px !important;
+  transition: background 0.15s ease !important;
+}
+
+.portal-upload-btn:hover {
+  background: #670a0a !important;
+}
+
+.portal-preview-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 6px 12px !important;
+  background: #ffffff !important;
+  border: 1px solid #999999 !important;
+  color: #333333 !important;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
+  font-size: 11.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  cursor: pointer !important;
+  border-radius: 2px !important;
+  transition: all 0.15s ease !important;
+}
+
+.portal-preview-btn:hover {
+  background: #efefef !important;
+  border-color: #444444 !important;
+}
+
+/* ==========================================================================
+   Full Page Application Portal & Seat Deposit Styles
+   ========================================================================== */
+.portal-page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 24px 60px;
+  box-sizing: border-box;
+  font-family: var(--font-sans, "UChicagoSansSerif-Regular", sans-serif);
+  color: #222222;
+}
+
+.portal-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.portal-breadcrumb a {
+  color: var(--color-maroon, maroon);
+  text-decoration: none;
+}
+.portal-breadcrumb a:hover {
+  text-decoration: underline;
+}
+.portal-breadcrumb span.sep {
+  color: #999999;
+}
+
+.portal-hero-banner {
+  background: #fbf8f5;
+  border: 1px solid #e7ded5;
+  border-top: 5px solid var(--color-maroon, maroon);
+  padding: 28px 32px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.portal-hero-title-group h1 {
+  font-family: var(--font-serif, "UChicagoSerif", Georgia, serif);
+  font-size: 28px;
+  color: #1a1a1a;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.3px;
+}
+.portal-hero-title-group p {
+  font-size: 14.5px;
+  color: #555555;
+  margin: 0;
+}
+
+.portal-hero-badge-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.portal-app-badge {
+  background: var(--color-maroon, maroon);
+  color: #ffffff;
+  padding: 6px 14px;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.portal-page-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 28px;
+}
+
+@media (max-width: 900px) {
+  .portal-page-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.portal-card-block {
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.portal-card-block-title {
+  font-family: var(--font-serif, "UChicagoSerif", Georgia, serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Seat Confirmation & Deposit Card */
+.portal-deposit-card {
+  background: #fdfaf6 !important;
+  border: 1.5px solid #d4a373 !important;
+  border-left: 5px solid #b45309 !important;
+  padding: 20px 22px !important;
+  margin-bottom: 24px !important;
+}
+
+.portal-deposit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.portal-deposit-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #b45309;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+
+.portal-deposit-badge.is-paid {
+  background: #176531 !important;
+}
+
+.portal-deposit-amount {
+  font-family: var(--font-serif, "UChicagoSerif", Georgia, serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.portal-deposit-amount span {
+  font-size: 13px;
+  color: #666666;
+  font-family: var(--font-sans);
+  font-weight: 400;
+}
+
+.portal-deposit-desc {
+  font-size: 13.5px;
+  color: #444444;
+  line-height: 1.55;
+  margin-bottom: 16px;
+}
+
+.portal-pay-deposit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 22px;
+  background: var(--color-maroon, maroon);
+  color: #ffffff;
+  border: none;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.portal-pay-deposit-btn:hover {
+  background: #670a0a;
+}
+
+.portal-pay-deposit-btn:disabled {
+  background: #176531;
+  cursor: default;
+}
+
+/* Payment Modal Dialog */
+.portal-pay-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  backdrop-filter: blur(3px);
+}
+
+.portal-pay-modal-card {
+  background: #ffffff;
+  border-top: 5px solid var(--color-maroon, maroon);
+  border-radius: 2px;
+  max-width: 520px;
+  width: calc(100% - 32px);
+  padding: 28px 32px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.portal-pay-modal-title {
+  font-family: var(--font-serif, "UChicagoSerif", Georgia, serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 8px 0;
+}
+
+.portal-pay-summary-box {
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  padding: 12px 16px;
+  margin: 16px 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.portal-pay-methods {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.portal-pay-method-opt {
+  flex: 1;
+  padding: 10px;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #ffffff;
+  transition: all 0.15s ease;
+}
+.portal-pay-method-opt.is-selected {
+  border-color: var(--color-maroon, maroon);
+  background: #fdf5f5;
+  color: var(--color-maroon, maroon);
+}
+
+
+
+

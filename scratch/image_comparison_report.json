@@ -1,0 +1,302 @@
+{
+  "who-we-are": {
+    "status": "ok",
+    "live_count": 14,
+    "local_count": 16,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/subpage_media/solar-wind.jpg",
+      "/assets/logo-background-mobile.svg",
+      "/assets/logo-background.svg",
+      "/assets/subpage_media/screen-shot-2021-05-21-at-103352-am.png"
+    ]
+  },
+  "academics": {
+    "status": "ok",
+    "live_count": 6,
+    "local_count": 8,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background-mobile.svg",
+      "/assets/logo-background.svg",
+      "/assets/subpage_media/sisrm-research-meeting-1600.jpg",
+      "/assets/subpage_media/harris-students-networking.jpg"
+    ]
+  },
+  "research-and-scholarship": {
+    "status": "ok",
+    "live_count": 30,
+    "local_count": 37,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg",
+      "/-/media/images/logo-background.svg"
+    ],
+    "extra_in_local": [
+      "/assets/subpage_media/ryan-cecil-jobson-tile.jpg",
+      "/assets/footerlogo.jpg",
+      "/assets/subpage_media/doomsday-clock-hands.jpg",
+      "/assets/logo-background-mobile.svg",
+      "/assets/subpage_media/odunsi-2.jpg",
+      "/assets/subpage_media/cp1-rs-830-500.jpg",
+      "/assets/subpage_media/callout-sammarsden.jpg",
+      "/assets/subpage_media/wendy-freedman-as-a-guest-on-big-brains.jpg",
+      "/assets/logo-background.svg",
+      "/assets/subpage_media/callout-saroopsingh.jpg"
+    ]
+  },
+  "admissions": {
+    "status": "ok",
+    "live_count": 8,
+    "local_count": 8,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "life-at-uchicago": {
+    "status": "ok",
+    "live_count": 9,
+    "local_count": 13,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background-mobile.svg",
+      "/assets/subpage_media/wellalpalooza.png",
+      "/assets/subpage_media/football.png",
+      "/assets/logo-background.svg",
+      "/assets/subpage_media/artsgraycenter.png",
+      "/assets/subpage_media/regenstein.png"
+    ]
+  },
+  "medicine": {
+    "status": "ok",
+    "live_count": 8,
+    "local_count": 8,
+    "missing_in_local": [],
+    "extra_in_local": []
+  },
+  "academic-departments": {
+    "status": "ok",
+    "live_count": 4,
+    "local_count": 4,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg",
+      "/-/media/images/logo-background.svg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "schools-and-divisions": {
+    "status": "ok",
+    "live_count": 4,
+    "local_count": 4,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg",
+      "/-/media/images/logo-background.svg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "undergraduate-programs": {
+    "status": "ok",
+    "live_count": 3,
+    "local_count": 3,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg",
+      "/-/media/images/logo-background.svg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "graduate-programs": {
+    "status": "ok",
+    "live_count": 8,
+    "local_count": 8,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "center": {
+    "status": "ok",
+    "live_count": 4,
+    "local_count": 4,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg",
+      "/-/media/images/logo-background.svg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "affiliated-laboratories": {
+    "status": "ok",
+    "live_count": 7,
+    "local_count": 7,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "global-campuses": {
+    "status": "ok",
+    "live_count": 4,
+    "local_count": 4,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg",
+      "/-/media/images/logo-background.svg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "community-impact": {
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "global-impact": {
+    "status": "ok",
+    "live_count": 11,
+    "local_count": 11,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "history-and-traditions": {
+    "status": "ok",
+    "live_count": 12,
+    "local_count": 12,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "facts-and-figures": {
+    "status": "ok",
+    "live_count": 4,
+    "local_count": 4,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg",
+      "/-/media/images/logo-background.svg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "hyde-park": {
+    "status": "ok",
+    "live_count": 5,
+    "local_count": 5,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "student-life": {
+    "status": "ok",
+    "live_count": 8,
+    "local_count": 8,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "campus-resources": {
+    "status": "ok",
+    "live_count": 4,
+    "local_count": 4,
+    "missing_in_local": [
+      "/-/media/images/logo-background-mobile.svg",
+      "/-/media/images/logo-background.svg",
+      "/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg"
+    ],
+    "extra_in_local": [
+      "/assets/footerlogo.jpg",
+      "/assets/logo-background.svg",
+      "/assets/logo-background-mobile.svg"
+    ]
+  },
+  "arts": {
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  }
+}
