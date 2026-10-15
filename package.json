@@ -1,0 +1,31 @@
+{
+  "name": "indigo",
+  "version": "1.0.0",
+  "description": "University of Chicago Applicant Status Portal, Payment Gateway & 1:1 Department Replica",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Build complete - static assets ready in site_1to1/'",
+    "serve": "npx serve site_1to1"
+  },
+  "keywords": [
+    "uchicago",
+    "university-of-chicago",
+    "applicant-portal",
+    "payment-system",
+    "replica"
+  ],
+  "author": "dev351en",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

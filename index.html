@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The University of Chicago | Portal & Replica</title>
+  <meta http-equiv="refresh" content="0; url=site_1to1/index.html">
+  <link rel="icon" type="image/svg+xml" href="site_1to1/assets/logo-background-mobile.svg">
+  <script>
+    const search = window.location.search || '';
+    const hash = window.location.hash || '';
+    window.location.replace("site_1to1/index.html" + search + hash);
+  </script>
+  <style>
+    body {
+      background-color: #800000;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top-color: #ffffff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 24px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0 0 12px 0;
+      letter-spacing: 0.5px;
+    }
+    p {
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 15px;
+      margin: 0 0 16px 0;
+    }
+    a {
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="spinner"></div>
+  <h1>The University of Chicago</h1>
+  <p>Loading Applicant Status Portal & Institutional Directory...</p>
+  <p><a href="site_1to1/index.html">Click here if you are not automatically redirected</a></p>
+</body>
+</html>

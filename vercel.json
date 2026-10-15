@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/site_1to1/index.html" },
+    { "source": "/portal", "destination": "/site_1to1/portal.html" },
+    { "source": "/portal.html", "destination": "/site_1to1/portal.html" },
+    { "source": "/receipt", "destination": "/site_1to1/receipt.html" },
+    { "source": "/receipt.html", "destination": "/site_1to1/receipt.html" },
+    { "source": "/application-fee-receipt", "destination": "/site_1to1/application-fee-receipt.html" },
+    { "source": "/application-fee-receipt.html", "destination": "/site_1to1/application-fee-receipt.html" },
+    { "source": "/(.*)", "destination": "/site_1to1/$1" }
+  ]
+}
