@@ -429,7 +429,7 @@ paymentRouter.get("/invoice/:id", (req: Request, res: Response) => {
     association: "Office of the Bursar & Student Accounts",
     unit: "Division of the Physical Sciences • Dept. of Chemistry",
     address: "Searle Chemistry Laboratories • 5801 S. Ellis Avenue, Chicago, IL 60637 USA",
-    contactEmail: "bursar@uchicago.asia",
+    contactEmail: "bursar@uchicago.edu",
     website: "https://uchicago.edu",
     taxYear: "2026–2027",
     form1098Eligible: true,

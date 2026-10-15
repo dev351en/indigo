@@ -14,6 +14,6 @@ for root, dirs, files in os.walk('site_1to1'):
             if matches:
                 files_with_media[path] = len(matches)
 
-print(f"Total files with uchicago.asia media: {len(files_with_media)}")
+print(f"Total files with uchicago.edu media: {len(files_with_media)}")
 for p, count in sorted(files_with_media.items(), key=lambda x: x[1], reverse=True)[:25]:
     print(f"  {p}: {count} media URLs")

@@ -5,7 +5,7 @@ with open(page_path, 'r', encoding='utf-8') as f:
 start_marker = '<div id="faculty"'
 start_idx = content.find(start_marker)
 
-aw_idx = content.find('awuttig@uchicago.asia')
+aw_idx = content.find('awuttig@uchicago.edu')
 close_marker = '</div>\n              </div>'
 end_idx = content.find(close_marker, aw_idx)
 if end_idx != -1:
@@ -60,7 +60,7 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                       </p>
                       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; background: #fafafa; border-radius: 4px; padding: 12px 16px; margin-bottom: 14px; font-size: 13.5px; border: 1px solid #eee;">
                         <div><i class="fa-solid fa-location-dot" style="color: #800000; width: 18px;"></i> <strong>Lab / Office:</strong> Searle Chemistry Laboratory 320</div>
-                        <div><i class="fa-solid fa-envelope" style="color: #800000; width: 18px;"></i> <strong>Email:</strong> <a href="mailto:aqcusumano@uchicago.asia" style="color: #800000; font-weight: 600;">aqcusumano@uchicago.asia</a></div>
+                        <div><i class="fa-solid fa-envelope" style="color: #800000; width: 18px;"></i> <strong>Email:</strong> <a href="mailto:aqcusumano@uchicago.edu" style="color: #800000; font-weight: 600;">aqcusumano@uchicago.edu</a></div>
                         <div><i class="fa-solid fa-flask" style="color: #800000; width: 18px;"></i> <strong>Research Group:</strong> Cusumano Catalysis Lab</div>
                         <div><i class="fa-solid fa-calendar-check" style="color: #800000; width: 18px;"></i> <strong>Office Hours:</strong> Wed 2:00 &ndash; 4:00 PM CST</div>
                       </div>
@@ -92,8 +92,8 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Pioneered the discovery and mechanistic understanding of reversible RNA methylation in biological gene expression regulation, with fundamental impacts on cancer biology and agricultural biotechnology. MacArthur Fellow and Wolf Prize in Chemistry Laureate.
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:chuanhe@uchicago.asia" style="color: #800000;">chuanhe@uchicago.asia</a> &bull; 
-                        <strong>Lab:</strong> <a href="http://he-group.uchicago.asia" target="_blank" style="color: #800000;">The He Group</a>
+                        <strong>Email:</strong> <a href="mailto:chuanhe@uchicago.edu" style="color: #800000;">chuanhe@uchicago.edu</a> &bull; 
+                        <strong>Lab:</strong> <a href="http://he-group.uchicago.edu" target="_blank" style="color: #800000;">The He Group</a>
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">
                         <span style="background: #f5f5f5; color: #444; font-size: 11.5px; padding: 2px 8px; border-radius: 3px;">Chemical Biology</span>
@@ -118,8 +118,8 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Designs and deploys functional synthetic molecules and molecular devices to study and control dynamic biological signaling, lipid regulation, protein-protein interactions, and targeted RNA therapeutics.
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:dickinson@uchicago.asia" style="color: #800000;">dickinson@uchicago.asia</a> &bull; 
-                        <strong>Lab:</strong> <a href="http://dickinsonlab.uchicago.asia" target="_blank" style="color: #800000;">The Dickinson Laboratory</a>
+                        <strong>Email:</strong> <a href="mailto:dickinson@uchicago.edu" style="color: #800000;">dickinson@uchicago.edu</a> &bull; 
+                        <strong>Lab:</strong> <a href="http://dickinsonlab.uchicago.edu" target="_blank" style="color: #800000;">The Dickinson Laboratory</a>
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">
                         <span style="background: #f5f5f5; color: #444; font-size: 11.5px; padding: 2px 8px; border-radius: 3px;">Chemical Biology</span>
@@ -144,7 +144,7 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Develops advanced electronic structure theories and multi-reference quantum chemical models for complex catalytic systems, clean energy conversion, metal-organic frameworks (MOFs), and quantum information science.
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:lgagliardi@uchicago.asia" style="color: #800000;">lgagliardi@uchicago.asia</a> &bull; 
+                        <strong>Email:</strong> <a href="mailto:lgagliardi@uchicago.edu" style="color: #800000;">lgagliardi@uchicago.edu</a> &bull; 
                         <strong>Lab:</strong> Gagliardi Research Group
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">
@@ -170,7 +170,7 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Leader of the Chicago Center for the Origins of Life. Research focuses on the chemical origins of life, prebiotic chemistry, autonomous replication of RNA and model proto-cellular vesicles.
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:szostak@uchicago.asia" style="color: #800000;">szostak@uchicago.asia</a> &bull; 
+                        <strong>Email:</strong> <a href="mailto:szostak@uchicago.edu" style="color: #800000;">szostak@uchicago.edu</a> &bull; 
                         <strong>Lab:</strong> Szostak Origins of Life Laboratory
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">
@@ -196,7 +196,7 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Focuses on semiconductor biointerfaces, bioelectronic medicine, and photostimulated modulation of cellular and subcellular electrophysiology.
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:btian@uchicago.asia" style="color: #800000;">btian@uchicago.asia</a> &bull; 
+                        <strong>Email:</strong> <a href="mailto:btian@uchicago.edu" style="color: #800000;">btian@uchicago.edu</a> &bull; 
                         <strong>Lab:</strong> Tian Group
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">
@@ -222,7 +222,7 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Leader in multiscale computer simulation, multiscale coarse-graining, condensed matter theory, proton transport, and complex biomolecular assemblies (HIV capsids, actin filaments).
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:gavoth@uchicago.asia" style="color: #800000;">gavoth@uchicago.asia</a> &bull; 
+                        <strong>Email:</strong> <a href="mailto:gavoth@uchicago.edu" style="color: #800000;">gavoth@uchicago.edu</a> &bull; 
                         <strong>Lab:</strong> Voth Research Group
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">
@@ -248,7 +248,7 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Focuses on the science and technology of atomically thin two-dimensional (2D) materials, nanoscale electronics, photonics, and wafer-scale synthesis of inorganic membranes.
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:jwpark@uchicago.asia" style="color: #800000;">jwpark@uchicago.asia</a> &bull; 
+                        <strong>Email:</strong> <a href="mailto:jwpark@uchicago.edu" style="color: #800000;">jwpark@uchicago.edu</a> &bull; 
                         <strong>Lab:</strong> The Park Group
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">
@@ -274,7 +274,7 @@ new_faculty_html = """<div id="faculty" style="scroll-margin-top: 100px; margin-
                         Synthesizes and interrogates electrocatalytic interfaces to understand the fundamental charge-transfer reactions that govern renewable fuel synthesis and decarbonized organic transformations.
                       </p>
                       <div style="font-size: 13px; color: #555; margin-bottom: 10px;">
-                        <strong>Email:</strong> <a href="mailto:awuttig@uchicago.asia" style="color: #800000;">awuttig@uchicago.asia</a> &bull; 
+                        <strong>Email:</strong> <a href="mailto:awuttig@uchicago.edu" style="color: #800000;">awuttig@uchicago.edu</a> &bull; 
                         <strong>Lab:</strong> Wuttig Electrocatalysis Lab
                       </div>
                       <div style="display: flex; gap: 6px; flex-wrap: wrap;">

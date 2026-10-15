@@ -19,7 +19,7 @@ def generate_receipt():
     # Generate QR Code image
     qr_path = os.path.join(base_dir, "receipt_qr.png")
     qr = qrcode.QRCode(box_size=4, border=1)
-    qr.add_data("https://uchicago.asia/portal.html?txId=TXN-UCHI-2026-89321&ref=REF-UCHI-DEP-2027-6200")
+    qr.add_data("https://uchicago.edu/portal.html?txId=TXN-UCHI-2026-89321&ref=REF-UCHI-DEP-2027-6200")
     qr.make(fit=True)
     qr_img = qr.make_image(fill_color="#1a1a1a", back_color="white")
     qr_img.save(qr_path)
@@ -327,7 +327,7 @@ def generate_receipt():
         "<strong>Official Tax Receipt &amp; Payment Mandate Confirmation</strong> issued under University of Chicago Student Accounts. "
         "Retain this official institutional receipt for your academic records, corporate or fellowship tuition reimbursement, and IRS/tax reporting purposes. "
         "The seat reservation deposit guarantees matriculation placement in the doctoral research program under Prof. Alex Cusumano for Autumn 2027. "
-        "Inquiries: Office of the Bursar, bursar@uchicago.asia • Phone: +1 (773) 702-8000 • 5801 S. Ellis Ave, Chicago, IL 60637."
+        "Inquiries: Office of the Bursar, bursar@uchicago.edu • Phone: +1 (773) 702-8000 • 5801 S. Ellis Ave, Chicago, IL 60637."
     )
     elements.append(Paragraph(notice_text, notice_style))
     elements.append(Spacer(1, 6))

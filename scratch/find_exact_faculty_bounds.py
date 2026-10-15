@@ -6,7 +6,7 @@ start_marker = '<div id="faculty"'
 start_idx = content.find(start_marker)
 
 # find where the faculty container closes after awuttig
-aw_idx = content.find('awuttig@uchicago.asia')
+aw_idx = content.find('awuttig@uchicago.edu')
 # look for </div>\n              </div> after aw_idx
 close_marker = '</div>\n              </div>'
 end_idx = content.find(close_marker, aw_idx)
