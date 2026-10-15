@@ -289,7 +289,7 @@
           <polyline points="16 9 10 15 8 13"></polyline>
         </svg>
         <div>
-          <div style="font-size: 15px; font-weight: 700; color: #800000;">Application Status: Complete &amp; Under Review • Faculty Advisor Confirmed</div>
+          <div style="font-size: 15px; font-weight: 700; color: #800000;">Official Admissions Status: Admitted &amp; Fully Funded • Offer Letter Issued</div>
           <div style="font-size: 13px; font-weight: 400; color: #444444; margin-top: 3px;">
             Your doctoral application file is verified complete and has been accepted by the faculty research committee in the Department of Chemistry.
           </div>
@@ -302,6 +302,7 @@
         <!-- Left Column: Core File & Checklist -->
         <div class="portal-main-col">
 
+          
           <!-- Applicant Dossier Card -->
           <div class="portal-card-block">
             <h2 class="portal-card-block-title">
@@ -900,6 +901,63 @@
   </div>
 
 
+  <!-- Official Admission & Fellowship Offer Letter Modal Viewer -->
+  <div class="portal-transcript-modal-overlay" id="offerLetterModalOverlay" role="dialog" aria-modal="true" aria-labelledby="offerLetterModalTitle" aria-hidden="true">
+    <div class="portal-transcript-modal-card" style="max-width: 860px;">
+      <div class="portal-transcript-modal-header">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <div style="width: 38px; height: 38px; border-radius: 50%; background: #fdf2f2; border: 1px solid maroon; display: flex; align-items: center; justify-content: center; color: maroon; font-size: 18px;">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h2 id="offerLetterModalTitle" style="font-family: 'UChicagoSerif', Georgia, serif; font-size: 17px; margin: 0; color: #111;">
+              The University of Chicago — Official Admission Offer &amp; Fellowship Grant
+            </h2>
+            <div style="font-size: 12px; color: #555; margin-top: 2px;">
+              Candidate: <strong>Devendra Dubey</strong> • Ref: <strong>UCHI-PSD-CHEM-OFFER-2027-89321</strong> • Program: <strong>Ph.D. in Chemistry (Autumn 2027)</strong>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <button type="button" id="offerLetterPrintBtn" style="background: #ffffff; border: 1px solid #ccc; color: #333; padding: 6px 12px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 2px; display: inline-flex; align-items: center; gap: 5px;">
+            <i class="fa-solid fa-print"></i> Print
+          </button>
+          <a href="../assets/documents/Official_Offer_Letter_UCHI_2027_Devendra_Dubey.pdf" target="_blank" download="Official_Offer_Letter_UCHI_2027_Devendra_Dubey.pdf" style="background: maroon; color: #fff; text-decoration: none; padding: 6px 12px; font-size: 12px; font-weight: 600; border-radius: 2px; display: inline-flex; align-items: center; gap: 5px;">
+            <i class="fa-solid fa-download"></i> Download PDF
+          </a>
+          <button type="button" id="offerLetterModalClose" aria-label="Close Offer Letter" style="background: transparent; border: none; font-size: 26px; line-height: 1; cursor: pointer; color: #666; padding: 0 4px;">&times;</button>
+        </div>
+      </div>
+      <div class="portal-transcript-modal-body">
+        <div class="portal-transcript-page-wrap">
+          <div class="portal-transcript-page-label">
+            <span>Page 1 of 2 — Admission Offer, Laboratory Placement &amp; Commendation of Editor-Led Project</span>
+            <span>Ref: UCHI-PSD-CHEM-OFFER-2027-89321</span>
+          </div>
+          <img src="../assets/documents/offer_letter_page_1.png" alt="University of Chicago Admission Offer Letter Page 1 - Devendra Dubey" />
+        </div>
+        <div class="portal-transcript-page-wrap">
+          <div class="portal-transcript-page-label">
+            <span>Page 2 of 2 — Comprehensive Fellowship ($20k/sem tuition, $3k/mo stipend, $6,200 deposit terms) &amp; Institutional Signatures</span>
+            <span>Prof. Alex Cusumano • Dean Angela Olinto</span>
+          </div>
+          <img src="../assets/documents/offer_letter_page_2.png" alt="University of Chicago Admission Offer Letter Page 2 - Devendra Dubey" />
+        </div>
+      </div>
+      <div style="padding: 12px 24px; background: #fafafa; border-top: 1px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #666; flex-shrink: 0;">
+        <div>
+          <i class="fa-solid fa-shield-halved" style="color: #800000; margin-right: 4px;"></i>
+          Division of the Physical Sciences • Office of Graduate Admissions, The University of Chicago
+        </div>
+        <button type="button" id="offerLetterModalCloseBtn2" style="background: #e0e0e0; color: #333; border: none; padding: 6px 14px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 2px;">
+          Close Viewer
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  
   <!-- ==========================================================================
        Institutional Payment Gateway, 2FA OTP, Tax Receipt & Verification Modals
        ========================================================================== -->

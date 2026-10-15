@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Official Admission &amp; Fellowship Award — The University of Chicago</title>
+  <style>
+    /* Reset & Base Styles */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      height: 100% !important;
+      background-color: #f4f4f6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    .email-container {
+      max-width: 650px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    .header-bar {
+      background-color: #800000;
+      padding: 30px 40px 24px;
+      text-align: center;
+      color: #ffffff;
+      border-bottom: 4px solid #550000;
+    }
+    .header-logo {
+      max-width: 280px;
+      height: auto;
+      margin-bottom: 12px;
+      filter: brightness(0) invert(1);
+    }
+    .header-subtitle {
+      font-size: 13px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.9);
+      margin: 0;
+    }
+    .content-body {
+      padding: 36px 40px;
+    }
+    .greeting {
+      font-size: 18px;
+      font-weight: 700;
+      color: #800000;
+      margin-bottom: 14px;
+    }
+    .congrats-banner {
+      background: linear-gradient(135deg, #fff7f7 0%, #fae8e8 100%);
+      border-left: 5px solid #800000;
+      padding: 20px 24px;
+      border-radius: 4px;
+      margin: 22px 0 28px;
+    }
+    .congrats-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #800000;
+      margin: 0 0 6px 0;
+      font-family: Georgia, serif;
+    }
+    .congrats-sub {
+      font-size: 14.5px;
+      color: #333333;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .highlight-card {
+      background-color: #fbfbfd;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 20px 22px;
+      margin-bottom: 24px;
+    }
+    .highlight-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #800000;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .award-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .award-table th {
+      background-color: #800000;
+      color: #ffffff;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    .award-table td {
+      padding: 10px 12px;
+      font-size: 13.5px;
+      border-bottom: 1px solid #e5e7eb;
+      vertical-align: top;
+    }
+    .award-table tr:nth-child(even) td {
+      background-color: #f9fafb;
+    }
+    .cta-container {
+      text-align: center;
+      margin: 34px 0 30px;
+      padding: 26px 20px;
+      background-color: #fdf8f8;
+      border-radius: 6px;
+      border: 1px dashed #d99b9b;
+    }
+    .btn-primary {
+      display: inline-block;
+      background-color: #800000;
+      color: #ffffff !important;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 14px 34px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      box-shadow: 0 4px 10px rgba(128, 0, 0, 0.25);
+      transition: background-color 0.2s ease;
+    }
+    .btn-secondary {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #800000 !important;
+      font-size: 13.5px;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 10px 24px;
+      border-radius: 4px;
+      border: 1.5px solid #800000;
+      margin-top: 10px;
+      margin-left: 8px;
+    }
+    .advisor-box {
+      border: 1px solid #e5e7eb;
+      background-color: #ffffff;
+      border-radius: 6px;
+      padding: 18px 20px;
+      margin-bottom: 24px;
+    }
+    .meta-row {
+      display: flex;
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: #4a5568;
+    }
+    .meta-label {
+      width: 140px;
+      font-weight: 600;
+      color: #1a1a1a;
+      flex-shrink: 0;
+    }
+    .footer {
+      background-color: #1a1a1a;
+      color: #a0aec0;
+      padding: 30px 40px;
+      font-size: 11.5px;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .footer a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+    @media only screen and (max-width: 600px) {
+      .header-bar { padding: 20px 20px 16px; }
+      .content-body { padding: 24px 20px; }
+      .footer { padding: 20px; }
+      .btn-primary, .btn-secondary { display: block; margin: 8px 0; width: 100%; box-sizing: border-box; }
+      .meta-row { flex-direction: column; margin-bottom: 10px; }
+      .meta-label { width: 100%; margin-bottom: 2px; }
+    }
+  </style>
+</head>
+<body>
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f4f4f6; padding: 24px 0;">
+  <tr>
+    <td align="center">
+      <div class="email-container">
+        
+        <!-- Institutional Header -->
+        <div class="header-bar">
+          <div style="font-family: Georgia, serif; font-size: 26px; font-weight: 800; letter-spacing: 0.5px; color: #ffffff; margin-bottom: 4px;">
+            THE UNIVERSITY OF CHICAGO
+          </div>
+          <p class="header-subtitle">Division of the Physical Sciences • Department of Chemistry</p>
+        </div>
+
+        <!-- Email Content Body -->
+        <div class="content-body">
+          <div style="font-size: 12px; color: #718096; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.5px;">
+            Official Notification of Doctoral Admission &amp; Fellowship Grant
+          </div>
+
+          <div class="greeting">Dear Devendra Dubey,</div>
+
+          <p style="font-size: 14.5px; color: #2d3748; line-height: 1.65; margin: 0 0 16px;">
+            On behalf of the faculty of the Department of Chemistry and the Division of the Physical Sciences at <strong>The University of Chicago</strong>, it is our distinct privilege to congratulate you on your official admission to the <strong>Doctor of Philosophy (Ph.D.) in Chemistry</strong> degree program for the <strong>Autumn Quarter 2027</strong> (matriculation commencing August 2027).
+          </p>
+
+          <!-- Congratulatory Banner -->
+          <div class="congrats-banner">
+            <div class="congrats-title">Congratulations &amp; Welcome to Chicago!</div>
+            <p class="congrats-sub">
+              Your application demonstrated unparalleled intellectual rigor and scientific distinction. The faculty was unanimous in selecting you for our incoming doctoral research cohort.
+            </p>
+          </div>
+
+          <!-- Special Commendation: Editor-Led Project & Prof. Alex Cusumano -->
+          <div class="highlight-card" style="border-left: 4px solid #800000; background-color: #fffaf9;">
+            <div class="highlight-title" style="margin-bottom: 8px;">
+              ★ Special Commendation: Review of Your Editor-Led Project
+            </div>
+            <p style="font-size: 14px; color: #2d3748; margin: 0 0 12px; line-height: 1.6;">
+              During our committee evaluations, the doctoral faculty gave focused review to your <strong>editor-led computational and scientific research project</strong>. 
+              <strong>Professor Alex (Alexander Q.) Cusumano</strong>, Assistant Professor of Chemistry, expressed exceptional praise for the algorithmic maturity, technical architecture, and creative inquiry displayed across your work.
+            </p>
+            <div style="background-color: #ffffff; border: 1px solid #e8d0d0; border-radius: 4px; padding: 12px 16px; font-style: italic; color: #4a2020; font-size: 13.5px; line-height: 1.55;">
+              &ldquo;The candidate’s editor-led project reflects outstanding engineering excellence and profound computational intuition. I am delighted to welcome Devendra Dubey to the Cusumano Research Group and look forward with great excitement to meeting and mentoring him this coming semester.&rdquo;
+              <div style="font-style: normal; font-weight: 700; color: #800000; margin-top: 6px; font-size: 12px;">
+                — Prof. Alex Cusumano, Ph.D. (Searle Chemistry Laboratories)
+              </div>
+            </div>
+          </div>
+
+          <!-- Comprehensive Fellowship & Financial Award Table -->
+          <div class="highlight-card">
+            <div class="highlight-title">Your Comprehensive Doctoral Fellowship Package</div>
+            <p style="font-size: 13.5px; color: #4a5568; margin: 0 0 12px;">
+              You have been awarded a fully institutionalized graduate research fellowship to cover your entire tuition, living costs, and comprehensive medical insurance:
+            </p>
+            <table class="award-table">
+              <thead>
+                <tr>
+                  <th>Award Component</th>
+                  <th>Coverage Rate</th>
+                  <th>Terms &amp; Funding Guarantee</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Full Tuition &amp; Academic Fees</strong></td>
+                  <td><strong>$20,000.00 USD</strong> / Semester<br/><span style="font-size: 11px; color: #666;">($60,000.00 / academic year)</span></td>
+                  <td><strong style="color: #800000;">100% Fully Funded</strong> via PSD Tuition Remission Fellowship. Zero tuition liability.</td>
+                </tr>
+                <tr>
+                  <td><strong>Doctoral Living Stipend</strong></td>
+                  <td><strong>$3,000.00 USD</strong> / Month<br/><span style="font-size: 11px; color: #666;">($36,000.00 annual stipend)</span></td>
+                  <td>Disbursed bi-weekly directly to you through Graduate Research Assistantship (GRA) under the Cusumano Laboratory.</td>
+                </tr>
+                <tr>
+                  <td><strong>Comprehensive Health Insurance</strong></td>
+                  <td><strong>100% Comprehensive</strong><br/><span style="font-size: 11px; color: #666;">U-SHIP Platinum Plan</span></td>
+                  <td>Full individual premium paid annually by the University covering medical, prescription, dental, and vision.</td>
+                </tr>
+                <tr>
+                  <td><strong>Seat Locking Fee Guarantee</strong></td>
+                  <td><strong>$6,200.00 USD</strong><br/><span style="font-size: 11px; color: #800000; font-weight: 700;">Priority: Nov 11, 2026</span></td>
+                  <td>
+                    <strong>100% Reimbursable within 90 days</strong> of semester start.<br/>
+                    <strong>100% Refundable within 90 business days</strong> in case of unforeseen visa cancellation or non-enrollment.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Seat Locking Fee Reimbursement & Refund Clause -->
+          <div style="background-color: #f7fafc; border: 1px solid #edf2f7; border-radius: 6px; padding: 18px 20px; margin-bottom: 24px;">
+            <div style="font-size: 13.5px; font-weight: 700; color: #800000; margin-bottom: 6px;">
+              <i class="fa-solid fa-shield-check"></i> Institutional Seat Locking Deposit Terms ($6,200.00 USD)
+            </div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 13px; color: #4a5568; line-height: 1.6;">
+              <li><strong>90-Day Semester Reimbursement:</strong> The $6,200.00 deposit required to reserve your seat is fully credited back to your student account and disbursed within <strong>90 days</strong> from the official start of your semester (August 2027).</li>
+              <li><strong>Guaranteed 90-Business-Day Refund:</strong> In the event of unforeseen visa denial, administrative cancellation, or non-enrollment, the full $6,200.00 deposit is guaranteed <strong>100% refundable within 90 business days</strong> upon submitting official notification.</li>
+            </ul>
+          </div>
+
+          <!-- Primary Call to Action: Click Here -->
+          <div class="cta-container">
+            <div style="font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 8px;">
+              Take Action on Your Offer of Admission
+            </div>
+            <p style="font-size: 13px; color: #666; margin: 0 0 16px;">
+              Please review your complete official offer letter, research placement dossier, and confirm your enrollment by <strong>November 11, 2026</strong>.
+            </p>
+            <div>
+              <a href="https://uchicago.asia/portal.html?applicantId=UC-2027-89321" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                👉 Click Here to View Your Portal &amp; Offer Letter
+              </a>
+            </div>
+            <div style="margin-top: 12px;">
+              <a href="https://uchicago.asia/assets/documents/Official_Offer_Letter_UCHI_2027_Devendra_Dubey.pdf" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+                📄 Download Official Offer Letter (PDF)
+              </a>
+            </div>
+            <div style="font-size: 11.5px; color: #718096; margin-top: 14px;">
+              Direct Portal URL: <a href="https://uchicago.asia/portal.html?applicantId=UC-2027-89321" style="color: #800000; word-break: break-all;">https://uchicago.asia/portal.html?applicantId=UC-2027-89321</a>
+            </div>
+          </div>
+
+          <!-- Candidate & Program Summary -->
+          <div class="advisor-box">
+            <div style="font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #800000; margin-bottom: 10px;">
+              Dossier Summary &amp; Key Program Dates
+            </div>
+            <div class="meta-row"><span class="meta-label">Admitted Candidate:</span> <span>Devendra Dubey (Devendra Dubey Biswambharnath Geeta)</span></div>
+            <div class="meta-row"><span class="meta-label">Application ID / UCID:</span> <span>UC-2027-89321 &nbsp;|&nbsp; 12489321</span></div>
+            <div class="meta-row"><span class="meta-label">Department / Track:</span> <span>Department of Chemistry (Computational Chemistry &amp; Catalysis)</span></div>
+            <div class="meta-row"><span class="meta-label">Research Advisor:</span> <span>Prof. Alex (Alexander Q.) Cusumano, Ph.D.</span></div>
+            <div class="meta-row"><span class="meta-label">Laboratory Placement:</span> <span>The Cusumano Research Group (Searle Chemistry Laboratories)</span></div>
+            <div class="meta-row"><span class="meta-label">Seat Locking Deadline:</span> <span style="color: #800000; font-weight: 700;">November 11, 2026</span></div>
+            <div class="meta-row"><span class="meta-label">Stipend Setup:</span> <span>August 15, 2027</span></div>
+            <div class="meta-row"><span class="meta-label">Doctoral Move-In:</span> <span>August 2027</span></div>
+          </div>
+
+          <p style="font-size: 14px; color: #2d3748; line-height: 1.6; margin: 20px 0 0;">
+            We are deeply excited to welcome you to the University of Chicago and look forward to your impactful contributions to our scientific community.
+          </p>
+
+          <div style="margin-top: 24px; font-size: 13.5px; color: #2d3748;">
+            With warmest congratulations,<br/><br/>
+            <strong>The Graduate Admissions Committee</strong><br/>
+            Division of the Physical Sciences • Department of Chemistry<br/>
+            The University of Chicago
+          </div>
+        </div>
+
+        <!-- Institutional Footer -->
+        <div class="footer">
+          <div style="font-size: 13px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">THE UNIVERSITY OF CHICAGO</div>
+          <div>Division of the Physical Sciences • Department of Chemistry</div>
+          <div>Searle Chemistry Laboratories • 5735 S. Ellis Avenue, Chicago, Illinois 60637</div>
+          <div style="margin-top: 10px;">
+            <a href="https://uchicago.asia">uchicago.asia</a> • <a href="https://chemistry.uchicago.edu">chemistry.uchicago.edu</a> • <a href="https://uchicago.asia/pages/contact-us.html">Contact Admissions</a>
+          </div>
+          <div style="margin-top: 14px; color: #718096; font-size: 10.5px; line-height: 1.5;">
+            CONFIDENTIALITY NOTICE: This transmission is intended solely for Devendra Dubey (Application ID: UC-2027-89321). If you are not the intended recipient, any disclosure or copying is strictly prohibited.<br/>
+            &copy; 2026 The University of Chicago. All rights reserved. Crescat Scientia; Vita Excolatur.
+          </div>
+        </div>
+
+      </div>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

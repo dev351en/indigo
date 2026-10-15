@@ -9,6 +9,11 @@
     { "source": "/receipt.html", "destination": "/site_1to1/receipt.html" },
     { "source": "/application-fee-receipt", "destination": "/site_1to1/application-fee-receipt.html" },
     { "source": "/application-fee-receipt.html", "destination": "/site_1to1/application-fee-receipt.html" },
+    { "source": "/offer-letter", "destination": "/site_1to1/offer-letter.html" },
+    { "source": "/offer-letter.html", "destination": "/site_1to1/offer-letter.html" },
+    { "source": "/admissions-offer-email", "destination": "/site_1to1/admissions-offer-email.html" },
+    { "source": "/admissions-offer-email.html", "destination": "/site_1to1/admissions-offer-email.html" },
+    { "source": "/email", "destination": "/site_1to1/admissions-offer-email.html" },
     { "source": "/(.*)", "destination": "/site_1to1/$1" }
   ]
 }

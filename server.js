@@ -40,6 +40,18 @@ app.get('/application-fee-receipt', (req, res) => {
   res.sendFile(path.join(siteDir, 'application-fee-receipt.html'));
 });
 
+app.get('/offer-letter', (req, res) => {
+  res.sendFile(path.join(siteDir, 'offer-letter.html'));
+});
+
+app.get('/admissions-offer-email', (req, res) => {
+  res.sendFile(path.join(siteDir, 'admissions-offer-email.html'));
+});
+
+app.get('/email', (req, res) => {
+  res.sendFile(path.join(siteDir, 'admissions-offer-email.html'));
+});
+
 // Fallback for static subpages and assets
 app.use((req, res) => {
   const targetPath = path.join(siteDir, req.path);

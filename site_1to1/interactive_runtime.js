@@ -842,6 +842,124 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // --- Offer Letter Modal Logic ---
+  var offerLetterModalOverlay = document.getElementById("offerLetterModalOverlay");
+  var btnOpenOfferLetterModal = document.getElementById("btnOpenOfferLetterModal");
+  var offerLetterModalClose = document.getElementById("offerLetterModalClose");
+  var offerLetterModalCloseBtn2 = document.getElementById("offerLetterModalCloseBtn2");
+  var offerLetterPrintBtn = document.getElementById("offerLetterPrintBtn");
+
+  function openOfferLetterModal() {
+    if (!offerLetterModalOverlay) return;
+    offerLetterModalOverlay.classList.add("is-active");
+    offerLetterModalOverlay.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeOfferLetterModal() {
+    if (!offerLetterModalOverlay) return;
+    offerLetterModalOverlay.classList.remove("is-active");
+    offerLetterModalOverlay.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+
+  if (btnOpenOfferLetterModal) {
+    btnOpenOfferLetterModal.addEventListener("click", function (e) {
+      e.preventDefault();
+      openOfferLetterModal();
+    });
+  }
+  if (offerLetterModalClose) {
+    offerLetterModalClose.addEventListener("click", closeOfferLetterModal);
+  }
+  if (offerLetterModalCloseBtn2) {
+    offerLetterModalCloseBtn2.addEventListener("click", closeOfferLetterModal);
+  }
+  if (offerLetterPrintBtn) {
+    offerLetterPrintBtn.addEventListener("click", function () {
+      window.print();
+    });
+  }
+  if (offerLetterModalOverlay) {
+    offerLetterModalOverlay.addEventListener("click", function (e) {
+      if (e.target === offerLetterModalOverlay) closeOfferLetterModal();
+    });
+  }
+
+  // --- Transcript Modal Logic ---
+  var transcriptModalOverlay = document.getElementById("transcriptModalOverlay");
+  var transcriptModalClose = document.getElementById("transcriptModalClose");
+  var transcriptModalCloseBtn2 = document.getElementById("transcriptModalCloseBtn2");
+  var transcriptPrintBtn = document.getElementById("transcriptPrintBtn");
+
+  function openTranscriptModal() {
+    if (!transcriptModalOverlay) return;
+    transcriptModalOverlay.classList.add("is-active");
+    transcriptModalOverlay.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeTranscriptModal() {
+    if (!transcriptModalOverlay) return;
+    transcriptModalOverlay.classList.remove("is-active");
+    transcriptModalOverlay.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+
+  if (transcriptModalClose) {
+    transcriptModalClose.addEventListener("click", closeTranscriptModal);
+  }
+  if (transcriptModalCloseBtn2) {
+    transcriptModalCloseBtn2.addEventListener("click", closeTranscriptModal);
+  }
+  if (transcriptPrintBtn) {
+    transcriptPrintBtn.addEventListener("click", function () {
+      window.print();
+    });
+  }
+  if (transcriptModalOverlay) {
+    transcriptModalOverlay.addEventListener("click", function (e) {
+      if (e.target === transcriptModalOverlay) closeTranscriptModal();
+    });
+  }
+
+  // --- Curriculum Vitae (CV) Modal Logic ---
+  var cvModalOverlay = document.getElementById("cvModalOverlay");
+  var cvModalClose = document.getElementById("cvModalClose");
+  var cvModalCloseBtn2 = document.getElementById("cvModalCloseBtn2");
+  var cvPrintBtn = document.getElementById("cvPrintBtn");
+
+  function openCvModal() {
+    if (!cvModalOverlay) return;
+    cvModalOverlay.classList.add("is-active");
+    cvModalOverlay.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeCvModal() {
+    if (!cvModalOverlay) return;
+    cvModalOverlay.classList.remove("is-active");
+    cvModalOverlay.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+
+  if (cvModalClose) {
+    cvModalClose.addEventListener("click", closeCvModal);
+  }
+  if (cvModalCloseBtn2) {
+    cvModalCloseBtn2.addEventListener("click", closeCvModal);
+  }
+  if (cvPrintBtn) {
+    cvPrintBtn.addEventListener("click", function () {
+      window.print();
+    });
+  }
+  if (cvModalOverlay) {
+    cvModalOverlay.addEventListener("click", function (e) {
+      if (e.target === cvModalOverlay) closeCvModal();
+    });
+  }
+
   // Global ESC key listener
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" || e.keyCode === 27) {
@@ -849,6 +967,9 @@ document.addEventListener("DOMContentLoaded", function () {
       closePaymentOtpModal();
       closeInvoiceReceiptModal();
       closeVerifyCardModal();
+      closeOfferLetterModal();
+      closeTranscriptModal();
+      closeCvModal();
     }
   });
 
@@ -862,6 +983,8 @@ document.addEventListener("DOMContentLoaded", function () {
   window.openVerifyCardModal = openVerifyCardModal;
   window.closeVerifyCardModal = closeVerifyCardModal;
 
+  window.openOfferLetterModal = openOfferLetterModal;
+  window.closeOfferLetterModal = closeOfferLetterModal;
   window.openTranscriptModal = openTranscriptModal;
   window.closeTranscriptModal = closeTranscriptModal;
   window.openCvModal = openCvModal;
