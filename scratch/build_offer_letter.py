@@ -143,7 +143,7 @@ def build_pdf_offer_letter():
         "<b>Department of Chemistry • Doctoral Admissions</b><br/>"
         "Searle Chemistry Laboratories • 5735 S. Ellis Avenue<br/>"
         "Chicago, Illinois 60637, United States<br/>"
-        "<font color='#800000'><b>https://uchicago.edu • https://chemistry.uchicago.edu</b></font>",
+        "<font color='#800000'><b>https://uchicago.asia • uchicago.asia/portal.html</b></font>",
         header_right_style
     )
 
