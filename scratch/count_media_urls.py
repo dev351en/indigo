@@ -14,5 +14,5 @@ for root, dirs, files in os.walk('site_1to1'):
             if found:
                 matches.append((path, len(found)))
 
-print(f"Total files with uchicago.edu/-/media or /-/jssmedia: {len(matches)}")
+print(f"Total files with uchicago.asia/-/media or /-/jssmedia: {len(matches)}")
 print(f"Total occurrences: {sum(m[1] for m in matches)}")

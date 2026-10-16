@@ -17,7 +17,7 @@
           "href": "/identity/externallogin?authenticationType=ShibbolethExtranet&ReturnUrl=%2fidentity%2fexternallogincallback%3fReturnUrl%3d%252f%26sc_site%3dIntranet%26authenticationSource%3dDefault&sc_site=Intranet"
         }
       ],
-      "pageUrl": "https://www.uchicago.edu/academics",
+      "pageUrl": "https://www.uchicago.asia/academics",
       "securityInfo": {
         "isAuthenticated": false
       }
@@ -138,7 +138,7 @@
                     },
                     "blockPosition": {
                       "id": "78fca699-60d2-49a5-96b8-be14e998667c",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-position-folder/right",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-position-folder/right",
                       "name": "Right",
                       "displayName": "Right",
                       "fields": {
@@ -149,7 +149,7 @@
                     },
                     "backgroundImage": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/rosenwald-scroller-bg/professor-points-to-the-chalk-board/data-science-professor.jpg?h=1000&iar=0&w=2000&hash=DD2DF7303A5E4C25CB5DAF6FB1770199",
+                        "src": "https://www.uchicago.asia/-/media/rosenwald-scroller-bg/professor-points-to-the-chalk-board/data-science-professor.jpg?h=1000&iar=0&w=2000&hash=DD2DF7303A5E4C25CB5DAF6FB1770199",
                         "alt": "Data Science Professor",
                         "width": "2000",
                         "height": "1000"
@@ -166,7 +166,7 @@
                     },
                     "colorTheme": {
                       "id": "3124cd46-d6f0-44d3-aa1d-51748bb86580",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/white",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/white",
                       "name": "White",
                       "displayName": "White",
                       "fields": {
@@ -321,7 +321,7 @@
                     "theme": null,
                     "backgroundImage": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/edu-demo-content/watermarks/img-wwa-image-left-cropped-3_2x.jpg?h=1022&iar=0&w=1560&hash=8DF3638398387A05F0FE05A04E6FB0BB",
+                        "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/edu-demo-content/watermarks/img-wwa-image-left-cropped-3_2x.jpg?h=1022&iar=0&w=1560&hash=8DF3638398387A05F0FE05A04E6FB0BB",
                         "alt": "alt text",
                         "width": "1560",
                         "height": "1022"
@@ -341,7 +341,7 @@
                         "fields": {
                           "alignment": {
                             "id": "41248ea6-1033-4ed3-b4d0-8e3ee136e9de",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/alignment-folder/center",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/alignment-folder/center",
                             "name": "Center",
                             "displayName": "Center",
                             "fields": {
@@ -390,7 +390,7 @@
                           },
                           "cardBackgroundColor": {
                             "id": "14006691-618f-4c59-88bd-3beda2c04341",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tile-card-color/white",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tile-card-color/white",
                             "name": "White",
                             "displayName": "White",
                             "fields": {
@@ -410,7 +410,7 @@
                           },
                           "tilesPerRow": {
                             "id": "0ba37bcf-c509-4979-8289-de890fff74ce",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tiles-number-folder/two",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tiles-number-folder/two",
                             "name": "two",
                             "displayName": "two",
                             "fields": {
@@ -439,7 +439,7 @@
                                 },
                                 "image": {
                                   "value": {
-                                    "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/education-and-research/undergraduates1/leybovich-gilkin-and-kan-discuss-their-research-process/sisrm-research-meeting-1600.jpg?h=1000&iar=0&w=1600&hash=F9F33F60248C01FC2BA1202886BB6429",
+                                    "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/education-and-research/undergraduates1/leybovich-gilkin-and-kan-discuss-their-research-process/sisrm-research-meeting-1600.jpg?h=1000&iar=0&w=1600&hash=F9F33F60248C01FC2BA1202886BB6429",
                                     "alt": "SISRM research meeting",
                                     "width": "1600",
                                     "height": "1000"
@@ -508,7 +508,7 @@
                                 },
                                 "image": {
                                   "value": {
-                                    "src": "https://www.uchicago.edu/-/media/graduate-students-networking/harris-grad-students/harris-students-networking.jpg?h=1000&iar=0&w=1600&hash=FCDD3D804CE4404F6E9DADF3E79AA2D7",
+                                    "src": "https://www.uchicago.asia/-/media/graduate-students-networking/harris-grad-students/harris-students-networking.jpg?h=1000&iar=0&w=1600&hash=FCDD3D804CE4404F6E9DADF3E79AA2D7",
                                     "alt": "Harris students networking",
                                     "width": "1600",
                                     "height": "1000"
@@ -590,7 +590,7 @@
                   "fields": {
                     "image": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/n-12-education-lab-school/children-in-art-class.jpg?h=1000&iar=0&w=1600&hash=7339AA3830169544B356FF083962C22A",
+                        "src": "https://www.uchicago.asia/-/media/n-12-education-lab-school/children-in-art-class.jpg?h=1000&iar=0&w=1600&hash=7339AA3830169544B356FF083962C22A",
                         "alt": "Children in art class",
                         "width": "1600",
                         "height": "1000"
@@ -626,7 +626,7 @@
                     },
                     "theme": {
                       "id": "e28161c4-ce8a-4261-b81f-2a1dbb5a19b3",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-banner-theme-folder/light",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-banner-theme-folder/light",
                       "name": "Light",
                       "displayName": "Light",
                       "fields": {
@@ -682,9 +682,9 @@
                         "fields": {
                           "link": {
                             "value": {
-                              "href": "https://collegeadmissions.uchicago.edu/",
+                              "href": "https://collegeadmissions.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://collegeadmissions.uchicago.edu/",
+                              "url": "https://collegeadmissions.uchicago.asia/",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -709,9 +709,9 @@
                         "fields": {
                           "link": {
                             "value": {
-                              "href": "https://grad.uchicago.edu/admissions/",
+                              "href": "https://grad.uchicago.asia/admissions/",
                               "linktype": "external",
-                              "url": "https://grad.uchicago.edu/admissions/",
+                              "url": "https://grad.uchicago.asia/admissions/",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -736,9 +736,9 @@
                         "fields": {
                           "link": {
                             "value": {
-                              "href": "https://visit.uchicago.edu/",
+                              "href": "https://visit.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://visit.uchicago.edu/",
+                              "url": "https://visit.uchicago.asia/",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -832,7 +832,7 @@
                     },
                     "mobileLogo": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F",
+                        "src": "https://www.uchicago.asia/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F",
                         "alt": "The University of Chicago Logo"
                       }
                     },
@@ -856,7 +856,7 @@
                     },
                     "logo": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF",
+                        "src": "https://www.uchicago.asia/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF",
                         "alt": "The University of Chicago Logo "
                       }
                     },
@@ -880,9 +880,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://news.uchicago.edu",
+                                    "href": "https://news.uchicago.asia",
                                     "linktype": "external",
-                                    "url": "https://news.uchicago.edu",
+                                    "url": "https://news.uchicago.asia",
                                     "anchor": "",
                                     "target": "_blank"
                                   }
@@ -905,9 +905,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://events.uchicago.edu/",
+                                    "href": "https://events.uchicago.asia/",
                                     "linktype": "external",
-                                    "url": "https://events.uchicago.edu/",
+                                    "url": "https://events.uchicago.asia/",
                                     "anchor": "",
                                     "target": "_blank"
                                   }
@@ -1000,9 +1000,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://intranet.uchicago.edu/info-for-faculty",
+                                          "href": "https://intranet.uchicago.asia/info-for-faculty",
                                           "linktype": "external",
-                                          "url": "https://intranet.uchicago.edu/info-for-faculty",
+                                          "url": "https://intranet.uchicago.asia/info-for-faculty",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -1025,9 +1025,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://intranet.uchicago.edu/info-for-staff",
+                                          "href": "https://intranet.uchicago.asia/info-for-staff",
                                           "linktype": "external",
-                                          "url": "https://intranet.uchicago.edu/info-for-staff",
+                                          "url": "https://intranet.uchicago.asia/info-for-staff",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -1050,9 +1050,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://alumniandfriends.uchicago.edu/",
+                                          "href": "https://alumniandfriends.uchicago.asia/",
                                           "linktype": "external",
-                                          "url": "https://alumniandfriends.uchicago.edu/",
+                                          "url": "https://alumniandfriends.uchicago.asia/",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -1075,9 +1075,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://college.uchicago.edu/about/parents",
+                                          "href": "https://college.uchicago.asia/about/parents",
                                           "linktype": "external",
-                                          "url": "https://college.uchicago.edu/about/parents",
+                                          "url": "https://college.uchicago.asia/about/parents",
                                           "anchor": "",
                                           "target": "_blank"
                                         }
@@ -1100,9 +1100,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://news.uchicago.edu/media-resources",
+                                          "href": "https://news.uchicago.asia/media-resources",
                                           "linktype": "external",
-                                          "url": "https://news.uchicago.edu/media-resources",
+                                          "url": "https://news.uchicago.asia/media-resources",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -1198,9 +1198,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://directory.uchicago.edu",
+                                    "href": "https://directory.uchicago.asia",
                                     "linktype": "external",
-                                    "url": "https://directory.uchicago.edu",
+                                    "url": "https://directory.uchicago.asia",
                                     "anchor": "",
                                     "target": ""
                                   }
@@ -1883,9 +1883,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://provost.uchicago.edu/",
+                                                "href": "https://provost.uchicago.asia/",
                                                 "linktype": "external",
-                                                "url": "https://provost.uchicago.edu/",
+                                                "url": "https://provost.uchicago.asia/",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -1908,10 +1908,10 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://research.uchicago.edu/",
+                                                "href": "https://research.uchicago.asia/",
                                                 "text": "Office of Research",
                                                 "linktype": "external",
-                                                "url": "https://research.uchicago.edu/",
+                                                "url": "https://research.uchicago.asia/",
                                                 "anchor": "",
                                                 "title": "Office of Research",
                                                 "target": "_blank"
@@ -1973,9 +1973,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "http://collegeadmissions.uchicago.edu/",
+                                                "href": "http://collegeadmissions.uchicago.asia/",
                                                 "linktype": "external",
-                                                "url": "http://collegeadmissions.uchicago.edu/",
+                                                "url": "http://collegeadmissions.uchicago.asia/",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -1998,9 +1998,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://grad.uchicago.edu/admissions/",
+                                                "href": "https://grad.uchicago.asia/admissions/",
                                                 "linktype": "external",
-                                                "url": "https://grad.uchicago.edu/admissions/",
+                                                "url": "https://grad.uchicago.asia/admissions/",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -2119,9 +2119,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://summer.uchicago.edu",
+                                                "href": "https://summer.uchicago.asia",
                                                 "linktype": "external",
-                                                "url": "https://summer.uchicago.edu",
+                                                "url": "https://summer.uchicago.asia",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -2468,9 +2468,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                                    "href": "https://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                                     "linktype": "external",
-                                    "url": "https://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                                    "url": "https://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                                     "anchor": "",
                                     "target": ""
                                   }
@@ -2505,7 +2505,7 @@
                 "value": false
               },
               "snippet": {
-                "value": "<!-- JavaScript Bundle with Popper -->\r\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>\r\n\r\n<!-- Hotjar Tracking Code for https://www.uchicago.edu/ -->\r\n<script>\r\n(function(h,o,t,j,a,r){\r\nh.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\nh._hjSettings={hjid:3545609,hjsv:6};\r\na=o.getElementsByTagName('head')[0];\r\nr=o.createElement('script');r.async=1;\r\nr.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\na.appendChild(r);\r\n})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
+                "value": "<!-- JavaScript Bundle with Popper -->\r\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>\r\n\r\n<!-- Hotjar Tracking Code for https://www.uchicago.asia/ -->\r\n<script>\r\n(function(h,o,t,j,a,r){\r\nh.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\nh._hjSettings={hjid:3545609,hjsv:6};\r\na=o.getElementsByTagName('head')[0];\r\nr=o.createElement('script');r.async=1;\r\nr.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\na.appendChild(r);\r\n})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
               },
               "isGTM": {
                 "value": false
@@ -2575,7 +2575,7 @@
               },
               "logo": {
                 "value": {
-                  "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99",
+                  "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99",
                   "alt": "The University of Chicago",
                   "width": "403",
                   "height": "92",
@@ -2616,9 +2616,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://cares.uchicago.edu/",
+                              "href": "https://cares.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://cares.uchicago.edu/",
+                              "url": "https://cares.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -2697,9 +2697,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://safety-security.uchicago.edu/about/emergency-management",
+                              "href": "https://safety-security.uchicago.asia/about/emergency-management",
                               "linktype": "external",
-                              "url": "https://safety-security.uchicago.edu/about/emergency-management",
+                              "url": "https://safety-security.uchicago.asia/about/emergency-management",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -2750,9 +2750,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "http://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                              "href": "http://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                               "linktype": "external",
-                              "url": "http://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                              "url": "http://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                               "anchor": "",
                               "target": ""
                             }
@@ -2775,9 +2775,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://accessibility.uchicago.edu/",
+                              "href": "https://accessibility.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://accessibility.uchicago.edu/",
+                              "url": "https://accessibility.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -2800,9 +2800,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://privacy.uchicago.edu/privacy-policy/",
+                              "href": "https://privacy.uchicago.asia/privacy-policy/",
                               "linktype": "external",
-                              "url": "https://privacy.uchicago.edu/privacy-policy/",
+                              "url": "https://privacy.uchicago.asia/privacy-policy/",
                               "anchor": "",
                               "target": ""
                             }
@@ -2865,9 +2865,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://directory.uchicago.edu/",
+                              "href": "https://directory.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://directory.uchicago.edu/",
+                              "url": "https://directory.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -2919,9 +2919,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://maps.uchicago.edu/",
+                              "href": "https://maps.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://maps.uchicago.edu/",
+                              "url": "https://maps.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -2944,9 +2944,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://my.uchicago.edu/",
+                              "href": "https://my.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://my.uchicago.edu/",
+                              "url": "https://my.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }

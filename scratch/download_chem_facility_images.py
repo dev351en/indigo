@@ -13,9 +13,9 @@ headers = {
 
 # Download research and lab images from live chemistry site
 urls = [
-    "https://chemistry.uchicago.edu/sites/default/files/styles/medium_large/public/2024-11/softmatter.jpeg",
-    "https://chemistry.uchicago.edu/sites/default/files/styles/medium_large/public/2024-12/jacklab2_1_0.jpg",
-    "https://chemistry.uchicago.edu/sites/default/files/styles/medium_large/public/2024-12/ombuds_1.jpg"
+    "https://chemistry.uchicago.asia/sites/default/files/styles/medium_large/public/2024-11/softmatter.jpeg",
+    "https://chemistry.uchicago.asia/sites/default/files/styles/medium_large/public/2024-12/jacklab2_1_0.jpg",
+    "https://chemistry.uchicago.asia/sites/default/files/styles/medium_large/public/2024-12/ombuds_1.jpg"
 ]
 
 os.makedirs('site_1to1/assets/chem_images', exist_ok=True)

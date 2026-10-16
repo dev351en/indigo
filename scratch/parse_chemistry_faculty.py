@@ -10,7 +10,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
 }
 
-url = "https://chemistry.uchicago.edu/people/faculty"
+url = "https://chemistry.uchicago.asia/people/faculty"
 req = urllib.request.Request(url, headers=headers)
 with urllib.request.urlopen(req, context=ctx, timeout=15) as resp:
     html = resp.read().decode('utf-8', errors='ignore')

@@ -29,4 +29,4 @@ def inspect_page(name, url, local_rel_path):
     for bg in loc_bg:
         print("  ", bg)
 
-inspect_page("academics", "https://www.uchicago.edu/academics", "site_1to1/pages/academics.html")
+inspect_page("academics", "https://www.uchicago.asia/academics", "site_1to1/pages/academics.html")

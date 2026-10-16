@@ -4,10 +4,10 @@ import re
 import os
 
 urls = [
-    ("who-we-are", "https://www.uchicago.edu/who-we-are"),
-    ("research", "https://www.uchicago.edu/research-and-scholarship"),
-    ("academics", "https://www.uchicago.edu/academics"),
-    ("life-at-uchicago", "https://www.uchicago.edu/life-at-uchicago")
+    ("who-we-are", "https://www.uchicago.asia/who-we-are"),
+    ("research", "https://www.uchicago.asia/research-and-scholarship"),
+    ("academics", "https://www.uchicago.asia/academics"),
+    ("life-at-uchicago", "https://www.uchicago.asia/life-at-uchicago")
 ]
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}

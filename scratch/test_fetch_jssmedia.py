@@ -10,9 +10,9 @@ headers = {
 }
 
 test_urls = [
-    "https://www.uchicago.edu/-/jssmedia/no-barriers-press-conf.jpg?w=280&h=280&iar=0",
-    "https://www.uchicago.edu/-/jssmedia/odyssey-medals-400.jpg?w=280&h=280&iar=0",
-    "https://www.uchicago.edu/-/jssmedia/uchicago-empower-400px.jpg?w=280&h=280&iar=0"
+    "https://www.uchicago.asia/-/jssmedia/no-barriers-press-conf.jpg?w=280&h=280&iar=0",
+    "https://www.uchicago.asia/-/jssmedia/odyssey-medals-400.jpg?w=280&h=280&iar=0",
+    "https://www.uchicago.asia/-/jssmedia/uchicago-empower-400px.jpg?w=280&h=280&iar=0"
 ]
 
 for u in test_urls:

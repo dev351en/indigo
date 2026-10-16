@@ -17,7 +17,7 @@
           "href": "/identity/externallogin?authenticationType=ShibbolethExtranet&ReturnUrl=%2fidentity%2fexternallogincallback%3fReturnUrl%3d%252f%26sc_site%3dIntranet%26authenticationSource%3dDefault&sc_site=Intranet"
         }
       ],
-      "pageUrl": "https://www.uchicago.edu/research-and-scholarship",
+      "pageUrl": "https://www.uchicago.asia/research-and-scholarship",
       "securityInfo": {
         "isAuthenticated": false
       }
@@ -138,7 +138,7 @@
                     },
                     "blockPosition": {
                       "id": "78fca699-60d2-49a5-96b8-be14e998667c",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-position-folder/right",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-position-folder/right",
                       "name": "Right",
                       "displayName": "Right",
                       "fields": {
@@ -149,7 +149,7 @@
                     },
                     "backgroundImage": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/engellab-research-page/engellab_recrop/engel-lab-crop-3.jpg?h=1000&iar=0&w=2000&hash=037AB7B569F446CF7A05B970A456A0A4",
+                        "src": "https://www.uchicago.asia/-/media/engellab-research-page/engellab_recrop/engel-lab-crop-3.jpg?h=1000&iar=0&w=2000&hash=037AB7B569F446CF7A05B970A456A0A4",
                         "alt": "A researcher works inside the Engel Lab",
                         "width": "2000",
                         "height": "1000"
@@ -166,7 +166,7 @@
                     },
                     "colorTheme": {
                       "id": "479605db-3664-476b-809f-21a420efc77a",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/maroon",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/maroon",
                       "name": "Maroon",
                       "displayName": "Maroon",
                       "fields": {
@@ -277,14 +277,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/latest-data-south-pole-telescope-signals-new-era-measuring-first-light-universe",
+                              "href": "https://news.uchicago.asia/story/latest-data-south-pole-telescope-signals-new-era-measuring-first-light-universe",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/latest-data-south-pole-telescope-signals-new-era-measuring-first-light-universe"
+                              "url": "https://news.uchicago.asia/story/latest-data-south-pole-telescope-signals-new-era-measuring-first-light-universe"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/south-pole-telescope-1600/south-pole-space-telescope-recrop.jpg?h=1000&iar=0&w=1600&hash=5D87114E3D54208EFCB3033460C36ECA",
+                              "src": "https://www.uchicago.asia/-/media/south-pole-telescope-1600/south-pole-space-telescope-recrop.jpg?h=1000&iar=0&w=1600&hash=5D87114E3D54208EFCB3033460C36ECA",
                               "alt": "South Pole Telescope",
                               "width": "1600",
                               "height": "1000"
@@ -323,14 +323,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/new-uchicago-project-explores-how-humanities-can-advance-ai-research",
+                              "href": "https://news.uchicago.asia/story/new-uchicago-project-explores-how-humanities-can-advance-ai-research",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/new-uchicago-project-explores-how-humanities-can-advance-ai-research"
+                              "url": "https://news.uchicago.asia/story/new-uchicago-project-explores-how-humanities-can-advance-ai-research"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/humanistic-ai-conference-1600/salavon-1600/humanistic-ai-conference-slide-www-1600/salavon-2.jpg?h=1000&iar=0&w=1600&hash=627D9F0A007AC37D44518B3C0999686B",
+                              "src": "https://www.uchicago.asia/-/media/humanistic-ai-conference-1600/salavon-1600/humanistic-ai-conference-slide-www-1600/salavon-2.jpg?h=1000&iar=0&w=1600&hash=627D9F0A007AC37D44518B3C0999686B",
                               "alt": "Salavon",
                               "width": "1600",
                               "height": "1000"
@@ -369,14 +369,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/researchers-use-ai-and-behavior-pinpoint-when-children-begin-productive-language",
+                              "href": "https://news.uchicago.asia/story/researchers-use-ai-and-behavior-pinpoint-when-children-begin-productive-language",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/researchers-use-ai-and-behavior-pinpoint-when-children-begin-productive-language"
+                              "url": "https://news.uchicago.asia/story/researchers-use-ai-and-behavior-pinpoint-when-children-begin-productive-language"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/susan-goldin-meadown-study-hero_computational-early-language-learning/early-childhood-development.jpg?h=1000&iar=0&w=1600&hash=5809400131A551A9833F3DBA4D5D026C",
+                              "src": "https://www.uchicago.asia/-/media/susan-goldin-meadown-study-hero_computational-early-language-learning/early-childhood-development.jpg?h=1000&iar=0&w=1600&hash=5809400131A551A9833F3DBA4D5D026C",
                               "alt": "A child plays with blocks",
                               "width": "1600",
                               "height": "1000"
@@ -415,14 +415,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/surprisingly-simple-model-can-explain-how-brain-cells-organize-and-connect",
+                              "href": "https://news.uchicago.asia/story/surprisingly-simple-model-can-explain-how-brain-cells-organize-and-connect",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/surprisingly-simple-model-can-explain-how-brain-cells-organize-and-connect"
+                              "url": "https://news.uchicago.asia/story/surprisingly-simple-model-can-explain-how-brain-cells-organize-and-connect"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/brain-illustration.jpg?h=776&iar=0&w=1380&hash=1D227FD3E36689AF1CDD10E8B09E76AA",
+                              "src": "https://www.uchicago.asia/-/media/brain-illustration.jpg?h=776&iar=0&w=1380&hash=1D227FD3E36689AF1CDD10E8B09E76AA",
                               "alt": "Brain illustration",
                               "width": "1380",
                               "height": "776"
@@ -476,7 +476,7 @@
                   "fields": {
                     "colorTheme": {
                       "id": "17ce927b-7f2d-4afb-ab5f-a89743a35a2e",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/light-grey",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/light-grey",
                       "name": "Light Grey",
                       "displayName": "Light Grey",
                       "fields": {
@@ -514,14 +514,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/uchicago-scientists-invent-ultra-thin-minimally-invasive-pacemaker-controlled-light",
+                              "href": "https://news.uchicago.asia/story/uchicago-scientists-invent-ultra-thin-minimally-invasive-pacemaker-controlled-light",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/uchicago-scientists-invent-ultra-thin-minimally-invasive-pacemaker-controlled-light"
+                              "url": "https://news.uchicago.asia/story/uchicago-scientists-invent-ultra-thin-minimally-invasive-pacemaker-controlled-light"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/pengju-li-1600/pacemaker-recrop.jpg?h=1000&iar=0&w=1600&hash=51AD64B687E8E68C80FA579A0D010ECF",
+                              "src": "https://www.uchicago.asia/-/media/pengju-li-1600/pacemaker-recrop.jpg?h=1000&iar=0&w=1600&hash=51AD64B687E8E68C80FA579A0D010ECF",
                               "alt": "Pengju Li",
                               "width": "1600",
                               "height": "1000"
@@ -560,14 +560,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/decades-making-cancer-immunotherapy-rise",
+                              "href": "https://news.uchicago.asia/story/decades-making-cancer-immunotherapy-rise",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/decades-making-cancer-immunotherapy-rise"
+                              "url": "https://news.uchicago.asia/story/decades-making-cancer-immunotherapy-rise"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/teenage-oncology-patient/immunotherapy-researcher.jpg?h=1000&iar=0&w=1600&hash=EFE81E65E18C93789FC4AC6CB9274B54",
+                              "src": "https://www.uchicago.asia/-/media/teenage-oncology-patient/immunotherapy-researcher.jpg?h=1000&iar=0&w=1600&hash=EFE81E65E18C93789FC4AC6CB9274B54",
                               "alt": "Immunotherapy researcher",
                               "width": "1600",
                               "height": "1000"
@@ -606,14 +606,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/uchicago-undergraduates-tackle-disease-research",
+                              "href": "https://news.uchicago.asia/story/uchicago-undergraduates-tackle-disease-research",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/uchicago-undergraduates-tackle-disease-research"
+                              "url": "https://news.uchicago.asia/story/uchicago-undergraduates-tackle-disease-research"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/sneha-agarwal-1600/snehaagarwal-undergraduateresearch.jpg?h=1000&iar=0&w=1600&hash=A17B720EC7A0CB5ABC72D81581EAC0BD",
+                              "src": "https://www.uchicago.asia/-/media/sneha-agarwal-1600/snehaagarwal-undergraduateresearch.jpg?h=1000&iar=0&w=1600&hash=A17B720EC7A0CB5ABC72D81581EAC0BD",
                               "alt": "Sneha Agarwal",
                               "width": "1600",
                               "height": "1000"
@@ -652,14 +652,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/meet-uchicago-engineer-key-role-great-lakes-water-transformation",
+                              "href": "https://news.uchicago.asia/story/meet-uchicago-engineer-key-role-great-lakes-water-transformation",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/meet-uchicago-engineer-key-role-great-lakes-water-transformation"
+                              "url": "https://news.uchicago.asia/story/meet-uchicago-engineer-key-role-great-lakes-water-transformation"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/green-algae-bloom.jpg?h=1000&iar=0&w=1600&hash=3CF3B461E6032A67F8C4EB1B325FE601",
+                              "src": "https://www.uchicago.asia/-/media/green-algae-bloom.jpg?h=1000&iar=0&w=1600&hash=3CF3B461E6032A67F8C4EB1B325FE601",
                               "alt": "Green algae bloom",
                               "width": "1600",
                               "height": "1000"
@@ -698,14 +698,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/light-lab-understanding-gut-microbiome-treat-disease",
+                              "href": "https://news.uchicago.asia/story/light-lab-understanding-gut-microbiome-treat-disease",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/light-lab-understanding-gut-microbiome-treat-disease"
+                              "url": "https://news.uchicago.asia/story/light-lab-understanding-gut-microbiome-treat-disease"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/light-lab-sample/petri-dish-sample.jpg?h=1000&iar=0&w=1600&hash=9C269BA1CC9060176165B5BE588B0271",
+                              "src": "https://www.uchicago.asia/-/media/light-lab-sample/petri-dish-sample.jpg?h=1000&iar=0&w=1600&hash=9C269BA1CC9060176165B5BE588B0271",
                               "alt": "Petri dish closeup",
                               "width": "1600",
                               "height": "1000"
@@ -759,7 +759,7 @@
                   "fields": {
                     "colorTheme": {
                       "id": "17ce927b-7f2d-4afb-ab5f-a89743a35a2e",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/light-grey",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/light-grey",
                       "name": "Light Grey",
                       "displayName": "Light Grey",
                       "fields": {
@@ -797,14 +797,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/how-crime-lab-uses-research-impact-public-policy",
+                              "href": "https://news.uchicago.asia/story/how-crime-lab-uses-research-impact-public-policy",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/how-crime-lab-uses-research-impact-public-policy"
+                              "url": "https://news.uchicago.asia/story/how-crime-lab-uses-research-impact-public-policy"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/obama-sits-with-students/obama-sits-with-students/urban-labs-example.jpg?h=1000&iar=0&w=1600&hash=3C645D0F0C8DC235DC66A363677EBD62",
+                              "src": "https://www.uchicago.asia/-/media/obama-sits-with-students/obama-sits-with-students/urban-labs-example.jpg?h=1000&iar=0&w=1600&hash=3C645D0F0C8DC235DC66A363677EBD62",
                               "alt": "Urban Labs",
                               "width": "1600",
                               "height": "1000"
@@ -843,14 +843,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/global-air-pollution-poses-huge-risk-human-health-air-quality-life-index-finds",
+                              "href": "https://news.uchicago.asia/story/global-air-pollution-poses-huge-risk-human-health-air-quality-life-index-finds",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/global-air-pollution-poses-huge-risk-human-health-air-quality-life-index-finds"
+                              "url": "https://news.uchicago.asia/story/global-air-pollution-poses-huge-risk-human-health-air-quality-life-index-finds"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/air-pollution-waste-toxic.jpg?h=1000&iar=0&w=1600&hash=6E0A3610761855819302BEC304389713",
+                              "src": "https://www.uchicago.asia/-/media/air-pollution-waste-toxic.jpg?h=1000&iar=0&w=1600&hash=6E0A3610761855819302BEC304389713",
                               "alt": "Air pollution from a construction site",
                               "width": "1600",
                               "height": "1000"
@@ -889,14 +889,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/how-do-parents-decisions-impact-childs-development",
+                              "href": "https://news.uchicago.asia/story/how-do-parents-decisions-impact-childs-development",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/how-do-parents-decisions-impact-childs-development"
+                              "url": "https://news.uchicago.asia/story/how-do-parents-decisions-impact-childs-development"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/smiling-family-spends-time-together.jpg?h=1000&iar=0&w=1600&hash=2DEA4289314E74B75FDF278752C24B0C",
+                              "src": "https://www.uchicago.asia/-/media/smiling-family-spends-time-together.jpg?h=1000&iar=0&w=1600&hash=2DEA4289314E74B75FDF278752C24B0C",
                               "alt": "Smiling family spending time together",
                               "width": "1600",
                               "height": "1000"
@@ -935,14 +935,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://climateengineering.uchicago.edu/",
+                              "href": "https://climateengineering.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://climateengineering.uchicago.edu/"
+                              "url": "https://climateengineering.uchicago.asia/"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/view-of-earth-at-night.jpg?h=1000&iar=0&w=1600&hash=A273BB4A26724EA35445D0354FFC21A9",
+                              "src": "https://www.uchicago.asia/-/media/view-of-earth-at-night.jpg?h=1000&iar=0&w=1600&hash=A273BB4A26724EA35445D0354FFC21A9",
                               "alt": "View of Earth at night",
                               "width": "1600",
                               "height": "1000"
@@ -981,14 +981,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/preschool-education-can-benefit-generations-families",
+                              "href": "https://news.uchicago.asia/story/preschool-education-can-benefit-generations-families",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/preschool-education-can-benefit-generations-families"
+                              "url": "https://news.uchicago.asia/story/preschool-education-can-benefit-generations-families"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/a-father-with-his-toddler.jpg?h=1000&iar=0&w=1600&hash=96D6510D87F67DD18B97A6C3DD51774E",
+                              "src": "https://www.uchicago.asia/-/media/a-father-with-his-toddler.jpg?h=1000&iar=0&w=1600&hash=96D6510D87F67DD18B97A6C3DD51774E",
                               "alt": "A father plays with his toddler",
                               "width": "1600",
                               "height": "1000"
@@ -1042,7 +1042,7 @@
                   "fields": {
                     "colorTheme": {
                       "id": "17ce927b-7f2d-4afb-ab5f-a89743a35a2e",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/light-grey",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/side-scroller-block-theme-folder/light-grey",
                       "name": "Light Grey",
                       "displayName": "Light Grey",
                       "fields": {
@@ -1080,14 +1080,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/chicago-quantum-network-argonne-pritzker-molecular-engineering-toshiba",
+                              "href": "https://news.uchicago.asia/story/chicago-quantum-network-argonne-pritzker-molecular-engineering-toshiba",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/chicago-quantum-network-argonne-pritzker-molecular-engineering-toshiba"
+                              "url": "https://news.uchicago.asia/story/chicago-quantum-network-argonne-pritzker-molecular-engineering-toshiba"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/quantum-internet-www.jpg?h=1000&iar=0&w=1600&hash=477EC1DD4A86D27902D42612C8C32297",
+                              "src": "https://www.uchicago.asia/-/media/quantum-internet-www.jpg?h=1000&iar=0&w=1600&hash=477EC1DD4A86D27902D42612C8C32297",
                               "alt": "",
                               "width": "1600",
                               "height": "1000"
@@ -1126,14 +1126,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/making-prosthetic-limbs-feel-more-real-brain-computer-interfaces",
+                              "href": "https://news.uchicago.asia/story/making-prosthetic-limbs-feel-more-real-brain-computer-interfaces",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/making-prosthetic-limbs-feel-more-real-brain-computer-interfaces"
+                              "url": "https://news.uchicago.asia/story/making-prosthetic-limbs-feel-more-real-brain-computer-interfaces"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/two-hands-reaching-together/prosthetic-arm-writing-closeup.jpg?h=1000&iar=0&w=1600&hash=D45B7DDCE7960E94B0D60412E7C03840",
+                              "src": "https://www.uchicago.asia/-/media/two-hands-reaching-together/prosthetic-arm-writing-closeup.jpg?h=1000&iar=0&w=1600&hash=D45B7DDCE7960E94B0D60412E7C03840",
                               "alt": "Prosthetic arm writing closeup",
                               "width": "1600",
                               "height": "1000"
@@ -1172,14 +1172,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/next-gen-batteries-without-forever-chemicals",
+                              "href": "https://news.uchicago.asia/story/next-gen-batteries-without-forever-chemicals",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/next-gen-batteries-without-forever-chemicals"
+                              "url": "https://news.uchicago.asia/story/next-gen-batteries-without-forever-chemicals"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/equation-inside-the-lab.jpg?h=1000&iar=0&w=1600&hash=B484D9BC65D1DEF06011DF2B29202470",
+                              "src": "https://www.uchicago.asia/-/media/equation-inside-the-lab.jpg?h=1000&iar=0&w=1600&hash=B484D9BC65D1DEF06011DF2B29202470",
                               "alt": "Amanchukwu Lab",
                               "width": "1600",
                               "height": "1000"
@@ -1218,14 +1218,14 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/uchicago-scientists-develop-new-tool-protect-artists-ai-mimicry",
+                              "href": "https://news.uchicago.asia/story/uchicago-scientists-develop-new-tool-protect-artists-ai-mimicry",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/uchicago-scientists-develop-new-tool-protect-artists-ai-mimicry"
+                              "url": "https://news.uchicago.asia/story/uchicago-scientists-develop-new-tool-protect-artists-ai-mimicry"
                             }
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/ai-art-cloaking-demonstration-courtesy-ben-zhao.jpg?h=1000&iar=0&w=1600&hash=E6D62D1E7399BBA78380C6996EF5DC9F",
+                              "src": "https://www.uchicago.asia/-/media/ai-art-cloaking-demonstration-courtesy-ben-zhao.jpg?h=1000&iar=0&w=1600&hash=E6D62D1E7399BBA78380C6996EF5DC9F",
                               "alt": "AI art cloaking demonstration",
                               "width": "1600",
                               "height": "1000"
@@ -1252,7 +1252,7 @@
                   "fields": {
                     "image": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/booth-lecture-hall-415-320/boothlecturehall-www/polsky-center-presentation.jpg?h=1000&iar=0&w=1600&hash=B296448DC0092938931592CA6ADB3A38",
+                        "src": "https://www.uchicago.asia/-/media/booth-lecture-hall-415-320/boothlecturehall-www/polsky-center-presentation.jpg?h=1000&iar=0&w=1600&hash=B296448DC0092938931592CA6ADB3A38",
                         "alt": "Polsky Center presentation",
                         "width": "1600",
                         "height": "1000"
@@ -1269,9 +1269,9 @@
                     "accentColor": null,
                     "ctalink": {
                       "value": {
-                        "href": "https://polsky.uchicago.edu/",
+                        "href": "https://polsky.uchicago.asia/",
                         "linktype": "external",
-                        "url": "https://polsky.uchicago.edu/",
+                        "url": "https://polsky.uchicago.asia/",
                         "anchor": "",
                         "target": "_blank"
                       }
@@ -1302,7 +1302,7 @@
                     "backgroundImageAlignment": null,
                     "theme": {
                       "id": "97cd8071-06d0-4ccc-8190-209c7c330254",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-banner-old-theme-folder/white",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-banner-old-theme-folder/white",
                       "name": "White",
                       "displayName": "White",
                       "fields": {
@@ -1359,7 +1359,7 @@
                         "fields": {
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/quantum-nano-lab-data-on-monitor/chuan-he-lab-www-research-page.jpg?h=1000&iar=0&w=1600&hash=54754A2F7EDA2426363028214F6AB84B",
+                              "src": "https://www.uchicago.asia/-/media/quantum-nano-lab-data-on-monitor/chuan-he-lab-www-research-page.jpg?h=1000&iar=0&w=1600&hash=54754A2F7EDA2426363028214F6AB84B",
                               "alt": "Researchers inside the Chuan He lab",
                               "width": "1600",
                               "height": "1000"
@@ -1377,7 +1377,7 @@
                           },
                           "alignment": {
                             "id": "0d321fd3-659a-4946-880c-0a3d331e233a",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
                             "name": "Left",
                             "displayName": "Left",
                             "fields": {
@@ -1397,9 +1397,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/inside-the-lab-chuan-he",
+                              "href": "https://news.uchicago.asia/story/inside-the-lab-chuan-he",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/inside-the-lab-chuan-he"
+                              "url": "https://news.uchicago.asia/story/inside-the-lab-chuan-he"
                             }
                           },
                           "ARIALabelText": {
@@ -1417,7 +1417,7 @@
                         "fields": {
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/education-lab-tutoring-program.jpg?h=1000&iar=0&w=1600&hash=3AA026B718B64833F14F45A0B225649C",
+                              "src": "https://www.uchicago.asia/-/media/education-lab-tutoring-program.jpg?h=1000&iar=0&w=1600&hash=3AA026B718B64833F14F45A0B225649C",
                               "alt": "Tutoring program",
                               "width": "1600",
                               "height": "1000"
@@ -1435,7 +1435,7 @@
                           },
                           "alignment": {
                             "id": "71675321-b3d0-4d75-a0dc-294a0b3c3640",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/right",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/right",
                             "name": "Right",
                             "displayName": "Right",
                             "fields": {
@@ -1455,9 +1455,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://news.uchicago.edu/inside-the-lab/education-lab-using-tutoring-reverse-pandemic-era-learning-loss",
+                              "href": "https://news.uchicago.asia/inside-the-lab/education-lab-using-tutoring-reverse-pandemic-era-learning-loss",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/inside-the-lab/education-lab-using-tutoring-reverse-pandemic-era-learning-loss"
+                              "url": "https://news.uchicago.asia/inside-the-lab/education-lab-using-tutoring-reverse-pandemic-era-learning-loss"
                             }
                           },
                           "ARIALabelText": {
@@ -1475,7 +1475,7 @@
                         "fields": {
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/awad-re-crop.jpg?h=1000&iar=0&w=1600&hash=196CA520EE971E9115980E9B157F2110",
+                              "src": "https://www.uchicago.asia/-/media/awad-re-crop.jpg?h=1000&iar=0&w=1600&hash=196CA520EE971E9115980E9B157F2110",
                               "alt": "Awad Lab",
                               "width": "1600",
                               "height": "1000"
@@ -1493,7 +1493,7 @@
                           },
                           "alignment": {
                             "id": "0d321fd3-659a-4946-880c-0a3d331e233a",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
                             "name": "Left",
                             "displayName": "Left",
                             "fields": {
@@ -1513,9 +1513,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://news.uchicago.edu/inside-the-lab/awad-lab-predicting-and-preventing-strokes-and-brain-bleeds",
+                              "href": "https://news.uchicago.asia/inside-the-lab/awad-lab-predicting-and-preventing-strokes-and-brain-bleeds",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/inside-the-lab/awad-lab-predicting-and-preventing-strokes-and-brain-bleeds"
+                              "url": "https://news.uchicago.asia/inside-the-lab/awad-lab-predicting-and-preventing-strokes-and-brain-bleeds"
                             }
                           },
                           "ARIALabelText": {
@@ -1550,7 +1550,7 @@
                     },
                     "theme": {
                       "id": "8bb4849d-160a-4b00-8b76-ba699c17409d",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/factoids-color-theme-folder/maroon",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/factoids-color-theme-folder/maroon",
                       "name": "Maroon",
                       "displayName": "Maroon",
                       "fields": {
@@ -1647,7 +1647,7 @@
                     "backgroundImageAlignment": null,
                     "theme": {
                       "id": "97cd8071-06d0-4ccc-8190-209c7c330254",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-banner-old-theme-folder/white",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-banner-old-theme-folder/white",
                       "name": "White",
                       "displayName": "White",
                       "fields": {
@@ -1704,7 +1704,7 @@
                         "fields": {
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/daytomorrowbeganeconvideo-1-1.jpeg?h=776&iar=0&w=1380&hash=CFAC22750BA097A5B623EE11DD26A7AA",
+                              "src": "https://www.uchicago.asia/-/media/daytomorrowbeganeconvideo-1-1.jpeg?h=776&iar=0&w=1380&hash=CFAC22750BA097A5B623EE11DD26A7AA",
                               "alt": "",
                               "width": "1380",
                               "height": "776"
@@ -1712,7 +1712,7 @@
                           },
                           "theme": {
                             "id": "bc960578-40e8-4a2b-9458-29a02745a05a",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-left-right-theme/white",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-left-right-theme/white",
                             "name": "White",
                             "displayName": "White",
                             "fields": {
@@ -1732,7 +1732,7 @@
                           },
                           "alignment": {
                             "id": "0d321fd3-659a-4946-880c-0a3d331e233a",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
                             "name": "Left",
                             "displayName": "Left",
                             "fields": {
@@ -1752,9 +1752,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://news.uchicago.edu/the-day-tomorrow-began/economics",
+                              "href": "https://news.uchicago.asia/the-day-tomorrow-began/economics",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/the-day-tomorrow-began/economics"
+                              "url": "https://news.uchicago.asia/the-day-tomorrow-began/economics"
                             }
                           },
                           "ARIALabelText": {
@@ -1772,7 +1772,7 @@
                         "fields": {
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/_willard-f-libby/tdtb-black-hole-posterframe.jpg?h=776&iar=0&w=1380&hash=B3FACBA8FE5A727BD94D712DB08D654C",
+                              "src": "https://www.uchicago.asia/-/media/_willard-f-libby/tdtb-black-hole-posterframe.jpg?h=776&iar=0&w=1380&hash=B3FACBA8FE5A727BD94D712DB08D654C",
                               "alt": "Black hole illustration",
                               "width": "1380",
                               "height": "776"
@@ -1780,7 +1780,7 @@
                           },
                           "theme": {
                             "id": "bc960578-40e8-4a2b-9458-29a02745a05a",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-left-right-theme/white",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-left-right-theme/white",
                             "name": "White",
                             "displayName": "White",
                             "fields": {
@@ -1800,7 +1800,7 @@
                           },
                           "alignment": {
                             "id": "71675321-b3d0-4d75-a0dc-294a0b3c3640",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/right",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/right",
                             "name": "Right",
                             "displayName": "Right",
                             "fields": {
@@ -1820,9 +1820,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://news.uchicago.edu/the-day-tomorrow-began/black-holes",
+                              "href": "https://news.uchicago.asia/the-day-tomorrow-began/black-holes",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/the-day-tomorrow-began/black-holes"
+                              "url": "https://news.uchicago.asia/the-day-tomorrow-began/black-holes"
                             }
                           },
                           "ARIALabelText": {
@@ -1840,7 +1840,7 @@
                         "fields": {
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/youtube-the-day-tomorrow-began-sleep-research.jpg?h=776&iar=0&w=1380&hash=9E2CF2FFCD74A2FDDF518F6F4E6086BB",
+                              "src": "https://www.uchicago.asia/-/media/youtube-the-day-tomorrow-began-sleep-research.jpg?h=776&iar=0&w=1380&hash=9E2CF2FFCD74A2FDDF518F6F4E6086BB",
                               "alt": "A graphic showing a child dreaming",
                               "width": "1380",
                               "height": "776"
@@ -1848,7 +1848,7 @@
                           },
                           "theme": {
                             "id": "bc960578-40e8-4a2b-9458-29a02745a05a",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-left-right-theme/white",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-left-right-theme/white",
                             "name": "White",
                             "displayName": "White",
                             "fields": {
@@ -1868,7 +1868,7 @@
                           },
                           "alignment": {
                             "id": "0d321fd3-659a-4946-880c-0a3d331e233a",
-                            "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
+                            "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/video-position/left",
                             "name": "Left",
                             "displayName": "Left",
                             "fields": {
@@ -1888,9 +1888,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://news.uchicago.edu/day-tomorrow-began/sleep-research",
+                              "href": "https://news.uchicago.asia/day-tomorrow-began/sleep-research",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/day-tomorrow-began/sleep-research"
+                              "url": "https://news.uchicago.asia/day-tomorrow-began/sleep-research"
                             }
                           },
                           "ARIALabelText": {
@@ -1960,7 +1960,7 @@
                     },
                     "tilesPerRow": {
                       "id": "0ba37bcf-c509-4979-8289-de890fff74ce",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tiles-number-folder/two",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tiles-number-folder/two",
                       "name": "two",
                       "displayName": "two",
                       "fields": {
@@ -1989,7 +1989,7 @@
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/callout-ashlynsparrow/800x500adekunleodunsi/odunsi-2.jpg?h=500&iar=0&w=830&hash=9142B31D6DAA9CC79C2083C9E6B1551F",
+                              "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/callout-ashlynsparrow/800x500adekunleodunsi/odunsi-2.jpg?h=500&iar=0&w=830&hash=9142B31D6DAA9CC79C2083C9E6B1551F",
                               "alt": "Adekunle Odunsi",
                               "width": "830",
                               "height": "500"
@@ -2017,9 +2017,9 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/doctor-ushering-new-era-cancer-research-and-care-uchicago",
+                              "href": "https://news.uchicago.asia/story/doctor-ushering-new-era-cancer-research-and-care-uchicago",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/doctor-ushering-new-era-cancer-research-and-care-uchicago"
+                              "url": "https://news.uchicago.asia/story/doctor-ushering-new-era-cancer-research-and-care-uchicago"
                             }
                           },
                           "ctabuttontext": {
@@ -2052,7 +2052,7 @@
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/callout-saroopsingh.jpg?h=500&iar=0&w=830&hash=28EB39BB299116E2CB7CEFE673933F15",
+                              "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/callout-saroopsingh.jpg?h=500&iar=0&w=830&hash=28EB39BB299116E2CB7CEFE673933F15",
                               "alt": "Saroop Singh working on a film reel",
                               "width": "830",
                               "height": "500"
@@ -2080,9 +2080,9 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/film-archivist-keeps-chicago-families-memories-alive",
+                              "href": "https://news.uchicago.asia/story/film-archivist-keeps-chicago-families-memories-alive",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/film-archivist-keeps-chicago-families-memories-alive",
+                              "url": "https://news.uchicago.asia/story/film-archivist-keeps-chicago-families-memories-alive",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -2117,7 +2117,7 @@
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/callout-sammarsden.jpg?h=500&iar=0&w=830&hash=F81892ED94F8EA4FE92C6401A664CF72",
+                              "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/callout-sammarsden.jpg?h=500&iar=0&w=830&hash=F81892ED94F8EA4FE92C6401A664CF72",
                               "alt": "Sam Marsden",
                               "width": "830",
                               "height": "500"
@@ -2145,9 +2145,9 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/uchicago-scientist-seeks-make-plastic-more-recyclable",
+                              "href": "https://news.uchicago.asia/story/uchicago-scientist-seeks-make-plastic-more-recyclable",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/uchicago-scientist-seeks-make-plastic-more-recyclable",
+                              "url": "https://news.uchicago.asia/story/uchicago-scientist-seeks-make-plastic-more-recyclable",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -2182,7 +2182,7 @@
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/callout-shirleymeng/ryan-cecil-jobson-tile.jpg?h=500&iar=0&w=830&hash=E9931BBF72B0377821E3EBC05998452D",
+                              "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/callout-shirleymeng/ryan-cecil-jobson-tile.jpg?h=500&iar=0&w=830&hash=E9931BBF72B0377821E3EBC05998452D",
                               "alt": "Ryan Cecil Jobson",
                               "width": "830",
                               "height": "500"
@@ -2210,9 +2210,9 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/story/anthropologist-caribbean-emphasizes-power-big-small-places",
+                              "href": "https://news.uchicago.asia/story/anthropologist-caribbean-emphasizes-power-big-small-places",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/story/anthropologist-caribbean-emphasizes-power-big-small-places",
+                              "url": "https://news.uchicago.asia/story/anthropologist-caribbean-emphasizes-power-big-small-places",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -2241,7 +2241,7 @@
                   "fields": {
                     "image": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/chicago-skyline-from-the-river.jpg?h=1000&iar=0&w=1600&hash=F044ECB02606C75BF40D7B22E80113B9",
+                        "src": "https://www.uchicago.asia/-/media/chicago-skyline-from-the-river.jpg?h=1000&iar=0&w=1600&hash=F044ECB02606C75BF40D7B22E80113B9",
                         "alt": "View of downtown Chicago from the river",
                         "width": "1600",
                         "height": "1000"
@@ -2332,7 +2332,7 @@
                     },
                     "tilesPerRow": {
                       "id": "f526144f-6ddc-45eb-8424-8bd7d42f47b7",
-                      "url": "https://www.uchicago.edu/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tiles-number-folder/three",
+                      "url": "https://www.uchicago.asia/coveo/rest/v6/analytics/sitecore/content/uchicago-tenant/uchicago-shared-theme/callout-tiles-number-folder/three",
                       "name": "three",
                       "displayName": "three",
                       "fields": {
@@ -2361,7 +2361,7 @@
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/event-bigbrains/wendy-freedman-as-a-guest-on-big-brains.jpg?h=500&iar=0&w=830&hash=BD0C5E35C6A657750D6E0DD29D715A44",
+                              "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/event-bigbrains/wendy-freedman-as-a-guest-on-big-brains.jpg?h=500&iar=0&w=830&hash=BD0C5E35C6A657750D6E0DD29D715A44",
                               "alt": "Wendy Freedman on the Big Brains podcast",
                               "width": "830",
                               "height": "500"
@@ -2389,9 +2389,9 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/big-brains",
+                              "href": "https://news.uchicago.asia/big-brains",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/big-brains",
+                              "url": "https://news.uchicago.asia/big-brains",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -2426,7 +2426,7 @@
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/event-breakthroughs/cp-1/cp1-rs-830-500.jpg?h=500&iar=0&w=830&hash=C02A929ADD82DA90E47D6EC24153F506",
+                              "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/event-breakthroughs/cp-1/cp1-rs-830-500.jpg?h=500&iar=0&w=830&hash=C02A929ADD82DA90E47D6EC24153F506",
                               "alt": "CP1 illustration",
                               "width": "830",
                               "height": "500"
@@ -2495,7 +2495,7 @@
                           },
                           "image": {
                             "value": {
-                              "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/images/event-tdtb/gary-becker-www-research-page/behavioral-econ-explainer/doomsday1380_0/doomsday-clock-hands.jpg?h=500&iar=0&w=830&hash=7F54CB48169EF1E2F8E3B569AAACA0BF",
+                              "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/images/event-tdtb/gary-becker-www-research-page/behavioral-econ-explainer/doomsday1380_0/doomsday-clock-hands.jpg?h=500&iar=0&w=830&hash=7F54CB48169EF1E2F8E3B569AAACA0BF",
                               "alt": "A hand adjusts the Doomsday Clock",
                               "width": "830",
                               "height": "500"
@@ -2523,9 +2523,9 @@
                           },
                           "ctaLink": {
                             "value": {
-                              "href": "https://news.uchicago.edu/the-day-tomorrow-began",
+                              "href": "https://news.uchicago.asia/the-day-tomorrow-began",
                               "linktype": "external",
-                              "url": "https://news.uchicago.edu/the-day-tomorrow-began",
+                              "url": "https://news.uchicago.asia/the-day-tomorrow-began",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -2710,9 +2710,9 @@
                         "fields": {
                           "link": {
                             "value": {
-                              "href": "https://research.uchicago.edu/",
+                              "href": "https://research.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://research.uchicago.edu/"
+                              "url": "https://research.uchicago.asia/"
                             }
                           },
                           "ARIALabelText": {
@@ -2735,9 +2735,9 @@
                         "fields": {
                           "link": {
                             "value": {
-                              "href": "https://provost.uchicago.edu/",
+                              "href": "https://provost.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://provost.uchicago.edu/"
+                              "url": "https://provost.uchicago.asia/"
                             }
                           },
                           "ARIALabelText": {
@@ -2798,7 +2798,7 @@
                     },
                     "mobileLogo": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F",
+                        "src": "https://www.uchicago.asia/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F",
                         "alt": "The University of Chicago Logo"
                       }
                     },
@@ -2822,7 +2822,7 @@
                     },
                     "logo": {
                       "value": {
-                        "src": "https://www.uchicago.edu/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF",
+                        "src": "https://www.uchicago.asia/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF",
                         "alt": "The University of Chicago Logo "
                       }
                     },
@@ -2846,9 +2846,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://news.uchicago.edu",
+                                    "href": "https://news.uchicago.asia",
                                     "linktype": "external",
-                                    "url": "https://news.uchicago.edu",
+                                    "url": "https://news.uchicago.asia",
                                     "anchor": "",
                                     "target": "_blank"
                                   }
@@ -2871,9 +2871,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://events.uchicago.edu/",
+                                    "href": "https://events.uchicago.asia/",
                                     "linktype": "external",
-                                    "url": "https://events.uchicago.edu/",
+                                    "url": "https://events.uchicago.asia/",
                                     "anchor": "",
                                     "target": "_blank"
                                   }
@@ -2966,9 +2966,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://intranet.uchicago.edu/info-for-faculty",
+                                          "href": "https://intranet.uchicago.asia/info-for-faculty",
                                           "linktype": "external",
-                                          "url": "https://intranet.uchicago.edu/info-for-faculty",
+                                          "url": "https://intranet.uchicago.asia/info-for-faculty",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -2991,9 +2991,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://intranet.uchicago.edu/info-for-staff",
+                                          "href": "https://intranet.uchicago.asia/info-for-staff",
                                           "linktype": "external",
-                                          "url": "https://intranet.uchicago.edu/info-for-staff",
+                                          "url": "https://intranet.uchicago.asia/info-for-staff",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -3016,9 +3016,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://alumniandfriends.uchicago.edu/",
+                                          "href": "https://alumniandfriends.uchicago.asia/",
                                           "linktype": "external",
-                                          "url": "https://alumniandfriends.uchicago.edu/",
+                                          "url": "https://alumniandfriends.uchicago.asia/",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -3041,9 +3041,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://college.uchicago.edu/about/parents",
+                                          "href": "https://college.uchicago.asia/about/parents",
                                           "linktype": "external",
-                                          "url": "https://college.uchicago.edu/about/parents",
+                                          "url": "https://college.uchicago.asia/about/parents",
                                           "anchor": "",
                                           "target": "_blank"
                                         }
@@ -3066,9 +3066,9 @@
                                       },
                                       "link": {
                                         "value": {
-                                          "href": "https://news.uchicago.edu/media-resources",
+                                          "href": "https://news.uchicago.asia/media-resources",
                                           "linktype": "external",
-                                          "url": "https://news.uchicago.edu/media-resources",
+                                          "url": "https://news.uchicago.asia/media-resources",
                                           "anchor": "",
                                           "target": ""
                                         }
@@ -3164,9 +3164,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://directory.uchicago.edu",
+                                    "href": "https://directory.uchicago.asia",
                                     "linktype": "external",
-                                    "url": "https://directory.uchicago.edu",
+                                    "url": "https://directory.uchicago.asia",
                                     "anchor": "",
                                     "target": ""
                                   }
@@ -3849,9 +3849,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://provost.uchicago.edu/",
+                                                "href": "https://provost.uchicago.asia/",
                                                 "linktype": "external",
-                                                "url": "https://provost.uchicago.edu/",
+                                                "url": "https://provost.uchicago.asia/",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -3874,10 +3874,10 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://research.uchicago.edu/",
+                                                "href": "https://research.uchicago.asia/",
                                                 "text": "Office of Research",
                                                 "linktype": "external",
-                                                "url": "https://research.uchicago.edu/",
+                                                "url": "https://research.uchicago.asia/",
                                                 "anchor": "",
                                                 "title": "Office of Research",
                                                 "target": "_blank"
@@ -3939,9 +3939,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "http://collegeadmissions.uchicago.edu/",
+                                                "href": "http://collegeadmissions.uchicago.asia/",
                                                 "linktype": "external",
-                                                "url": "http://collegeadmissions.uchicago.edu/",
+                                                "url": "http://collegeadmissions.uchicago.asia/",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -3964,9 +3964,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://grad.uchicago.edu/admissions/",
+                                                "href": "https://grad.uchicago.asia/admissions/",
                                                 "linktype": "external",
-                                                "url": "https://grad.uchicago.edu/admissions/",
+                                                "url": "https://grad.uchicago.asia/admissions/",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -4085,9 +4085,9 @@
                                             },
                                             "link": {
                                               "value": {
-                                                "href": "https://summer.uchicago.edu",
+                                                "href": "https://summer.uchicago.asia",
                                                 "linktype": "external",
-                                                "url": "https://summer.uchicago.edu",
+                                                "url": "https://summer.uchicago.asia",
                                                 "anchor": "",
                                                 "target": ""
                                               }
@@ -4434,9 +4434,9 @@
                                 },
                                 "link": {
                                   "value": {
-                                    "href": "https://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                                    "href": "https://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                                     "linktype": "external",
-                                    "url": "https://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                                    "url": "https://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                                     "anchor": "",
                                     "target": ""
                                   }
@@ -4471,7 +4471,7 @@
                 "value": false
               },
               "snippet": {
-                "value": "<!-- JavaScript Bundle with Popper -->\r\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>\r\n\r\n<!-- Hotjar Tracking Code for https://www.uchicago.edu/ -->\r\n<script>\r\n(function(h,o,t,j,a,r){\r\nh.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\nh._hjSettings={hjid:3545609,hjsv:6};\r\na=o.getElementsByTagName('head')[0];\r\nr=o.createElement('script');r.async=1;\r\nr.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\na.appendChild(r);\r\n})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
+                "value": "<!-- JavaScript Bundle with Popper -->\r\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf\" crossorigin=\"anonymous\"></script>\r\n\r\n<!-- Hotjar Tracking Code for https://www.uchicago.asia/ -->\r\n<script>\r\n(function(h,o,t,j,a,r){\r\nh.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\nh._hjSettings={hjid:3545609,hjsv:6};\r\na=o.getElementsByTagName('head')[0];\r\nr=o.createElement('script');r.async=1;\r\nr.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\na.appendChild(r);\r\n})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>"
               },
               "isGTM": {
                 "value": false
@@ -4541,7 +4541,7 @@
               },
               "logo": {
                 "value": {
-                  "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99",
+                  "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99",
                   "alt": "The University of Chicago",
                   "width": "403",
                   "height": "92",
@@ -4582,9 +4582,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://cares.uchicago.edu/",
+                              "href": "https://cares.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://cares.uchicago.edu/",
+                              "url": "https://cares.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -4663,9 +4663,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://safety-security.uchicago.edu/about/emergency-management",
+                              "href": "https://safety-security.uchicago.asia/about/emergency-management",
                               "linktype": "external",
-                              "url": "https://safety-security.uchicago.edu/about/emergency-management",
+                              "url": "https://safety-security.uchicago.asia/about/emergency-management",
                               "anchor": "",
                               "target": "_blank"
                             }
@@ -4716,9 +4716,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "http://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                              "href": "http://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                               "linktype": "external",
-                              "url": "http://giving.uchicago.edu/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
+                              "url": "http://giving.uchicago.asia/site/Donation2?df_id=1681&mfc_pref=T&1681.donation=form1",
                               "anchor": "",
                               "target": ""
                             }
@@ -4741,9 +4741,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://accessibility.uchicago.edu/",
+                              "href": "https://accessibility.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://accessibility.uchicago.edu/",
+                              "url": "https://accessibility.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -4766,9 +4766,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://privacy.uchicago.edu/privacy-policy/",
+                              "href": "https://privacy.uchicago.asia/privacy-policy/",
                               "linktype": "external",
-                              "url": "https://privacy.uchicago.edu/privacy-policy/",
+                              "url": "https://privacy.uchicago.asia/privacy-policy/",
                               "anchor": "",
                               "target": ""
                             }
@@ -4831,9 +4831,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://directory.uchicago.edu/",
+                              "href": "https://directory.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://directory.uchicago.edu/",
+                              "url": "https://directory.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -4885,9 +4885,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://maps.uchicago.edu/",
+                              "href": "https://maps.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://maps.uchicago.edu/",
+                              "url": "https://maps.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }
@@ -4910,9 +4910,9 @@
                           },
                           "link": {
                             "value": {
-                              "href": "https://my.uchicago.edu/",
+                              "href": "https://my.uchicago.asia/",
                               "linktype": "external",
-                              "url": "https://my.uchicago.edu/",
+                              "url": "https://my.uchicago.asia/",
                               "anchor": "",
                               "target": ""
                             }

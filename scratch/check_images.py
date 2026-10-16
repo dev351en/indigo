@@ -18,7 +18,7 @@ class ImgParser(HTMLParser):
                 self.tags.append({'tag': tag, 'src': src, 'alt': alt, 'attrs': attr_dict})
 
 def analyze():
-    url = "https://www.uchicago.edu/"
+    url = "https://www.uchicago.asia/"
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:

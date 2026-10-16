@@ -1,7 +1,7 @@
 import urllib.request
 import re
 
-url = "https://www.uchicago.edu/academics/academic-departments"
+url = "https://www.uchicago.asia/academics/academic-departments"
 req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
 try:
     with urllib.request.urlopen(req) as resp:

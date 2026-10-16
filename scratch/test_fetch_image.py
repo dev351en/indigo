@@ -9,7 +9,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
 }
 
-test_url = "https://www.uchicago.edu/-/media/images/logo-background.svg"
+test_url = "https://www.uchicago.asia/-/media/images/logo-background.svg"
 req = urllib.request.Request(test_url, headers=headers)
 
 try:

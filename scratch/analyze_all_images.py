@@ -14,12 +14,12 @@ for root, dirs, files in os.walk('site_1to1'):
             with open(path, 'r', encoding='utf-8', errors='ignore') as fp:
                 content = fp.read()
             for src in img_src_pattern.findall(content):
-                if 'uchicago.edu' in src or 'uchicago.edu' in src:
+                if 'uchicago.asia' in src or 'uchicago.asia' in src:
                     remote_images.add(src)
                 elif not src.startswith(('http://', 'https://', 'data:')):
                     local_images.add(src)
             for src in bg_img_pattern.findall(content):
-                if 'uchicago.edu' in src or 'uchicago.edu' in src:
+                if 'uchicago.asia' in src or 'uchicago.asia' in src:
                     remote_images.add(src)
 
 print(f"Total remote uchicago image URLs found: {len(remote_images)}")

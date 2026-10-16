@@ -126,7 +126,7 @@ def build_pdf_offer_letter():
         "<b><font color='#800000'>Office of College Admissions</font></b><br/><br/>"
         "1101 East 58th Street<br/>"
         "Chicago, IL 60637<br/><br/>"
-        "collegeadmissions@uchicago.edu<br/>"
+        "collegeadmissions@uchicago.asia<br/>"
         "T: 773.702.8650<br/>"
         "F: 773.702.4199",
         p1_header_right_style

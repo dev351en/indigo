@@ -15,8 +15,8 @@ for folder in ['site_1to1', 'site']:
                 with open(path, 'r', encoding='utf-8', errors='ignore') as fp:
                     content = fp.read()
                 
-                new_content, c1 = pattern.subn(r'https://www.uchicago.edu\1', content)
-                new_content, c2 = wp_pattern.subn('https://cpb-us-w2.wpmucdn.com/voices.uchicago.edu/', new_content)
+                new_content, c1 = pattern.subn(r'https://www.uchicago.asia\1', content)
+                new_content, c2 = wp_pattern.subn('https://cpb-us-w2.wpmucdn.com/voices.uchicago.asia/', new_content)
                 
                 count = c1 + c2
                 if count > 0:

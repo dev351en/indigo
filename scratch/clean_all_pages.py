@@ -43,7 +43,7 @@ js = js.replace("#e6f4ea", "#fdf2f2")
 js = js.replace("#2e7d32", "#800000")
 js = js.replace("Nov 15, 2026", "Nov 11, 2026")
 js = js.replace("November 15, 2026", "November 11, 2026")
-js = js.replace("uchicago.edu", "uchicago.edu")
+js = js.replace("uchicago.asia", "uchicago.asia")
 
 with open(js_path, "w", encoding="utf-8") as f:
     f.write(js)
@@ -88,9 +88,9 @@ for root, dirs, files in os.walk(site_dir):
                 
                 orig = content
 
-                # Replace uchicago.edu -> uchicago.edu
-                if "uchicago.edu" in content:
-                    content = content.replace("uchicago.edu", "uchicago.edu")
+                # Replace uchicago.asia -> uchicago.asia
+                if "uchicago.asia" in content:
+                    content = content.replace("uchicago.asia", "uchicago.asia")
                     asia_count += 1
 
                 # Replace green hexes
@@ -110,4 +110,4 @@ for root, dirs, files in os.walk(site_dir):
             except Exception as e:
                 print(f"Error processing {fpath}: {e}")
 
-print(f"Completed! Total files updated: {updated_count}. Files with uchicago.edu replaced: {asia_count}")
+print(f"Completed! Total files updated: {updated_count}. Files with uchicago.asia replaced: {asia_count}")

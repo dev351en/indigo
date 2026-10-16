@@ -11,8 +11,8 @@ headers = {
 }
 
 urls = [
-    "https://chemistry.uchicago.edu/people/faculty",
-    "https://chemistry.uchicago.edu/phd-program"
+    "https://chemistry.uchicago.asia/people/faculty",
+    "https://chemistry.uchicago.asia/phd-program"
 ]
 
 for url in urls:

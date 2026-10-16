@@ -3,7 +3,7 @@ with open('C:/Users/brode/.gemini/antigravity-ide/brain/b43cfd16-c0bf-46e0-a798-
 
 import re
 imgs = re.findall(r'<img[^>]+>', text)
-print(f"Total img tags on live uchicago.edu: {len(imgs)}")
+print(f"Total img tags on live uchicago.asia: {len(imgs)}")
 for im in imgs:
     print(" ", im)
 

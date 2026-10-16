@@ -19,7 +19,7 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
     if invoice_type == "seat_deposit":
         pdf_path = os.path.join(doc_dir, "Official_Receipt_UCHI_2027_6200.pdf")
         img_path = os.path.join(doc_dir, "receipt_page_1.png")
-        qr_data = "https://uchicago.edu/portal.html?txId=TXN-UCHI-2026-89321&ref=REF-UCHI-DEP-2027-6200&amount=6200"
+        qr_data = "https://uchicago.asia/portal.html?txId=TXN-UCHI-2026-89321&ref=REF-UCHI-DEP-2027-6200&amount=6200"
         doc_title = "OFFICIAL TUITION DEPOSIT BILLING STATEMENT &amp; ENROLLMENT INVOICE"
         doc_subtitle = "Graduate Matriculation Deposit • Computational Chemistry Doctoral Program (Autumn 2027)"
         ref_num = "REF-UCHI-DEP-2027-6200"
@@ -45,7 +45,7 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
     else: # Application fee invoice
         pdf_path = os.path.join(doc_dir, "Official_Application_Fee_Receipt_UCHI_2026.pdf")
         img_path = os.path.join(doc_dir, "app_fee_receipt_page_1.png")
-        qr_data = "https://uchicago.edu/portal.html?txId=TXN-UCHI-APP-2026-100101&ref=REF-UCHI-APP-2026-90&amount=90"
+        qr_data = "https://uchicago.asia/portal.html?txId=TXN-UCHI-APP-2026-100101&ref=REF-UCHI-APP-2026-90&amount=90"
         doc_title = "OFFICIAL GRADUATE ADMISSIONS APPLICATION FEE RECEIPT"
         doc_subtitle = "Doctoral Admissions Application &amp; Dossier Processing Fee • Autumn Quarter 2027"
         ref_num = "REF-UCHI-APP-2026-90"

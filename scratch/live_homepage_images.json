@@ -1,48 +1,48 @@
 [
   {
     "tag": "img",
-    "src": "https://www.uchicago.edu/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF",
+    "src": "https://www.uchicago.asia/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF",
     "alt": "The University of Chicago Logo ",
     "attrs": {
       "alt": "The University of Chicago Logo ",
       "class": "EduHeader_desktopLogo__2qFkS",
-      "src": "https://www.uchicago.edu/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF"
+      "src": "https://www.uchicago.asia/-/media/images/logo-background.svg?iar=0&hash=C926BC4DECB90E6437DD2525482760AF"
     }
   },
   {
     "tag": "img",
-    "src": "https://www.uchicago.edu/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F",
+    "src": "https://www.uchicago.asia/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F",
     "alt": "The University of Chicago Logo",
     "attrs": {
       "alt": "The University of Chicago Logo",
       "class": "EduHeader_mobileLogo__2-wip",
-      "src": "https://www.uchicago.edu/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F"
+      "src": "https://www.uchicago.asia/-/media/images/logo-background-mobile.svg?iar=0&hash=72DEE767D878668741296F29D0ABA96F"
     }
   },
   {
     "tag": "source",
-    "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/videos/2023-fall-video-update-1116.mp4",
+    "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/videos/2023-fall-video-update-1116.mp4",
     "alt": "",
     "attrs": {
-      "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/www/videos/2023-fall-video-update-1116.mp4",
+      "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/www/videos/2023-fall-video-update-1116.mp4",
       "type": "video/mp4"
     }
   },
   {
     "tag": "img",
-    "src": "https://www.uchicago.edu/-/media/inside-the-lab-chuan-he/chicago-minds-gray-bg.jpg?h=320&iar=0&w=415&hash=D5E835B3E40309CBAEB7D5E6F244D659",
+    "src": "https://www.uchicago.asia/-/media/inside-the-lab-chuan-he/chicago-minds-gray-bg.jpg?h=320&iar=0&w=415&hash=D5E835B3E40309CBAEB7D5E6F244D659",
     "alt": "Chicago Minds",
     "attrs": {
       "alt": "Chicago Minds",
       "width": "415",
       "height": "320",
       "class": "CalloutBannerList_image__gysfb",
-      "src": "https://www.uchicago.edu/-/media/inside-the-lab-chuan-he/chicago-minds-gray-bg.jpg?h=320&iar=0&w=415&hash=D5E835B3E40309CBAEB7D5E6F244D659"
+      "src": "https://www.uchicago.asia/-/media/inside-the-lab-chuan-he/chicago-minds-gray-bg.jpg?h=320&iar=0&w=415&hash=D5E835B3E40309CBAEB7D5E6F244D659"
     }
   },
   {
     "tag": "img",
-    "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99",
+    "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99",
     "alt": "The University of Chicago",
     "attrs": {
       "alt": "The University of Chicago",
@@ -50,7 +50,7 @@
       "height": "92",
       "title": "The University of Chicago",
       "class": "Footer_logo__1Xaa8",
-      "src": "https://www.uchicago.edu/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99"
+      "src": "https://www.uchicago.asia/-/media/project/uchicago-tenant/intranet/test-images/footerlogo.jpg?h=92&iar=0&w=403&hash=8F3A893050576DECBCD672827EA5BA99"
     }
   }
 ]

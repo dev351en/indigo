@@ -34,8 +34,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Vice Dean of PME", "Camille Dreyfus Teacher-Scholar", "AI for Science Pioneer"],
         "photo": "assets/faculty/andrew_ferguson.jpg",
         "office": "Eckhardt Research Center 214",
-        "email": "fergu@uchicago.edu",
-        "lab": "https://ferguson.pme.uchicago.edu/",
+        "email": "fergu@uchicago.asia",
+        "lab": "https://ferguson.pme.uchicago.asia/",
         "tags": ["Machine Learning", "Molecular Simulation", "Antiviral Peptides", "Generative AI"],
         "bio": "Prof. Ferguson combines molecular simulation, statistical mechanics, and machine learning to design self-assembling materials and engineer biological polymers. His group develops generative AI platforms for de novo antiviral therapeutic design.",
         "publications": [
@@ -55,8 +55,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Biophysical Society Fellow", "NAS Member", "National Institutes of Health MERIT Award"],
         "photo": "assets/faculty/beno_t_roux.jpg",
         "office": "Gordon Center for Integrative Science W242",
-        "email": "roux@uchicago.edu",
-        "lab": "https://thallium.bsd.uchicago.edu/RouxLab/",
+        "email": "roux@uchicago.asia",
+        "lab": "https://thallium.bsd.uchicago.asia/RouxLab/",
         "tags": ["Ion Channels", "Molecular Dynamics", "Free Energy Perturbation", "Membrane Biophysics"],
         "bio": "Prof. Roux uses theoretical and computational methods to understand the microscopic workings of biological macromolecular machines. His lab models ion selectivity and voltage-gating in potassium and sodium channels.",
         "publications": [
@@ -76,8 +76,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["NIH Postdoctoral Fellow", "Inorganic Materials Innovator"],
         "photo": "assets/faculty/daniel_laorenza.png",
         "office": "Searle Chemistry Laboratory 122",
-        "email": "dlaorenza@uchicago.edu",
-        "lab": "https://chemistry.uchicago.edu/faculty/daniel-laorenza",
+        "email": "dlaorenza@uchicago.asia",
+        "lab": "https://chemistry.uchicago.asia/faculty/daniel-laorenza",
         "tags": ["Inorganic Synthesis", "Coordination Chemistry", "Electronic Materials", "Spin Dynamics"],
         "bio": "Prof. Laorenza develops precision synthetic synthetic routes to transition metal clusters, metal-radical networks, and solid-state materials exhibiting novel magnetic, optical, and quantum coherent phenomena.",
         "publications": [
@@ -97,8 +97,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["APS Fellow", "ACS Fellow", "International Academy of Quantum Molecular Science"],
         "photo": "assets/faculty/david_mazziotti.jpg",
         "office": "Searle Chemistry Laboratory 330",
-        "email": "damazz@uchicago.edu",
-        "lab": "https://mazziottigroup.uchicago.edu/",
+        "email": "damazz@uchicago.asia",
+        "lab": "https://mazziottigroup.uchicago.asia/",
         "tags": ["Reduced Density Matrices", "Quantum Computing", "Electronic Structure", "Strong Correlation"],
         "bio": "Prof. Mazziotti's group develops reduced-density-matrix (RDM) mechanics to calculate the electronic structure of strongly correlated molecules without wavefunctions, implementing these algorithms on noisy intermediate-scale quantum (NISQ) computers.",
         "publications": [
@@ -118,8 +118,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Arnold O. Beckman Postdoctoral Fellow", "Physical Chemistry Scholar"],
         "photo": "assets/faculty/dipti_jasrasaria.jpg",
         "office": "Searle Chemistry Laboratory 236",
-        "email": "djasrasaria@uchicago.edu",
-        "lab": "https://jasrasarialab.uchicago.edu/",
+        "email": "djasrasaria@uchicago.asia",
+        "lab": "https://jasrasarialab.uchicago.asia/",
         "tags": ["Nonequilibrium Quantum Dynamics", "Energy Transport", "Open Quantum Systems", "Photophysics"],
         "bio": "The Jasrasaria group develops theoretical and computational tools to understand how quantum mechanical effects dictate energy and charge transport in complex, nanoscale environments like light-harvesting complexes and polaritonic cavities.",
         "publications": [
@@ -139,8 +139,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Presidential Early Career Award (PECASE)", "Top Innovators Under 35 (TR35)"],
         "photo": "assets/faculty/elena_shevchenko.jpg",
         "office": "Searle Chemistry Laboratory 142",
-        "email": "eshevchenko@uchicago.edu",
-        "lab": "https://shevchenkogroup.uchicago.edu/",
+        "email": "eshevchenko@uchicago.asia",
+        "lab": "https://shevchenkogroup.uchicago.asia/",
         "tags": ["Nanoparticle Superlattices", "Self-Assembly", "Correlated Magnetism", "Catalytic Metamaterials"],
         "bio": "Prof. Shevchenko studies self-assembly of colloidal nanoparticles into binary and ternary superlattices, creating artificial solid-state materials with engineered optical, electronic, and magnetic cooperative properties.",
         "publications": [
@@ -160,8 +160,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["National Academy of Sciences", "American Academy of Arts and Sciences", "APS Aneesur Rahman Prize"],
         "photo": "assets/faculty/giulia_galli.png",
         "office": "Eckhardt Research Center 222",
-        "email": "gagalli@uchicago.edu",
-        "lab": "https://galligroup.uchicago.edu/",
+        "email": "gagalli@uchicago.asia",
+        "lab": "https://galligroup.uchicago.asia/",
         "tags": ["Quantum Information Science", "First-Principles Modeling", "Point Defects", "Water Under Pressure"],
         "bio": "Prof. Galli is an international leader in ab initio quantum simulations of matter, focusing on point defects in wide-bandgap semiconductors for quantum sensing and quantum computation, as well as electronic properties of renewable energy materials.",
         "publications": [
@@ -181,8 +181,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Director of MICCoM", "PECASE Recipient", "Searle Scholar", "ACS Pure Chemistry Award"],
         "photo": "assets/faculty/greg_engel.jpg",
         "office": "Gordon Center for Integrative Science W107",
-        "email": "gsengel@uchicago.edu",
-        "lab": "https://engellab.uchicago.edu/",
+        "email": "gsengel@uchicago.asia",
+        "lab": "https://engellab.uchicago.asia/",
         "tags": ["Quantum Biology", "2D Electronic Spectroscopy", "Exciton Dynamics", "Photosynthetic Coherence"],
         "bio": "Prof. Engel pioneered 2D electronic spectroscopy experiments that uncovered long-lived electronic quantum coherence in photosynthetic complexes, advancing understanding of quantum transport in biological light-harvesting.",
         "publications": [
@@ -202,8 +202,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Elias J. Corey Award", "Sloan Research Fellow", "Blavatnik National Awards Finalist"],
         "photo": "assets/faculty/guangbin_dong.jpg",
         "office": "Searle Chemistry Laboratory 202",
-        "email": "gbdong@uchicago.edu",
-        "lab": "https://donggroup.uchicago.edu/",
+        "email": "gbdong@uchicago.asia",
+        "lab": "https://donggroup.uchicago.asia/",
         "tags": ["C-C Bond Activation", "Transition-Metal Catalysis", "Cascade Reactions", "Drug Discovery"],
         "bio": "Prof. Dong's group develops new catalytic paradigms for activating inert carbon-carbon and carbon-hydrogen bonds, creating catalytic transformations that streamline the synthesis of complex natural products and medicinal drugs.",
         "publications": [
@@ -223,8 +223,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["DOE Early Career Awardee", "Arnold O. Beckman Fellow"],
         "photo": "assets/faculty/hannah_lant.png",
         "office": "Searle Chemistry Laboratory 324",
-        "email": "hlant@uchicago.edu",
-        "lab": "https://lantlab.uchicago.edu/",
+        "email": "hlant@uchicago.asia",
+        "lab": "https://lantlab.uchicago.asia/",
         "tags": ["Metal-Organic Frameworks", "Photocatalysis", "Artificial Photosynthesis", "Porous Materials"],
         "bio": "The Lant Laboratory synthesizes hierarchical porous frameworks and metal-organic cages designed to stabilize catalytic intermediates for solar water splitting, carbon capture, and multi-electron redox transformations.",
         "publications": [
@@ -244,8 +244,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["HHMI Investigator Emeritus", "ACS Chemical Biology Lectureship"],
         "photo": "assets/faculty/hening_lin.jpg",
         "office": "Searle Chemistry Laboratory 212",
-        "email": "heninglin@uchicago.edu",
-        "lab": "https://linlab.uchicago.edu/",
+        "email": "heninglin@uchicago.asia",
+        "lab": "https://linlab.uchicago.asia/",
         "tags": ["Post-Translational Modifications", "Sirtuins", "NAD+ Biology", "Chemical Epigenetics"],
         "bio": "Prof. Lin investigates sirtuins and novel post-translational protein acylations (malonylation, succinylation, glutarylation). His lab discovers regulatory mechanisms governing metabolism, innate immunity, and cancer survival.",
         "publications": [
@@ -265,8 +265,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["NIH Pathway to Independence Award", "Young Investigator Award"],
         "photo": "assets/faculty/jie_zhou.jpg",
         "office": "Searle Chemistry Laboratory 114",
-        "email": "jiezhou@uchicago.edu",
-        "lab": "https://zhougroup.uchicago.edu/",
+        "email": "jiezhou@uchicago.asia",
+        "lab": "https://zhougroup.uchicago.asia/",
         "tags": ["Spectroscopy", "Correlated Quantum Materials", "Ultrafast Optics", "Topological Insulators"],
         "bio": "Prof. Zhou's research utilizes ultrafast laser spectroscopy and terahertz near-field microscopy to capture nonequilibrium charge and spin dynamics in correlated electronic systems and topological insulators.",
         "publications": [
@@ -286,8 +286,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Presidential Early Career Award (PECASE)", "Sloan Research Fellow", "Packard Fellow"],
         "photo": "assets/faculty/john_anderson.jpg",
         "office": "Searle Chemistry Laboratory 104",
-        "email": "jsanderson@uchicago.edu",
-        "lab": "https://andersonlab.uchicago.edu/",
+        "email": "jsanderson@uchicago.asia",
+        "lab": "https://andersonlab.uchicago.asia/",
         "tags": ["Inorganic Chemistry", "Radical Ligands", "Conductive MOFs", "Small Molecule Activation"],
         "bio": "The Anderson Laboratory designs reactive transition metal complexes and conductive metal-organic frameworks featuring non-innocent radical ligands capable of facilitating multi-electron bond-forming reactions.",
         "publications": [
@@ -307,8 +307,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["National Academy of Sciences", "AAAS Fellow", "Searle Scholar"],
         "photo": "assets/faculty/joseph_piccirilli.jpg",
         "office": "Gordon Center for Integrative Science W228",
-        "email": "jpicciri@uchicago.edu",
-        "lab": "https://piccirillilab.bsd.uchicago.edu/",
+        "email": "jpicciri@uchicago.asia",
+        "lab": "https://piccirillilab.bsd.uchicago.asia/",
         "tags": ["Ribozymes", "RNA Splicing", "Catalytic RNA", "Structural Biology"],
         "bio": "Prof. Piccirilli is an authority on the chemical mechanism of RNA catalysis. His lab investigates catalytic ribozymes, the spliceosome core, and retrotransposons using biochemical, crystallographic, and cryo-EM methodologies.",
         "publications": [
@@ -328,8 +328,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Former Provost of UChicago", "APS Fellow", "Biophysical Society Fellow"],
         "photo": "assets/faculty/ka_yee_lee.png",
         "office": "Levi Hall 504 / Searle 318",
-        "email": "kayeelee@uchicago.edu",
-        "lab": "https://leelab.uchicago.edu/",
+        "email": "kayeelee@uchicago.asia",
+        "lab": "https://leelab.uchicago.asia/",
         "tags": ["Lipid Membranes", "Lung Surfactants", "Amyloid Fibrils", "Biophysical Interfaces"],
         "bio": "Prof. Lee's research focuses on the behavior of complex thin films and biomembranes, elucidating how lung surfactants operate at the alveolar interface and the molecular mechanisms of membrane disruption by amyloid peptides.",
         "publications": [
@@ -349,8 +349,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Camille Dreyfus Teacher-Scholar", "Alfred P. Sloan Research Fellow"],
         "photo": "assets/faculty/michael_hopkins.jpg",
         "office": "Searle Chemistry Laboratory 220",
-        "email": "mhopkins@uchicago.edu",
-        "lab": "https://chemistry.uchicago.edu/faculty/michael-hopkins",
+        "email": "mhopkins@uchicago.asia",
+        "lab": "https://chemistry.uchicago.asia/faculty/michael-hopkins",
         "tags": ["Inorganic Photochemistry", "Electronic Conjugation", "Metal-Alkylidyne Complexes", "Optoelectronics"],
         "bio": "Prof. Hopkins explores the electronic structure, bonding, and photophysics of conjugated metal-organic compounds. His laboratory designs tungsten and molybdenum alkylidyne complexes for nonlinear optical applications.",
         "publications": [
@@ -370,8 +370,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["APS Fellow", "Optical Society of America Fellow", "Guggenheim Fellow"],
         "photo": "assets/faculty/norbert_scherer.jpg",
         "office": "GCIS E201",
-        "email": "nfschere@uchicago.edu",
-        "lab": "https://schererlab.uchicago.edu/",
+        "email": "nfschere@uchicago.asia",
+        "lab": "https://schererlab.uchicago.asia/",
         "tags": ["Optical Tweezers", "Nanophotonics", "Matter-Wave Dynamics", "Single-Molecule Tracking"],
         "bio": "Prof. Scherer studies optical matter and nanoparticle assembly governed by light forces. His group creates dynamic optical lattices using electrodynamic interactions to direct matter at the nanoscale.",
         "publications": [
@@ -391,8 +391,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["APS Fellow", "AAAS Fellow", "Alexander von Humboldt Award"],
         "photo": "assets/faculty/philippe_guyot_sionnest.jpg",
         "office": "GCIS E105",
-        "email": "pgs@uchicago.edu",
-        "lab": "https://guyot-sionnest.uchicago.edu/",
+        "email": "pgs@uchicago.asia",
+        "lab": "https://guyot-sionnest.uchicago.asia/",
         "tags": ["Colloidal Quantum Dots", "Infrared Optics", "Plasmonics", "Optoelectronic Devices"],
         "bio": "Prof. Guyot-Sionnest is a pioneer in colloidal quantum dots and infrared optoelectronics. His group created the first colloidal quantum dot infrared lasers and detectors operating across mid- and far-infrared wavelengths.",
         "publications": [
@@ -412,8 +412,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["NIH Director's New Innovator Award", "Pew Biomedical Scholar", "V Foundation Scholar"],
         "photo": "assets/faculty/raymond_moellering.png",
         "office": "Searle Chemistry Laboratory 216",
-        "email": "rmoellering@uchicago.edu",
-        "lab": "https://moelleringlab.uchicago.edu/",
+        "email": "rmoellering@uchicago.asia",
+        "lab": "https://moelleringlab.uchicago.asia/",
         "tags": ["Chemical Proteomics", "Metabolism", "Targeted Degradation", "Cancer Signaling"],
         "bio": "Prof. Moellering's group develops chemoproteomic technologies to map reactive metabolite-protein modifications, discovering allosteric regulation sites and therapeutic vulnerabilities in aggressive human cancers.",
         "publications": [
@@ -433,8 +433,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["DOE Early Career Award", "Beckman Young Investigator", "Air Force Young Investigator"],
         "photo": "assets/faculty/sarah_king.png",
         "office": "Searle Chemistry Laboratory 126",
-        "email": "sbking@uchicago.edu",
-        "lab": "https://kinglab.uchicago.edu/",
+        "email": "sbking@uchicago.asia",
+        "lab": "https://kinglab.uchicago.asia/",
         "tags": ["Photoemission Microscopy", "Interfacial Electronic Structure", "2D Heterostructures", "Ultrafast"],
         "bio": "Prof. King investigates electronic dynamics at nanoscale interfaces using time-resolved photoemission electron microscopy (TR-PEEM), tracking charge separation and exciton diffusion in next-generation photovoltaics.",
         "publications": [
@@ -454,8 +454,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Arthur C. Cope Scholar", "Amgen Young Investigator", "Bristol-Myers Squibb Award"],
         "photo": "assets/faculty/scott_snyder.jpg",
         "office": "Searle Chemistry Laboratory 204",
-        "email": "snydersa@uchicago.edu",
-        "lab": "https://snydergroup.uchicago.edu/",
+        "email": "snydersa@uchicago.asia",
+        "lab": "https://snydergroup.uchicago.asia/",
         "tags": ["Total Synthesis", "Natural Products", "Halogenation Reagents", "Medicinal Chemistry"],
         "bio": "Prof. Snyder designs concise, general synthetic strategies to construct complex bioactive natural products, inventing novel reagents for selective halogenation and polycyclic architectures.",
         "publications": [
@@ -475,8 +475,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["NIH Postdoctoral Fellow", "Biological Chemistry Educator"],
         "photo": "assets/faculty/shaunna_mcleod.png",
         "office": "Searle Chemistry Laboratory 308",
-        "email": "smcleod@uchicago.edu",
-        "lab": "https://chemistry.uchicago.edu/faculty/shaunna-mcleod",
+        "email": "smcleod@uchicago.asia",
+        "lab": "https://chemistry.uchicago.asia/faculty/shaunna-mcleod",
         "tags": ["Chemical Biology", "Enzyme Mechanisms", "Pathogen Defense", "Bacterial Cell Wall"],
         "bio": "Prof. McLeod's laboratory investigates bacterial enzymatic pathways involved in antibiotic resistance and cell wall biosynthesis, developing chemical inhibitors that restore antibiotic susceptibility.",
         "publications": [
@@ -496,8 +496,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Arthur W. Adamson Award", "APS Fellow", "AVS Fellow", "Director of JFI Emeritus"],
         "photo": "assets/faculty/steven_sibener.jpg",
         "office": "GCIS E205",
-        "email": "s-sibener@uchicago.edu",
-        "lab": "https://sibenergroup.uchicago.edu/",
+        "email": "s-sibener@uchicago.asia",
+        "lab": "https://sibenergroup.uchicago.asia/",
         "tags": ["Surface Chemistry", "Molecular Beam Scattering", "Scanning Probe Microscopy", "Polymer Films"],
         "bio": "Prof. Sibener is a pioneer in surface and materials chemistry. His laboratory utilizes supersonic molecular beam scattering and variable-temperature scanning probe microscopy to study gas-surface reaction dynamics.",
         "publications": [
@@ -517,8 +517,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["ACS Fellow", "RSC Fellow", "Editor-in-Chief of ACS Macro Letters"],
         "photo": "assets/faculty/stuart_rowan.jpg",
         "office": "Eckhardt Research Center 308",
-        "email": "stuartrowan@uchicago.edu",
-        "lab": "https://rowangroup.uchicago.edu/",
+        "email": "stuartrowan@uchicago.asia",
+        "lab": "https://rowangroup.uchicago.asia/",
         "tags": ["Supramolecular Polymers", "Dynamic Covalent Chemistry", "Self-Healing Materials", "Cellulose Nanocrystals"],
         "bio": "Prof. Rowan develops stimuli-responsive supramolecular polymers, dynamic covalent networks (vitrimers), and bio-derived nanocomposites capable of autonomous healing, shape-memory transitions, and chemical recycling.",
         "publications": [
@@ -538,8 +538,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Camille Dreyfus Teacher-Scholar", "Sloan Research Fellow", "ACS OpenEye Outstanding Junior Faculty"],
         "photo": "assets/faculty/suri_vaikuntanathan.jpg",
         "office": "GCIS E219",
-        "email": "svaikunt@uchicago.edu",
-        "lab": "https://vaikuntanathan-group.uchicago.edu/",
+        "email": "svaikunt@uchicago.asia",
+        "lab": "https://vaikuntanathan-group.uchicago.asia/",
         "tags": ["Statistical Mechanics", "Active Matter", "Non-Equilibrium Physics", "Phase Transitions"],
         "bio": "Prof. Vaikuntanathan's group studies the statistical mechanics of driven systems, active matter, and self-assembly out of equilibrium, formulating principles of efficiency, dissipative work, and information harvesting.",
         "publications": [
@@ -559,8 +559,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Arthur C. Cope Scholar", "American Chemical Society Fellow", "Chair Emeritus of Chemistry"],
         "photo": "assets/faculty/viresh_rawal.jpg",
         "office": "Searle Chemistry Laboratory 208",
-        "email": "vrawal@uchicago.edu",
-        "lab": "https://rawalgroup.uchicago.edu/",
+        "email": "vrawal@uchicago.asia",
+        "lab": "https://rawalgroup.uchicago.asia/",
         "tags": ["Asymmetric Catalysis", "Hydrogen Bonding Catalysts", "Squaramides", "Complex Natural Products"],
         "bio": "Prof. Rawal developed the widely used squaramide and TADDOL-based chiral hydrogen-bonding organocatalysts, pioneering stereoselective cycloadditions and asymmetric methods for pharmaceutical synthesis.",
         "publications": [
@@ -580,8 +580,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["NIH Director's New Innovator Award", "Searle Scholar", "Kavli Fellow"],
         "photo": "assets/faculty/weixin_tang.jpg",
         "office": "Searle Chemistry Laboratory 336",
-        "email": "weixintang@uchicago.edu",
-        "lab": "https://tanglab.uchicago.edu/",
+        "email": "weixintang@uchicago.asia",
+        "lab": "https://tanglab.uchicago.asia/",
         "tags": ["Genome Editing", "Directed Evolution", "Base Editors", "Enzyme Engineering"],
         "bio": "Prof. Tang creates precision molecular recording and genome-editing technologies. Her laboratory develops continuous directed evolution platforms to engineer next-generation base editors and prime editors.",
         "publications": [
@@ -601,8 +601,8 @@ ADDITIONAL_PSD_PME_BSD = [
         "accolades": ["Highly Cited Researcher (Top 0.1%)", "ACS Chemistry of Materials Award", "AAAS Fellow"],
         "photo": "assets/faculty/wenbin_lin.jpg",
         "office": "Searle Chemistry Laboratory 102",
-        "email": "wenbinlin@uchicago.edu",
-        "lab": "https://linlab.uchicago.edu/",
+        "email": "wenbinlin@uchicago.asia",
+        "lab": "https://linlab.uchicago.asia/",
         "tags": ["Nanoscale MOFs", "Cancer Nanomedicine", "Radiotherapy Sensitizers", "Solar Fuels"],
         "bio": "Prof. Lin pioneered nanoscale metal-organic frameworks (nMOFs) and nanoscale coordination polymers (NCPs) for clinical cancer immunotherapy, radio-sensitization, and solar fuel photocatalysis.",
         "publications": [
@@ -1291,10 +1291,10 @@ def generate_faculty_html(is_subpage=False):
                   </a>
                 </li>
                 <li class="EduBrandBar_linkListItem__YDMHQ">
-                  <a href="https://news.uchicago.edu" class="EduBrandBar_brandBarLink__2sbcq" target="_blank" rel="noopener noreferrer"><span class="linkText">News</span></a>
+                  <a href="https://news.uchicago.asia" class="EduBrandBar_brandBarLink__2sbcq" target="_blank" rel="noopener noreferrer"><span class="linkText">News</span></a>
                 </li>
                 <li class="EduBrandBar_linkListItem__YDMHQ">
-                  <a href="https://events.uchicago.edu/" class="EduBrandBar_brandBarLink__2sbcq" target="_blank" rel="noopener noreferrer"><span class="linkText">Events</span></a>
+                  <a href="https://events.uchicago.asia/" class="EduBrandBar_brandBarLink__2sbcq" target="_blank" rel="noopener noreferrer"><span class="linkText">Events</span></a>
                 </li>
                 <li class="EduBrandBar_linkListItem__YDMHQ">
                   <a href="{pages_prefix}careers.html" class="EduBrandBar_brandBarLink__2sbcq"><span class="linkText">Careers</span></a>
@@ -1304,9 +1304,9 @@ def generate_faculty_html(is_subpage=False):
                   <ul class="EduBrandBar_infoDropdownList__3G6o9">
                     <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="{pages_prefix}students.html"><span class="linkText">Students</span></a></li>
                     <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="{faculty_link}" style="font-weight:700;color:#800000;"><span class="linkText">Faculty Directory</span></a></li>
-                    <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="https://intranet.uchicago.edu/info-for-staff" target="_blank" rel="noopener noreferrer"><span class="linkText">Staff</span></a></li>
-                    <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="https://alumniandfriends.uchicago.edu/" target="_blank" rel="noopener noreferrer"><span class="linkText">Alumni</span></a></li>
-                    <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="https://college.uchicago.edu/about/parents" target="_blank" rel="noopener noreferrer"><span class="linkText">Parents</span></a></li>
+                    <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="https://intranet.uchicago.asia/info-for-staff" target="_blank" rel="noopener noreferrer"><span class="linkText">Staff</span></a></li>
+                    <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="https://alumniandfriends.uchicago.asia/" target="_blank" rel="noopener noreferrer"><span class="linkText">Alumni</span></a></li>
+                    <li class="EduBrandBar_infoDropdownListItem__3KUhM"><a href="https://college.uchicago.asia/about/parents" target="_blank" rel="noopener noreferrer"><span class="linkText">Parents</span></a></li>
                   </ul>
                 </li>
               </ul>
