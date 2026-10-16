@@ -5,7 +5,7 @@
   <title>Applicant Status Portal | The University of Chicago</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="University of Chicago Graduate Admissions - Applicant Status Portal for Ph.D. in Chemistry.">
-  <link rel="icon" href="dist/intranet/favicon.ico">
+  <link rel="icon" href="../dist/intranet/favicon.ico">
   <link href="../css/main.316e8eaf.chunk.css" rel="stylesheet">
   <link href="../css/EduHeader.0831b491.chunk.css" rel="stylesheet">
   <link href="../css/PageHeroBanner.a18316f0.chunk.css" rel="stylesheet">
@@ -21,25 +21,25 @@
       background-color: #f7f7f7;
       margin: 0;
       padding: 0;
-      font-family: "UChicagoSansSerif-Regular", sans-serif;
+      font-family: "UChicagoSansSerif-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       color: #222222;
     }
     .portal-page-container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 32px 24px 64px;
+      padding: 24px 20px 64px;
       box-sizing: border-box;
     }
     .portal-breadcrumb-bar {
       font-size: 13px;
       color: #666;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       display: flex;
       align-items: center;
       gap: 8px;
     }
     .portal-breadcrumb-bar a {
-      color: maroon;
+      color: #800000;
       text-decoration: none;
       font-weight: 500;
     }
@@ -49,7 +49,7 @@
     .portal-main-banner {
       background: #ffffff;
       border: 1px solid #e0e0e0;
-      border-top: 5px solid maroon;
+      border-top: 5px solid #800000;
       padding: 28px 32px;
       margin-bottom: 28px;
       display: flex;
@@ -72,7 +72,7 @@
       margin: 0;
     }
     .portal-auth-badge {
-      background: maroon;
+      background: #800000;
       color: #ffffff;
       padding: 8px 16px;
       font-family: "UChicagoSansSerif-Bold", sans-serif;
@@ -84,36 +84,345 @@
       align-items: center;
       gap: 8px;
     }
+
+    /* Welcome Hero Banner Card (Panel 1) */
+    .portal-hero-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-top: 4px solid #800000;
+      border-radius: 4px;
+      padding: 24px 28px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    }
+    @media (max-width: 900px) {
+      .portal-hero-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .portal-hero-image-wrap {
+        width: 100% !important;
+        height: 140px !important;
+      }
+    }
+    .portal-hero-salutation {
+      font-size: 15px;
+      color: #555555;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+    .portal-hero-name {
+      font-family: "UChicagoSerif", Georgia, serif;
+      font-size: 27px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 6px 0;
+      line-height: 1.25;
+    }
+    .portal-hero-program {
+      font-size: 14.5px;
+      font-weight: 600;
+      color: #2d3748;
+      margin-bottom: 3px;
+    }
+    .portal-hero-dept {
+      font-size: 13px;
+      color: #718096;
+    }
+    .portal-hero-image-wrap {
+      position: relative;
+      width: 340px;
+      height: 110px;
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+      flex-shrink: 0;
+    }
+    .portal-hero-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center bottom;
+      display: block;
+    }
+    .portal-hero-badge {
+      position: absolute;
+      bottom: 8px;
+      right: 10px;
+      background: rgba(128, 0, 0, 0.94);
+      color: #ffffff;
+      padding: 6px 14px;
+      font-family: "UChicagoSansSerif-Bold", sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-radius: 2px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    }
+
+    /* Status Banner */
+    .portal-status-banner {
+      background: #fff8f8;
+      border: 1px solid #f4dcd9;
+      border-left: 4px solid #800000;
+      border-radius: 4px;
+      padding: 14px 18px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+    }
+    .portal-status-icon {
+      font-size: 22px;
+      color: #800000;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .portal-status-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #800000;
+      line-height: 1.35;
+    }
+    .portal-status-sub {
+      font-size: 13px;
+      color: #444444;
+      margin-top: 4px;
+      line-height: 1.45;
+    }
+
+    /* Login Form Box */
     .portal-login-box {
       max-width: 540px;
       margin: 40px auto;
       background: #ffffff;
       border: 1px solid #dcdcdc;
-      border-top: 4px solid maroon;
+      border-top: 4px solid #800000;
       padding: 36px 40px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.06);
     }
+
+    /* 2-Column Portal Grid */
     .portal-grid {
       display: grid;
       grid-template-columns: 2fr 1fr;
-      gap: 28px;
+      gap: 24px;
     }
     @media (max-width: 960px) {
       .portal-grid {
         grid-template-columns: 1fr;
       }
     }
+
+    /* Card Blocks */
+    .portal-card-block {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 3px;
+      padding: 22px 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+    .portal-card-block.accent-maroon {
+      border-left: 4px solid #800000;
+    }
+    .portal-card-block.accent-amber {
+      border-left: 4px solid #d97706;
+    }
+    .portal-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1.5px solid #f1f5f9;
+    }
+    .portal-card-title {
+      font-family: "UChicagoSerif", Georgia, serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    /* Badges */
+    .badge-verified-green {
+      background: #e6f4ea;
+      color: #137333;
+      border: 1px solid #ceead6;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 9999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .badge-locked-red {
+      background: #fdf2f2;
+      color: #800000;
+      border: 1px solid #f5c6cb;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 9999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .badge-pending-amber {
+      background: #fef3c7;
+      color: #b45309;
+      border: 1px solid #fde68a;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 9999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Buttons */
+    .portal-btn-primary {
+      background: #800000;
+      color: #ffffff !important;
+      border: 1.5px solid #800000;
+      padding: 8px 16px;
+      border-radius: 3px;
+      font-family: "UChicagoSansSerif-Bold", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+    .portal-btn-primary:hover {
+      background: #600000;
+      border-color: #600000;
+    }
+    .portal-btn-outline {
+      background: #ffffff;
+      color: #374151 !important;
+      border: 1.5px solid #d1d5db;
+      padding: 8px 14px;
+      border-radius: 3px;
+      font-family: "UChicagoSansSerif-Bold", sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+    .portal-btn-outline:hover {
+      background: #f9fafb;
+      border-color: #9ca3af;
+      color: #111827 !important;
+    }
+
+    /* Dossier Rows */
+    .portal-dossier-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #f1f5f9;
+      font-size: 13.5px;
+    }
+    .portal-dossier-row:last-child {
+      border-bottom: none;
+    }
+    .portal-dossier-label {
+      color: #4b5563;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 220px;
+      flex-shrink: 0;
+    }
+    .portal-dossier-label i {
+      color: #800000;
+      width: 14px;
+      text-align: center;
+    }
+    .portal-dossier-val {
+      color: #111827;
+      flex: 1;
+      text-align: left;
+    }
+
+    /* Transcript Metrics Grid */
+    .transcript-metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+      background: #fafafa;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+      padding: 12px 14px;
+      margin-bottom: 14px;
+      text-align: center;
+    }
+    @media (max-width: 820px) {
+      .transcript-metrics-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .metric-box .metric-lbl {
+      font-size: 10.5px;
+      text-transform: uppercase;
+      color: #6b7280;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .metric-box .metric-num {
+      font-size: 14px;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    /* Sidebar Cards */
     .portal-sidebar-card {
       background: #ffffff;
-      border: 1px solid #e2e2e2;
-      border-radius: 2px;
+      border: 1px solid #e2e8f0;
+      border-radius: 3px;
       padding: 20px 22px;
       margin-bottom: 24px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.02);
     }
     .portal-sidebar-heading {
       font-family: "UChicagoSerif", Georgia, serif;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 700;
       color: #1a1a1a;
       margin: 0 0 14px 0;
@@ -122,6 +431,8 @@
       display: flex;
       align-items: center;
       gap: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
     }
     .portal-date-list {
       list-style: none;
@@ -145,7 +456,31 @@
     }
     .portal-date-val {
       font-weight: 700;
-      color: maroon;
+      color: #800000;
+      white-space: nowrap;
+    }
+
+    /* Recommender List */
+    .portal-rec-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px dashed #e5e7eb;
+      gap: 12px;
+    }
+    .portal-rec-item:last-child {
+      border-bottom: none;
+    }
+    .portal-rec-badge {
+      background: #fdf2f2;
+      color: #800000;
+      border: 1px solid #fecaca;
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 3px;
       white-space: nowrap;
     }
   </style>
@@ -197,7 +532,7 @@
             </ul>
             <ul class="EduNavigation_navList__-DNEa EduNavigation_rightNav__367Qa">
               <li class="EduNavigation_navListItem__2Qihw"><a class="EduNavigation_l1Link__1J9ID" href="life-at-uchicago.html"><span class="linkText">Life at UChicago</span></a></li>
-              <li class="EduNavigation_navListItem__2Qihw"><a class="EduNavigation_l1Link__1J9ID EduNavigation_linkHighlight__iQb01" href="portal.html" style="color: maroon; font-weight: 700;"><span class="linkText"><i class="fa-solid fa-lock" style="margin-right: 4px;"></i>Applicant Portal</span></a></li>
+              <li class="EduNavigation_navListItem__2Qihw"><a class="EduNavigation_l1Link__1J9ID EduNavigation_linkHighlight__iQb01" href="../portal.html" style="color: maroon; font-weight: 700;"><span class="linkText"><i class="fa-solid fa-lock" style="margin-right: 4px;"></i>Applicant Portal</span></a></li>
             </ul>
           </div>
         </div>
@@ -213,13 +548,13 @@
       <span class="sep"><i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></span>
       <a href="admissions.html">Admissions</a>
       <span class="sep"><i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></span>
-      <a href="academics_graduate-programs.html">Graduate Admissions</a>
+      <a href="academics_graduate-programs.html">Graduate Programs</a>
       <span class="sep"><i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></span>
       <span>Applicant Status Portal</span>
     </div>
 
     <!-- Top Banner -->
-    <div class="portal-main-banner">
+    <div class="portal-main-banner" id="portalTopBanner">
       <div class="portal-banner-text">
         <h1 id="portalTitle">Applicant Status Portal</h1>
         <p class="portal-subtitle" spellcheck="false" id="portalSubHeader">
@@ -282,16 +617,33 @@
     <!-- Authenticated Dashboard View (Shown after login) -->
     <div id="portalDashboardView" style="display: none;">
 
+      <!-- Welcome Hero Banner Card (Panel 1) -->
+      <div class="portal-hero-card" id="portalHeroCard">
+        <div class="portal-hero-left">
+          <div class="portal-hero-salutation">Welcome,</div>
+          <h1 class="portal-hero-name" id="portalHeroName">Devendra Biswambhar Nath Dubey</h1>
+          <div class="portal-hero-program" id="portalHeroProgram">Doctor of Philosophy in Chemistry — Computational Chemistry</div>
+          <div class="portal-hero-dept" id="portalHeroDept">Division of the Physical Sciences • Autumn Quarter 2027</div>
+        </div>
+        <div class="portal-hero-right">
+          <div class="portal-hero-image-wrap">
+            <img src="../assets/homepage_media/campus_aerial_2-min.png" alt="University of Chicago Campus" class="portal-hero-img" />
+            <div class="portal-hero-badge">
+              <i class="fa-solid fa-shield-halved"></i> SECURE ADMISSIONS SYSTEM
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Official Status Banner -->
       <div class="portal-status-banner">
-        <svg style="display:inline-block; vertical-align:-3px; margin-right:8px; flex-shrink: 0;" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#800000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"></circle>
-          <polyline points="16 9 10 15 8 13"></polyline>
-        </svg>
-        <div>
-          <div style="font-size: 15px; font-weight: 700; color: #800000;">Official Admissions Status: Admitted &amp; Fully Funded • Offer Letter Issued</div>
-          <div style="font-size: 13px; font-weight: 400; color: #444444; margin-top: 3px;">
-            Your doctoral application file is verified complete and has been accepted by the faculty research committee in the Department of Chemistry.
+        <div class="portal-status-icon">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div class="portal-status-text">
+          <div class="portal-status-title">Official Admissions Status: Admitted &amp; Fully Funded • Offer Letter Issued</div>
+          <div class="portal-status-sub">
+            Congratulations! Your doctoral offer letter and fellowship grant are officially available. Research Advisor placement under Prof. Alex Cusumano is confirmed.
           </div>
         </div>
       </div>
@@ -299,77 +651,97 @@
       <!-- Main Portal Grid -->
       <div class="portal-grid">
 
-        <!-- Left Column: Core File & Checklist -->
+        <!-- Left Column: Primary Admission Stream -->
         <div class="portal-main-col">
 
-          
-          <!-- Applicant Dossier Card -->
-          <div class="portal-card-block">
-            <h2 class="portal-card-block-title">
-              <span><i class="fa-solid fa-id-card" style="color: maroon; margin-right: 8px;"></i>Applicant Dossier</span>
-              <span style="font-size: 12px; font-family: 'UChicagoSansSerif-Regular', sans-serif; color: #800000; font-weight: 600;">Verified Dossier</span>
-            </h2>
-            <div class="portal-applicant-details" style="margin-bottom: 0;">
-              <div><strong>Applicant Name:</strong> Devendra Biswambhar Nath Dubey</div>
-              <div><strong>Application ID:</strong> UC-2027-89321</div>
-              <div><strong>Program:</strong> Ph.D. in Chemistry</div>
-              <div><strong>Specialization:</strong> Computational Chemistry &amp; Catalysis</div>
-              <div><strong>Admit Term / Start Date:</strong> Autumn Quarter 2027 (August 2027)</div>
-              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
-                <div>
-                  <strong>Application Fee:</strong>
-                  <span style="color: #800000; font-weight: 700; display: inline-flex; align-items: center; gap: 4px; margin-left: 4px;">
-                    <i class="fa-solid fa-circle-check"></i> $90.00 Paid (Received)
-                  </span>
-                  <span style="font-size: 11px; color: #666; margin-left: 6px;">• 01 Oct 2026, 6:30 AM IST</span>
-                </div>
-                <div style="display: flex; gap: 8px; align-items: center;">
-                  <button type="button" id="btnViewAppFeeReceipt" class="portal-mini-receipt-badge" style="background: #800000; color: #ffffff; border: none; padding: 4px 11px; border-radius: 3px; font-size: 11px; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 5px; transition: background 0.15s ease;">
-                    <i class="fa-solid fa-file-invoice-dollar"></i> View Application Fee Receipt
-                  </button>
-                  <a href="../application-fee-receipt.html" target="_blank" style="font-size: 11px; color: #800000; font-weight: 600; text-decoration: underline; display: inline-flex; align-items: center; gap: 3px;">
-                    Web View <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                </div>
-              </div>
-              <div><strong>Registered Email:</strong> dubey351dev@gmail.com</div>
-              <div><strong>Department:</strong> Department of Chemistry • Division of the Physical Sciences</div>
-            </div>
-          </div>
-
-          <!-- Faculty Research Advisor & Laboratory Acceptance Card -->
-          <div class="portal-faculty-card">
-            <div class="portal-faculty-badge"><i class="fa-solid fa-circle-check"></i> Faculty Acceptance Confirmed</div>
-            <div class="portal-faculty-title">Research Advisor &amp; Laboratory Placement</div>
-            <div class="portal-faculty-desc">
-              You have been selected and officially accepted as a doctoral research student under <strong>Prof. Alex (Alexander Q.) Cusumano</strong>, Assistant Professor of Chemistry (Computational &amp; Theoretical Chemistry, Catalysis) in the Department of Chemistry.
-            </div>
-            <div class="portal-faculty-meta">
-              <div><i class="fa-solid fa-flask-vial"></i> <span><strong>Research Laboratory:</strong> The Cusumano Research Group • Computational &amp; Theoretical Chemistry Laboratory (Searle Chemistry Laboratories)</span></div>
-              <div><i class="fa-solid fa-location-dot"></i> <span><strong>Laboratory Facility:</strong> Searle Chemistry Laboratories, 5735 S. Ellis Ave, Chicago, IL 60637</span></div>
-              <div><i class="fa-solid fa-calendar-check"></i> <span><strong>Appointment Commences:</strong> August 2027 (Autumn Quarter)</span></div>
-              <div><i class="fa-solid fa-award"></i> <span><strong>Departmental Research Fellowship:</strong> Approved (Full Tuition Waiver &amp; Research Stipend)</span></div>
-            </div>
-          </div>
-
-                    <!-- Seat Confirmation / Blocking Deposit Card ($6,200.00 USD) -->
-          <div class="portal-deposit-card" id="portalSeatDepositCard">
-            <div class="portal-deposit-header">
+          <!-- 1. Official Offer Letter & Fellowship Grant Card (Panel 1) -->
+          <div class="portal-card-block accent-maroon" style="box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 24px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 14px; margin-bottom: 12px;">
               <div>
-                <span class="portal-deposit-badge" id="portalDepositStatusBadge"><i class="fa-solid fa-clock"></i> Action Required: Pending Payment</span>
-                <div style="font-weight: 700; color: #1a1a1a; font-size: 16px; margin-top: 6px;">Ph.D. Matriculation Seat Confirmation Deposit</div>
+                <span style="font-size: 11px; font-weight: 700; color: #800000; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px;">
+                  <i class="fa-solid fa-graduation-cap"></i> - OFFICIAL ADMISSIONS ACTION: ADMITTED &amp; FUNDED
+                </span>
+                <h2 style="font-family: 'UChicagoSerif', Georgia, serif; font-size: 19px; color: #1a1a1a; margin: 8px 0 4px 0; text-transform: uppercase;">
+                  DOCTOR OF PHILOSOPHY (PH.D.) IN CHEMISTRY
+                </h2>
+                <div style="font-family: 'UChicagoSerif', Georgia, serif; font-size: 14.5px; font-weight: 700; color: #2d3748; margin-bottom: 6px; text-transform: uppercase;">
+                  OFFICIAL ADMISSION OFFER &amp; FELLOWSHIP GRANT
+                </div>
+                <div style="font-size: 13px; color: #555; line-height: 1.5;">
+                  The Division of the Physical Sciences and Department of Chemistry have officially released your doctoral offer of admission and comprehensive fellowship package.
+                </div>
               </div>
-              <div class="portal-deposit-amount">$6,200.00 <span>USD</span></div>
+              <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                <button type="button" id="btnOpenOfferLetterModal" class="portal-btn-primary">
+                  <i class="fa-solid fa-file-contract"></i> View Offer Letter
+                </button>
+                <a href="offer-letter.html" target="_blank" class="portal-btn-outline">
+                  Online Viewer <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 10px;"></i>
+                </a>
+                <a href="../assets/documents/Official_Offer_Letter_UCHI_2027_Devendra_Dubey.pdf" download="Official_Offer_Letter_UCHI_2027_Devendra_Dubey.pdf" class="portal-btn-outline">
+                  <i class="fa-solid fa-download"></i> Download PDF
+                </a>
+                <a href="admissions-offer-email.html" target="_blank" style="font-size: 11.5px; color: #800000; font-weight: 700; text-decoration: underline; margin-left: 2px;">
+                  • Email Notification
+                </a>
+              </div>
             </div>
-            <div class="portal-deposit-desc">
+
+            <!-- Financial Fellowship Summary Grid -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; background: #fafafa; border: 1px solid #e8e8e8; border-radius: 4px; padding: 12px 16px; margin: 14px 0;">
+              <div>
+                <div style="font-size: 10.5px; text-transform: uppercase; color: #777; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+                  <i class="fa-solid fa-building-columns" style="color: #800000;"></i> TUITION &amp; ACADEMIC FEES
+                </div>
+                <div style="font-size: 15px; font-weight: 800; color: #800000; margin-top: 2px;">$20,000 / Semester</div>
+                <div style="font-size: 11px; color: #555;">100% Fully Funded Tuition Remission</div>
+              </div>
+              <div>
+                <div style="font-size: 10.5px; text-transform: uppercase; color: #777; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+                  <i class="fa-solid fa-hand-holding-dollar" style="color: #800000;"></i> DOCTORAL LIVING STIPEND
+                </div>
+                <div style="font-size: 15px; font-weight: 800; color: #800000; margin-top: 2px;">$3,000 / Month</div>
+                <div style="font-size: 11px; color: #555;">$36,000 / Year via GRA Fellowship</div>
+              </div>
+              <div>
+                <div style="font-size: 10.5px; text-transform: uppercase; color: #777; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+                  <i class="fa-solid fa-shield-halved" style="color: #800000;"></i> SEAT LOCKING DEPOSIT
+                </div>
+                <div style="font-size: 15px; font-weight: 800; color: #800000; margin-top: 2px;">$6,200 (Reimbursable)</div>
+                <div style="font-size: 11px; color: #555;">90-day reimbursable &amp; refundable policy</div>
+              </div>
+            </div>
+
+            <!-- Special Commendation Box -->
+            <div style="background: #fffcfc; border: 1px solid #f2dede; border-left: 3px solid #800000; padding: 10px 14px; border-radius: 3px; font-size: 12.5px; color: #333; line-height: 1.5;">
+              <strong style="color: #800000;"><i class="fa-solid fa-star" style="color: #b91c1c;"></i> Faculty Commendation on Editor-Led Project:</strong> The doctoral selection committee gave focused evaluation to your editor-led computational project. <strong>Prof. Alex Cusumano</strong> expressed high praise for its algorithmic rigor and computational methodology, and is thrilled to welcome you directly to the Cusumano Research Group!
+            </div>
+          </div>
+
+          <!-- 2. Seat Confirmation / Blocking Deposit Card ($6,200.00 USD) (Panel 3) -->
+          <div class="portal-card-block accent-amber" id="portalSeatDepositCard">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 8px;">
+              <div>
+                <span class="badge-pending-amber" id="portalDepositStatusBadge">
+                  <i class="fa-solid fa-circle-exclamation"></i> ACTION REQUIRED: PENDING PAYMENT
+                </span>
+                <div style="font-family: 'UChicagoSerif', Georgia, serif; font-weight: 700; color: #1a1a1a; font-size: 17.5px; margin-top: 6px;">
+                  Ph.D. Matriculation Seat Confirmation Deposit
+                </div>
+              </div>
+              <div style="font-size: 22px; font-weight: 800; color: #1a1a1a;">
+                $6,200.00 <span style="font-size: 14px; font-weight: 600; color: #555;">USD</span>
+              </div>
+            </div>
+            <div style="font-size: 13px; color: #555; line-height: 1.5; margin-bottom: 14px;">
               To reserve and officially lock your graduate research seat in the <strong>Computational Chemistry Doctoral Program</strong> for the Autumn Quarter 2027 (commencing August 2027), please complete the required enrollment deposit below by the <strong>Seat locking fee Deposit Priority Deadline: Nov 11, 2026</strong>. This deposit is credited towards your student bursar account.
             </div>
 
             <!-- Pre-Authorized Payment Card UI Component -->
             <div style="margin: 14px 0 16px;">
               <div style="font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #555; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px;">
-                <span><i class="fa-solid fa-credit-card" style="color: maroon; margin-right: 5px;"></i> Pre-Authorized Institutional Payment Instrument</span>
-                <span style="color: #800000; font-weight: 700;"><i class="fa-solid fa-shield-check"></i> Whitelisted Mandate Active</span>
+                <span><i class="fa-solid fa-credit-card" style="color: maroon; margin-right: 5px;"></i> PRE-AUTHORIZED INSTITUTIONAL PAYMENT INSTRUMENT</span>
+                <span style="color: #137333; font-weight: 700;"><i class="fa-solid fa-shield-check"></i> WHITELISTED MANDATE ACTIVE</span>
               </div>
               <div class="card-ui-container">
                 <div class="card-ui-top">
@@ -400,267 +772,188 @@
 
             <!-- Action Area -->
             <div id="portalDepositActionsWrap" style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
-              <button type="button" class="portal-pay-deposit-btn" id="portalPayDepositBtn" style="background: maroon; color: #ffffff; border: none; padding: 10px 22px; font-family: 'UChicagoSansSerif-Bold', sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; border-radius: 2px; display: inline-flex; align-items: center; gap: 8px; transition: background 0.15s ease;">
-                <i class="fa-solid fa-credit-card"></i> Pay Seat Blocking Fee ($6,200.00 USD)
+              <button type="button" class="portal-btn-primary" id="portalPayDepositBtn" style="padding: 10px 22px;">
+                <i class="fa-solid fa-credit-card"></i> PAY SEAT BLOCKING FEE ($6,200.00 USD)
               </button>
-              <button type="button" id="portalOpenCardVerifyBtn" style="background: #ffffff; color: #333333; border: 1.5px solid #c0c0c0; padding: 9px 16px; font-family: 'UChicagoSansSerif-Bold', sans-serif; font-size: 12.5px; text-transform: uppercase; border-radius: 2px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;">
-                <i class="fa-solid fa-id-card"></i> Verify Another Card
+              <button type="button" class="portal-btn-outline" id="portalOpenCardVerifyBtn" style="padding: 10px 18px;">
+                <i class="fa-solid fa-id-card"></i> VERIFY ANOTHER CARD
               </button>
             </div>
           </div>
 
-          <!-- Official Academic Transcript Card -->
+          <!-- 3. Applicant Dossier Card (Panel 2) -->
+          <div class="portal-card-block">
+            <div class="portal-card-header">
+              <h2 class="portal-card-title">
+                <i class="fa-solid fa-file-lines" style="color: maroon;"></i> APPLICANT DOSSIER
+              </h2>
+              <span class="badge-verified-green">
+                <i class="fa-solid fa-circle-check"></i> VERIFIED DOSSIER
+              </span>
+            </div>
+            <div class="portal-dossier-list">
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-user"></i> Applicant Name</div>
+                <div class="portal-dossier-val">Devendra Biswambhar Nath Dubey</div>
+              </div>
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-id-card"></i> Application ID</div>
+                <div class="portal-dossier-val">UC-2027-89321</div>
+              </div>
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-graduation-cap"></i> Program</div>
+                <div class="portal-dossier-val">Ph.D. in Chemistry</div>
+              </div>
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-atom"></i> Specialization</div>
+                <div class="portal-dossier-val">Computational Chemistry &amp; Catalysis</div>
+              </div>
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-calendar-check"></i> Admit Term / Start Date</div>
+                <div class="portal-dossier-val">Autumn Quarter 2027 (August 2027)</div>
+              </div>
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-credit-card"></i> Application Fee</div>
+                <div class="portal-dossier-val" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+                  <span>
+                    <strong style="color: #800000;">$90.00 Paid (Received)</strong>
+                    <span style="font-size: 11.5px; color: #666; margin-left: 8px;">Oct 2026, 6:30 AM IST</span>
+                  </span>
+                  <a href="#" onclick="event.preventDefault(); if (window.openInvoiceReceiptModal) window.openInvoiceReceiptModal('app_fee');" style="color: #800000; font-weight: 700; text-decoration: underline; font-size: 12.5px;">View Receipt</a>
+                </div>
+              </div>
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-envelope"></i> Registered Email</div>
+                <div class="portal-dossier-val">dubey351dev@gmail.com</div>
+              </div>
+              <div class="portal-dossier-row">
+                <div class="portal-dossier-label"><i class="fa-solid fa-building-columns"></i> Department</div>
+                <div class="portal-dossier-val">
+                  Department of Chemistry<br />
+                  <span style="color: #666; font-size: 12px;">Division of the Physical Sciences</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Official Academic Transcript Card (Panel 4) -->
           <div class="portal-card-block" id="portalTranscriptSection">
-            <h2 class="portal-card-block-title">
-              <span><i class="fa-solid fa-graduation-cap" style="color: maroon; margin-right: 8px;"></i>Official Academic Transcript</span>
-              <span class="portal-badge-received" style="background:#f4f4f5; color:#800000; font-weight:700;"><i class="fa-solid fa-lock" style="margin-right:4px;"></i>Verified &amp; Locked</span>
-            </h2>
-            <div style="background: #ffffff; border: 1px solid #e0e0e0; border-left: 4px solid #800000; padding: 22px; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
-              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; margin-bottom: 16px;">
-                <div style="display: flex; gap: 16px; align-items: flex-start;">
-                  <div style="width: 48px; height: 48px; border-radius: 50%; background: #fdf2f2; border: 1.5px solid maroon; display: flex; align-items: center; justify-content: center; color: maroon; font-size: 22px; flex-shrink: 0;">
-                    <i class="fa-solid fa-building-columns"></i>
-                  </div>
-                  <div>
-                    <div style="font-weight: 700; font-size: 16.5px; color: #111;">
-                      Indian Institute of Technology Gandhinagar (IITGN)
-                    </div>
-                    <div style="font-size: 13.5px; color: #333; margin-top: 3px; font-weight: 500;">
-                      Consolidated Academic Transcript &amp; Grade Record • Ref: <strong>IITGN-MSC-2026-24510041</strong>
-                    </div>
-                    <div style="font-size: 12px; color: #666; margin-top: 4px; line-height: 1.45;">
-                      Student Name: <strong>Devendra Dubey Biswambharnath Geeta</strong> • Roll / ID: <strong>24510041</strong><br />
-                      Program: <strong>M.Sc. Chemistry</strong> • Batch / Year: <strong>2024 – 2026</strong> • Issued: <strong>24th August 2026</strong>
-                    </div>
-                  </div>
+            <div class="portal-card-header">
+              <h2 class="portal-card-title">
+                <i class="fa-solid fa-graduation-cap" style="color: maroon;"></i> OFFICIAL ACADEMIC TRANSCRIPT
+              </h2>
+              <span class="badge-locked-red">
+                <i class="fa-solid fa-lock"></i> VERIFIED &amp; LOCKED
+              </span>
+            </div>
+            <div>
+              <div style="display: flex; gap: 14px; align-items: flex-start; margin-bottom: 14px;">
+                <div style="width: 44px; height: 44px; border-radius: 50%; background: #fff5f5; border: 1.5px solid #800000; display: flex; align-items: center; justify-content: center; color: #800000; font-size: 20px; flex-shrink: 0;">
+                  <i class="fa-solid fa-building-columns"></i>
                 </div>
-                <div style="text-align: right; flex-shrink: 0;">
-                  <div style="background: #fbf8f8; border: 1px solid #e5e7eb; border-radius: 4px; padding: 8px 14px; display: inline-block; text-align: right;">
-                    <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: #800000; font-weight: 700;">Final Cumulative GPA</div>
-                    <div style="font-size: 20px; font-weight: 800; color: #800000; line-height: 1.2;">8.46 <span style="font-size: 13px; font-weight: 500; color: #666;">/ 10.00</span></div>
-                    <div style="font-size: 11px; color: #800000; font-weight: 700; margin-top: 2px;">First Class with Distinction</div>
+                <div>
+                  <div style="font-weight: 700; font-size: 15.5px; color: #111;">
+                    Indian Institute of Technology Gandhinagar (IITGN)
+                  </div>
+                  <div style="font-size: 12.5px; color: #444; margin-top: 2px;">
+                    Consolidated Academic Transcript &amp; Grade Record • Ref: <strong>IITGN-MSC-2026-24510041</strong>
+                  </div>
+                  <div style="font-size: 12px; color: #666; margin-top: 2px;">
+                    Student Name: <strong>Devendra Dubey Biswambharnath Geeta</strong> • Roll ID: <strong>24510041</strong><br />
+                    Program: <strong>M.Sc. Chemistry</strong> • Batch / Year: <strong>2024 - 2026</strong> • Issued: <strong>24th August 2026</strong>
                   </div>
                 </div>
               </div>
 
-              <!-- Academic Metrics & Highlights Grid -->
-              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap: 10px; background: #fafafa; border: 1px solid #eee; padding: 12px 14px; border-radius: 4px; margin-bottom: 14px; font-size: 12.5px;">
-                <div><span style="color:#666;">Total Credits:</span> <strong style="color:#111;">85 Credits</strong></div>
-                <div><span style="color:#666;">GPA Credits:</span> <strong style="color:#111;">74 Credits</strong></div>
-                <div><span style="color:#666;">Non-GPA / Pass:</span> <strong style="color:#111;">11 Credits</strong></div>
-                <div><span style="color:#666;">Completed Courses:</span> <strong style="color:#111;">28 Courses</strong></div>
-                <div><span style="color:#666;">Credit Points:</span> <strong style="color:#111;">626 Points</strong></div>
-                <div><span style="color:#666;">Graduation Status:</span> <strong style="color:#800000;"><i class="fa-solid fa-circle-check"></i> Requirements Completed</strong></div>
+              <!-- Metrics Grid (6 columns) -->
+              <div class="transcript-metrics-grid">
+                <div class="metric-box">
+                  <div class="metric-lbl">Total Credits</div>
+                  <div class="metric-num">85</div>
+                </div>
+                <div class="metric-box">
+                  <div class="metric-lbl">GPA Credits</div>
+                  <div class="metric-num">74</div>
+                </div>
+                <div class="metric-box">
+                  <div class="metric-lbl">Non-GPA / Pass</div>
+                  <div class="metric-num">11</div>
+                </div>
+                <div class="metric-box">
+                  <div class="metric-lbl">Completed Courses</div>
+                  <div class="metric-num">28</div>
+                </div>
+                <div class="metric-box">
+                  <div class="metric-lbl">Credit Points</div>
+                  <div class="metric-num">626</div>
+                </div>
+                <div class="metric-box">
+                  <div class="metric-lbl">Graduation Status</div>
+                  <div class="metric-num" style="color: #137333; font-size: 12px;">
+                    <i class="fa-solid fa-circle-check"></i> Requirements Completed
+                  </div>
+                </div>
               </div>
 
-              <!-- Research Assistant Fellowship Remark -->
-              <div style="font-size: 11.5px; line-height: 1.5; color: #555; background: #fffdf5; border: 1px solid #f0e6c8; padding: 8px 12px; border-radius: 3px; margin-bottom: 16px;">
+              <!-- Research Remark -->
+              <div style="font-size: 12px; line-height: 1.5; color: #555; background: #fffdf5; border: 1px solid #f0e6c8; padding: 10px 14px; border-radius: 4px; margin-bottom: 16px;">
                 <strong style="color: #856404;"><i class="fa-solid fa-award"></i> Academic &amp; Research Remark:</strong> Pursuing the Prime Minister's Research Assistant Fellowship (PMRAF) in the Department of Atomic and Molecular Physics at Physical Research Laboratory (PRL), Ahmedabad, under the guidance of Prof. Bhaskar Datta.
               </div>
 
-              <!-- Actions & Locked Upload Notice -->
-              <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding-top: 14px; border-top: 1px solid #f0f0f0;">
-                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-                  <button type="button" class="portal-transcript-view-btn" id="portalTranscriptPreviewBtn" style="background: maroon; color: #ffffff; border: none; padding: 9px 18px; font-family: 'UChicagoSansSerif-Bold', sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; border-radius: 2px; display: inline-flex; align-items: center; gap: 7px; transition: background 0.15s ease;">
-                    <i class="fa-regular fa-file-pdf"></i> View Official Transcript (2 Pages)
-                  </button>
-                  <a href="../assets/documents/Official_Transcript_IITGN_24510041.pdf" target="_blank" download="Official_Transcript_IITGN_24510041.pdf" style="background: #ffffff; color: #333333; border: 1.5px solid #c0c0c0; padding: 8px 16px; font-family: 'UChicagoSansSerif-Bold', sans-serif; font-size: 12.5px; text-transform: uppercase; text-decoration: none; border-radius: 2px; display: inline-flex; align-items: center; gap: 6px;">
-                    <i class="fa-solid fa-download"></i> Download Verified PDF
-                  </a>
-                </div>
-
-                <!-- Strict Lock Notice — Option to upload new transcript removed -->
-                <div style="display: flex; align-items: center; gap: 6px; font-size: 12px; color: #666; background: #f4f4f4; padding: 6px 12px; border-radius: 3px; border: 1px solid #e0e0e0;">
-                  <i class="fa-solid fa-lock" style="color: #666;"></i>
-                  <span><strong>Upload Locked:</strong> Official institutional transcript verified. Submission of new transcripts is disabled.</span>
-                </div>
+              <!-- Buttons -->
+              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <button type="button" class="portal-btn-primary" id="portalTranscriptPreviewBtn" onclick="if(window.openTranscriptModal) window.openTranscriptModal();">
+                  <i class="fa-solid fa-file-contract"></i> VIEW OFFICIAL TRANSCRIPT (2 PAGES)
+                </button>
+                <a href="../assets/documents/Official_Transcript_IITGN_24510041.pdf" target="_blank" download="Official_Transcript_IITGN_24510041.pdf" class="portal-btn-outline">
+                  <i class="fa-solid fa-download"></i> DOWNLOAD VERIFIED PDF
+                </a>
               </div>
             </div>
-          </div>
-
-<!-- Curriculum Vitae / Resume Section -->
-          <div class="portal-card-block">
-            <h2 class="portal-card-block-title">
-              <span><i class="fa-solid fa-file-invoice" style="color: maroon; margin-right: 8px;"></i>Curriculum Vitae / Resume</span>
-              <span class="portal-badge-received" id="portalResumeBadge"><i class="fa-solid fa-circle-check"></i> Verified (On File)</span>
-            </h2>
-            <div class="portal-resume-card" id="portalResumeDropzone" style="margin-bottom: 0; background: #ffffff; border: 1.5px solid #dcdcdc; border-left: 4px solid maroon; border-radius: 4px; padding: 18px 20px;">
-              <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 14px; flex-wrap: wrap;">
-                <div style="display: flex; align-items: flex-start; gap: 14px;">
-                  <div style="width: 44px; height: 44px; border-radius: 4px; background: #fdf2f2; border: 1px solid #f5c6cb; display: flex; align-items: center; justify-content: center; color: #b91c1c; font-size: 24px; flex-shrink: 0;">
-                    <i class="fa-solid fa-file-pdf"></i>
-                  </div>
-                  <div>
-                    <div class="portal-resume-name" id="portalResumeFileName" style="font-size: 16px; font-weight: 700; color: #111;">
-                      CV_Devendra_B_Dubey.pdf
-                    </div>
-                    <div class="portal-resume-meta" id="portalResumeFileMeta" style="font-size: 12.5px; color: #555; margin-top: 2px;">
-                      Official Curriculum Vitae • <strong>92 KB</strong> • <strong>2 Pages</strong> • Verified by Division of the Physical Sciences
-                    </div>
-                    <div style="font-size: 11.5px; color: #666; margin-top: 4px;">
-                      Candidate: <strong>Devendra B. Dubey</strong> • Gandhinagar, India • Contact: <strong>24510041@iitgn.ac.in</strong>
-                    </div>
-                  </div>
-                </div>
-                <div style="text-align: right; flex-shrink: 0;">
-                  <span style="display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #800000; background: #f4f4f5; border: 1px solid #e5e7eb; padding: 4px 10px; border-radius: 3px;">
-                    <i class="fa-solid fa-circle-check"></i> Admissions Verified
-                  </span>
-                </div>
-              </div>
-
-              <!-- CV Summary & Highlights Grid -->
-              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; background: #fafafa; border: 1px solid #eee; padding: 12px 14px; border-radius: 4px; margin-bottom: 14px; font-size: 12px; line-height: 1.45;">
-                <div>
-                  <div style="color: #666; font-size: 11px; text-transform: uppercase; font-weight: 700;">Graduate Education</div>
-                  <strong style="color: #111;">M.Sc. Chemistry</strong> — IITGN (2024–2026)<br />
-                  <span style="color: #800000; font-weight: 600;">CPI: 8.46 / 10.00</span>
-                </div>
-                <div>
-                  <div style="color: #666; font-size: 11px; text-transform: uppercase; font-weight: 700;">Undergraduate Education</div>
-                  <strong style="color: #111;">B.Sc. Chemistry</strong> — K.V. Pendharkar (2021–2024)<br />
-                  <span style="color: #800000; font-weight: 600;">CGPA: 9.90 / 10.00 (Grade A+)</span>
-                </div>
-                <div>
-                  <div style="color: #666; font-size: 11px; text-transform: uppercase; font-weight: 700;">Fellowship &amp; Research</div>
-                  <strong style="color: #111;">PMRAF Fellow</strong> — IITGN &amp; PRL Ahmedabad<br />
-                  <span style="color: #555;">ICT Mumbai Intern • ISRO SAC Project</span>
-                </div>
-                <div>
-                  <div style="color: #666; font-size: 11px; text-transform: uppercase; font-weight: 700;">Honors &amp; Research Focus</div>
-                  <strong style="color: maroon;">IIT JAM Chemistry AIR 403</strong><br />
-                  <span style="color: #555;">Photocatalysis, Asymmetric Synthesis</span>
-                </div>
-              </div>
-
-              <!-- Interactive Actions & Download -->
-              <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding-top: 12px; border-top: 1px solid #f0f0f0;">
-                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-                  <button type="button" class="portal-cv-view-btn" id="portalResumePreviewBtn" style="background: maroon; color: #ffffff; border: none; padding: 9px 18px; font-family: 'UChicagoSansSerif-Bold', sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; border-radius: 2px; display: inline-flex; align-items: center; gap: 7px; transition: background 0.15s ease;">
-                    <i class="fa-regular fa-file-pdf"></i> View Official CV (2 Pages)
-                  </button>
-                  <a href="../assets/documents/CV_Devendra_B_Dubey.pdf" target="_blank" download="CV_Devendra_B_Dubey.pdf" style="background: #ffffff; color: #333333; border: 1.5px solid #c0c0c0; padding: 8px 16px; font-family: 'UChicagoSansSerif-Bold', sans-serif; font-size: 12.5px; text-transform: uppercase; text-decoration: none; border-radius: 2px; display: inline-flex; align-items: center; gap: 6px;">
-                    <i class="fa-solid fa-download"></i> Download PDF
-                  </a>
-                </div>
-
-                <div style="display: flex; align-items: center; gap: 8px;">
-                  <label for="resumeFileInput" class="portal-upload-btn" style="cursor: pointer; font-size: 11.5px; padding: 6px 12px; background: #f7f7f7; border: 1px solid #d0d0d0; border-radius: 2px; color: #555; display: inline-flex; align-items: center; gap: 5px;">
-                    <i class="fa-solid fa-cloud-arrow-up"></i> Update CV
-                  </label>
-                  <input type="file" id="resumeFileInput" accept=".pdf,.doc,.docx" style="display: none;" />
-                </div>
-              </div>
-              <div id="resumeUploadFeedback" style="display: none; font-size: 12px; margin-top: 8px; color: #800000; font-weight: 600;">
-                <i class="fa-solid fa-circle-check"></i> Resume successfully updated and logged in admissions database!
-              </div>
-            </div>
-          </div>
-
-                    <!-- Letters of Recommendation (5 of 5 Received) -->
-          <div class="portal-card-block">
-            <h2 class="portal-card-block-title">
-              <span><i class="fa-solid fa-envelope-open-text" style="color: maroon; margin-right: 8px;"></i>Letters of Recommendation</span>
-              <span style="font-size: 12px; font-family: 'UChicagoSansSerif-Regular', sans-serif; color: #800000; font-weight: 700;">5 of 5 Received</span>
-            </h2>
-            <ul class="portal-checklist">
-              <li class="portal-checklist-item">
-                <div class="portal-checklist-label">
-                  <svg style="display:inline-block; vertical-align:-2px; margin-right:4px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#800000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <div>
-                    <div style="font-weight: 600; color: #222;">1. Dr. Bhaskar Datta</div>
-                    <div style="font-size: 12px; color: #666;">Professor, Department of Chemistry &amp; Biological Engineering • Indian Institute of Technology (IIT) Gandhinagar</div>
-                  </div>
-                </div>
-                <span class="portal-badge-received">Received (Official)</span>
-              </li>
-              <li class="portal-checklist-item">
-                <div class="portal-checklist-label">
-                  <svg style="display:inline-block; vertical-align:-2px; margin-right:4px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#800000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <div>
-                    <div style="font-weight: 600; color: #222;">2. Dr. Sivapriya Kirubakaran</div>
-                    <div style="font-size: 12px; color: #666;">Professor &amp; Head, Department of Chemistry • Indian Institute of Technology (IIT) Gandhinagar</div>
-                  </div>
-                </div>
-                <span class="portal-badge-received">Received (Official)</span>
-              </li>
-              <li class="portal-checklist-item">
-                <div class="portal-checklist-label">
-                  <svg style="display:inline-block; vertical-align:-2px; margin-right:4px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#800000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <div>
-                    <div style="font-weight: 600; color: #222;">3. Dr. Shraedha Tiwari</div>
-                    <div style="font-size: 12px; color: #666;">Assistant Professor, Department of Chemistry • Institute of Chemical Technology (ICT) Mumbai, India</div>
-                  </div>
-                </div>
-                <span class="portal-badge-received">Received (Official)</span>
-              </li>
-              <li class="portal-checklist-item">
-                <div class="portal-checklist-label">
-                  <svg style="display:inline-block; vertical-align:-2px; margin-right:4px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#800000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <div>
-                    <div style="font-weight: 600; color: #222;">4. Dr. Kasturi Venkataraman</div>
-                    <div style="font-size: 12px; color: #666;">Professor • Indian Institute of Science (IISc) Bangalore</div>
-                  </div>
-                </div>
-                <span class="portal-badge-received">Received (Official)</span>
-              </li>
-              <li class="portal-checklist-item">
-                <div class="portal-checklist-label">
-                  <svg style="display:inline-block; vertical-align:-2px; margin-right:4px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#800000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <div>
-                    <div style="font-weight: 600; color: #222;">5. Dr. Sriram Kanvah Gundimeda</div>
-                    <div style="font-size: 12px; color: #666;">Professor, Department of Chemistry • Indian Institute of Technology (IIT) Gandhinagar</div>
-                  </div>
-                </div>
-                <span class="portal-badge-received">Received (Official)</span>
-              </li>
-            </ul>
           </div>
 
         </div>
 
-        <!-- Right Column: Sidebar, Dates, Advisor Spotlight, Bursar -->
+        <!-- Right Column: Sidebar & Verification Cards -->
         <div class="portal-sidebar-col">
 
-          <!-- Advisor Spotlight Sidebar Card -->
+          <!-- 1. Faculty Advisor Contact Card (Panel 1) -->
           <div class="portal-sidebar-card">
             <h3 class="portal-sidebar-heading">
-              <i class="fa-solid fa-user-tie" style="color: maroon;"></i> Faculty Advisor Contact
+              <i class="fa-solid fa-user-tie" style="color: maroon;"></i> FACULTY ADVISOR CONTACT
             </h3>
             <div style="font-weight: 700; color: #1a1a1a; font-size: 14.5px;">Prof. Alex (Alexander Q.) Cusumano</div>
             <div style="font-size: 12.5px; color: #555; margin-top: 2px;">Assistant Professor of Chemistry</div>
             <div style="font-size: 12.5px; color: #555;">Searle Chemistry Laboratories, Room 402</div>
-            <div style="font-size: 12px; color: maroon; margin-top: 6px;">
-              <i class="fa-solid fa-envelope"></i> aqcusumano@uchicago.edu
+            <div style="font-size: 12.5px; margin-top: 6px;">
+              <a href="mailto:aqcusumano@uchicago.edu" style="color: #800000; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
+                <i class="fa-solid fa-envelope"></i> aqcusumano@uchicago.edu
+              </a>
             </div>
             <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid #eee;">
-              <a href="department-of-chemistry.html" style="font-size: 12px; font-weight: 700; color: maroon; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
+              <a href="department-of-chemistry.html" style="font-size: 12px; font-weight: 700; color: #800000; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
                 Explore Department of Chemistry <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
 
-                    <!-- Key Program Dates -->
+          <!-- 2. Key Program Dates Card (Panel 1) -->
           <div class="portal-sidebar-card">
             <h3 class="portal-sidebar-heading">
-              <i class="fa-solid fa-calendar-days" style="color: maroon;"></i> Key Program Dates
+              <i class="fa-solid fa-calendar-days" style="color: maroon;"></i> KEY PROGRAM DATES
             </h3>
             <ul class="portal-date-list">
               <li class="portal-date-item">
                 <span class="portal-date-label">Seat locking fee Deposit Priority Deadline</span>
-                <span class="portal-date-val" style="color: #b91c1c; font-weight: 700;">Nov 11, 2026</span>
+                <span class="portal-date-val">Nov 11, 2026</span>
               </li>
               <li class="portal-date-item">
                 <span class="portal-date-label">Fellowship Stipend Setup</span>
-                <span class="portal-date-val">AUG 15, 2027</span>
+                <span class="portal-date-val">Aug 15, 2027</span>
               </li>
               <li class="portal-date-item">
                 <span class="portal-date-label">Doctoral Matriculation &amp; Move-In</span>
                 <span class="portal-date-val">August 2027</span>
-              </li>
-              <li class="portal-date-item">
-                <span class="portal-date-label">PSD Graduate Orientation</span>
-                <span class="portal-date-val">September 2027</span>
               </li>
               <li class="portal-date-item">
                 <span class="portal-date-label">Autumn Quarter Classes Begin</span>
@@ -669,47 +962,147 @@
             </ul>
           </div>
 
-          <!-- Bursar & Student Accounts Card -->
+          <!-- 3. Bursar & Student Accounts Card (Panel 2) -->
           <div class="portal-sidebar-card">
             <h3 class="portal-sidebar-heading">
-              <i class="fa-solid fa-building-columns" style="color: maroon;"></i> Bursar &amp; Student Accounts
+              <i class="fa-solid fa-building-columns" style="color: maroon;"></i> BURSAR &amp; STUDENT ACCOUNTS
             </h3>
-            <div style="font-size: 12.5px; line-height: 1.5; color: #444;">
-              <div><strong>Student ID (UCID):</strong> 12489321</div>
-              <div><strong>Bursar Status:</strong> Active / In Good Standing</div>
-              <div><strong>Tuition Waiver:</strong> 100% Remission Active</div>
-              <div style="margin-top: 10px; padding: 8px 10px; background: #fbf8f8; border: 1px solid #e5e7eb; border-radius: 3px;">
-                <div style="font-size: 11px; font-weight: 700; color: #800000;"><i class="fa-solid fa-circle-check"></i> Application Fee: $90.00 Paid</div>
-                <div style="font-size: 10.5px; color: #555; margin-top: 1px;">Settled 01 Oct 2026, 6:30 AM IST • Discover Debit (•••• 0405)</div>
-                <a href="#" onclick="event.preventDefault(); if (window.openInvoiceReceiptModal) window.openInvoiceReceiptModal('app_fee');" style="font-size: 11px; color: maroon; font-weight: 700; text-decoration: underline; margin-top: 3px; display: inline-block;">
-                  <i class="fa-solid fa-receipt"></i> View Application Receipt
+            <div style="font-size: 13px; line-height: 1.6; color: #333;">
+              <div style="display: flex; align-items: center; justify-content: space-between; padding: 7px 0; border-bottom: 1px dashed #eee;">
+                <span style="color: #666; display: flex; align-items: center; gap: 6px;">
+                  <i class="fa-solid fa-id-badge" style="color: #800000; width: 14px;"></i> Student ID (UCID)
+                </span>
+                <strong style="color: #1a1a1a;">12489321</strong>
+              </div>
+              <div style="display: flex; align-items: center; justify-content: space-between; padding: 7px 0; border-bottom: 1px dashed #eee;">
+                <span style="color: #666; display: flex; align-items: center; gap: 6px;">
+                  <i class="fa-solid fa-circle-check" style="color: #137333; width: 14px;"></i> Bursar Status
+                </span>
+                <strong style="color: #137333;">Active / In Good Standing</strong>
+              </div>
+              <div style="display: flex; align-items: center; justify-content: space-between; padding: 7px 0; border-bottom: 1px dashed #eee;">
+                <span style="color: #666; display: flex; align-items: center; gap: 6px;">
+                  <i class="fa-solid fa-shield-halved" style="color: #800000; width: 14px;"></i> Tuition Waiver
+                </span>
+                <strong style="color: #800000;">100% Remission Active</strong>
+              </div>
+              <div style="margin-top: 12px; padding: 10px 12px; background: #fffcfc; border: 1px solid #f2dede; border-radius: 4px;">
+                <div style="font-size: 12px; font-weight: 700; color: #800000;">• Application Fee: $90.00 Paid</div>
+                <div style="font-size: 11px; color: #555; margin-top: 2px;">Settled 01 Oct 2026, 6:30 AM IST • Discover Debit (•••• 0405)</div>
+                <a href="#" onclick="event.preventDefault(); if (window.openInvoiceReceiptModal) window.openInvoiceReceiptModal('app_fee');" style="font-size: 11.5px; color: #800000; font-weight: 700; text-decoration: underline; margin-top: 4px; display: inline-block;">
+                  View Application Receipt
                 </a>
               </div>
-              <div id="bursarSidebarReceiptLinkWrap" style="display: none; margin-top: 10px; padding: 8px 10px; background: #fbf8f8; border: 1px solid #e5e7eb; border-radius: 3px;">
-                <div style="font-size: 11px; font-weight: 700; color: #800000;"><i class="fa-solid fa-circle-check"></i> Deposit Settled: $6,200.00 USD</div>
-                <a href="#" onclick="event.preventDefault(); window.openInvoiceReceiptModal();" style="font-size: 11.5px; color: maroon; font-weight: 700; text-decoration: underline; margin-top: 2px; display: inline-block;">View Official Tax Receipt</a>
+              <div id="bursarSidebarReceiptLinkWrap" style="display: none; margin-top: 10px; padding: 10px 12px; background: #fffcfc; border: 1px solid #f2dede; border-radius: 4px;">
+                <div style="font-size: 12px; font-weight: 700; color: #800000;">• Deposit Settled: $6,200.00 USD</div>
+                <a href="#" onclick="event.preventDefault(); window.openInvoiceReceiptModal();" style="font-size: 11.5px; color: #800000; font-weight: 700; text-decoration: underline; margin-top: 2px; display: inline-block;">View Official Tax Receipt</a>
               </div>
-              <div style="margin-top: 8px; font-size: 11.5px; color: #666;">
-                Inquiries regarding payment receipts, wire transfers, or 1098-T forms:
-                <br /><a href="mailto:bursar@uchicago.edu" style="color: maroon;">bursar@uchicago.edu</a>
+              <div style="margin-top: 12px; font-size: 12px; color: #666; line-height: 1.5;">
+                Inquiries regarding payment receipts, wire transfers, or 1098-T forms:<br />
+                <a href="mailto:bursar@uchicago.edu" style="color: #800000; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; margin-top: 2px;">
+                  <i class="fa-solid fa-envelope"></i> bursar@uchicago.edu
+                </a>
               </div>
             </div>
           </div>
 
-          <!-- Quick Portal Action Buttons -->
+          <!-- 4. Curriculum Vitae / Resume Card (Panel 4) -->
+          <div class="portal-sidebar-card">
+            <div class="portal-card-header" style="margin-bottom: 12px; padding-bottom: 8px;">
+              <h3 class="portal-sidebar-heading" style="border: none; margin: 0; padding: 0;">
+                <i class="fa-solid fa-file-invoice" style="color: maroon;"></i> CURRICULUM VITAE / RESUME
+              </h3>
+              <span class="badge-verified-green">
+                <i class="fa-solid fa-circle-check"></i> VERIFIED (ON FILE)
+              </span>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+              <div style="color: #dc2626; font-size: 32px; flex-shrink: 0; line-height: 1;">
+                <i class="fa-solid fa-file-pdf"></i>
+              </div>
+              <div>
+                <div style="font-weight: 700; font-size: 13.5px; color: #111;">CV_Devendra_B_Dubey.pdf</div>
+                <div style="font-size: 11.5px; color: #555; margin-top: 2px;">Official Curriculum Vitae • <strong>92 KB</strong> • <strong>2 Pages</strong></div>
+                <div style="font-size: 11px; color: #666; margin-top: 2px;">Verified by Division of the Physical Sciences</div>
+                <div style="font-size: 11px; color: #666;">Candidate: <strong>Devendra B. Dubey</strong></div>
+                <div style="font-size: 11px; color: #666;">Gandhinagar, India • Contact: <strong>24510041@iitgn.ac.in</strong></div>
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 6px;">
+              <button type="button" class="portal-btn-primary" id="portalResumePreviewBtn" onclick="if(window.openCvModal) window.openCvModal();" style="width: 100%;">
+                <i class="fa-solid fa-file-lines"></i> VIEW OFFICIAL CV (2 PAGES)
+              </button>
+              <a href="../assets/documents/CV_Devendra_B_Dubey.pdf" target="_blank" download="CV_Devendra_B_Dubey.pdf" class="portal-btn-outline" style="width: 100%; box-sizing: border-box;">
+                <i class="fa-solid fa-download"></i> DOWNLOAD PDF
+              </a>
+              <label for="resumeFileInput" style="cursor: pointer; font-size: 11.5px; color: #800000; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 4px; margin-top: 8px;">
+                <i class="fa-solid fa-cloud-arrow-up"></i> UPDATE CV
+              </label>
+              <input type="file" id="resumeFileInput" accept=".pdf,.doc,.docx" style="display: none;" />
+            </div>
+          </div>
+
+          <!-- 5. Letters of Recommendation Card (Panel 4) -->
+          <div class="portal-sidebar-card">
+            <div class="portal-card-header" style="margin-bottom: 12px; padding-bottom: 8px;">
+              <h3 class="portal-sidebar-heading" style="border: none; margin: 0; padding: 0;">
+                <i class="fa-solid fa-envelope-open-text" style="color: maroon;"></i> LETTERS OF RECOMMENDATION
+              </h3>
+              <span style="color: #800000; font-size: 11px; font-weight: 700;">5 OF 5 RECEIVED</span>
+            </div>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+              <li class="portal-rec-item">
+                <div>
+                  <div style="font-weight: 700; font-size: 12.5px; color: #222;">1. Dr. Bhaskar Datta</div>
+                  <div style="font-size: 11.5px; color: #666;">Professor, Department of Chemistry &amp; Biological Engineering • IIT Gandhinagar</div>
+                </div>
+                <span class="portal-rec-badge">RECEIVED (OFFICIAL)</span>
+              </li>
+              <li class="portal-rec-item">
+                <div>
+                  <div style="font-weight: 700; font-size: 12.5px; color: #222;">2. Dr. Sivapriya Kirubakaran</div>
+                  <div style="font-size: 11.5px; color: #666;">Professor &amp; Head, Department of Chemistry • IIT Gandhinagar</div>
+                </div>
+                <span class="portal-rec-badge">RECEIVED (OFFICIAL)</span>
+              </li>
+              <li class="portal-rec-item">
+                <div>
+                  <div style="font-weight: 700; font-size: 12.5px; color: #222;">3. Dr. Shraedha Tiwari</div>
+                  <div style="font-size: 11.5px; color: #666;">Assistant Professor, Department of Chemistry • ICT Mumbai</div>
+                </div>
+                <span class="portal-rec-badge">RECEIVED (OFFICIAL)</span>
+              </li>
+              <li class="portal-rec-item">
+                <div>
+                  <div style="font-weight: 700; font-size: 12.5px; color: #222;">4. Dr. Kasturi Venkataraman</div>
+                  <div style="font-size: 11.5px; color: #666;">Professor • IISc Bangalore</div>
+                </div>
+                <span class="portal-rec-badge">RECEIVED (OFFICIAL)</span>
+              </li>
+              <li class="portal-rec-item">
+                <div>
+                  <div style="font-weight: 700; font-size: 12.5px; color: #222;">5. Dr. Sriram Kanvah Gundimeda</div>
+                  <div style="font-size: 11.5px; color: #666;">Professor, Department of Chemistry • IIT Gandhinagar</div>
+                </div>
+                <span class="portal-rec-badge">RECEIVED (OFFICIAL)</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 6. Portal Tools Card (Panel 2) -->
           <div class="portal-sidebar-card" style="background: #faf8f5; border-color: #e5ded5;">
             <h3 class="portal-sidebar-heading">
-              <i class="fa-solid fa-gear" style="color: maroon;"></i> Portal Tools
+              <i class="fa-solid fa-gear" style="color: maroon;"></i> PORTAL TOOLS
             </h3>
             <div style="display: flex; flex-direction: column; gap: 8px;">
-              <button type="button" class="portal-secondary-btn" id="portalPrintBtn" style="width: 100%;">
-                <i class="fa-solid fa-print"></i> Print Official Summary
+              <button type="button" class="portal-btn-outline" id="portalPrintBtn" style="width: 100%;" onclick="window.print();">
+                <i class="fa-solid fa-print"></i> PRINT OFFICIAL SUMMARY
               </button>
-              <a href="../index.html" class="portal-secondary-btn" style="text-decoration: none; text-align: center; box-sizing: border-box;">
-                <i class="fa-solid fa-house"></i> Return to Homepage
+              <a href="../index.html" class="portal-btn-outline" style="width: 100%; box-sizing: border-box;">
+                <i class="fa-solid fa-house"></i> RETURN TO HOMEPAGE
               </a>
-              <button type="button" class="portal-logout-btn" id="portalLogoutBtn" style="width: 100%;">
-                <i class="fa-solid fa-right-from-bracket"></i> Sign Out
+              <button type="button" class="portal-btn-primary" id="portalLogoutBtn" style="width: 100%;">
+                <i class="fa-solid fa-right-from-bracket"></i> SIGN OUT
               </button>
             </div>
           </div>
@@ -739,7 +1132,7 @@
           <li class="Footer_linkListItem__3BK1B"><a href="admissions.html" class="Footer_link__1w-x1"><span class="linkText">Admissions</span></a></li>
           <li class="Footer_linkListItem__3BK1B"><a href="department-of-chemistry.html" class="Footer_link__1w-x1"><span class="linkText">Department of Chemistry</span></a></li>
           <li class="Footer_linkListItem__3BK1B"><a href="academics_academic-departments.html" class="Footer_link__1w-x1"><span class="linkText">Academic Departments</span></a></li>
-          <li class="Footer_linkListItem__3BK1B"><a href="portal.html" class="Footer_link__1w-x1"><span class="linkText">Applicant Status Portal</span></a></li>
+          <li class="Footer_linkListItem__3BK1B"><a href="../portal.html" class="Footer_link__1w-x1"><span class="linkText">Applicant Status Portal</span></a></li>
           <li class="Footer_linkListItem__3BK1B"><a href="contact-us.html" class="Footer_link__1w-x1"><span class="linkText">Contact Us</span></a></li>
         </ul>
       </div>
@@ -756,16 +1149,22 @@
       var isAuth = sessionStorage.getItem("applicantLoggedIn") === "true";
       var portalLoginView = document.getElementById("portalLoginView");
       var portalDashboardView = document.getElementById("portalDashboardView");
+      var portalTopBanner = document.getElementById("portalTopBanner");
       var portalTitle = document.getElementById("portalTitle");
       var portalSubHeader = document.getElementById("portalSubHeader");
 
       if (isAuth) {
         if (portalLoginView) portalLoginView.style.display = "none";
         if (portalDashboardView) portalDashboardView.style.display = "block";
+        if (portalTopBanner) portalTopBanner.style.display = "none";
         if (portalTitle) portalTitle.textContent = "Welcome, Devendra Biswambhar Nath Dubey";
         if (portalSubHeader) {
           portalSubHeader.textContent = "Doctor of Philosophy in Chemistry — Computational Chemistry • Division of the Physical Sciences • Autumn Quarter 2027";
         }
+      } else {
+        if (portalLoginView) portalLoginView.style.display = "block";
+        if (portalDashboardView) portalDashboardView.style.display = "none";
+        if (portalTopBanner) portalTopBanner.style.display = "flex";
       }
 
       // Sync state when logging in via form
@@ -777,6 +1176,7 @@
           var idClean = idVal.trim().toUpperCase();
           if ((idClean === "UC-2027-89321" || idClean === "DUBEY351DEV@GMAIL.COM") && pwVal === "9833@dEVuc") {
             sessionStorage.setItem("applicantLoggedIn", "true");
+            if (portalTopBanner) portalTopBanner.style.display = "none";
           }
         });
       }
@@ -785,6 +1185,9 @@
       if (portalLogoutBtn) {
         portalLogoutBtn.addEventListener("click", function () {
           sessionStorage.removeItem("applicantLoggedIn");
+          if (portalDashboardView) portalDashboardView.style.display = "none";
+          if (portalLoginView) portalLoginView.style.display = "block";
+          if (portalTopBanner) portalTopBanner.style.display = "flex";
         });
       }
     });
@@ -900,7 +1303,6 @@
     </div>
   </div>
 
-
   <!-- Official Admission & Fellowship Offer Letter Modal Viewer -->
   <div class="portal-transcript-modal-overlay" id="offerLetterModalOverlay" role="dialog" aria-modal="true" aria-labelledby="offerLetterModalTitle" aria-hidden="true">
     <div class="portal-transcript-modal-card" style="max-width: 860px;">
@@ -964,7 +1366,6 @@
   </div>
 
 
-  
   <!-- ==========================================================================
        Institutional Payment Gateway, 2FA OTP, Tax Receipt & Verification Modals
        ========================================================================== -->
@@ -1206,9 +1607,7 @@
           Official Tax Receipt &amp; Payment Mandate Confirmation issued under University of Chicago Student Accounts.
         </div>
         <div style="display: flex; gap: 10px; align-items: center;">
-          <a href="../receipt.html" target="_blank" style="color: maroon; font-weight: 600; text-decoration: underline; font-size: 12px;">
-            Open Web Receipt <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </a>
+          <a id="modalWebReceiptLink" href="receipt.html?type=seat_deposit" target="_blank" style="color: maroon; font-weight: 700; text-decoration: underline; font-size: 12px; display: inline-flex; align-items: center; gap: 4px;">Open Web Receipt <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           <button type="button" id="receiptModalCloseBtn2" style="background: #e0e0e0; color: #333; border: none; padding: 6px 14px; font-size: 12px; font-weight: 600; cursor: pointer; border-radius: 2px;">
             Close Viewer
           </button>

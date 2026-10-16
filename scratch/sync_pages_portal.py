@@ -1,35 +1,34 @@
-with open('site_1to1/portal.html', 'r', encoding='utf-8') as f:
-    portal_root = f.read()
+import re
 
-with open('site_1to1/pages/portal.html', 'r', encoding='utf-8') as f:
-    pages_portal = f.read()
+def sync():
+    with open('site_1to1/portal.html', 'r', encoding='utf-8') as f:
+        content = f.read()
 
-card_start = '<!-- Official Admission Offer Letter & Fellowship Grant Card -->'
-card_end = '<!-- Applicant Dossier Card -->'
-card_chunk = portal_root[portal_root.find(card_start):portal_root.find(card_end)]
+    # Relative path transforms for files in pages/
+    # 1. Assets, css, fonts, dist, runtime
+    content = content.replace('href="dist/', 'href="../dist/')
+    content = content.replace('href="css/', 'href="../css/')
+    content = content.replace('href="fonts/', 'href="../fonts/')
+    content = content.replace('src="assets/', 'src="../assets/')
+    content = content.replace('href="assets/', 'href="../assets/')
+    content = content.replace('src="interactive_runtime.js"', 'src="../interactive_runtime.js"')
+    
+    # 2. Page links
+    content = content.replace('href="index.html"', 'href="../index.html"')
+    content = content.replace('href="portal.html"', 'href="../portal.html"')
+    # Offer letter and email are in the same pages/ directory
+    content = content.replace('href="pages/offer-letter.html"', 'href="offer-letter.html"')
+    content = content.replace('href="pages/admissions-offer-email.html"', 'href="admissions-offer-email.html"')
+    content = content.replace('href="pages/', 'href="')
 
-# Adapt paths for pages/ (add ../ to assets and documents)
-card_chunk_pages = card_chunk.replace('href="assets/', 'href="../assets/').replace('src="assets/', 'src="../assets/').replace('href="offer-letter.html"', 'href="offer-letter.html"').replace('href="admissions-offer-email.html"', 'href="admissions-offer-email.html"')
+    # Breadcrumb bar in pages/
+    # <a href="index.html">Home</a> -> <a href="../index.html">Home</a>
+    # <a href="pages/admissions.html">Admissions</a> -> <a href="admissions.html">Admissions</a>
 
-modal_start = '<!-- Official Admission & Fellowship Offer Letter Modal Viewer -->'
-modal_end = '<!-- ==========================================================================\n       Institutional Payment Gateway'
-modal_chunk = portal_root[portal_root.find(modal_start):portal_root.find(modal_end)]
-modal_chunk_pages = modal_chunk.replace('src="assets/', 'src="../assets/').replace('href="assets/', 'href="../assets/')
+    with open('site_1to1/pages/portal.html', 'w', encoding='utf-8') as f:
+        f.write(content)
 
-if card_start not in pages_portal:
-    target = '<!-- Applicant Dossier Card -->'
-    pages_portal = pages_portal.replace(target, card_chunk_pages + '\n          ' + target, 1)
+    print('Successfully synchronized site_1to1/pages/portal.html with site_1to1/portal.html!')
 
-if modal_start not in pages_portal:
-    target_modal = '<!-- ==========================================================================\n       Institutional Payment Gateway'
-    pages_portal = pages_portal.replace(target_modal, modal_chunk_pages + '\n  ' + target_modal, 1)
-
-# Also update status banner
-old_banner = '<div style="font-size: 15px; font-weight: 700; color: #800000;">Application Status: Complete &amp; Under Review • Faculty Advisor Confirmed</div>'
-new_banner = '<div style="font-size: 15px; font-weight: 700; color: #800000;">Official Admissions Status: Admitted &amp; Fully Funded • Offer Letter Issued</div>'
-pages_portal = pages_portal.replace(old_banner, new_banner)
-
-with open('site_1to1/pages/portal.html', 'w', encoding='utf-8') as f:
-    f.write(pages_portal)
-
-print('Updated site_1to1/pages/portal.html successfully!')
+if __name__ == '__main__':
+    sync()

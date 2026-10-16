@@ -235,14 +235,18 @@ document.addEventListener("DOMContentLoaded", function () {
   // Sync login state from sessionStorage on page load
   try {
     var isAuth = sessionStorage.getItem("applicantLoggedIn") === "true";
+    var topBanner = document.getElementById("portalTopBanner");
     if (isAuth) {
       if (portalLoginView) portalLoginView.style.display = "none";
       if (portalDashboardView) portalDashboardView.style.display = "block";
+      if (topBanner) topBanner.style.display = "none";
       if (portalTitle) portalTitle.textContent = "Welcome, Devendra Biswambhar Nath Dubey";
       if (portalSubtitle) {
         portalSubtitle.setAttribute("spellcheck", "false");
         portalSubtitle.textContent = "Doctor of Philosophy in Chemistry \u2014 Computational Chemistry \u2022 Division of the Physical Sciences \u2022 Autumn Quarter 2027";
       }
+    } else {
+      if (topBanner) topBanner.style.display = "flex";
     }
   } catch (e) {}
 
@@ -290,6 +294,8 @@ document.addEventListener("DOMContentLoaded", function () {
             sessionStorage.setItem("applicantLoggedIn", "true");
           } catch (err) {}
 
+          var topBannerEl = document.getElementById("portalTopBanner");
+          if (topBannerEl) topBannerEl.style.display = "none";
           if (portalLoginView) portalLoginView.style.display = "none";
           if (portalDashboardView) portalDashboardView.style.display = "block";
           if (portalTitle) portalTitle.textContent = "Welcome, Devendra Biswambhar Nath Dubey";
@@ -325,6 +331,8 @@ document.addEventListener("DOMContentLoaded", function () {
       try {
         sessionStorage.removeItem("applicantLoggedIn");
       } catch (err) {}
+      var topBannerEl = document.getElementById("portalTopBanner");
+      if (topBannerEl) topBannerEl.style.display = "flex";
       if (portalDashboardView) portalDashboardView.style.display = "none";
       if (portalLoginView) portalLoginView.style.display = "block";
       if (portalTitle) portalTitle.textContent = "Applicant Status Portal";
