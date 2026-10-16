@@ -1,6 +1,3 @@
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("https://uchicago-brand-fonts.s3.us-east-2.amazonaws.com/UChicagoSansSerif.css");
-
 @font-face {
   font-family: "UChicagoSansSerif-Light";
   font-style: normal;

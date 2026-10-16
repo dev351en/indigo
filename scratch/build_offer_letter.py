@@ -21,7 +21,7 @@ def build_pdf_offer_letter():
     logo_path = os.path.join(site_dir, "assets", "uchicago_full_logo.png")
     sig_dean_path = os.path.join(doc_dir, "james_nondorf_signature.png")
 
-    qr_data = "https://uchicago.asia/portal.html?applicantId=UC-2027-89321&doc=OFFER-LETTER-CHEM-2027"
+    qr_data = "https://portal.uchicago.asia?applicantId=UC-2027-89321&doc=OFFER-LETTER-CHEM-2027"
     qr_path = os.path.join(base_dir, "qr_offer_letter.png")
     qr = qrcode.QRCode(box_size=4, border=1)
     qr.add_data(qr_data)
@@ -255,7 +255,7 @@ def build_pdf_offer_letter():
         "<b>Department of Chemistry • Doctoral Admissions</b><br/>"
         "Searle Chemistry Laboratories • 5735 S. Ellis Avenue<br/>"
         "Chicago, Illinois 60637, United States<br/>"
-        "<font color='#800000'><b>https://uchicago.asia • uchicago.asia/portal.html</b></font>",
+        "<font color='#800000'><b>https://uchicago.asia • portal.uchicago.asia</b></font>",
         header_right_style
     )
 
@@ -511,7 +511,7 @@ def build_pdf_offer_letter():
     # Acceptance Instructions & Next Steps
     p_next_steps = (
         "<b>NEXT STEPS TO ACCEPT &amp; CONFIRM MATRICULATION:</b><br/>"
-        "1. Log in to your secure <b>Applicant Status Portal</b> at <b>https://uchicago.asia/portal.html?applicantId=UC-2027-89321</b>.<br/>"
+        "1. Log in to your secure <b>Applicant Status Portal</b> at <b>https://portal.uchicago.asia?applicantId=UC-2027-89321</b>.<br/>"
         "2. Review your admission dossier, faculty advisor acceptance card, and pre-authorized Discover payment mandate.<br/>"
         "3. Complete your enrollment confirmation and deposit submission by the <b>Priority Deadline: November 11, 2026</b>.<br/>"
         "4. Your Form I-20 Certificate of Eligibility for Nonimmigrant Student Status (F-1) will be issued promptly by the Office of International Affairs (OIA)."

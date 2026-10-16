@@ -21,9 +21,21 @@
   transition: all 0.25s ease !important;
 }
 
-/* Ensure FontAwesome icons render with high sharpness */
-.fa, .fas, .fab, .far {
-  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "FontAwesome" !important;
+/* Optimize FontAwesome icons rendering */
+.fa, .fas, .fa-solid {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+  font-display: swap;
+}
+.far, .fa-regular {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 400 !important;
+  font-display: swap;
+}
+.fab, .fa-brands {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400 !important;
+  font-display: swap;
 }
 
 /* Brand watermark Phoenix positioning */
@@ -38,9 +50,11 @@
   z-index: 20;
 }
 
-/* Cursor pointer on interactive items */
-button, a, input[type="submit"] {
+/* Cursor pointer on interactive items & instant mobile tap response (removes 300ms delay) */
+button, a, input[type="submit"], input[type="button"], [role="button"], .spanButton {
   cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(128, 0, 0, 0.15);
 }
 
 /* ==========================================================================
@@ -1207,3 +1221,62 @@ button, a, input[type="submit"] {
   align-items: center !important;
   gap: 8px !important;
 }
+
+/* ==========================================================================
+   Mobile Performance & Icon Speed Optimizations
+   ========================================================================== */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+  text-rendering: optimizeSpeed;
+}
+
+/* Eliminate 300ms mobile touch delay */
+a, button, input, select, textarea, .EduNavigation_l1Link__1J9ID, .EduBrandBar_brandBarLink__2sbcq {
+  touch-action: manipulation;
+}
+
+/* Hardware accelerate transforms on mobile */
+.EduHeader_headerNavigation__3Hyzr,
+.EduNavigation_linkDropdown__picLh,
+.EduBrandBar_searchFlyout__26JOE {
+  transform: translateZ(0);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+/* Mobile responsive video handling */
+@media (max-width: 768px) {
+  .VideoSpotlight_videoSpotlight__EC6TG {
+    height: 380px !important;
+  }
+  .VideoSpotlight_backgroundVideo__1Gp0g {
+    height: 380px !important;
+    object-fit: cover !important;
+  }
+}
+
+/* Optimize below-the-fold rendering on mobile */
+@media (max-width: 900px) {
+  .Footer_footerContainer__10915,
+  .CalloutTiles_container__13vI4,
+  .CalendarEmbed_container__2B45A {
+    content-visibility: auto;
+    contain-intrinsic-size: 350px;
+  }
+}
+
+/* Instant Icon Rendering */
+.fa, .fas, .fab, .far, .fa-solid, .fa-regular, .fa-brands {
+  display: inline-block;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
