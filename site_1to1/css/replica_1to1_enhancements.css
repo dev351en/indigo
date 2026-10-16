@@ -70,6 +70,9 @@ button, a, input[type="submit"] {
   border-bottom: none !important;
   box-shadow: none !important;
   border-radius: 0 !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
 }
 
 .portal-trigger-btn:hover {
@@ -77,6 +80,7 @@ button, a, input[type="submit"] {
   color: #ffffff !important;
   transform: none !important;
   box-shadow: none !important;
+  text-decoration: none !important;
 }
 
 .portal-trigger-btn:hover .linkText,

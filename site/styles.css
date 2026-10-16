@@ -1208,6 +1208,9 @@ button {
   border-bottom: none;
   box-shadow: none;
   border-radius: 0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .portal-trigger-btn:hover {
@@ -1215,6 +1218,7 @@ button {
   color: #ffffff;
   transform: none;
   box-shadow: none;
+  text-decoration: none;
 }
 
 .portal-trigger-btn:hover .linkText,

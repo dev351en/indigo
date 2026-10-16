@@ -142,26 +142,21 @@ document.addEventListener("DOMContentLoaded", function () {
     }, { passive: true });
   }
 
-  // --- 6. Admissions Application Portal Modal ---
+  // --- 6. Admissions Application Portal Navigation ---
   var portalOverlay = document.getElementById("portalModalOverlay");
   var portalCloseBtn = document.getElementById("portalModalClose");
   var portalTriggers = document.querySelectorAll("#portalTriggerBtn, #portalTriggerBtn-mobile, .portal-trigger-btn");
-  var applicantIdInput = document.getElementById("applicantId");
-  var applicantPwInput = document.getElementById("applicantPassword");
-  var pwToggleBtn = document.getElementById("portalPasswordToggle");
-  var pwIcon = document.getElementById("portalPwIcon");
-  var loginForm = document.getElementById("admissionsLoginForm");
+  var applicantIdInput = document.getElementById("applicantId") || document.getElementById("applicantIdInput");
+  var applicantPwInput = document.getElementById("applicantPassword") || document.getElementById("applicantPwInput");
+  var pwToggleBtn = document.getElementById("portalPasswordToggle") || document.getElementById("pwToggleBtn");
+  var pwIcon = document.getElementById("portalPwIcon") || document.getElementById("pwIcon");
+  var loginForm = document.getElementById("admissionsLoginForm") || document.getElementById("loginForm");
   var portalNotice = document.getElementById("portalNotice");
 
   function openPortal() {
-    if (!portalOverlay) return;
-    portalOverlay.classList.add("is-active");
-    portalOverlay.setAttribute("aria-hidden", "false");
-    document.body.style.overflow = "hidden";
-    portalTriggers.forEach(function (btn) { btn.setAttribute("aria-expanded", "true"); });
-    setTimeout(function () {
-      if (applicantIdInput) applicantIdInput.focus();
-    }, 150);
+    var isSubpage = window.location.pathname.indexOf("/pages/") !== -1 || window.location.pathname.indexOf("\\pages\\") !== -1;
+    var targetUrl = isSubpage ? "portal.html" : "portal.html";
+    window.location.href = targetUrl;
   }
 
   function closePortal() {
@@ -177,8 +172,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   portalTriggers.forEach(function (btn) {
     btn.addEventListener("click", function (e) {
-      e.preventDefault();
-      openPortal();
+      // Direct navigation to dedicated portal page, not a popup
+      var isSubpage = window.location.pathname.indexOf("/pages/") !== -1 || window.location.pathname.indexOf("\\pages\\") !== -1;
+      var targetUrl = isSubpage ? "portal.html" : "portal.html";
+      window.location.href = targetUrl;
     });
   });
 
@@ -203,6 +200,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Pre-fill applicant ID if present in query parameters
+  try {
+    var urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has("applicantId") && applicantIdInput) {
+      applicantIdInput.value = urlParams.get("applicantId");
+    }
+  } catch (err) {}
+
   // Password Visibility Toggle
   if (pwToggleBtn && applicantPwInput && pwIcon) {
     pwToggleBtn.addEventListener("click", function (e) {
@@ -223,9 +228,23 @@ document.addEventListener("DOMContentLoaded", function () {
   var portalDashboardView = document.getElementById("portalDashboardView");
   var portalSubmitBtn = document.getElementById("portalSubmitBtn");
   var portalTitle = document.getElementById("portalTitle");
-  var portalSubtitle = document.querySelector(".portal-subtitle");
+  var portalSubtitle = document.querySelector(".portal-subtitle") || document.getElementById("portalSubHeader");
   var portalLogoutBtn = document.getElementById("portalLogoutBtn");
   var portalPrintBtn = document.getElementById("portalPrintBtn");
+
+  // Sync login state from sessionStorage on page load
+  try {
+    var isAuth = sessionStorage.getItem("applicantLoggedIn") === "true";
+    if (isAuth) {
+      if (portalLoginView) portalLoginView.style.display = "none";
+      if (portalDashboardView) portalDashboardView.style.display = "block";
+      if (portalTitle) portalTitle.textContent = "Welcome, Devendra Biswambhar Nath Dubey";
+      if (portalSubtitle) {
+        portalSubtitle.setAttribute("spellcheck", "false");
+        portalSubtitle.textContent = "Doctor of Philosophy in Chemistry \u2014 Computational Chemistry \u2022 Division of the Physical Sciences \u2022 Autumn Quarter 2027";
+      }
+    }
+  } catch (e) {}
 
   // Handle Form Submission
   if (loginForm) {
@@ -241,6 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!idVal || !pwVal) {
         if (portalNotice) {
           portalNotice.className = "portal-alert-msg is-error";
+          portalNotice.style.display = "flex";
           portalNotice.innerHTML = '<i class="fa-solid fa-circle-exclamation"></i><span>Please enter both your Application ID / Email and your Password.</span>';
         }
         if (!idVal && applicantIdInput) applicantIdInput.classList.add("is-invalid");
@@ -265,7 +285,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         if (isIdMatch && isPwMatch) {
-          // Success: Switch to Authenticated Dashboard
+          // Success: Switch to Authenticated Dashboard & persist in sessionStorage
+          try {
+            sessionStorage.setItem("applicantLoggedIn", "true");
+          } catch (err) {}
+
           if (portalLoginView) portalLoginView.style.display = "none";
           if (portalDashboardView) portalDashboardView.style.display = "block";
           if (portalTitle) portalTitle.textContent = "Welcome, Devendra Biswambhar Nath Dubey";
@@ -273,10 +297,15 @@ document.addEventListener("DOMContentLoaded", function () {
             portalSubtitle.setAttribute("spellcheck", "false");
             portalSubtitle.textContent = "Doctor of Philosophy in Chemistry \u2014 Computational Chemistry \u2022 Division of the Physical Sciences \u2022 Autumn Quarter 2027";
           }
+          if (portalNotice) {
+            portalNotice.style.display = "none";
+          }
+          window.scrollTo({ top: 0, behavior: "smooth" });
         } else {
           // Failure: Display Error Message
           if (portalNotice) {
             portalNotice.className = "portal-alert-msg is-error";
+            portalNotice.style.display = "flex";
             portalNotice.innerHTML = '<i class="fa-solid fa-circle-exclamation"></i><span>The Application ID/Email or Password entered does not match our records. Please try again.</span>';
           }
           if (applicantIdInput) applicantIdInput.classList.add("is-invalid");
@@ -293,12 +322,16 @@ document.addEventListener("DOMContentLoaded", function () {
   // Handle Logout
   if (portalLogoutBtn) {
     portalLogoutBtn.addEventListener("click", function () {
+      try {
+        sessionStorage.removeItem("applicantLoggedIn");
+      } catch (err) {}
       if (portalDashboardView) portalDashboardView.style.display = "none";
       if (portalLoginView) portalLoginView.style.display = "block";
       if (portalTitle) portalTitle.textContent = "Applicant Status Portal";
-      if (portalSubtitle) portalSubtitle.textContent = "Log in with your UChicago Account to review your application status, upload supplementary materials, and access admissions updates.";
+      if (portalSubtitle) portalSubtitle.textContent = "The University of Chicago \u2022 Division of the Physical Sciences \u2022 Department of Chemistry";
       if (portalNotice) {
         portalNotice.className = "portal-alert-msg is-info";
+        portalNotice.style.display = "flex";
         portalNotice.innerHTML = '<i class="fa-solid fa-circle-info" style="margin-right: 6px;"></i><span>You have successfully signed out. Enter your credentials to log in again.</span>';
       }
       if (applicantIdInput) {
@@ -309,6 +342,7 @@ document.addEventListener("DOMContentLoaded", function () {
         applicantPwInput.value = "";
         applicantPwInput.classList.remove("is-invalid");
       }
+      window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
 

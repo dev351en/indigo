@@ -145,14 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const portalNotice = document.getElementById("portalNotice");
 
   function openPortal() {
-    if (!portalOverlay) return;
-    portalOverlay.classList.add("is-active");
-    portalOverlay.setAttribute("aria-hidden", "false");
-    document.body.style.overflow = "hidden";
-    portalTriggers.forEach((btn) => btn.setAttribute("aria-expanded", "true"));
-    setTimeout(() => {
-      if (applicantIdInput) applicantIdInput.focus();
-    }, 150);
+    window.location.href = "portal.html";
   }
 
   function closePortal() {
@@ -168,8 +161,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   portalTriggers.forEach((btn) => {
     btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      openPortal();
+      // Direct navigation to dedicated portal page
+      window.location.href = "portal.html";
     });
   });
 
