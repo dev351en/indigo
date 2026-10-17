@@ -41,8 +41,8 @@ js = js.replace("#176531", "#800000")
 js = js.replace("#ceead6", "#d9c5c5")
 js = js.replace("#e6f4ea", "#fdf2f2")
 js = js.replace("#2e7d32", "#800000")
-js = js.replace("Nov 15, 2026", "Nov 11, 2026")
-js = js.replace("November 15, 2026", "November 11, 2026")
+js = js.replace("Nov 11, 2026", "Nov 14, 2026")
+js = js.replace("November 11, 2026", "November 14, 2026")
 js = js.replace("uchicago.asia", "uchicago.asia")
 
 with open(js_path, "w", encoding="utf-8") as f:
@@ -69,10 +69,10 @@ green_hex_replacements = [
 ]
 
 date_replacements = [
-    ("Nov 15, 2026", "Nov 11, 2026"),
-    ("November 15, 2026", "November 11, 2026"),
-    ("15th November 2026", "11th November 2026"),
-    ("Priority Deadline: Nov 15", "Priority Deadline: Nov 11"),
+    ("Nov 11, 2026", "Nov 14, 2026"),
+    ("November 11, 2026", "November 14, 2026"),
+    ("11th November 2026", "14th November 2026"),
+    ("Priority Deadline: Nov 11", "Priority Deadline: Nov 14"),
 ]
 
 updated_count = 0

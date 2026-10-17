@@ -28,19 +28,19 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
         auth_code = "AUTH-UCHI-DEP-MANDATE-89321"
         txn_date = "16 October 2026"
         secondary_date_label = "Payment Due Date (Priority Deadline):"
-        secondary_date_val = "11 November 2026"
+        secondary_date_val = "14th November 2026"
         item_code = "UC-CHEM-PHD-2027"
         item_desc = "<strong>Ph.D. Matriculation Seat Locking &amp; Enrollment Deposit</strong><br/><font color='#555555' size='7.5'>Computational Chemistry Doctoral Program • Cusumano Research Group<br/>Searle Chemistry Laboratories • Payable to The University of Chicago Bursar Account</font>"
-        item_term = "Autumn 2027<br/><font color='#800000' size='7'>Due: 11 Nov 2026</font>"
+        item_term = "Autumn 2027<br/><font color='#800000' size='7'>Due: 14 Nov 2026</font>"
         item_amt = "$6,200.00"
         total_amt = "$6,200.00 USD"
         amount_words = "Six Thousand Two Hundred US Dollars and Zero Cents"
         payment_desc = "Debit Card (Pre-Authorized Mandate Scheduled) - Discover Debit Card (•••• 0405)"
-        status_text = "<font color='#800000'><strong>PENDING PAYMENT (DUE: 11 NOV 2026)</strong></font>"
+        status_text = "<font color='#800000'><strong>PENDING PAYMENT (DUE: 14 NOV 2026)</strong></font>"
         header_right_status = "<font color='#800000'><strong>OFFICIAL INSTITUTIONAL INVOICE</strong></font><br/>" \
                               "<font color='#555555' size='7.5'>Tax Year: 2026–2027 • Form 1098-T Eligible<br/>" \
                               f"Invoice: <strong>{inv_id}</strong><br/>" \
-                              "Status: <font color='#800000'><strong>ACTION REQUIRED: DUE 11 NOV 2026</strong></font></font>"
+                              "Status: <font color='#800000'><strong>ACTION REQUIRED: DUE 14 NOV 2026</strong></font></font>"
         total_label = "TOTAL AMOUNT DUE (PAYMENT PENDING):"
     else: # Application fee invoice
         pdf_path = os.path.join(doc_dir, "Official_Application_Fee_Receipt_UCHI_2026.pdf")
