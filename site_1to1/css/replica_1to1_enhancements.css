@@ -21,23 +21,352 @@
   transition: all 0.25s ease !important;
 }
 
-/* Optimize FontAwesome icons rendering */
-.fa, .fas, .fa-solid {
-  font-family: "Font Awesome 6 Free" !important;
+/* ==========================================================================
+   Font Awesome 6 Pro & Free Comprehensive Font-Face & Icon Declarations
+   ========================================================================== */
+
+/* 1. Define "Font Awesome 6 Pro" (maps chunk code points to solid/regular) */
+@font-face {
+  font-family: "Font Awesome 6 Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../webfonts/fa-solid-900.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-solid-900.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../webfonts/fa-solid-900.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Font Awesome 6 Pro";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../webfonts/fa-solid-900.woff2) format("woff2");
+}
+
+/* 2. Declare Font Awesome 6 Brands with Pro fallback */
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../webfonts/fa-brands-400.woff2) format("woff2");
+}
+
+/* 3. Base icon styling without breaking brand icons */
+.fa-solid, .fas {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
   font-display: swap;
 }
-.far, .fa-regular {
-  font-family: "Font Awesome 6 Free" !important;
+.fa-regular, .far {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
   font-weight: 400 !important;
   font-display: swap;
 }
-.fab, .fa-brands {
+.fa-brands, .fab {
   font-family: "Font Awesome 6 Brands" !important;
   font-weight: 400 !important;
   font-display: swap;
 }
 
+/* 4. Brand icons MUST use Font Awesome 6 Brands */
+.fa-facebook, .fa-facebook-f, .fa-facebook-square, .fa-square-facebook,
+.fa-instagram, .fa-square-instagram,
+.fa-linkedin, .fa-linkedin-in,
+.fa-youtube, .fa-square-youtube,
+.fa-twitter, .fa-x-twitter, .fa-square-twitter, .fa-square-x-twitter,
+.fa-tiktok, .fa-github, .fa-threads, .fa-whatsapp,
+.Footer_socialIcon__1u-fo,
+[class*="Footer_socialIcon"],
+[class*="Footer_socialIconLink"] i,
+.Footer_socialContainer__18le2 i {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  display: inline-block !important;
+}
+
+/* 5. Specific Solid Icons that might have just .fa class */
+.fa.fa-search,
+.fa.fa-close,
+.fa.fa-times,
+.fa.fa-bars,
+.fa.fa-chevron-down,
+.fa.fa-chevron-right,
+.fa.fa-chevron-up,
+.fa.fa-arrow-right,
+.fa.fa-arrow-left,
+.EduBrandBar_searchButton__3Hhqq i,
+.EduBrandBar_searchForm__2h4vN i {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+}
+
+/* 6. Navigation Chevrons, Dropdowns, Play/Pause Button Glyphs */
+.EduBrandBar_infoDropdownButton__23iFj:after {
+  content: "\f078" !important;
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  display: inline-block !important;
+  font-size: 10px !important;
+  margin-left: 6px !important;
+}
+.EduNavigation_l1Link__1J9ID:after,
+.EduNavigation_l1LinkDropdown__3a_H8:after,
+a[data-chevron="true"]:after,
+p[data-chevron="true"]:after,
+.CalloutTiles_cta__1Iiwv:after,
+.HeadlineBar_link__1HnRj:after {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+}
+.EduBrandBar_close__37V8Q:before {
+  content: "\f00d" !important;
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+}
+.EduHeader_mobileNavToggle__1rFw5:after {
+  content: "\f0c9" !important;
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+}
+header[data-mobilenavisopen="true"] .EduHeader_mobileNavToggle__1rFw5:after {
+  content: "\f00d" !important;
+}
+.VideoSpotlight_btnPlayPause__1m-El:after,
+.SideScroller_btnPlayPause__2bq7p:after {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+}
+.VideoSpotlight_btnPlayPause__1m-El:before,
+.SideScroller_btnPlayPause__2bq7p:before {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+}
+
+/* ==========================================================================
+   Homepage Latest News — Authentic UChicago Card Styling
+   ========================================================================== */
+.NewsFeatured_container__3kxie {
+  background: transparent !important;
+  margin: 40px auto 48px !important;
+  padding: 0 !important;
+}
+
+.NewsFeatured_container__3kxie .NewsFeatured_newsList__19dBn {
+  grid-gap: 24px !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_container__2d2hu,
+.NewsFeatured_container__3kxie [class*="NewsItem_container"],
+[data-configuration="fourItemsEqual"] .NewsFeatured_newsListItem__2Ygiz [class*="container"] {
+  background-color: #ffffff !important;
+  border: 1px solid #e2e2e2 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  height: 100% !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_container__2d2hu:hover,
+.NewsFeatured_container__3kxie [class*="NewsItem_container"]:hover,
+[data-configuration="fourItemsEqual"] .NewsFeatured_newsListItem__2Ygiz [class*="container"]:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_image__3ztUc,
+.NewsFeatured_container__3kxie [class*="NewsItem_image"] {
+  width: 100% !important;
+  height: 180px !important;
+  overflow: hidden !important;
+  border-radius: 4px 4px 0 0 !important;
+  background-color: #f0f0f0 !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_image__3ztUc img,
+.NewsFeatured_container__3kxie [class*="NewsItem_image"] img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+  transition: transform 0.3s ease !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_container__2d2hu:hover img,
+.NewsFeatured_container__3kxie [class*="NewsItem_container"]:hover img {
+  transform: scale(1.03) !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_textContainer__1cFxG,
+.NewsFeatured_container__3kxie [class*="NewsItem_textContainer"],
+[data-configuration="fourItemsEqual"] .NewsFeatured_newsListItem__2Ygiz [class*="NewsFeatured_textContainer"] {
+  background: #ffffff !important;
+  padding: 20px 22px 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  flex: 1 !important;
+  margin: 0 !important;
+  width: auto !important;
+  box-sizing: border-box !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_titleLink__3b6Dh,
+.NewsFeatured_container__3kxie [class*="NewsItem_titleLink"],
+.NewsFeatured_container__3kxie [class*="NewsItem_titleLink"] span,
+.NewsFeatured_container__3kxie [class*="NewsItem_titleLink"] [class*="linkText"],
+[data-configuration="fourItemsEqual"] .NewsFeatured_newsListItem__2Ygiz [class*="NewsFeatured_titleLink"] [class*="linkText"] {
+  color: #1a1a1a !important;
+  font-family: "UChicagoSerif", Georgia, serif !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_titleLink__3b6Dh:hover,
+.NewsFeatured_container__3kxie [class*="NewsItem_titleLink"]:hover,
+.NewsFeatured_container__3kxie [class*="NewsItem_titleLink"]:hover span,
+.NewsFeatured_container__3kxie [class*="NewsItem_titleLink"]:hover [class*="linkText"] {
+  color: maroon !important;
+  text-decoration: underline !important;
+}
+
+.NewsFeatured_container__3kxie .NewsItem_source__2xPm-,
+.NewsFeatured_container__3kxie [class*="NewsItem_source"],
+[data-configuration="fourItemsEqual"] .NewsFeatured_newsListItem__2Ygiz [class*="NewsFeatured_source"] {
+  color: #767676 !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+  margin-top: 16px !important;
+  display: block !important;
+}
+
+.NewsFeatured_seeAllNews__3JgaK {
+  margin-top: 36px !important;
+}
+
+/* ==========================================================================
+   Subpages Hero Banner — SideScroller SSR Visibility & Layout Polish
+   ========================================================================== */
+.SideScroller_scrollableArea__2LjS0,
+.SideScroller_scrollableAreaSingle__1YLag,
+.SideScroller_scrollableAreaSingleNoCta__339h9 {
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  max-height: 380px !important;
+  overflow-y: auto !important;
+  padding: 8px 0 16px 0 !important;
+  grid-gap: 20px !important;
+  gap: 20px !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+}
+
+.SideScroller_scrollerContent__1vgi1 {
+  padding-top: 95px !important;
+  box-sizing: border-box !important;
+  height: 100% !important;
+}
+
+.SideScroller_scrollableContainer__1rS-m {
+  height: auto !important;
+  max-height: 420px !important;
+  overflow: visible !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  margin: 0 !important;
+}
+
+.SideScroller_sideScrollerBlock__3fgGa {
+  grid-gap: 20px !important;
+  gap: 20px !important;
+}
+
+.SideScroller_customScrollbar__BOKhE {
+  display: none !important;
+}
+
+.SideScroller_staticText__2fhPY h1,
+.SideScroller_staticText__2fhPY h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+.SideScroller_richText__2Aj2c h2 {
+  font-family: "UChicagoSerif", Georgia, serif !important;
+  color: maroon !important;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  line-height: 1.25 !important;
+  margin-bottom: 12px !important;
+}
+
+.SideScroller_richText__2Aj2c p {
+  font-family: "UChicagoSansSerif-Regular", sans-serif !important;
+  color: #333333 !important;
+  font-size: 15px !important;
+  line-height: 1.55 !important;
+}
+
+.SideScroller_white__2l0EQ .SideScroller_scrollableContainer__1rS-m {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+  padding: 28px 32px !important;
+}
+
+/* ==========================================================================
+   Faculty Directory Hero Spacing (Header Shield Clearance)
+   ========================================================================== */
+.faculty-hero-section {
+  padding-top: 135px !important;
+}
+.faculty-hero-section .faculty-hero-title,
+.faculty-hero-title {
+  color: #ffffff !important;
+}
+.faculty-hero-section .faculty-hero-sub,
+.faculty-hero-sub {
+  color: #f7dede !important;
+}
+
+/* ==========================================================================
+   Applicant Status Portal Spacing (Header Shield Clearance)
+   ========================================================================== */
+.portal-page-container {
+  padding-top: 125px !important;
+}
+
+/* PageHeroBanner authentic title styling across subpages */
+.PageHeroBanner_title__2XMBn {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12) !important;
+  border-radius: 2px !important;
+}
 /* Brand watermark Phoenix positioning */
 .SectionWrap_container__3qlA- {
   background-position: right bottom !important;

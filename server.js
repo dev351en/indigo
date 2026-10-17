@@ -19,12 +19,25 @@ try {
   console.log('Payment router notice:', e.message);
 }
 
-// Serve static assets from site_1to1 directory
-const siteDir = path.join(__dirname, 'site_1to1');
-app.use(express.static(siteDir));
-
 // Load Node FileSystem
 const fs = require('fs');
+
+// Serve static assets from site_1to1 directory
+const siteDir = path.join(__dirname, 'site_1to1');
+
+// Middleware to serve any /-/media/ or /media/ requests from assets/subpage_media
+app.use((req, res, next) => {
+  if (req.path.includes('/-/media/') || req.path.includes('/media/')) {
+    const filename = path.basename(req.path);
+    const candidatePath = path.join(siteDir, 'assets', 'subpage_media', filename);
+    if (fs.existsSync(candidatePath) && fs.statSync(candidatePath).isFile()) {
+      return res.sendFile(candidatePath);
+    }
+  }
+  next();
+});
+
+app.use(express.static(siteDir));
 
 // Primary route aliases
 const aliases = {
