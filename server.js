@@ -23,43 +23,81 @@ try {
 const siteDir = path.join(__dirname, 'site_1to1');
 app.use(express.static(siteDir));
 
-// Route aliases
-app.get('/', (req, res) => {
-  res.sendFile(path.join(siteDir, 'index.html'));
-});
+// Load Node FileSystem
+const fs = require('fs');
 
-app.get('/portal', (req, res) => {
-  res.sendFile(path.join(siteDir, 'portal.html'));
-});
+// Primary route aliases
+const aliases = {
+  '/': 'index.html',
+  '/portal': 'portal.html',
+  '/portal.html': 'portal.html',
+  '/receipt': 'receipt.html',
+  '/receipt.html': 'receipt.html',
+  '/application-fee-receipt': 'application-fee-receipt.html',
+  '/application-fee-receipt.html': 'application-fee-receipt.html',
+  '/offer-letter': 'offer-letter.html',
+  '/offer-letter.html': 'offer-letter.html',
+  '/admissions-offer-email': 'admissions-offer-email.html',
+  '/admissions-offer-email.html': 'admissions-offer-email.html',
+  '/email': 'admissions-offer-email.html',
+  '/faculty': 'faculty.html',
+  '/faculty.html': 'faculty.html',
+  '/chemistry': 'pages/department-of-chemistry.html',
+  '/department-of-chemistry': 'pages/department-of-chemistry.html',
+  '/academics': 'pages/academics.html',
+  '/who-we-are': 'pages/who-we-are.html',
+  '/admissions': 'pages/admissions.html',
+  '/research-and-scholarship': 'pages/research-and-scholarship.html',
+  '/life-at-uchicago': 'pages/life-at-uchicago.html',
+  '/visit': 'pages/visit.html',
+  '/contact-us': 'pages/contact-us.html',
+  '/careers': 'pages/careers.html',
+  '/medicine': 'pages/medicine.html',
+  '/students': 'pages/students.html',
+  '/accreditation': 'pages/accreditation.html',
+  '/non-discrimination': 'pages/non-discrimination.html',
+  '/university-reports': 'pages/university-reports.html'
+};
 
-app.get('/receipt', (req, res) => {
-  res.sendFile(path.join(siteDir, 'receipt.html'));
-});
-
-app.get('/application-fee-receipt', (req, res) => {
-  res.sendFile(path.join(siteDir, 'application-fee-receipt.html'));
-});
-
-app.get('/offer-letter', (req, res) => {
-  res.sendFile(path.join(siteDir, 'offer-letter.html'));
-});
-
-app.get('/admissions-offer-email', (req, res) => {
-  res.sendFile(path.join(siteDir, 'admissions-offer-email.html'));
-});
-
-app.get('/email', (req, res) => {
-  res.sendFile(path.join(siteDir, 'admissions-offer-email.html'));
-});
-
-// Fallback for static subpages and assets
-app.use((req, res) => {
-  const targetPath = path.join(siteDir, req.path);
-  res.sendFile(targetPath, (err) => {
-    if (err) {
-      res.sendFile(path.join(siteDir, 'index.html'));
-    }
+for (const [route, file] of Object.entries(aliases)) {
+  app.get(route, (req, res) => {
+    res.sendFile(path.join(siteDir, file));
   });
+}
+
+// Fallback handler with intelligent clean-URL resolution for all 240+ pages and assets
+app.use((req, res) => {
+  const cleanPath = req.path.replace(/^\/+|\/+$/g, '');
+  if (!cleanPath) {
+    return res.sendFile(path.join(siteDir, 'index.html'));
+  }
+
+  // 1. Direct file in siteDir
+  const directPath = path.join(siteDir, cleanPath);
+  if (fs.existsSync(directPath) && fs.statSync(directPath).isFile()) {
+    return res.sendFile(directPath);
+  }
+
+  // 2. cleanPath + .html in siteDir
+  const htmlPath = path.join(siteDir, cleanPath + '.html');
+  if (fs.existsSync(htmlPath) && fs.statSync(htmlPath).isFile()) {
+    return res.sendFile(htmlPath);
+  }
+
+  // 3. Direct file in siteDir/pages/
+  const pagePath = path.join(siteDir, 'pages', cleanPath);
+  if (fs.existsSync(pagePath) && fs.statSync(pagePath).isFile()) {
+    return res.sendFile(pagePath);
+  }
+
+  // 4. cleanPath + .html in siteDir/pages/
+  const pageHtmlPath = path.join(siteDir, 'pages', cleanPath + '.html');
+  if (fs.existsSync(pageHtmlPath) && fs.statSync(pageHtmlPath).isFile()) {
+    return res.sendFile(pageHtmlPath);
+  }
+
+  // 5. Default fallback to index.html
+  res.sendFile(path.join(siteDir, 'index.html'));
 });
 
 if (require.main === module) {

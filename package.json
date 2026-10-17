@@ -7,7 +7,8 @@
     "start": "node server.js",
     "dev": "node server.js",
     "build": "echo 'Build complete - static assets ready in site_1to1/'",
-    "serve": "npx serve site_1to1"
+    "serve": "npx serve site_1to1",
+    "test": "node scratch/test_server_routes.js"
   },
   "keywords": [
     "uchicago",
