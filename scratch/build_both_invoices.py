@@ -20,22 +20,22 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
         pdf_path = os.path.join(doc_dir, "Official_Receipt_UCHI_2027_6200.pdf")
         img_path = os.path.join(doc_dir, "receipt_page_1.png")
         qr_data = "https://uchicago.asia/portal.html?txId=TXN-UCHI-2026-89321&ref=REF-UCHI-DEP-2027-6200&amount=6200"
-        doc_title = "OFFICIAL STUDENT ACCOUNTS TAX RECEIPT & ENROLLMENT MANDATE"
+        doc_title = "OFFICIAL STUDENT ACCOUNTS INVOICE & ENROLLMENT MANDATE"
         doc_subtitle = "Graduate Matriculation Deposit • Computational Chemistry Doctoral Program (Autumn 2027)"
         ref_num = "REF-UCHI-DEP-2027-6200"
-        txn_id = "TXN-UCHI-2026-89321"
+        txn_id = "TXN-UCHI-2026-89321-INV"
         inv_id = "INV-UCHI-2026-89321"
-        auth_code = "AUTH-UCHI-89321"
-        txn_date = "16 October 2026, 03:00:00 IST"
+        auth_code = "AUTH-UCHI-89321-INV"
+        txn_date = "16 October 2026, 03:00:00 IST (Issued)"
         secondary_date_label = "Seat Locking Priority Deadline:"
-        secondary_date_val = "Nov 15, 2026"
+        secondary_date_val = "Nov 14, 2026"
         item_code = "UC-CHEM-PHD-2027"
-        item_desc = "<strong>Ph.D. Matriculation Seat Locking &amp; Enrollment Deposit</strong><br/><font color='#555555' size='7.5'>Computational Chemistry Doctoral Program • Cusumano Research Group<br/>Searle Chemistry Laboratories • Credited to Student Bursar Account</font>"
-        item_term = "Autumn 2027<br/><font color='#777777' size='7'>Priority: Nov 15, 2026</font>"
+        item_desc = "<strong>Ph.D. Matriculation Seat Locking &amp; Enrollment Deposit</strong><br/><font color='#555555' size='7.5'>Computational Chemistry Doctoral Program • Cusumano Research Group<br/>Searle Chemistry Laboratories • Credited to Student Bursar Account upon Settlement</font>"
+        item_term = "Autumn 2027<br/><font color='#b30000' size='7'>Due by: Nov 14, 2026</font>"
         item_amt = "$6,200.00"
         total_amt = "$6,200.00 USD"
         amount_words = "Six Thousand Two Hundred US Dollars and Zero Cents"
-        payment_desc = "Debit Card (Direct Mandate Pre-Authorized) - Discover Debit Card (•••• 0405)"
+        payment_desc = "Direct Electronic Mandate / Bursar Clearing (Due to be Paid by Nov 14, 2026)"
     else: # Application fee invoice
         pdf_path = os.path.join(doc_dir, "Official_Application_Fee_Receipt_UCHI_2026.pdf")
         img_path = os.path.join(doc_dir, "app_fee_receipt_page_1.png")
@@ -139,13 +139,22 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
         Paragraph("<font color='#444444' size='7.5'>Office of the Bursar &amp; Student Accounts • Division of the Physical Sciences<br/>Searle Chemistry Laboratories • 5801 S. Ellis Avenue, Chicago, IL 60637 USA</font>", h_sub)
     ]
 
-    header_right = [
-        Paragraph("<font color='#800000'><strong>OFFICIAL INSTITUTIONAL RECEIPT</strong></font><br/>"
-                  "<font color='#555555' size='7.5'>Tax Year: 2026–2027 • Form 1098-T Eligible<br/>"
-                  f"Reference: <strong>{ref_num}</strong><br/>"
-                  "Bursar Authorization: <strong>VERIFIED &amp; CLEARED</strong></font>",
-                  ParagraphStyle('HRight', parent=h_sub, alignment=2))
-    ]
+    if invoice_type == "seat_deposit":
+        header_right = [
+            Paragraph("<font color='#800000'><strong>OFFICIAL INSTITUTIONAL INVOICE</strong></font><br/>"
+                      "<font color='#555555' size='7.5'>Tax Year: 2026–2027 • Form 1098-T Eligible<br/>"
+                      f"Reference: <strong>{ref_num}</strong><br/>"
+                      "Bursar Invoice Status: <font color='#b30000'><strong>DUE TO BE PAID</strong></font></font>",
+                      ParagraphStyle('HRight', parent=h_sub, alignment=2))
+        ]
+    else:
+        header_right = [
+            Paragraph("<font color='#800000'><strong>OFFICIAL INSTITUTIONAL RECEIPT</strong></font><br/>"
+                      "<font color='#555555' size='7.5'>Tax Year: 2026–2027 • Form 1098-T Eligible<br/>"
+                      f"Reference: <strong>{ref_num}</strong><br/>"
+                      "Bursar Authorization: <strong>VERIFIED &amp; CLEARED</strong></font>",
+                      ParagraphStyle('HRight', parent=h_sub, alignment=2))
+        ]
 
     header_table = Table([[header_left, header_right]], colWidths=[335, 188])
     header_table.setStyle(TableStyle([
@@ -165,6 +174,23 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
     elements.append(Spacer(1, 8))
 
     # 4. Summary Identification Grid
+    if invoice_type == "seat_deposit":
+        settle_status_content = (
+            f"<strong>Settlement Status:</strong> <font color='#b30000'><strong>DUE TO BE PAID (PENDING SETTLEMENT)</strong></font><br/>"
+            f"<strong>Invoice Issue Date:</strong> {txn_date}<br/>"
+            f"<strong>{secondary_date_label}</strong> <font color='#b30000'><strong>{secondary_date_val}</strong></font><br/>"
+            "<strong>Doctoral Matriculation:</strong> August 2027<br/>"
+            "<strong>Autumn Quarter Classes:</strong> September 2027"
+        )
+    else:
+        settle_status_content = (
+            f"<strong>Settlement Status:</strong> <font color='#137333'><strong>CONFIRMED &amp; SETTLED (PAID)</strong></font><br/>"
+            f"<strong>Transaction Date:</strong> {txn_date}<br/>"
+            f"<strong>{secondary_date_label}</strong> {secondary_date_val}<br/>"
+            "<strong>Doctoral Matriculation:</strong> August 2027<br/>"
+            "<strong>Autumn Quarter Classes:</strong> September 2027"
+        )
+
     summary_data = [
         [
             Paragraph("<strong>TRANSACTION IDENTIFIERS</strong>", cell_bold),
@@ -176,11 +202,7 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
                       f"<strong>Bank Approval Code:</strong> {auth_code}<br/>"
                       f"<strong>Account Reference:</strong> {ref_num}<br/>"
                       "<strong>Issuing Channel:</strong> Bursar Direct Mandate Clearing", cell_norm),
-            Paragraph(f"<strong>Settlement Status:</strong> <font color='#137333'><strong>CONFIRMED &amp; SETTLED (PAID)</strong></font><br/>"
-                      f"<strong>Transaction Date:</strong> {txn_date}<br/>"
-                      f"<strong>{secondary_date_label}</strong> {secondary_date_val}<br/>"
-                      "<strong>Doctoral Matriculation:</strong> August 2027<br/>"
-                      "<strong>Autumn Quarter Classes:</strong> September 2027", cell_norm)
+            Paragraph(settle_status_content, cell_norm)
         ]
     ]
     summary_table = Table(summary_data, colWidths=[260, 263])
@@ -261,9 +283,14 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
         Paragraph("-$0.00", ParagraphStyle('RNorm', parent=cell_norm, alignment=2))
     ]
 
+    if invoice_type == "seat_deposit":
+        total_p = Paragraph(f"<font size='9.5' color='#800000'><strong>TOTAL BALANCE DUE (DUE TO BE PAID):</strong></font><br/><font color='#555555' size='7'>({amount_words})<br/><font color='#b30000'>Priority Deadline: {secondary_date_val}</font></font>", cell_bold)
+    else:
+        total_p = Paragraph(f"<font size='9.5'><strong>TOTAL PAID (SETTLED IN FULL):</strong></font><br/><font color='#555555' size='7'>({amount_words})</font>", cell_bold)
+
     item_total = [
         "",
-        Paragraph(f"<font size='9.5'><strong>TOTAL PAID (SETTLED IN FULL):</strong></font><br/><font color='#555555' size='7'>({amount_words})</font>", cell_bold),
+        total_p,
         "",
         Paragraph(f"<font color='#800000' size='11'><strong>{total_amt}</strong></font>", ParagraphStyle('RTotal', parent=cell_bold, alignment=2))
     ]
@@ -286,21 +313,31 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
     elements.append(Spacer(1, 8))
 
     # 7. Payment Instrument & Mandate Details
+    if invoice_type == "seat_deposit":
+        mandate_p1 = Paragraph(f"<strong>Method:</strong> {payment_desc}<br/>"
+                               "<strong>Mandate Status:</strong> Direct Mandate Registered • Awaiting Settlement<br/>"
+                               "<strong>Issuing Department:</strong> Office of the Bursar &amp; Student Financial Services<br/>"
+                               "<strong>Designation:</strong> Autumn 2027 Doctoral Matriculation Seat Allocation", cell_norm)
+        mandate_p2 = Paragraph("<strong>Clearing Engine:</strong> University of Chicago Institutional Gateway<br/>"
+                               "<strong>Invoice Status:</strong> <font color='#b30000'><strong>DUE TO BE PAID</strong></font><br/>"
+                               f"<strong>Ledger Entry:</strong> BUR-2026-{inv_id[-6:]} • INVOICED / PENDING<br/>"
+                               "<strong>Policy Terms:</strong> Refundable ONLY in case of non-admission", cell_norm)
+    else:
+        mandate_p1 = Paragraph(f"<strong>Method:</strong> {payment_desc}<br/>"
+                               "<strong>Pre-Authorization Status:</strong> Verified &amp; Pre-Authorized Mandate Active<br/>"
+                               "<strong>Issuing Institution:</strong> Stanford Federal Credit Union / Global Partner Bank<br/>"
+                               "<strong>Cardholder Auth Name:</strong> Devendra Dubey • Expiry: 04/32", cell_norm)
+        mandate_p2 = Paragraph("<strong>Clearing Engine:</strong> University of Chicago Institutional Gateway<br/>"
+                               f"<strong>Gateway Batch Ref:</strong> BATCH-UCHI-2026-OCT<br/>"
+                               f"<strong>Ledger Entry:</strong> BUR-2026-{txn_id[-6:]} • CLEARED<br/>"
+                               "<strong>Dispute / Chargeback Hold:</strong> Zero Liability Mandate Active", cell_norm)
+
     mandate_data = [
         [
             Paragraph("<strong>PAYMENT INSTRUMENT &amp; CLEARING MANDATE</strong>", cell_bold),
             Paragraph("<strong>SETTLEMENT CONFIRMATION</strong>", cell_bold)
         ],
-        [
-            Paragraph(f"<strong>Method:</strong> {payment_desc}<br/>"
-                      "<strong>Pre-Authorization Status:</strong> Verified &amp; Pre-Authorized Mandate Active<br/>"
-                      "<strong>Issuing Institution:</strong> Stanford Federal Credit Union / Global Partner Bank<br/>"
-                      "<strong>Cardholder Auth Name:</strong> Devendra Dubey • Expiry: 04/32", cell_norm),
-            Paragraph("<strong>Clearing Engine:</strong> University of Chicago Institutional Gateway<br/>"
-                      f"<strong>Gateway Batch Ref:</strong> BATCH-UCHI-2026-OCT<br/>"
-                      f"<strong>Ledger Entry:</strong> BUR-2026-{txn_id[-6:]} • CLEARED<br/>"
-                      "<strong>Dispute / Chargeback Hold:</strong> Zero Liability Mandate Active", cell_norm)
-        ]
+        [mandate_p1, mandate_p2]
     ]
     mandate_table = Table(mandate_data, colWidths=[260, 263])
     mandate_table.setStyle(TableStyle([
@@ -319,23 +356,39 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
     # 8. Verification QR Code & Official Bursar Signatures
     rl_qr = RLImage(qr_path, width=54, height=54)
 
-    footer_text = Paragraph(
-        "<strong>INSTITUTIONAL VALIDATION SEAL &amp; MANDATE POLICY</strong><br/>"
-        "This official tax receipt and enrollment mandate confirmation is electronically issued under the authority "
-        "of the Office of the Bursar, The University of Chicago. Scan the QR code to verify this record on the live "
-        "Student Accounts registry. <b>Policy Terms:</b> Seat confirmation fee ($6,200.00 USD) is reimbursable/refundable "
-        "<b>ONLY in case of non-admission</b> (e.g. visa denial or cancellation); upon enrollment, it is mandatory and non-reimbursable. "
-        "IRS Form 1098-T eligible.",
-        ParagraphStyle('FNotice', parent=styles['Normal'], fontName='Helvetica', fontSize=6.5, leading=8.5, textColor=colors.HexColor('#555555'))
-    )
-
-    sig_block = Paragraph(
-        "<font size='7.5'><strong>OFFICE OF THE BURSAR</strong><br/>"
-        "Division of the Physical Sciences<br/>"
-        "<font color='#137333'><strong>[ELECTRONICALLY SIGNED &amp; SEALED]</strong></font><br/>"
-        f"Validation Code: {auth_code}</font>",
-        ParagraphStyle('FSig', parent=styles['Normal'], fontName='Helvetica', fontSize=7.5, leading=9.5, textColor=colors.HexColor('#333333'), alignment=2)
-    )
+    if invoice_type == "seat_deposit":
+        footer_text = Paragraph(
+            "<strong>INSTITUTIONAL VALIDATION SEAL &amp; MANDATE POLICY</strong><br/>"
+            "This official tax invoice and enrollment mandate is electronically issued under the authority "
+            "of the Office of the Bursar, The University of Chicago. <b>Invoice Status: DUE TO BE PAID.</b> "
+            "Scan the QR code to verify or complete settlement on the official student portal prior to the priority deadline. "
+            "<b>Policy Terms:</b> Seat locking deposit ($6,200.00 USD) is reimbursable/refundable "
+            "<b>ONLY in case of non-admission</b> (e.g. visa denial or cancellation); upon enrollment, it is mandatory and non-reimbursable. "
+            "IRS Form 1098-T eligible.",
+            ParagraphStyle('FNotice', parent=styles['Normal'], fontName='Helvetica', fontSize=6.5, leading=8.5, textColor=colors.HexColor('#555555'))
+        )
+        sig_block = Paragraph(
+            "<font size='7.5'><strong>OFFICE OF THE BURSAR</strong><br/>"
+            "Division of the Physical Sciences<br/>"
+            "<font color='#b30000'><strong>[OFFICIAL INVOICE — DUE TO BE PAID]</strong></font><br/>"
+            f"Bursar Ledger: PENDING SETTLEMENT</font>",
+            ParagraphStyle('FSig', parent=styles['Normal'], fontName='Helvetica', fontSize=7.5, leading=9.5, textColor=colors.HexColor('#333333'), alignment=2)
+        )
+    else:
+        footer_text = Paragraph(
+            "<strong>INSTITUTIONAL VALIDATION SEAL &amp; MANDATE POLICY</strong><br/>"
+            "This official tax receipt and enrollment mandate confirmation is electronically issued under the authority "
+            "of the Office of the Bursar, The University of Chicago. Scan the QR code to verify this record on the live "
+            "Student Accounts registry. IRS Form 1098-T eligible.",
+            ParagraphStyle('FNotice', parent=styles['Normal'], fontName='Helvetica', fontSize=6.5, leading=8.5, textColor=colors.HexColor('#555555'))
+        )
+        sig_block = Paragraph(
+            "<font size='7.5'><strong>OFFICE OF THE BURSAR</strong><br/>"
+            "Division of the Physical Sciences<br/>"
+            "<font color='#137333'><strong>[ELECTRONICALLY SIGNED &amp; SEALED]</strong></font><br/>"
+            f"Validation Code: {auth_code}</font>",
+            ParagraphStyle('FSig', parent=styles['Normal'], fontName='Helvetica', fontSize=7.5, leading=9.5, textColor=colors.HexColor('#333333'), alignment=2)
+        )
 
     verif_data = [[rl_qr, footer_text, sig_block]]
     verif_table = Table(verif_data, colWidths=[62, 300, 161])

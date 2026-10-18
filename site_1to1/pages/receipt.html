@@ -159,13 +159,15 @@
       <span>The University of Chicago • Bursar Tax Invoices</span>
     </div>
 
-    <!-- Interactive Invoice Switcher -->
+    <!-- Interactive Invoice Switcher (Seat Locking Deposit temporarily removed) -->
     <div class="receipt-tab-group" role="tablist">
-      <button type="button" class="receipt-tab-btn is-active" id="tabSeatDeposit" onclick="switchInvoice('seat_deposit')">
-        <i class="fa-solid fa-certificate"></i> Seat Locking Deposit ($6,200)
+      <!-- TEMPORARILY DISABLED: Seat Locking Deposit ($6,200)
+      <button type="button" class="receipt-tab-btn" id="tabSeatDeposit" onclick="switchInvoice('seat_deposit')">
+        <i class="fa-solid fa-certificate"></i> Seat Locking Deposit ($6,200 - Due to be Paid)
       </button>
-      <button type="button" class="receipt-tab-btn" id="tabAppFee" onclick="switchInvoice('app_fee')">
-        <i class="fa-solid fa-file-invoice-dollar"></i> Application Fee ($90 - 01 Oct 2026)
+      -->
+      <button type="button" class="receipt-tab-btn is-active" id="tabAppFee" onclick="switchInvoice('app_fee')">
+        <i class="fa-solid fa-file-invoice-dollar"></i> Application Fee ($90 - Paid 01 Oct 2026)
       </button>
     </div>
 
@@ -176,14 +178,14 @@
       <button type="button" class="receipt-btn receipt-btn-dark" onclick="window.print()">
         <i class="fa-solid fa-print"></i> Print Receipt
       </button>
-      <a id="btnDownloadPdf" href="../assets/documents/Official_Receipt_UCHI_2027_6200.pdf" download="Official_Receipt_UCHI_2027_6200.pdf" class="receipt-btn receipt-btn-white">
+      <a id="btnDownloadPdf" href="../assets/documents/Official_Application_Fee_Receipt_UCHI_2026.pdf" download="Official_Application_Fee_Receipt_UCHI_2026.pdf" class="receipt-btn receipt-btn-white">
         <i class="fa-solid fa-file-pdf"></i> Download Official PDF
       </a>
     </div>
   </header>
 
   <main class="receipt-paper-wrap" id="receiptPaperWrap">
-    <img id="receiptImage" src="../assets/documents/receipt_page_1.png" alt="Official Student Accounts Tax Receipt and Enrollment Mandate - Devendra Dubey" class="receipt-paper-img" />
+    <img id="receiptImage" src="../assets/documents/app_fee_receipt_page_1.png" alt="Official Graduate Admissions Application Fee Receipt (01 Oct 2026 6:30 AM IST) - Devendra Dubey" class="receipt-paper-img" />
   </main>
 
   <footer class="receipt-footer-bar">
@@ -191,39 +193,42 @@
   </footer>
 
   <script>
-    var currentType = 'seat_deposit';
+    var currentType = 'app_fee';
 
     function switchInvoice(type) {
-      currentType = type;
-      var tabSeat = document.getElementById('tabSeatDeposit');
+      /* TEMPORARILY DISABLED: Seat Locking Deposit ($6,200)
+      if (type === 'seat_deposit') {
+        var tabSeat = document.getElementById('tabSeatDeposit');
+        var tabApp = document.getElementById('tabAppFee');
+        if (tabSeat) tabSeat.classList.add('is-active');
+        if (tabApp) tabApp.classList.remove('is-active');
+        var img = document.getElementById('receiptImage');
+        var pdfBtn = document.getElementById('btnDownloadPdf');
+        img.src = '../assets/documents/receipt_page_1.png';
+        img.alt = 'Official Student Accounts Tax Invoice and Enrollment Mandate ($6,200.00 USD - Due to be Paid) - Devendra Dubey';
+        pdfBtn.href = '../assets/documents/Official_Receipt_UCHI_2027_6200.pdf';
+        pdfBtn.download = 'Official_Receipt_UCHI_2027_6200.pdf';
+        document.title = 'Official Bursar Tax Invoice & Enrollment Mandate ($6,200.00 USD - Due to be Paid) | The University of Chicago';
+        return;
+      }
+      */
+
+      currentType = 'app_fee';
       var tabApp = document.getElementById('tabAppFee');
       var img = document.getElementById('receiptImage');
       var pdfBtn = document.getElementById('btnDownloadPdf');
 
-      if (type === 'app_fee') {
-        tabApp.classList.add('is-active');
-        tabSeat.classList.remove('is-active');
-        img.src = '../assets/documents/app_fee_receipt_page_1.png';
-        img.alt = 'Official Graduate Admissions Application Fee Receipt (01 Oct 2026 6:30 AM IST) - Devendra Dubey';
-        pdfBtn.href = '../assets/documents/Official_Application_Fee_Receipt_UCHI_2026.pdf';
-        pdfBtn.download = 'Official_Application_Fee_Receipt_UCHI_2026.pdf';
-        document.title = 'Official Application Fee Receipt ($90.00 USD) | The University of Chicago';
-      } else {
-        tabSeat.classList.add('is-active');
-        tabApp.classList.remove('is-active');
-        img.src = '../assets/documents/receipt_page_1.png';
-        img.alt = 'Official Student Accounts Tax Receipt and Enrollment Mandate ($6,200.00 USD) - Devendra Dubey';
-        pdfBtn.href = '../assets/documents/Official_Receipt_UCHI_2027_6200.pdf';
-        pdfBtn.download = 'Official_Receipt_UCHI_2027_6200.pdf';
-        document.title = 'Official Bursar Tax Receipt & Enrollment Mandate ($6,200.00 USD) | The University of Chicago';
-      }
+      if (tabApp) tabApp.classList.add('is-active');
+      img.src = '../assets/documents/app_fee_receipt_page_1.png';
+      img.alt = 'Official Graduate Admissions Application Fee Receipt (01 Oct 2026 6:30 AM IST) - Devendra Dubey';
+      pdfBtn.href = '../assets/documents/Official_Application_Fee_Receipt_UCHI_2026.pdf';
+      pdfBtn.download = 'Official_Application_Fee_Receipt_UCHI_2026.pdf';
+      document.title = 'Official Application Fee Receipt ($90.00 USD - Paid) | The University of Chicago';
     }
 
+    // Default to application fee receipt
     (function() {
-      var params = new URLSearchParams(window.location.search);
-      if (params.get('type') === 'app_fee' || params.get('type') === 'application_fee') {
-        switchInvoice('app_fee');
-      }
+      switchInvoice('app_fee');
     })();
   </script>
 

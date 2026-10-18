@@ -573,13 +573,17 @@ document.addEventListener("DOMContentLoaded", function () {
         tabSeat.style.boxShadow = "none";
       }
     } else {
-      if (modalTitle) modalTitle.textContent = "Official Bursar Tax Receipt & Enrollment Mandate";
+      if (modalTitle) modalTitle.textContent = isSeatDepositPaid() ? "Official Bursar Tax Receipt & Enrollment Mandate" : "Official Bursar Tax Invoice & Enrollment Mandate (Payment Due)";
       if (modalSub) {
-        modalSub.innerHTML = 'Candidate: <strong>Devendra Dubey</strong> • Ref: <strong>REF-UCHI-DEP-2027-6200</strong> • Paid: <strong>$6,200.00 USD</strong> • Status: <strong>PAID IN FULL</strong>';
+        if (isSeatDepositPaid()) {
+          modalSub.innerHTML = 'Candidate: <strong>Devendra Dubey</strong> • Ref: <strong>REF-UCHI-DEP-2027-6200</strong> • Paid: <strong>$6,200.00 USD</strong> • Status: <strong>PAID IN FULL</strong>';
+        } else {
+          modalSub.innerHTML = 'Candidate: <strong>Devendra Dubey</strong> • Ref: <strong>REF-UCHI-DEP-2027-6200</strong> • Balance: <strong>$6,200.00 USD</strong> • Status: <strong style="color: #b30000;">DUE TO BE PAID (Priority Deadline: Nov 14, 2026)</strong>';
+        }
       }
       if (modalImg) {
         modalImg.src = rel + "assets/documents/receipt_page_1.png";
-        modalImg.alt = "Official Student Accounts Tax Receipt & Enrollment Mandate - Devendra Dubey";
+        modalImg.alt = "Official Student Accounts Tax Invoice & Enrollment Mandate ($6,200.00 USD - Due to be Paid) - Devendra Dubey";
       }
       if (modalPdf) {
         modalPdf.href = rel + "assets/documents/Official_Receipt_UCHI_2027_6200.pdf";
@@ -589,7 +593,11 @@ document.addEventListener("DOMContentLoaded", function () {
         modalWeb.href = rel + "receipt.html?type=seat_deposit";
       }
       if (modalTag) {
-        modalTag.innerHTML = '<i class="fa-solid fa-circle-check"></i> Form 1098-T Eligible • Settled via Discover (•••• 0405)';
+        if (isSeatDepositPaid()) {
+          modalTag.innerHTML = '<i class="fa-solid fa-circle-check"></i> Form 1098-T Eligible • Settled via Discover (•••• 0405)';
+        } else {
+          modalTag.innerHTML = '<i class="fa-solid fa-clock"></i> Form 1098-T Eligible • Status: Due to be Paid (Nov 14, 2026)';
+        }
       }
       if (tabSeat) {
         tabSeat.className = "receipt-tab-btn is-active";
