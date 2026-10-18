@@ -1,0 +1,1539 @@
+{
+  "pages_scanned": 265,
+  "links_checked": 38090,
+  "dead_links": [
+    {
+      "file": "pages/chicago-booth-school-of-business.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-biochemistry-and-molecular-biology.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-chemistry.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-computer-science.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-economics.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-english.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-history.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-mathematics.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-philosophy.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-physics.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-political-science.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-sociology.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/department-of-statistics.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/harris-school-of-public-policy.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/pritzker-school-of-medicine.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/pritzker-school-of-molecular-engineering.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    },
+    {
+      "file": "pages/university-of-chicago-law-school.html",
+      "href": "${f.lab}",
+      "cleanPath": "${f.lab}"
+    }
+  ],
+  "broken_anchors": [],
+  "unhandled_empty_clicks": [
+    {
+      "file": "faculty.html",
+      "href": "",
+      "tag": "<a href=\"' + pagesPrefix + deptSlug + '.html\" style=\"color:#800000; text-decoration:underline;\">"
+    },
+    {
+      "file": "faculty.html",
+      "href": "",
+      "tag": "<a href=\"' + f.lab + '\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#800000; text-decorat"
+    },
+    {
+      "file": "index.html",
+      "href": "#",
+      "tag": "<a href=\"#\" class=\"portal-forgot-link\" id=\"portalForgotLink\">"
+    },
+    {
+      "file": "pages/faculty.html",
+      "href": "",
+      "tag": "<a href=\"' + pagesPrefix + deptSlug + '.html\" style=\"color:#800000; text-decoration:underline;\">"
+    },
+    {
+      "file": "pages/faculty.html",
+      "href": "",
+      "tag": "<a href=\"' + f.lab + '\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#800000; text-decorat"
+    },
+    {
+      "file": "pages/portal.html",
+      "href": "#",
+      "tag": "<a href=\"#\" class=\"portal-forgot-link\" id=\"portalForgotLink\">"
+    },
+    {
+      "file": "portal.html",
+      "href": "#",
+      "tag": "<a href=\"#\" class=\"portal-forgot-link\" id=\"portalForgotLink\">"
+    }
+  ],
+  "missing_assets": [
+    {
+      "file": "faculty.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "faculty.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/chicago-booth-school-of-business.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-biochemistry-and-molecular-biology.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-chemistry.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-computer-science.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-economics.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-english.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-history.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-mathematics.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-philosophy.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-physics.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-political-science.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-sociology.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/department-of-statistics.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/faculty.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/faculty.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/harris-school-of-public-policy.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/pritzker-school-of-medicine.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/pritzker-school-of-molecular-engineering.html",
+      "src": "${photoSrc}"
+    },
+    {
+      "file": "pages/university-of-chicago-law-school.html",
+      "src": "${photoSrc}"
+    }
+  ],
+  "design_anomalies": [
+    {
+      "file": "index.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_academic-calendar.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_academic-departments.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_faculty_research.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_graduate-programs.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_graduate-programs_masters-programs.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_graduate-programs_phd-programs.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_n-12-education.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_schools-and-divisions.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/academics_undergraduate-programs.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/accreditation.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/admissions.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/admissions_affordability.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/admissions_continuing-education.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/admissions_financial-aid-and-tuition.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/admissions_international-students.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/careers.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/contact-us.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_arts.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_campus-resources.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_diversity.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_health-and-wellness.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_hyde-park.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_safety-and-security.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_safety-and-security_emergency-contacts.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_safety-and-security_safe-transportation.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_safety-and-security_staying-safe-around-campus.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_safety-and-security_staying-safe-in-the-city.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_safety-and-security_staying-safe-where-you-live-and-work.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/life-at-uchicago_student-life.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/medicine.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/non-discrimination.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_affiliated-laboratories.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_breakthroughs.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_accounting_research_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_adoption_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_advanced_photon_source.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_asthma_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_becker_friedman_institute_for_research_in_economics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_biostatistics_laboratory.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_bucksbaum_institute_for_clinical_excellence.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center-for-the-science-of-early-trajectories-set.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center-on-law-and-finance.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_advanced_radiation_sources.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_advancing_research_and_communications_in_stem.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_chronic_disease_research_and_policy.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_comparative_constitutionalism.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_comprehensive_care_and_research_on_memory_disorders.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_disciplinary_innovation.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_early_childhood_research.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_east_asian_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_east_european_and_russianeurasian_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_economic_policy.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_epr_imaging_in_vivo_physiology.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_gender_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_gesture_sign_and_language.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_global_health.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_health_administration_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_health_and_the_social_sciences.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_health_policy.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_health_statistics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_human_potential_and_public_policy.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_human_rights.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_interdisciplinary_inquiry_and_innovation_in_sexual_and_reproduct.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_international_social_science_research.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_italian_opera_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_jewish_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_latin_american_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_law_philosophy_and_human_values.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_mechanical_excitability_cme.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_middle_eastern_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_municipal_finance.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_nanoscale_materials.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_peripheral_neuropathy.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_personalized_therapeutics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_research_informatics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_spatial_data_science.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_the_art_of_east_asia.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_the_economics_of_human_development.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_the_study_of_politics_and_society.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_for_the_study_of_race_politics_and_culture.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_in_beijing.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_in_delhi.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_in_paris.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_center_on_demography_and_economics_of_aging.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago-center-for-contemporary-theory.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago-center-for-the-origins-of-life.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago-diabetes-research-and-training-center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_biomedical_consortium.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_center_for_cosmochemistry.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_center_for_teaching_and_learning.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_center_for_theoretical_chemistry.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_center_for_the_theory_of_computing_and_allied_areas.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_center_on_democracy.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_immunoengineering_innovation_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_chicago_quantum_exchange.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_coase-sandor_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_comprehensive_cancer_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_computation_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_constitutional-law-institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_creel_center_for_chinese_paleography.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_crime_lab.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_dark_energy_survey.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_data_science_institute_dsi.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_digestive_diseases_research_core_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_duchossois_family_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_energy_policy_institute_at_chicago.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_enrico_fermi_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_fama_miller_center_for_research_in_finance.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_film-studies-center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_france_chicago_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_franke_institute_for_the_humanities.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_gwen_knapp_center_for_lupus_immunology_research.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_harry_l_davis_center_for_leadership.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_healthy-aging-alzheimers-research-care-haarc-center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_high_energy_physics_projects_atlas_detector.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_high_energy_physics_projects_cdf_detector.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_high_energy_physics_projects_pierre_auger_observatory.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_howard_taylor_ricketts_laboratory.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_initiative_on_global_markets.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute-for-mathematical-and-statistical-innovation.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute-for-the-study-of-ancient-cultures.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_for_biophysical_dynamics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_for_climate_and_sustainable_growth.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_for_genomics_and_systems_biology.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_for_integrative_physiology.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_for_mind_and_biology.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_for_population_and_precision_health.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_for_translational_medicine.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_institute_of_politics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_interdisciplinary_programs.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_international_research_center_for_fundamental_discovery.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_james_franck_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_joint_institute_for_nuclear_astrophysics_jina.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_kadanoff-center-for-theoretical-physics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_karla_scherer_center_for_the_study_of_american_culture.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_katz_center_for_mexican_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_kavli_institute_for_cosmological_physics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_kennedy_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_kilts_center_for_marketing.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_knowledge_lab.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_kovler_diabetes_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_maclean_center_for_clinical_medical_ethics.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_malyi-center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_mansueto-institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_martin_marty_center_for_the_advanced_study_of_religion.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_materials_research_science_and_engineering_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_morris_fishbein_center_for_the_history_of_science_and_medicine.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_mri_research_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_neubauer_collegium_for_culture_and_society.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_nicholson_center_for_british_studies.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_ogburn_stouffer_center_for_the_study_of_social_organization.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_paulson_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_polsky_center_for_entrepreneurship.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_population_research_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_program_on_the_global_environment.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_research_computing_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_roman_family_center_for_decision_research.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_rustandy_center_for_social_sector_innovation.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_southern_asia_at_chicago.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_stevanovich_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_stigler_center_for_the_study_of_the_economy_and_the_state.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_stone-center-for-research-on-wealth-inequality-and-mobility.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_survey_lab.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_tang_center_for_herbal_medicine_research.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_the-initiative-on-enabling-choice-and-competition-in-healthcare.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_the-susan-and-richard-kiphart-center-for-global-health-and-social-development.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_the_center_for_practical_wisdom.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_the_chicago_project_on_security_and_threats.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_tmw_center_for_early_learning_public_health.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_tolan-center-for-healthcare-at-chicago-booth.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_uchicago_research_bangladesh.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_uchicago_stem_education.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_university_of_chicago_celiac_disease_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_university_of_chicago_language_center.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_university_of_chicago_neuroscience_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_urban_center_for_computation_and_data.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_urban_education_institute.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_urban_health_initiative.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_center_veritas_gamma_ray_observatory.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_global-campuses-and-centers.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/research-and-scholarship_other-academic-units-and-resources.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/students.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/students_bookstores.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/university-reports.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/visit.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_a2z.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_academic.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_benefits.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_disciplinary_committee_on_disruptive_conduct.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_individual_conflict_of_interest_committee.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_property.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_pubs.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_radiation.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_retirement.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_university-nondiscrimination-policy-advisory-committee.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_boards-committees-and-councils_university_wide_disciplinary_committee.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_community-impact.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_facts-and-figures.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_american-academy-of-arts-and-sciences.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_american-philosophical-society.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_faculty-awards-for-excellence-in-phd-teaching-and-mentoring.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_fields-medal.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_glenn-and-claire-swogger-award-for-exemplary-classroom-teaching.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_gordon-j-laing-award.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_guggenheim-fellowships.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_john-bates-clark-medal.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_llewellyn-john-and-harriet-manchester-quantrell-awards-for-excellence-in-undergraduate-teaching.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_macarthur-fellows.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_marshall-scholars.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_national-academy-of-engineering.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_national-academy-of-medicine.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_national-academy-of-sciences.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_national-humanities-medal.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_national-medal-of-arts.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_national-medal-of-science.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_nobel-laureates.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_presidential-medal-of-freedom.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_pulitzer-prize.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_rhodes-scholars.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_suggestions.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_truman-scholars.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_wayne-c-booth-graduate-student-prizes-for-excellence-in-teaching.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_global-impact_accolades_wolf-prize.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_history-and-traditions.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_history-and-traditions_the-nora-and-edward-ryerson-lecture.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_leadership.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    },
+    {
+      "file": "pages/who-we-are_university-administration.html",
+      "type": "missing_title",
+      "details": "Missing or empty title tag"
+    }
+  ],
+  "seat_locking_mentions": [
+    {
+      "file": "admissions-offer-email.html",
+      "matches": [
+        "Matriculation Fee / Deposit",
+        "Mandatory matriculation fee required upon admission.",
+        "Reimbursable/refundable",
+        "t (e.g., non-enrollment or visa denial). In all other cases upon enrollment, it is a mandatory, non-reimbursable fee."
+      ]
+    },
+    {
+      "file": "application-fee-receipt.html",
+      "matches": [
+        "Seat Locking Deposit ($6,200)"
+      ]
+    },
+    {
+      "file": "index.html",
+      "matches": [
+        "for the Autumn Quarter 2027 (commencing August 2027), please complete the required enrollment deposit below by the",
+        "Seat locking fee Deposit Priority Deadline: Nov 14, 2026",
+        "This seat locking deposit is",
+        "reimbursable or refundable ONLY in case of non-admission"
+      ]
+    },
+    {
+      "file": "offer-letter.html",
+      "matches": [
+        "The $6,200.00 USD seat locking fee is",
+        "reimbursable or refundable ONLY in case of non-admission",
+        "ministrative non-enrollment). Upon admission and enrollment, this fee is mandatory and strictly non-reimbursable."
+      ]
+    },
+    {
+      "file": "pages/academics_graduate-programs_phd-programs.html",
+      "matches": [
+        "reimbursable or refundable ONLY in case of non-admission",
+        "enrollment prior to matriculation); upon admission and enrollment, it is mandatory and strictly non-reimbursable."
+      ]
+    },
+    {
+      "file": "pages/admissions-offer-email.html",
+      "matches": [
+        "Matriculation Fee / Deposit",
+        "Mandatory matriculation fee required upon admission.",
+        "Reimbursable/refundable",
+        "t (e.g., non-enrollment or visa denial). In all other cases upon enrollment, it is a mandatory, non-reimbursable fee."
+      ]
+    },
+    {
+      "file": "pages/admissions.html",
+      "matches": [
+        "stipend of $3,000/month ($36,000/yr), full U-SHIP health coverage, and a seat confirmation deposit (reimbursable or refundable ONLY in case of non-admission)."
+      ]
+    },
+    {
+      "file": "pages/admissions_financial-aid-and-tuition.html",
+      "matches": [
+        "Reimbursable or refundable ONLY in case of non-admission",
+        "denial, administrative cancellation, or non-enrollment prior to start). Mandatory and strictly non-reimbursable upon program enrollment.",
+        "REIMBURSABLE ONLY UPON NON-ADMISSION",
+        "The entire $6,200.00 USD seat locking fee is"
+      ]
+    },
+    {
+      "file": "pages/application-fee-receipt.html",
+      "matches": [
+        "Seat Locking Deposit ($6,200)"
+      ]
+    },
+    {
+      "file": "pages/department-of-chemistry.html",
+      "matches": [
+        "100% Reimbursable within 90 days",
+        "100% Reimbursable",
+        "reimbursable or refundable ONLY in case of non-admission",
+        "o the doctoral program, the deposit is mandatory, secured to laboratory placement, and strictly non-reimbursable. Application fee: $90.00 USD."
+      ]
+    },
+    {
+      "file": "pages/department-of-computer-science.html",
+      "matches": [
+        "$6,200 deposit reimbursable or refundable ONLY in case of non-admission; mandatory upon enrollment"
+      ]
+    },
+    {
+      "file": "pages/department-of-mathematics.html",
+      "matches": [
+        "$6,200 deposit reimbursable or refundable ONLY in case of non-admission; mandatory upon enrollment"
+      ]
+    },
+    {
+      "file": "pages/department-of-physics.html",
+      "matches": [
+        "$6,200 deposit reimbursable or refundable ONLY in case of non-admission; mandatory upon enrollment"
+      ]
+    },
+    {
+      "file": "pages/department-of-statistics.html",
+      "matches": [
+        "$6,200 deposit reimbursable or refundable ONLY in case of non-admission; mandatory upon enrollment"
+      ]
+    },
+    {
+      "file": "pages/offer-letter.html",
+      "matches": [
+        "The $6,200.00 USD seat locking fee is",
+        "reimbursable or refundable ONLY in case of non-admission",
+        "ministrative non-enrollment). Upon admission and enrollment, this fee is mandatory and strictly non-reimbursable."
+      ]
+    },
+    {
+      "file": "pages/portal.html",
+      "matches": [
+        "MATRICULATION FEE / DEPOSIT",
+        "Reimbursable/refundable ONLY in case of non-admission; mandatory upon enrollment",
+        "for the Autumn Quarter 2027 (commencing August 2027), please complete the required enrollment deposit below by the",
+        "Seat locking fee Deposit Priority Deadline: Nov 14, 2026"
+      ]
+    },
+    {
+      "file": "pages/receipt.html",
+      "matches": [
+        "Seat Locking Deposit ($6,200)"
+      ]
+    },
+    {
+      "file": "portal.html",
+      "matches": [
+        "MATRICULATION FEE / DEPOSIT",
+        "Reimbursable/refundable ONLY in case of non-admission; mandatory upon enrollment",
+        "for the Autumn Quarter 2027 (commencing August 2027), please complete the required enrollment deposit below by the",
+        "Seat locking fee Deposit Priority Deadline: Nov 14, 2026"
+      ]
+    },
+    {
+      "file": "receipt.html",
+      "matches": [
+        "Seat Locking Deposit ($6,200)"
+      ]
+    }
+  ]
+}

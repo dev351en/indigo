@@ -702,10 +702,10 @@
               </div>
               <div>
                 <div style="font-size: 10.5px; text-transform: uppercase; color: #777; font-weight: 700; display: flex; align-items: center; gap: 4px;">
-                  <i class="fa-solid fa-shield-halved" style="color: #800000;"></i> SEAT LOCKING DEPOSIT
+                  <i class="fa-solid fa-shield-halved" style="color: #800000;"></i> MATRICULATION FEE / DEPOSIT
                 </div>
-                <div style="font-size: 15px; font-weight: 800; color: #800000; margin-top: 2px;">$6,200 (Reimbursable)</div>
-                <div style="font-size: 11px; color: #555;">90-day reimbursable &amp; refundable policy</div>
+                <div style="font-size: 15px; font-weight: 800; color: #800000; margin-top: 2px;">$6,200 (Mandatory Fee)</div>
+                <div style="font-size: 11px; color: #800000; font-weight: 700;">Reimbursable/refundable ONLY in case of non-admission; mandatory upon enrollment</div>
               </div>
             </div>
 
@@ -731,7 +731,7 @@
               </div>
             </div>
             <div style="font-size: 13px; color: #555; line-height: 1.5; margin-bottom: 14px;">
-              To reserve and officially lock your graduate research seat in the <strong>Computational Chemistry Doctoral Program</strong> for the Autumn Quarter 2027 (commencing August 2027), please complete the required enrollment deposit below by the <strong>Seat locking fee Deposit Priority Deadline: Nov 14, 2026</strong>. This deposit is credited towards your student bursar account.
+              To reserve and officially lock your graduate research seat in the <strong>Computational Chemistry Doctoral Program</strong> for the Autumn Quarter 2027 (commencing August 2027), please complete the required enrollment deposit below by the <strong>Seat locking fee Deposit Priority Deadline: Nov 14, 2026</strong>. <strong>Important Policy:</strong> This seat locking deposit is <strong>reimbursable or refundable ONLY in case of non-admission</strong> (such as visa denial or non-enrollment prior to matriculation). Upon admission and enrollment into the program, this fee is mandatory and strictly non-reimbursable.
             </div>
 
             <!-- Pre-Authorized Payment Card UI Component -->
@@ -1424,6 +1424,9 @@
             <div style="font-size: 15px; font-weight: 700; color: #1a1a1a; margin-top: 2px;">Ph.D. Matriculation Seat Locking &amp; Enrollment Deposit</div>
             <div style="font-size: 12px; color: #666;">Autumn Quarter 2027 • Division of the Physical Sciences • Dept. of Chemistry</div>
           </div>
+            <div class="modal-seat-policy-notice" style="font-size: 11.5px; background: #fff5f5; border: 1px solid #f5c6cb; border-left: 3px solid #800000; color: #721c24; padding: 7px 12px; border-radius: 4px; margin-top: 8px; line-height: 1.45;">
+              <strong>Important Institutional Policy:</strong> This $6,200.00 USD seat locking fee is <strong>reimbursable or refundable ONLY in case of non-admission</strong> (e.g., unforeseen visa denial, administrative cancellation, or non-enrollment prior to start). Upon admission and enrollment, it is mandatory and strictly non-reimbursable.
+            </div>
           <div style="text-align: right;">
             <div style="font-size: 22px; font-weight: 800; color: #800000; line-height: 1;">$6,200.00 <span style="font-size: 13px; font-weight: 500; color: #666;">USD</span></div>
             <div style="font-size: 11px; color: #800000; font-weight: 600; margin-top: 3px;"><i class="fa-solid fa-lock"></i> Priority Rate Locked</div>
@@ -1735,6 +1738,78 @@
       </div>
     </div>
   </div>
+
+
+  <!-- Account Recovery & Password Reset Modal -->
+  <div class="portal-transcript-modal-overlay" id="accountRecoveryModalOverlay" role="dialog" aria-modal="true" aria-labelledby="recoveryModalTitle" aria-hidden="true" style="display:none;">
+    <div class="portal-transcript-modal-card" style="max-width: 480px;">
+      <div class="portal-transcript-modal-header" style="background: #800000; color: #ffffff;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <i class="fa-solid fa-shield-keyhole" style="font-size: 18px;"></i>
+          <h2 id="recoveryModalTitle" style="font-family: 'UChicagoSerif', Georgia, serif; font-size: 16px; margin: 0; color: #ffffff;">
+            Account Access &amp; Password Recovery
+          </h2>
+        </div>
+        <button type="button" id="recoveryModalClose" aria-label="Close" style="background: transparent; border: none; font-size: 24px; line-height: 1; cursor: pointer; color: #ffffff; padding: 0 4px;">&times;</button>
+      </div>
+      <div class="portal-transcript-modal-body" style="background: #ffffff; padding: 22px 24px;">
+        <p style="font-size: 13px; color: #444; line-height: 1.5; margin: 0 0 14px;">
+          Enter your registered email address or Application Reference ID to verify your identity and receive an instant sign-in token.
+        </p>
+        <div style="margin-bottom: 14px;">
+          <label style="font-size: 11.5px; font-weight: 700; text-transform: uppercase; color: #555; display: block; margin-bottom: 4px;">Registered Email or UCID</label>
+          <input type="text" id="recoveryEmailInput" value="dubey351dev@gmail.com" style="width: 100%; padding: 9px 12px; border: 1.5px solid #800000; border-radius: 4px; box-sizing: border-box; font-size: 13.5px;" />
+        </div>
+        <div id="recoveryStatusMsg" style="display: none; background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; padding: 10px 12px; border-radius: 4px; font-size: 12.5px; margin-bottom: 14px; line-height: 1.45;">
+          <i class="fa-solid fa-circle-check"></i> <strong>Identity Verified:</strong> Devendra Dubey (UCID: 12489321). Direct applicant token activated.
+        </div>
+        <div style="display: flex; gap: 10px; justify-content: flex-end;">
+          <button type="button" id="btnSendRecoveryToken" style="background: #800000; color: #ffffff; border: none; padding: 10px 18px; border-radius: 3px; font-weight: 700; font-size: 13px; cursor: pointer;">
+            Send Access Token &amp; Sign In
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script id="portalForgotLinkSetup">
+    document.addEventListener('DOMContentLoaded', function() {
+      var forgotBtn = document.getElementById('portalForgotLink');
+      var overlay = document.getElementById('accountRecoveryModalOverlay');
+      var closeBtn = document.getElementById('recoveryModalClose');
+      var sendBtn = document.getElementById('btnSendRecoveryToken');
+      var statusMsg = document.getElementById('recoveryStatusMsg');
+
+      if (forgotBtn && overlay) {
+        forgotBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          overlay.style.display = 'flex';
+          overlay.setAttribute('aria-hidden', 'false');
+        });
+      }
+      if (closeBtn && overlay) {
+        closeBtn.addEventListener('click', function() {
+          overlay.style.display = 'none';
+          overlay.setAttribute('aria-hidden', 'true');
+        });
+      }
+      if (sendBtn && statusMsg) {
+        sendBtn.addEventListener('click', function() {
+          statusMsg.style.display = 'block';
+          setTimeout(function() {
+            overlay.style.display = 'none';
+            // Auto login to portal
+            if (window.showDashboard) {
+              window.showDashboard();
+            } else {
+              window.location.href = 'portal.html?applicantId=UC-2027-89321';
+            }
+          }, 1200);
+        });
+      }
+    });
+  </script>
 
 </body>
 </html>

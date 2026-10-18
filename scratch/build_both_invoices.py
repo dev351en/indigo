@@ -323,9 +323,10 @@ def build_pdf_invoice(invoice_type="seat_deposit"):
         "<strong>INSTITUTIONAL VALIDATION SEAL &amp; MANDATE POLICY</strong><br/>"
         "This official tax receipt and enrollment mandate confirmation is electronically issued under the authority "
         "of the Office of the Bursar, The University of Chicago. Scan the QR code to verify this record on the live "
-        "Student Accounts registry. Retain this document for personal academic records, tuition reimbursement, "
-        "and federal/institutional tax reporting (IRS Form 1098-T eligible).",
-        ParagraphStyle('FNotice', parent=styles['Normal'], fontName='Helvetica', fontSize=7, leading=9.5, textColor=colors.HexColor('#555555'))
+        "Student Accounts registry. <b>Policy Terms:</b> Seat confirmation fee ($6,200.00 USD) is reimbursable/refundable "
+        "<b>ONLY in case of non-admission</b> (e.g. visa denial or cancellation); upon enrollment, it is mandatory and non-reimbursable. "
+        "IRS Form 1098-T eligible.",
+        ParagraphStyle('FNotice', parent=styles['Normal'], fontName='Helvetica', fontSize=6.5, leading=8.5, textColor=colors.HexColor('#555555'))
     )
 
     sig_block = Paragraph(

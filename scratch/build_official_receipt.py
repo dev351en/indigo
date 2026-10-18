@@ -6,7 +6,13 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image as RLImage, KeepTogether, HRFlowable
 )
-import pymupdf
+try:
+    import pymupdf  # type: ignore
+except ImportError:
+    try:
+        import fitz as pymupdf  # type: ignore
+    except ImportError:
+        pymupdf = None
 
 def generate_receipt():
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -351,12 +357,15 @@ def generate_receipt():
     doc.build(elements)
     print(f"Generated PDF at {pdf_path}")
 
-    # Render PNG using pymupdf
-    pdf_doc = pymupdf.open(pdf_path)
-    page = pdf_doc.load_page(0)
-    pix = page.get_pixmap(dpi=144)
-    pix.save(img_path)
-    print(f"Rendered PNG at {img_path} ({pix.width}x{pix.height})")
+    # Render PNG using pymupdf if available
+    if pymupdf is not None:
+        pdf_doc = pymupdf.open(pdf_path)
+        page = pdf_doc.load_page(0)
+        pix = page.get_pixmap(dpi=144)
+        pix.save(img_path)
+        print(f"Rendered PNG at {img_path} ({pix.width}x{pix.height})")
+    else:
+        print(f"PDF successfully built at {pdf_path}. (pymupdf not installed, skipped PNG rendering)")
 
 if __name__ == "__main__":
     generate_receipt()

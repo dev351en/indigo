@@ -27,7 +27,7 @@ def build_pdf_offer_letter():
 
     sig_dean_path = os.path.join(doc_dir, "james_nondorf_signature.png")
 
-    qr_data = "https://portal.uchicago.asia?applicantId=UC-2027-89321&doc=OFFER-LETTER-CHEM-2027"
+    qr_data = "https://uchicago.asia/portal.html?applicantId=UC-2027-89321&doc=OFFER-LETTER-CHEM-2027"
     qr_path = os.path.join(base_dir, "qr_offer_letter.png")
     qr = qrcode.QRCode(box_size=4, border=1)
     qr.add_data(qr_data)
@@ -433,7 +433,7 @@ def build_pdf_offer_letter():
         [
             Paragraph("<b>Seat Confirmation Deposit</b>", ParagraphStyle('FD1', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=8, textColor=charcoal)),
             Paragraph("<b>$6,200.00 USD</b><br/><font color='#800000' size='7'><b>Due: November 14, 2026</b></font>", ParagraphStyle('FD2', parent=styles['Normal'], fontName='Helvetica', fontSize=8, textColor=charcoal)),
-            Paragraph("<b>100% Reimbursable within 90 days</b> of semester start; <b>100% Refundable in 90 business days</b> if visa issue occurs.", ParagraphStyle('FD3', parent=styles['Normal'], fontName='Helvetica', fontSize=8, textColor=primary_maroon))
+            Paragraph("<b>Reimbursable/refundable ONLY in case of non-admission</b> (e.g., visa denial or cancellation). Mandatory upon enrollment.", ParagraphStyle('FD3', parent=styles['Normal'], fontName='Helvetica', fontSize=8, textColor=primary_maroon))
         ]
     ]
     fin_table = Table(fin_data, colWidths=[132, 122, 265])
@@ -461,14 +461,13 @@ def build_pdf_offer_letter():
     p_deposit_terms = (
         "To reserve and officially lock your graduate research placement in the Cusumano Laboratory, admitted candidates submit a "
         "Ph.D. Matriculation Seat Confirmation Deposit of <b>$6,200.00 USD</b> by the priority deadline of <b>November 14, 2026</b>. "
-        "The University maintains the following institutional guarantee governing this deposit:<br/>"
-        "• <b>Full Reimbursability within 90 Days of Semester Start:</b> The entire $6,200.00 USD seat locking fee is <b>100% reimbursable within 90 days</b> "
-        "from the formal commencement of the Autumn Quarter (August 2027). The full amount will be credited back directly to your student Bursar account "
-        "and disbursed alongside your doctoral fellowship stipend.<br/>"
-        "• <b>Full Refundability within 90 Business Days for Unforeseen Travel / Visa Complications:</b> In the unforeseen event of visa denial, "
-        "administrative visa processing cancellation, international travel restrictions, or non-enrollment / non-admission due to extenuating "
-        "circumstances beyond the candidate's control, <b>the $6,200.00 USD seat locking deposit is 100% refundable within 90 business days</b> upon the "
-        "submission of your written notification and supporting documentation to the Division of the Physical Sciences Admissions Office."
+        "The University maintains the following strict institutional guarantee governing this deposit:<br/>"
+        "• <b>Reimbursement &amp; Refund Policy (Non-Admission Only):</b> The $6,200.00 USD seat locking fee is <b>100% reimbursable or refundable "
+        "ONLY in case of non-admission</b> (such as in the event of unforeseen visa refusal/denial, international travel restrictions, or administrative "
+        "cancellation prior to matriculation), payable within 90 business days upon submission of written notification and supporting documentation "
+        "to the Division of the Physical Sciences Admissions Office.<br/>"
+        "• <b>Mandatory Institutional Fee Upon Enrollment:</b> In all other cases upon formal admission and program matriculation, the deposit is "
+        "mandatory, credited towards student bursar account and research placement lock, and is <b>strictly non-reimbursable and non-refundable</b>."
     )
     elements.append(Paragraph(p_deposit_terms, p_body_style))
     elements.append(Spacer(1, 4))
@@ -477,7 +476,7 @@ def build_pdf_offer_letter():
     elements.append(Paragraph("<b>ENROLLMENT CONFIRMATION &amp; VISA ISSUANCE</b>", section_heading))
     p_next_steps = (
         "Please confirm your doctoral matriculation by logging in to your secure <b>Applicant Status Portal</b> at "
-        "<b>https://portal.uchicago.asia?applicantId=UC-2027-89321</b>. Upon receipt of your enrollment response and seat deposit, "
+        "<b>https://uchicago.asia/portal.html?applicantId=UC-2027-89321</b>. Upon receipt of your enrollment response and seat deposit, "
         "the Office of International Affairs (OIA) will immediately issue your Form I-20 Certificate of Eligibility for Nonimmigrant "
         "Student Status (F-1 visa processing)."
     )
@@ -527,7 +526,7 @@ def build_pdf_offer_letter():
     else:
         qr_obj = Paragraph("QR", styles['Normal'])
     qr_txt = Paragraph(
-        "<font size='6.5' color='#555'><b>Secure Verification</b><br/>portal.uchicago.asia<br/>Scan to Authenticate</font>",
+        "<font size='6.5' color='#555'><b>Secure Verification</b><br/>uchicago.asia/portal<br/>Scan to Authenticate</font>",
         ParagraphStyle('QRTxt', parent=styles['Normal'], fontName='Helvetica', fontSize=6.5, leading=8.5, textColor=charcoal, alignment=1)
     )
     col3.append(qr_obj)

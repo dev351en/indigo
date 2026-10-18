@@ -37,6 +37,54 @@ app.use((req, res, next) => {
   next();
 });
 
+// Subdomain router for Hostinger & local subdomains (*.uchicago.asia, *.localhost)
+app.use((req, res, next) => {
+  const host = (req.hostname || req.headers.host || '').toLowerCase();
+  const subMatch = host.match(/^([a-z0-9_-]+)\.(?:uchicago\.asia|localhost)/i);
+  
+  if (subMatch) {
+    const sub = subMatch[1];
+    
+    // Ignore 'www' - treat as main website
+    if (sub !== 'www') {
+      // If user accesses the root of the subdomain
+      if (req.path === '/' || req.path === '') {
+        if (sub === 'portal') {
+          return res.sendFile(path.join(siteDir, 'portal.html'));
+        }
+        if (sub === 'faculty' || sub === 'directory') {
+          return res.sendFile(path.join(siteDir, 'faculty.html'));
+        }
+        if (sub === 'admissions' || sub === 'grad' || sub === 'gradadmissions' || sub === 'collegeadmissions') {
+          return res.sendFile(path.join(siteDir, 'pages', 'admissions.html'));
+        }
+        if (sub === 'chemistry') {
+          return res.sendFile(path.join(siteDir, 'pages', 'department-of-chemistry.html'));
+        }
+        if (sub === 'cs' || sub === 'computerscience') {
+          return res.sendFile(path.join(siteDir, 'pages', 'department-of-computer-science.html'));
+        }
+        if (sub === 'physics') {
+          return res.sendFile(path.join(siteDir, 'pages', 'department-of-physics.html'));
+        }
+        if (sub === 'math' || sub === 'mathematics') {
+          return res.sendFile(path.join(siteDir, 'pages', 'department-of-mathematics.html'));
+        }
+        if (sub === 'econ' || sub === 'economics') {
+          return res.sendFile(path.join(siteDir, 'pages', 'department-of-economics.html'));
+        }
+        
+        // Dynamic matching: if site_1to1/pages/{sub}.html exists, serve it
+        const pageMatch = path.join(siteDir, 'pages', `${sub}.html`);
+        if (fs.existsSync(pageMatch) && fs.statSync(pageMatch).isFile()) {
+          return res.sendFile(pageMatch);
+        }
+      }
+    }
+  }
+  next();
+});
+
 app.use(express.static(siteDir));
 
 // Primary route aliases
