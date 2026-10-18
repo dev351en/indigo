@@ -1216,6 +1216,9 @@
 
           if (validIds.indexOf(idVal) !== -1 && validPws.indexOf(pwVal) !== -1) {
             sessionStorage.setItem("applicantLoggedIn", "true");
+            var userEmail = idVal.indexOf("@") !== -1 ? idVal.toLowerCase() : "dubey351dev@gmail.com";
+            sessionStorage.setItem("applicantLoginEmail", userEmail);
+            sessionStorage.setItem("applicantLoginId", idVal);
             if (notice) notice.style.display = "none";
             if (portalLoginView) portalLoginView.style.display = "none";
             if (portalDashboardView) portalDashboardView.style.display = "block";
@@ -1554,7 +1557,7 @@
   <!-- 2. Two-Factor Security Authorization Modal -->
   <div class="portal-transcript-modal-overlay" id="paymentOtpModalOverlay" role="dialog" aria-modal="true" aria-labelledby="paymentOtpModalTitle" aria-hidden="true">
     <div class="portal-transcript-modal-card" style="max-width: 480px;">
-      <div class="portal-transcript-modal-header" style="background: #800000; color: #ffffff;">
+      <div class="portal-transcript-modal-header portal-otp-modal-header" style="background: #800000; color: #ffffff;">
         <div style="display: flex; align-items: center; gap: 10px;">
           <i class="fa-solid fa-key" style="font-size: 18px;"></i>
           <h2 id="paymentOtpModalTitle" style="font-family: 'UChicagoSerif', Georgia, serif; font-size: 16px; margin: 0; color: #ffffff;">
@@ -1572,31 +1575,31 @@
           Authorize $6,200.00 USD Seat Deposit
         </div>
         <div style="font-size: 12.5px; color: #555; line-height: 1.45; margin-bottom: 12px;">
-          In compliance with institutional clearing regulations, enter the 6-digit Bursar Authorization Code dispatched to:
-          <br /><strong>devendra.dubey@iitgn.ac.in</strong>
+          In compliance with institutional clearing regulations, enter the 6-digit Bursar Authorization Code dispatched via domain SMTP to:
+          <br /><strong id="otpRecipientEmailDisplay" style="color: #800000;">dubey351dev@gmail.com</strong>
         </div>
 
-        <!-- Demo Overlay Banner -->
-        <div class="demo-otp-banner" style="text-align: left;">
-          <i class="fa-solid fa-circle-info" style="color: #b45309; font-size: 16px; flex-shrink: 0;"></i>
-          <div>
-            <strong>[DEMO OVERLAY] Bursar Security Code:</strong>
-            <span style="font-family: monospace; font-size: 16px; letter-spacing: 2px; color: #800000; margin-left: 6px; font-weight: 800;">893201</span>
+        <!-- 2FA SMTP Status Banner -->
+        <div class="demo-otp-banner" id="otpStatusBanner" style="text-align: left; transition: all 0.2s ease;">
+          <i class="fa-solid fa-envelope" style="color: #800000; font-size: 16px; flex-shrink: 0;"></i>
+          <div id="otpStatusBannerText">
+            <strong>SMTP 2FA Delivery:</strong>
+            <span>Connecting to domain SMTP server...</span>
           </div>
         </div>
 
         <!-- 6-digit OTP Inputs -->
         <div class="otp-box-wrap" id="otpBoxWrap">
-          <input type="text" maxlength="1" class="otp-digit-input" data-idx="0" value="8" />
-          <input type="text" maxlength="1" class="otp-digit-input" data-idx="1" value="9" />
-          <input type="text" maxlength="1" class="otp-digit-input" data-idx="2" value="3" />
-          <input type="text" maxlength="1" class="otp-digit-input" data-idx="3" value="2" />
-          <input type="text" maxlength="1" class="otp-digit-input" data-idx="4" value="0" />
-          <input type="text" maxlength="1" class="otp-digit-input" data-idx="5" value="1" />
+          <input type="text" maxlength="1" class="otp-digit-input" data-idx="0" value="" placeholder="•" autocomplete="one-time-code" />
+          <input type="text" maxlength="1" class="otp-digit-input" data-idx="1" value="" placeholder="•" />
+          <input type="text" maxlength="1" class="otp-digit-input" data-idx="2" value="" placeholder="•" />
+          <input type="text" maxlength="1" class="otp-digit-input" data-idx="3" value="" placeholder="•" />
+          <input type="text" maxlength="1" class="otp-digit-input" data-idx="4" value="" placeholder="•" />
+          <input type="text" maxlength="1" class="otp-digit-input" data-idx="5" value="" placeholder="•" />
         </div>
 
         <div style="font-size: 12px; color: #777; margin: 12px 0;">
-          Code expires in <strong>09:45</strong> • <button type="button" id="btnResendOtp" style="background: none; border: none; color: maroon; font-weight: 600; cursor: pointer; text-decoration: underline; padding: 0;">Resend Security Code</button>
+          Code expires in <strong id="otpCountdownTimer">10:00</strong> • <button type="button" id="btnResendOtp" style="background: none; border: none; color: maroon; font-weight: 600; cursor: pointer; text-decoration: underline; padding: 0;">Resend Security Code</button>
         </div>
 
         <div id="otpValidationMsg" style="display: none; font-size: 12px; font-weight: 600; margin: 8px 0;"></div>

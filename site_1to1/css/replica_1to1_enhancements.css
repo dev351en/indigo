@@ -1560,6 +1560,19 @@ button, a, input[type="submit"], input[type="button"], [role="button"], .spanBut
   gap: 8px !important;
 }
 
+.portal-otp-modal-header {
+  background: #800000 !important;
+  color: #ffffff !important;
+}
+
+.portal-otp-modal-header h2,
+.portal-otp-modal-header i,
+.portal-otp-modal-header button {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+
 /* ==========================================================================
    Mobile Performance & Icon Speed Optimizations
    ========================================================================== */
