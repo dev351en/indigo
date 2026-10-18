@@ -539,6 +539,15 @@ button, a, input[type="submit"], input[type="button"], [role="button"], .spanBut
 }
 
 /* Portal Headings */
+.portal-login-box h2::after,
+.portal-page-container h2::after,
+.portal-modal h2::after,
+.portal-modal-content h2::after,
+#portalLoginView h2::after {
+  display: none !important;
+  content: none !important;
+}
+
 .portal-title {
   font-family: "UChicagoSerif", Georgia, serif !important;
   font-size: 24px !important;
